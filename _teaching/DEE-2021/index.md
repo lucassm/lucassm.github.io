@@ -3,6 +3,7 @@ title: "Distribuição de Energia Elétrica"
 collection: teaching
 permalink: /teaching/DEE-2021
 venue: "Federal University of Ceara, Department of Electrical Engineering"
+excerpt: "Página dedicada à disciplina de Distribuição de Energia Elétrica - 2021.1"
 date: 2021-05-03
 location: "Fortaleza, Brazil"
 ---
@@ -102,12 +103,17 @@ Informações complementares importantes a respeito das aulas, trabalhos e avali
 
 Todos os trabalhos (a não ser que indicados explicitamentes) devem ser feitos de forma individual. O que você entregar deve ser fruto do seu trabalho. Alunos são permitidos e encorajados para discutir os trabalhos e projetos com outros alunos. Alunos não são permitidos copiar solução ou parte de solução de colegas. Na presença de plágio, os alunos envolvidos não receberão pontos da atividade em questão.
 
-# Livro texto
+# Bibliografia Básica
 
-Título: Dystribution System Modeling and Analysis <br>
+
+## Livro 1: Dystribution System Modeling and Analysis
 Autor: William H. Kersting <br>
 Editora: CRC Press <br>
-Ano: 2002
+
+## Livro 2: Electric Power Dystribution Handbook
+Autor: Tom A. Short <br>
+Editora: CRC Press <br>
+
 
 Além do livro texto, serão disponibilizados **slides**, que trarão bastante informação, e **outros recursos de texto** que serão disponibilizados no decorrer da disciplina.
 
