@@ -15,12 +15,12 @@ remote_theme           : "mmistakes/minimal-mistakes@4.22.0"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "pt-BR"
 title                    : "Prof. Lucas Melo"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Assistant Professor"
 name                     : "Lucas Melo"
-description              : "An amazing website."
+description              : "Professional website."
 url                      : "https://lucassm.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "lucassm/lucassm.github.io"
@@ -94,15 +94,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Lucas Melo"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Professor at DEE-UFC."
+  location         : "Fortaleza, Ceará, Brazil"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:lucassmelo@dee.ufc.br"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -114,7 +114,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/lucassm"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -130,7 +130,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/lucassm"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
