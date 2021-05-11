@@ -18,7 +18,7 @@ Videos com a primeira aula do curso, com o assunto: *Introdução aos sistemas d
 
 ## Slides
 
-[Aula 1: Introdução aos sistemas de distribuição de energia elétrica]()
+[Aula 1: Introdução aos sistemas de distribuição de energia elétrica](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/aula1.pdf)
 
 ## Textos
 
