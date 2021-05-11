@@ -4,7 +4,7 @@ collection: teaching
 permalink: /teaching/DEE-2021
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 excerpt: "Página dedicada à disciplina de Distribuição de Energia Elétrica - 2021.1"
-date: 2021-05-03
+date: 2021-05-07
 location: "Fortaleza, Brazil"
 ---
 
@@ -47,6 +47,7 @@ Esta disciplina irá dedicar-se ao estudo das características e especificidades
 # Conteúdo
 
 Conteúdo programado para ser ministrado no decorrer da disciplina:
+- [**Introdução**](/teaching/DEE-2021/Introducao): Informações iniciais sobre a disciplina;
 - [**Unidade 01**](/teaching/DEE-2021/Unidade-01): Introdução ao SDEE;
 - **Unidade 02**: Natureza das cargas no SDEE;
 - **Unidade 03**: Métodos aproximados de análise;
