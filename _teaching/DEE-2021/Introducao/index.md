@@ -14,7 +14,7 @@ Videos com informações introdutórias sobre o desenvolvimento da disciplina:
 - [Parte 1](https://drive.google.com/file/d/1co-rdBpC2EYU85x62At6OBHjRjlCbjIB/view?usp=drivesdk)
 - [Parte 2](https://drive.google.com/file/d/1VxZsVYCfD_TWbppJRSO1wQKaihsgW-4o/view?usp=drivesdk)
 - [Parte 3](https://drive.google.com/file/d/1rpqJvAoBJqGwoYCAQgXtCdBtwYQpeHEi/view?usp=drivesdk)
-- [Parte 4](https://drive.google.com/drive/folders/1-PVvwoK_VtPa4jur10hWauSWvv8pIS07)
+- [Parte 4](https://drive.google.com/file/d/12J2-I_TQwJ97CD7ncj4lt1DpTrIGToRJ/view?usp=drivesdk)
 
 ## Slides
 
