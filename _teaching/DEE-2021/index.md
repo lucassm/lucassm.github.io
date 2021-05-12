@@ -118,12 +118,18 @@ Editora: CRC Press <br>
 
 Além do livro texto, serão disponibilizados **slides**, que trarão bastante informação, e **outros recursos de texto** que serão disponibilizados no decorrer da disciplina.
 
+# Softwares
+
+Utilizaremos o conhecido software para analise de sistemas de distribuição **OpenDSS**, software livre disponibilizado para download [**neste link**](https://sourceforge.net/projects/electricdss/).
+
+O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**neste link**](http://sourceforge.net/p/electricdss/code/HEAD/tree/trunk/Distrib/Doc/OpenDSSPrimer.pdf).
+
 # Calendário de Planejamento
 
 | Data      | Semana    | Conteúdo                                                  | Estado    |
 |---------- |--------   |---------------------------------------------------------  |---------- |
-| 11/05/21  | I         | Introdução                                                | Pendente  |
-| 13/05/21  | I         | Unidade 01                                                | Pendente  |
+| 11/05/21  | I         | Introdução                                                | Concluída |
+| 13/05/21  | I         | Unidade 01                                                | Executando|
 | 18/05/21  | II        | Unidade 01                                                | Pendente  |
 | 20/05/21  | II        | Unidade 01                                                | Pendente  |
 | 25/05/21  | III       | Unidade 01                                                | Pendente  |
@@ -137,9 +143,9 @@ Além do livro texto, serão disponibilizados **slides**, que trarão bastante i
 | 22/06/21  | VII       | Unidade 04                                                | Pendente  |
 | 24/06/21  | VII       | Unidade 04                                                | Pendente  |
 | 29/06/21  | VIII      | Unidade 04                                                | Pendente  |
-| 02/07/21  | VIII      | Revisão de Conteúdo                                       | Pendente  |
-| 07/07/21  | IX        | **Data prevista para realização da AP01**                 | Pendente  |
-| 09/07/21  | IX        | Unidade 05                                                | Pendente  |
+| 01/07/21  | VIII      | Revisão de Conteúdo                                       | Pendente  |
+| 06/07/21  | IX        | **Data prevista para realização da AP01**                 | Pendente  |
+| 08/07/21  | IX        | Unidade 05                                                | Pendente  |
 | 13/07/21  | X         | Unidade 05                                                | Pendente  |
 | 15/07/21  | X         | Unidade 05                                                | Pendente  |
 | 20/07/21  | XI        | Unidade 05                                                | Pendente  |
