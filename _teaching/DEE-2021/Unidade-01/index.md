@@ -22,8 +22,7 @@ Videos com a primeira aula do curso, com o assunto: *Introdução aos sistemas d
 
 ## Textos
 
-Em desenvolvimento. Aguarde...
-[]()
+[Fundamentos de sistemas de distribuição 1](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/fundamentos-de-sistemas-de-distribuicao-protected.pdf)
 
 ## Links
 
