@@ -14,13 +14,13 @@ Terças e Quintas das 14h as 16h.
 
 # Telegram
 
-Todo material das aulas serão postados em um canal de transmissão do Telegram. Clique [aqui](https://t.me/joinchat/ssPExuuTY9JjODQx) para soicitar o acesso. 
+Todo material das aulas serão postados em um canal de transmissão do Telegram. Clique [aqui](https://t.me/joinchat/6kdLPvKM41U0NzYx) para soicitar o acesso. 
 
 # Formato
 
 Essa disciplina terá um formato predominantemente assíncrono com algumas interações síncronas: as aulas de terça-feira e quinta-feira serão assíncronas. Caso haja necessidade alguns dias serão agendados para participação síncrona, principalmente para tirar as dúvidas mais recorrerntes de lista de exercícios e questões de avaliação.
 
-As aulas teram conteúdo misto entre teoria e resolução de questões relacionadas à teoria.
+As aulas terão conteúdo misto entre teoria e resolução de questões relacionadas à teoria.
 
 As aulas serão gravadas, e disponibilizadas na semana associada a cada conteúdo conforme cronograma estabelecido, para todos os participantes da disciplina.
 
@@ -167,4 +167,4 @@ O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**n
 | 07/09/21  | XVIII     | Feriado Independência do Brasil                           | Pendente  |
 | 08/09/21  | XVIII     | **Divulgação dos Aprovados**                              | Pendente  |
 | 09/09/21  | XVIII     | Término do período de Avaliações Finais                   | Pendente  |
-| 10/09/21  | XVIII     | Consolidação das sínteses de notas e frequências 2019.1   | Pendente  |
+| 10/09/21  | XVIII     | Consolidação das sínteses de notas e frequências 2021.1   | Pendente  |
