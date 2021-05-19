@@ -129,9 +129,9 @@ O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**n
 | Data      | Semana    | Conteúdo                                                  | Estado    |
 |---------- |--------   |---------------------------------------------------------  |---------- |
 | 11/05/21  | I         | Introdução                                                | Concluída |
-| 13/05/21  | I         | Unidade 01                                                | Executando|
-| 18/05/21  | II        | Unidade 01                                                | Pendente  |
-| 20/05/21  | II        | Unidade 01                                                | Pendente  |
+| 13/05/21  | I         | Unidade 01                                                | Concluída |
+| 18/05/21  | II        | Unidade 01                                                | Executando|
+| 20/05/21  | II        | Unidade 01                                                | Executando|
 | 25/05/21  | III       | Unidade 01                                                | Pendente  |
 | 27/05/21  | III       | Unidade 02                                                | Pendente  |
 | 01/06/21  | IV        | Unidade 02                                                | Pendente  |
