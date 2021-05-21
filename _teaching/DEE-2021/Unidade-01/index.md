@@ -9,7 +9,6 @@ location: Fortaleza, Brazil
 ---
 
 ## Aulas
-
 Videos com a primeira aula do curso, com o assunto: *Introdução aos sistemas de distribuição de energia elétrica*:
 - [Parte 1](https://drive.google.com/file/d/1GfP4z_D-wp1dSZsR9E2vECoXY6OUYAXA/view?usp=drivesdk)
 - [Parte 2](https://drive.google.com/file/d/1ieWRBbqTE1a_5Sb3g9z9MGPLRegfrnq9/view?usp=drivesdk)
@@ -23,17 +22,14 @@ Videos com a primeira aula do curso, com o assunto: *Introdução aos sistemas d
 - <p style="color: red">Parte 10 (Previsão para ser postada em: 20/05/21)</p>
 
 ## Slides
-
 [Aula 1: Introdução aos sistemas de distribuição de energia elétrica](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/aula1.pdf)
 
 ## Textos
-
-[Fundamentos de sistemas de distribuição 1](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/fundamentos-de-sistemas-de-distribuicao-protected.pdf)
+- [Fundamentos de sistemas de distribuição 1](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/fundamentos-de-sistemas-de-distribuicao-protected.pdf)
+- [Fundamentos de sistemas de distribuição 2](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/fundamentos-de-sistemas-de-distribuicao-p2-protected.pdf) -- **Atividade Nova!**
 
 ## Exercícios
-
 [Lista 1: Fundamentos de sistemas de distribuição](/teaching/DEE-2021/Unidade-01/lista-01) -- **Atividade Nova!**
 
 ## Links
-
 - [Catálogo de condutores](https://drive.google.com/file/d/1j8wNQ7llOKwg1EaztDbxEMyZBW_QHeC5/view?usp=drivesdk)
