@@ -21,7 +21,7 @@ Todo material das aulas serão postados em um canal de transmissão do Telegram.
 
 # Formato
 
-Essa disciplina terá um formato **híbrido**, aternando entre **interações síncronas e assíncronas**. Esse formato será possível pela realização das práticas de laboratório com a utilização de softwares de simulação de circuitos elétricos.
+Essa disciplina terá um formato **híbrido**, alternando entre **interações síncronas e assíncronas**. Esse formato será possível pela realização das práticas de laboratório com a utilização de softwares de simulação de circuitos elétricos.
 
 Nos dias e horários estabelecidos para a realização das aulas da disciplina teremos interações síncronas breves, em que serão apresentados alguns aspectos teóricos sobre as atividades a serem realizadas nas práticas de laboratório. Essas interações serão realizadas via Google Meet, gravadas e disponibilizadas posteriormente. O Link de cada aula será enviado para o canal de transmissão da turma no Telegram, com antecedência mínima de 24h.
 
@@ -29,7 +29,7 @@ Serão formadas **equipes de no máximo 3 integrantes** para realização das pr
 
 **Durante as interações síncronas, ao menos um dos integrates deve estar presente para a apresentação do conteúdo**, sob pena de toda a equipe ser considerada ausente na aula, e assim ser registrado falta na frequência.
 
-Sabemos que o momento é extremamente complicado, mas vamos tentar fazer o nosso melhor pra termos um bom curso e aprender o máximo possível.
+Sabemos que o momento é extremamente complicado, mas vamos tentar fazer o nosso melhor para termos um bom curso e aprender o máximo possível.
 
 # Objetivos
 
@@ -40,7 +40,7 @@ Propiciar ao estudante de Engenharia, conhecimentos **teóricos e práticos** so
 ## Parte 1
 
 Práticas relacionadas aos aspectos teóricos de eletrotécnica:
-- **Prática 0**: Apresentação da disciplina; 
+- [**Prática 0**: Apresentação da disciplina](https://github.com/lucassm/lucassm.github.io/raw/master/files/LE-2021/Lab-0-Apresentacao-da-Disciplina.pdf);
 - **Prática 1**: Introdução à utilização de simuladores;
 - **Prática 2**: Leis de Ohm e Leis de Kirchoff;
 - **Prática 3**: Circuitos com cargas RLC; 
