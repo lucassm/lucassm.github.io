@@ -58,7 +58,7 @@ Propiciar aos estudantes de engenharia conhecimentos **teóricos e práticos** c
 
 Conteúdos e listagem das práticas a serem realizadas na disciplina:
 - [Lab I: Uso Básico do Simulador Scilab](https://github.com/lucassm/lucassm.github.io/raw/master/files/CII-2021-1/Lab-I-Uso-Basico-do-Simulador-Scilab-2021.pdf);
-- Lab II: Senoide-Valores Médio e Eficaz;
+- [Lab II: Senoide-Valores Médio e Eficaz](/teaching/CII-2021-1/Lab-II);
 - Lab III: Fasores e Álgebra de Números Complexos;
 - Lab IV: Medições com Osciloscópio em Circuitos Básicos em CA;
 - Lab V: Impedância;
