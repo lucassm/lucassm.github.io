@@ -21,7 +21,7 @@ Videos com a segunda aula do curso, com o assunto: *Natureza das cargas*:
 - <p style="color: red;"> Aula 1: Naureza das cargas -- Em breve!</p>
 
 ## Textos
-- [Natureza das Cargas 1](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/Unidade-2-Natureza-das-Cargas-Kersting.pdf) -- **Atividade Nova!**
+- [Natureza das Cargas 1](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/Unidade-2-Natureza-das-Cargas-Kersting-protected.pdf) -- **Atividade Nova!**
 <!-- - [Fundamentos de sistemas de distribuição 2](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/fundamentos-de-sistemas-de-distribuicao-p2-protected.pdf) -- **Atividade Nova!** -->
 
 ## Exercícios
