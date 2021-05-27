@@ -4,7 +4,7 @@ collection: teaching
 permalink: /teaching/DEE-2021
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 excerpt: "Página dedicada à disciplina de Distribuição de Energia Elétrica - 2021.1"
-date: 2021-05-07
+date: 2021-05-27
 location: "Fortaleza, Brazil"
 ---
 
@@ -49,7 +49,7 @@ Esta disciplina irá dedicar-se ao estudo das características e especificidades
 Conteúdo programado para ser ministrado no decorrer da disciplina:
 - [**Introdução**](/teaching/DEE-2021/Introducao): Informações iniciais sobre a disciplina;
 - [**Unidade 01**](/teaching/DEE-2021/Unidade-01): Introdução ao SDEE;
-- **Unidade 02**: Natureza das cargas no SDEE;
+- [**Unidade 02**](/teaching/DEE-2021/Unidade-02): Natureza das cargas no SDEE;
 - **Unidade 03**: Métodos aproximados de análise;
 - **Unidade 04**: Linhas de distribuição de eletricidade;
 - **Unidade 05**: Regulação de tensão em redes de distribuição de eletricidade; 
@@ -130,10 +130,10 @@ O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**n
 |---------- |--------   |---------------------------------------------------------  |---------- |
 | 11/05/21  | I         | Introdução                                                | Concluída |
 | 13/05/21  | I         | Unidade 01                                                | Concluída |
-| 18/05/21  | II        | Unidade 01                                                | Executando|
-| 20/05/21  | II        | Unidade 01                                                | Executando|
-| 25/05/21  | III       | Unidade 01                                                | Pendente  |
-| 27/05/21  | III       | Unidade 02                                                | Pendente  |
+| 18/05/21  | II        | Unidade 01                                                | Concluída |
+| 20/05/21  | II        | Unidade 01                                                | Concluída |
+| 25/05/21  | III       | Unidade 01                                                | Concluída |
+| 27/05/21  | III       | Unidade 02                                                | Executando|
 | 01/06/21  | IV        | Unidade 02                                                | Pendente  |
 | 03/06/21  | IV        | Feriado Corpus Christi                                    | Pendente  |
 | 08/06/21  | V         | Unidade 02                                                | Pendente  |
