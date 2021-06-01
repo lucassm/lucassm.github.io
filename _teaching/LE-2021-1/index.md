@@ -12,8 +12,78 @@ location: "Fortaleza, Brazil"
 
 Horário de realização das interações síncronas da disciplina:
 - Turma 10: Segunda-feira as 08h.
-- Turma 11: Segunda-feira as 10h.
-- Turma 13: Segunda-feira as 16h.
+- Turma 11: Segunda-feira as 16h.
+- Turma 13: Segunda-feira as 10h.
+
+# Listagem das equipes
+
+## Turma 10
+
+| Equipe     | Integrantes                       |
+|------------|-----------------------------------|
+|            |                                   |
+| Equipe 01  | FRANCISCO LUCAS DE SOUZA PEREIRA  |
+|            | INGRID LIMA SANTOS                |
+|            | JOAO VITOR DA SILVA DE MENEZES    |
+|            |                                   |
+| Equipe 02  | FRANCISCO ERISSON ALVES ALMEIDA   |
+|            | LETICIA ALENCAR FERNANDES         |
+|            | RAISSA CASTRO CYSNE               |
+|            |                                   |
+| Equipe 03  | DIANA PEREIRA DE ALENCAR          |
+|            | VITORIA RAQUEL SILVA SERAFIM LIMA |
+|            | VITORIA SALES FARIAS              |
+|            |                                   |
+| Equipe 04  | BARBARA DA SILVA OLIVEIRA         |
+|            | LARA FABIAN SOUSA AGUIAR          |
+|            | SAMUEL DHILAN CAMPOS SILVA        |
+|            |                                   |
+| Equipe 05  | DANIEL AQUER DE MIRANDA ALMEIDA   |
+|            | JOABE ANGELO DE SOUSA             |
+|            | PEDRO HENRIQUE GOMES FERREIRA     |
+
+## Turma 11
+
+| Equipe     | Integrantes                        |
+|------------|------------------------------------|
+|            |                                    |
+| Equipe 01  | MARIA LETICIA FERREIRA PEREIRA     |
+|            | ISADORA VASCONCELOS GOMES TAVARES  |
+|            | ANA BEATRIZ DELFINO DE QUEIROZ     |
+|            |                                    |
+| Equipe 02  | ARIVONALDO RODRIGUES BARROS        |
+|            | JOSE BEZERRA GARRIDO               |
+|            | SAMUEL MORAES MESQUITA             |
+|            |                                    |
+| Equipe 03  | GABRIEL DUARTE DE SA               |
+|            | RAFAEL HENRIQUE GOMES DE SOUZA     |
+|            | SÂMILA GEORGIA CAVALCANTE FRANÇA   |
+|            |                                    |
+| Equipe 04  | KARLLA CHRYSTINA DA SILVA FERREIRA |
+|            | LUIS MIGUEL DE ARAUJO QUEIROZ      |
+|            | OZANAN SOARES GUEDES               |
+
+## Turma 13
+
+| Equipe     | Integrantes                         |
+|------------|-------------------------------------|
+|            |                                     |
+| Equipe 01  | ANTONIO RICARDO AMANCIO LIMA JUNIOR |
+|            | BRENDA LIMA RAMOS                   |
+|            | JOANNA KAREN MONTEIRO CAVALCANTE    |
+|            | MARIA GABRIELA OLIVEIRA DE PINHO    |
+|            |                                     |
+| Equipe 02  | MATHEUS VASCONCELOS NASCIMENTO      |
+|            | LYSSANDRA MENESES DE OLIVEIRA LUCAS |
+|            | LUCAS CIPRIANO FEITOSA BRANDÃO      |
+|            |                                     |
+| Equipe 03  | HILLDYSON MOREIRA LEVY              |
+|            |                                     |
+| Equipe 04  | FRANCISCO GABRIEL MOREIRA SAMPAIO   |
+|            | KAUA SOUZA MAIA                     |
+|            | MARC ROBERT DONN SIMEUS             |
+|            | VITOR JUCA POLICARPO                |
+
 
 # Telegram
 
