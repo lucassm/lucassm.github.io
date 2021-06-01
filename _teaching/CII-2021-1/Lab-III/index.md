@@ -9,7 +9,7 @@ location: Fortaleza, Brazil
 ---
 
 ## Aulas
-[Video com explicação da prática III]()
+[Video com explicação da prática III](https://drive.google.com/file/d/1gStN7_oNWtHBsFmi4VCwJOH9R9FIMW3U/view?usp=sharing)
 
 ## Documentos
 - [**Prática III**: Fasores e Álgebra de Números Complexos](https://github.com/lucassm/lucassm.github.io/raw/master/files/CII-2021-1/Lab-III-Fasores-e-Algebra-de-Numeros-Complexos-2021.pdf);

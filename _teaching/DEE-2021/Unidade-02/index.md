@@ -25,7 +25,9 @@ Videos com a segunda aula do curso, com o assunto: *Natureza das cargas*:
 <!-- - [Fundamentos de sistemas de distribuição 2](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/fundamentos-de-sistemas-de-distribuicao-p2-protected.pdf) -- **Atividade Nova!** -->
 
 ## Exercícios
- - [Exemplo 2.1](/teaching/DEE-2021/Unidade-02/example-2-1)
+- [Exemplo 2.1](/teaching/DEE-2021/Unidade-02/example-2-1)
+- [Exemplo 2.2](/teaching/DEE-2021/Unidade-02/example-2-2)
+- [Exemplo 2.3](/teaching/DEE-2021/Unidade-02/example-2-3)
 
 <!-- []() -- **Atividade Nova!** -->
 

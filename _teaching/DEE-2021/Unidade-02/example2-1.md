@@ -1,5 +1,5 @@
 ---
-title: "Distribuição de Energia Elétrica - Unidade 02"
+title: "Distribuição de Energia Elétrica - Exemplo 2.1"
 collection: teaching
 type: conteudo
 permalink: /teaching/DEE-2021/Unidade-02/example-2-1
@@ -35,6 +35,12 @@ The results of this calculation for the remainder of the customers is summarized
 </div>
 
 
-## Questions
+## Questões
 1. Determine for each transformer the 15-minute noncoincident maximum kW demand and, using the Table of Diversity Factors in Table 2.2, determine the 15-minute maximum diversified kW demand.
 2. Determine the 15-minute noncoincident maximum kW demand and 15-minute maximum diversified kW demand for each of the line segments.
+
+## Dados para resolução do problema
+
+<div class="text-center">
+    <img src="{{ '/teaching/DEE-2021/Unidade-02/example-2-1-d.png'|url }}" alt="example-2-1-c" width="600">
+</div>

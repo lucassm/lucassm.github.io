@@ -1,5 +1,5 @@
 ---
-title: "Laboratório de Eletrotécnica - Lab 0"
+title: "Laboratório de Eletrotécnica - Lab 1"
 collection: teaching
 type: conteudo
 permalink: /teaching/LE-2021-1/Lab-1
