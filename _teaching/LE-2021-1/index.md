@@ -112,7 +112,7 @@ Propiciar ao estudante de Engenharia, conhecimentos **teóricos e práticos** so
 Práticas relacionadas aos aspectos teóricos de eletrotécnica:
 - [**Prática 0**: Apresentação da disciplina](/teaching/LE-2021-1/Lab-0);
 - [**Prática 1**: Introdução à utilização de simuladores](/teaching/LE-2021-1/Lab-1);
-- **Prática 2**: Leis de Ohm e Leis de Kirchoff;
+- [**Prática 2**: Leis de Ohm e Leis de Kirchoff](/teaching/LE-2021-1/Lab-2);
 - **Prática 3**: Circuitos com cargas RLC; 
 - **Prática 4**: Correção de fator de potência;
 - **Prática 5**: Circuitos trifásicos;
