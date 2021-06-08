@@ -60,7 +60,7 @@ Conteúdos e listagem das práticas a serem realizadas na disciplina:
 - [Lab I: Uso Básico do Simulador Scilab](https://github.com/lucassm/lucassm.github.io/raw/master/files/CII-2021-1/Lab-I-Uso-Basico-do-Simulador-Scilab-2021.pdf);
 - [Lab II: Senoide-Valores Médio e Eficaz](/teaching/CII-2021-1/Lab-II);
 - [Lab III: Fasores e Álgebra de Números Complexos](/teaching/CII-2021-1/Lab-III);
-- Lab IV: Medições com Osciloscópio em Circuitos Básicos em CA;
+- [Lab IV: Medições com Osciloscópio em Circuitos Básicos em CA](/teaching/CII-2021-1/Lab-IV);
 - Lab V: Impedância;
 - Lab VI: Simulação RLC;
 - Lab VII: Potência Monofásica;
