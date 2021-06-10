@@ -151,11 +151,11 @@ Os dois simuladores serão apresentados e o aluno deverá escolher e justificar 
 
 | #  | Data     | Semana | Conteúdo                                                | Estado   |
 |----|----------|--------|---------------------------------------------------------|----------|
-| 1  | 10/05/21 | I      | Não haverá encontro                                     | Pendente |
-| 2  | 17/05/21 | II     | Não haverá encontro                                     | Pendente |
-| 3  | 24/05/21 | III    | Prática 0                                               | Pendente |
-| 4  | 31/05/21 | IV     | Prática 1                                               | Pendente |
-| 5  | 07/06/21 | V      | Prática 2                                               | Pendente |
+| 1  | 10/05/21 | I      | Não haverá encontro                                     | Concluída|
+| 2  | 17/05/21 | II     | Não haverá encontro                                     | Concluída|
+| 3  | 24/05/21 | III    | Prática 0                                               | Concluída|
+| 4  | 31/05/21 | IV     | Prática 1                                               | Concluída|
+| 5  | 07/06/21 | V      | Prática 2                                               | Concluída|
 | 6  | 14/06/21 | VI     | Prática 3                                               | Pendente |
 | 7  | 21/06/21 | VII    | Prática 4                                               | Pendente |
 | 8  | 28/06/21 | VIII   | Prática 5                                               | Pendente |

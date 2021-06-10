@@ -136,9 +136,9 @@ O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**n
 | 27/05/21  | III       | Unidade 02                                                | Concluída |
 | 01/06/21  | IV        | Unidade 02                                                | Concluída |
 | 03/06/21  | IV        | Feriado Corpus Christi                                    | Concluída |
-| 08/06/21  | V         | Unidade 02                                                | Executando|
-| 10/06/21  | V         | Unidade 03                                                | Pendente  |
-| 15/06/21  | VI        | Unidade 03                                                | Pendente  |
+| 08/06/21  | V         | Unidade 02                                                | Concluída |
+| 10/06/21  | V         | Unidade 03                                                | Executando|
+| 15/06/21  | VI        | Unidade 03                                                | Executando|
 | 17/06/21  | VI        | Unidade 04                                                | Pendente  |
 | 22/06/21  | VII       | Unidade 04                                                | Pendente  |
 | 24/06/21  | VII       | Unidade 04                                                | Pendente  |

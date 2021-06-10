@@ -100,11 +100,11 @@ Os simuladores serão apresentados e o aluno deverá escolher e justificar a sua
 
 | #  | Data     | Semana | Conteúdo                                                | Estado   |
 |----|----------|--------|---------------------------------------------------------|----------|
-| 1  | 10/05/21 | I      | Não haverá encontro                                     | Concluído|
-| 2  | 18/05/21 | II     | Lab. I                                                  | Concluído|
-| 3  | 25/05/21 | III    | Lab II                                                  | Pendente |
-| 4  | 01/06/21 | IV     | Lab III                                                 | Pendente |
-| 5  | 08/06/21 | V      | Lab IV                                                  | Pendente |
+| 1  | 10/05/21 | I      | Não haverá encontro                                     | Concluída|
+| 2  | 18/05/21 | II     | Lab. I                                                  | Concluída|
+| 3  | 25/05/21 | III    | Lab II                                                  | Concluída|
+| 4  | 01/06/21 | IV     | Lab III                                                 | Concluída|
+| 5  | 08/06/21 | V      | Lab IV                                                  | Concluída|
 | 6  | 15/06/21 | VI     | Lab V                                                   | Pendente |
 | 7  | 22/06/21 | VII    | Lab VI                                                  | Pendente |
 | 8  | 29/06/21 | VIII   | Lab VII                                                 | Pendente |
