@@ -10,7 +10,11 @@ location: Fortaleza, Brazil
 
 # Example 3.2
 
-A three-phase line segment has the configuration as shown in Figure 3.3. The spacings between conductors are:
+A three-phase line segment has the configuration as shown in Figure below. The spacings between conductors are:
+
+<div class="text-center">
+    <img src="{{ '/teaching/DEE-2021/Unidade-03/example-3-2-a.png'|url }}" alt="example-3-2" width="300">
+</div>
 
 $$
 D_{ab} = 2.5 ft.\\
@@ -20,3 +24,6 @@ $$
 
 The conductors of the line are 336,400 26/7 ACSR. Determine the positive sequence impedance of the line in ohms/mile.
 
+<div class="text-center">
+    <img src="{{ '/teaching/DEE-2021/Unidade-03/example-3-2-b.png'|url }}" alt="example-3-2" width="500">
+</div>

@@ -12,4 +12,4 @@ location: Fortaleza, Brazil
 [Video com explicação da prática IV]()
 
 ## Documentos
-- [**Prática IV**: ](https://github.com/lucassm/lucassm.github.io/raw/master/files/CII-2021-1/Lab-IV-Cicuitos-Basicos-Medicoes-com-Osciloscopio-2021.pdf);
+- [**Prática IV**: Medições com Osciloscópio em Circuitos Básicos em CA](https://github.com/lucassm/lucassm.github.io/raw/master/files/CII-2021-1/Lab-IV-Cicuitos-Basicos-Medicoes-com-Osciloscopio-2021.pdf);
