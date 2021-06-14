@@ -4,7 +4,7 @@ collection: teaching
 permalink: /teaching/LE-2021-1
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 excerpt: "Página dedicada à disciplina de Laboratório de Eletrotécnica - 2021.1"
-date: 2021-05-14
+date: 2021-06-13
 location: "Fortaleza, Brazil"
 ---
 
@@ -113,7 +113,7 @@ Práticas relacionadas aos aspectos teóricos de eletrotécnica:
 - [**Prática 0**: Apresentação da disciplina](/teaching/LE-2021-1/Lab-0);
 - [**Prática 1**: Introdução à utilização de simuladores](/teaching/LE-2021-1/Lab-1);
 - [**Prática 2**: Leis de Ohm e Leis de Kirchoff](/teaching/LE-2021-1/Lab-2);
-- **Prática 3**: Circuitos com cargas RLC;
+- [**Prática 3**: Circuitos com cargas RLC](/teaching/LE-2021-1/Lab-3);
 - **Prática 4**: Correção de fator de potência;
 - **Prática 5**: Circuitos trifásicos;
 
@@ -156,7 +156,7 @@ Os dois simuladores serão apresentados e o aluno deverá escolher e justificar 
 | 3  | 24/05/21 | III    | Prática 0                                               | Concluída|
 | 4  | 31/05/21 | IV     | Prática 1                                               | Concluída|
 | 5  | 07/06/21 | V      | Prática 2                                               | Concluída|
-| 6  | 14/06/21 | VI     | Prática 3                                               | Pendente |
+| 6  | 14/06/21 | VI     | Prática 3                                               |Executando|
 | 7  | 21/06/21 | VII    | Prática 4                                               | Pendente |
 | 8  | 28/06/21 | VIII   | Prática 5                                               | Pendente |
 | 9  | 05/07/21 | IX     | Não haverá encontro                                     | Pendente |
