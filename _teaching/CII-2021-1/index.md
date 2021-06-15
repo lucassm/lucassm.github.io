@@ -61,7 +61,7 @@ Conteúdos e listagem das práticas a serem realizadas na disciplina:
 - [Lab II: Senoide-Valores Médio e Eficaz](/teaching/CII-2021-1/Lab-II);
 - [Lab III: Fasores e Álgebra de Números Complexos](/teaching/CII-2021-1/Lab-III);
 - [Lab IV: Medições com Osciloscópio em Circuitos Básicos em CA](/teaching/CII-2021-1/Lab-IV);
-- Lab V: Impedância;
+- [Lab V: Impedância](/teaching/CII-2021-1/Lab-V);
 - Lab VI: Simulação RLC;
 - Lab VII: Potência Monofásica;
 - Lab VIII: Compensação de Reativos;
@@ -105,7 +105,7 @@ Os simuladores serão apresentados e o aluno deverá escolher e justificar a sua
 | 3  | 25/05/21 | III    | Lab II                                                  | Concluída|
 | 4  | 01/06/21 | IV     | Lab III                                                 | Concluída|
 | 5  | 08/06/21 | V      | Lab IV                                                  | Concluída|
-| 6  | 15/06/21 | VI     | Lab V                                                   | Pendente |
+| 6  | 15/06/21 | VI     | Lab V                                                   | Concluída|
 | 7  | 22/06/21 | VII    | Lab VI                                                  | Pendente |
 | 8  | 29/06/21 | VIII   | Lab VII                                                 | Pendente |
 | 9  | 06/07/21 | IX     | Lab VIII                                                | Pendente |
