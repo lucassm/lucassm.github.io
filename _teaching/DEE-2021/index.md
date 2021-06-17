@@ -59,7 +59,7 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 
 # Avaliações
 
-As avaliações estão previstas para ocorrer conforme a data estabelecida no cronograma o conteúdo abaixo e ocorrerão de forma 
+As avaliações estão previstas para ocorrer conforme a data estabelecida no cronograma.
 
 Conteúdo da **Avaliação Parcial 01**:
 - **Unidade 01**: Introdução ao SDEE;
@@ -76,29 +76,23 @@ Conteúdo da **Avaliação Parcial 02**:
 # Trabalhos
 
 Previsão para temas de trabalhos computacionais a serem desenvolvidos no decorrer da disciplina:
-- **Trabalho 1**: Análise de cargas em SDEE;
+- [**Trabalho 1**: Análise de cargas em SDEE](/teaching/DEE-2021/Unidade-03);
 - **Trabalho 2**: Modelagem de linha de distribuição;
 - **Trabalho 3**: Análise de fluxo de carga em SDEE.
 
 # Estrutura da nota
 
-A nota da disciplina será composta pela média ponderada de avaliações, trabalhos computacionais, da seguinte forma:
+A nota da disciplina será composta pela média ponderada dos trabalhos computacionais realizados:
 
-$$NF = 0,7 \cdot NAP + 0,3 \cdot NT$$
+$$NF = \frac{NT_1 + NT_2 + NT_3}{3}$$
 
-Em que, $NF$ é a nota final da disciplina; $NAP$ é a média das notas das avaliações parciais; $NT$ é média das notas obitidas nos trabalhos computacionais.
-
-
-$$NAP = \frac{NAP_1 + NAP_2}{2}$$
-
-$$NT = \frac{NT_1 + NT_2 + NT_3}{3}$$
+Em que, $NF$ é a nota final da disciplina e $NT_1$, $NT_2$ e $NT_3$ são as notas notas obitidas nos trabalhos computacionais.
 
 # Informações adicionais
 
 Informações complementares importantes a respeito das aulas, trabalhos e avaliações:
 - Os trabalhos serão realizados em \textbf{equipes com no máximo 04 membros cada};
 - Não serão aceitos trabalhos \textbf{após o prazo} estipulado.
-- As APs de 2ª Chamadas terão \textbf{nível consideravelmente elevado} em relação às AP de 1ª Chamada.
 
 # Política de Plágio
 
@@ -143,9 +137,9 @@ O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**n
 | 22/06/21  | VII       | Unidade 04                                                | Pendente  |
 | 24/06/21  | VII       | Unidade 04                                                | Pendente  |
 | 29/06/21  | VIII      | Unidade 04                                                | Pendente  |
-| 01/07/21  | VIII      | Revisão de Conteúdo                                       | Pendente  |
-| 06/07/21  | IX        | **Data prevista para realização da AP01**                 | Pendente  |
-| 08/07/21  | IX        | Unidade 05                                                | Pendente  |
+| 01/07/21  | VIII      | **Tira dúvidas do trabalho**                              | Pendente  |
+| 06/07/21  | IX        | Unidade 05                                                | Pendente  |
+| 08/07/21  | IX        | **Data prevista para entrega do Trabalho 01**             | Pendente  |
 | 13/07/21  | X         | Unidade 05                                                | Pendente  |
 | 15/07/21  | X         | Unidade 05                                                | Pendente  |
 | 20/07/21  | XI        | Unidade 05                                                | Pendente  |
