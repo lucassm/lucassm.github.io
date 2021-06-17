@@ -9,7 +9,7 @@ location: Fortaleza, Brazil
 ---
 
 ## Questões
-Para a sub-rede de distribuição em baixa tensão mostrada neste [python-notebook](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/Trabalho-01/Trabalho-01.csv), realize o que se pede: 
+Para a sub-rede de distribuição em baixa tensão mostrada neste [python-notebook](https://github.com/lucassm/lucassm.github.io/blob/master/files/SDEE-2021/Trabalho-01/Trabalho-01.ipynb), realize o que se pede: 
 1. Calcule o fator de demanda de todos os consumidores presentes no sistema, de cada ramal e do sistema completo.
 2. Calcule o fator de carga de todos os consumidores presentes no sistema, de cada ramal e do sistema completo.
 3. Plote a curva de demanda diversificada de cada ramal e do sistema completo.
@@ -24,8 +24,18 @@ Os valores de carga são dados em kW. Caso seja necessário utilize o fator de p
 
 O transformador da sub-rede tem uma potência de 630kVA.
 
+O trabalho deve ser apresentado por meio de video com no máximo 20 minutos. Todos o membros da equipe devem participar da apresentação.
+
+### Complemento do trabalho
+Como os trabalhos computacionais substituirão as avaliações, serão cobrados os seguintes exercícios do livro *Dystribution System Modeling and Analysis - William H. Kersting*, cujo material já foi disponibilizado.
+
+- Capítulo 3: 3.3 e 3.8
+
+Estas questões devem ser entregues em arquivo de vídeo explicando sua resolução.
+
 ## Outras instruções
-Caso o trabalho não seja realizado em python, os dados de carga dos consumidores do sistema proposto podem ser obtidos [neste link](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/Trabalho-01/data.csv).
+- As equipes devem ser compostas por no máximo 5 integrantes; 
+- Caso o trabalho não seja realizado em python, os dados de carga dos consumidores do sistema proposto podem ser obtidos [neste link](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/Trabalho-01/data.csv).
 
 ## Data de Entrega
 Prevista para **08/07/21**. Link para entrega será disponibilizado nesta página em breve.

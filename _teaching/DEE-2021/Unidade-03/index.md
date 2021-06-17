@@ -35,11 +35,5 @@ Videos com a terceira aula do curso, com o assunto: *Métodos Aproximados de An�
 - [Resolução Exemplo 3.3](https://drive.google.com/file/d/1yi5yh6LbtouIT9KKGoAD-6Dq8rmrUTLH/view?usp=sharing)
 - [Resolução Exemplo 3.4](https://drive.google.com/file/d/17UJYer5fLzYINfDM_4qLbbtwK7PR_Fff/view?usp=sharing)
 - [Resolução Exemplo 3.5](https://drive.google.com/file/d/1mVyuuXJ1Lqw7kPSFsw4qoAxXBU6kBf86/view?usp=sharing)
-- [Resolução Exemplo 3.6]() -- Em breve
-- [Resolução Exemplo 3.7]() -- Em breve
-
-## Exercícios
-Em breve.
-
-## Links
-Em breve.
+- [Resolução Exemplo 3.6](https://drive.google.com/file/d/1kG3O1Vw7WsxMg-Q8S_qe6OET82v_Uf6p/view?usp=sharing)
+- [Resolução Exemplo 3.7](https://drive.google.com/file/d/1mmmBoPi75t3V7TewiZbg5LuxAQb8QABO/view?usp=sharing)
