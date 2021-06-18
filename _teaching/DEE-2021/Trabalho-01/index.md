@@ -35,8 +35,11 @@ Estas questões devem ser entregues em arquivo de vídeo explicando sua resoluç
 
 ## Outras instruções
 - As equipes devem ser compostas por no máximo 5 integrantes; 
-- Caso o trabalho não seja realizado em python, os dados de carga dos consumidores do sistema proposto podem ser obtidos [neste link](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/Trabalho-01/data.csv).
+- Caso o trabalho não seja realizado em python, os dados de carga dos consumidores do sistema proposto podem ser obtidos [neste link](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/Trabalho-01/data.csv);
+- [Vídeo explicativo]();
+- [Formulário para envio das equipes](https://forms.gle/QcjxuQcRE9rd6iKv7).
 
 ## Data de Entrega
 Prevista para **08/07/21**. Link para entrega será disponibilizado nesta página em breve.
+
 
