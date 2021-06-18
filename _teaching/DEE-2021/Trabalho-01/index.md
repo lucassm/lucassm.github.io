@@ -9,7 +9,7 @@ location: Fortaleza, Brazil
 ---
 
 ## Questões
-Para a sub-rede de distribuição em baixa tensão mostrada neste [python-notebook](https://github.com/lucassm/lucassm.github.io/blob/master/files/SDEE-2021/Trabalho-01/Trabalho-01.ipynb), realize o que se pede: 
+Para a sub-rede de distribuição em baixa tensão mostrada neste [python-notebook](https://colab.research.google.com/drive/1k-CpdoqG29omK5NKl7GvC6tZIgzlA_62?usp=sharing), realize o que se pede: 
 1. Calcule o fator de demanda de todos os consumidores presentes no sistema, de cada ramal e do sistema completo.
 2. Calcule o fator de carga de todos os consumidores presentes no sistema, de cada ramal e do sistema completo.
 3. Plote a curva de demanda diversificada de cada ramal e do sistema completo.
@@ -36,7 +36,7 @@ Estas questões devem ser entregues em arquivo de vídeo explicando sua resoluç
 ## Outras instruções
 - As equipes devem ser compostas por no máximo 5 integrantes; 
 - Caso o trabalho não seja realizado em python, os dados de carga dos consumidores do sistema proposto podem ser obtidos [neste link](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/Trabalho-01/data.csv);
-- [Vídeo explicativo]();
+- [Vídeo explicativo](https://drive.google.com/file/d/1pDcNWU55Qp0CrQDa7JZAPhWSa20uMWCO/view?usp=sharing);
 - [Formulário para envio das equipes](https://forms.gle/QcjxuQcRE9rd6iKv7).
 
 ## Data de Entrega
