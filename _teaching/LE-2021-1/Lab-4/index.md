@@ -14,4 +14,4 @@ location: Fortaleza, Brazil
 - [Turma 11 (16:00h)]()
 
 ## Roteiro de Prática
-- [**Prática 4**: ](https://github.com/lucassm/lucassm.github.io/raw/master/files/LE-2021-1/Lab_Eletrotecnica_04.pdf);
+- [**Prática 4**: Correção de Fator de Potência](https://github.com/lucassm/lucassm.github.io/raw/master/files/LE-2021-1/Lab_Eletrotecnica_04.pdf);
