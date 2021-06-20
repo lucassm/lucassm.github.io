@@ -114,7 +114,7 @@ Práticas relacionadas aos aspectos teóricos de eletrotécnica:
 - [**Prática 1**: Introdução à utilização de simuladores](/teaching/LE-2021-1/Lab-1);
 - [**Prática 2**: Leis de Ohm e Leis de Kirchoff](/teaching/LE-2021-1/Lab-2);
 - [**Prática 3**: Circuitos com cargas RLC](/teaching/LE-2021-1/Lab-3);
-- **Prática 4**: Correção de fator de potência;
+- [**Prática 4**: Correção de fator de potência](/teaching/LE-2021-1/Lab-4);
 - **Prática 5**: Circuitos trifásicos;
 
 ## Parte 2
