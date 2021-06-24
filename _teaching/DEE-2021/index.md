@@ -4,7 +4,7 @@ collection: teaching
 permalink: /teaching/DEE-2021
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 excerpt: "Página dedicada à disciplina de Distribuição de Energia Elétrica - 2021.1"
-date: 2021-05-27
+date: 2021-06-24
 location: "Fortaleza, Brazil"
 ---
 
@@ -51,7 +51,7 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - [**Unidade 01**](/teaching/DEE-2021/Unidade-01): Introdução ao SDEE;
 - [**Unidade 02**](/teaching/DEE-2021/Unidade-02): Natureza das cargas no SDEE;
 - [**Unidade 03**](/teaching/DEE-2021/Unidade-03): Métodos aproximados de análise;
-- **Unidade 04**: Linhas de distribuição de eletricidade;
+- [**Unidade 04**](/teaching/DEE-2021/Unidade-04): Linhas de distribuição de eletricidade;
 - **Unidade 05**: Regulação de tensão em redes de distribuição de eletricidade; 
 - **Unidade 06**: Transformadores de distribuição trifásicos;
 - **Unidade 07**: Análise de alimentadores de distribuição utilizando ferramentas computacionais;
@@ -131,12 +131,12 @@ O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**n
 | 01/06/21  | IV        | Unidade 02                                                | Concluída |
 | 03/06/21  | IV        | Feriado Corpus Christi                                    | Concluída |
 | 08/06/21  | V         | Unidade 02                                                | Concluída |
-| 10/06/21  | V         | Unidade 03                                                | Executando|
-| 15/06/21  | VI        | Unidade 03                                                | Executando|
-| 17/06/21  | VI        | Unidade 04                                                | Pendente  |
-| 22/06/21  | VII       | Unidade 04                                                | Pendente  |
-| 24/06/21  | VII       | Unidade 04                                                | Pendente  |
-| 29/06/21  | VIII      | Unidade 04                                                | Pendente  |
+| 10/06/21  | V         | Unidade 03                                                | Concluída |
+| 15/06/21  | VI        | Unidade 03                                                | Concluída |
+| 17/06/21  | VI        | Unidade 04                                                |Executando|
+| 22/06/21  | VII       | Unidade 04                                                |Executando|
+| 24/06/21  | VII       | Unidade 04                                                |Executando|
+| 29/06/21  | VIII      | Unidade 04                                                |Executando|
 | 01/07/21  | VIII      | **Tira dúvidas do trabalho**                              | Pendente  |
 | 06/07/21  | IX        | Unidade 05                                                | Pendente  |
 | 08/07/21  | IX        | **Data prevista para entrega do Trabalho 01**             | Pendente  |
