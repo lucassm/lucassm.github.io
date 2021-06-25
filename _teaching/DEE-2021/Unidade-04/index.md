@@ -16,12 +16,15 @@ Videos com a quarta aula do curso, com o assunto: *Linhas de Distribuição de E
 - [Parte 4](https://drive.google.com/file/d/1ZUvd9ztifxY9rs9CFmRNITX_D7d35sON/view?usp=sharing)
 - [Parte 5](https://drive.google.com/file/d/1rmPkbOUWBHurafZkaX2koDd_8KqYKo12/view?usp=sharing)
 - [Parte 6](https://drive.google.com/file/d/1n30AEh9Gc4UKffoCFts9eL6Eyg6qPyy4/view?usp=sharing)
+- [Parte 7](https://drive.google.com/file/d/1wBaFMh9t6lrzZ02-3Cbrf5GAUNkQOtns/view?usp=sharing)
+- [Parte 8](https://drive.google.com/file/d/12YsvMsAZyRCKfhJXq-5zQZAeppiw4tK5/view?usp=sharing)
+
 
 ## Slides
-[Aula 4: Linhas de Distribuição de Eletricidade](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/aula4.pdf)
+[Aula 4: Linhas de Distribuição de Eletricidade](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/aula4-1.pdf)
 
 ## Textos
-- [](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/Unidade-4-Impedancia-Serie-protected.pdf)
+- [Impedância Série de Linhas de Distribuição](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/Unidade-4-Impedancia-Serie-protected.pdf)
 
 ## Exemplos
 Em breve.
