@@ -115,7 +115,7 @@ Práticas relacionadas aos aspectos teóricos de eletrotécnica:
 - [**Prática 2**: Leis de Ohm e Leis de Kirchoff](/teaching/LE-2021-1/Lab-2);
 - [**Prática 3**: Circuitos com cargas RLC](/teaching/LE-2021-1/Lab-3);
 - [**Prática 4**: Correção de fator de potência](/teaching/LE-2021-1/Lab-4);
-- **Prática 5**: Circuitos trifásicos;
+- [**Prática 5**: Circuitos trifásicos](/teaching/LE-2021-1/Lab-5);
 
 ## Parte 2
 
@@ -157,8 +157,8 @@ Os dois simuladores serão apresentados e o aluno deverá escolher e justificar 
 | 4  | 31/05/21 | IV     | Prática 1                                               | Concluída|
 | 5  | 07/06/21 | V      | Prática 2                                               | Concluída|
 | 6  | 14/06/21 | VI     | Prática 3                                               | Concluída|
-| 7  | 21/06/21 | VII    | Prática 4                                               |Executando|
-| 8  | 28/06/21 | VIII   | Prática 5                                               | Pendente |
+| 7  | 21/06/21 | VII    | Prática 4                                               | Concluída|
+| 8  | 28/06/21 | VIII   | Prática 5                                               |Executando|
 | 9  | 05/07/21 | IX     | Não haverá encontro                                     | Pendente |
 | 10 | 12/07/21 | X      | Prática 6                                               | Pendente |
 | 11 | 19/07/21 | XI     | Prática 7                                               | Pendente |
