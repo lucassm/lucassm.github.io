@@ -63,7 +63,7 @@ Conteúdos e listagem das práticas a serem realizadas na disciplina:
 - [Lab IV: Medições com Osciloscópio em Circuitos Básicos em CA](/teaching/CII-2021-1/Lab-IV);
 - [Lab V: Impedância](/teaching/CII-2021-1/Lab-V);
 - [Lab VI: Simulação RLC](/teaching/CII-2021-1/Lab-VI);
-- Lab VII: Potência Monofásica;
+- [Lab VII: Potência Monofásica](/teaching/CII-2021-1/Lab-VII);
 - Lab VIII: Compensação de Reativos;
 - Lab IX: Ressonância;
 - Lab X: Equivalente de Thévenin;

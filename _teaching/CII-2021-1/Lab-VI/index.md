@@ -9,7 +9,7 @@ location: Fortaleza, Brazil
 ---
 
 ## Aulas
-[Video com explicação da prática VI]()
+[Video com explicação da prática VI](https://drive.google.com/file/d/1MJu0n9kLup_wE9lfuSMY97o2B1plwVwS/view?usp=sharing)
 
 ## Documentos
 - [**Prática VI**: Simulação com circuitos RLC](https://github.com/lucassm/lucassm.github.io/raw/master/files/CII-2021-1/Lab-VI-Simulacao-RLC-2021.pdf);
