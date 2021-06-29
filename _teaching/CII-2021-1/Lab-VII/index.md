@@ -9,7 +9,7 @@ location: Fortaleza, Brazil
 ---
 
 ## Aulas
-[Video com explicação da prática VII]()
+[Video com explicação da prática VII](https://drive.google.com/file/d/1Fum1yLPyPfHdpVIozMhjs10v3O6WEe5f/view?usp=sharing)
 
 ## Documentos
 - [**Prática VII**: Potência monofásica no domínio dos fasores em circuitos CA](https://github.com/lucassm/lucassm.github.io/raw/master/files/CII-2021-1/Lab-VII-Potencia-monofasica-2021.pdf);
