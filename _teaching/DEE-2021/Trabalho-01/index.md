@@ -38,6 +38,8 @@ Estas questões devem ser entregues em arquivo de vídeo explicando sua resoluç
 - Caso o trabalho não seja realizado em python, os dados de carga dos consumidores do sistema proposto podem ser obtidos [neste link](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/Trabalho-01/data.csv);
 - [Vídeo explicativo](https://drive.google.com/file/d/1pDcNWU55Qp0CrQDa7JZAPhWSa20uMWCO/view?usp=sharing);
 - [Formulário para envio das equipes](https://forms.gle/QcjxuQcRE9rd6iKv7).
+- [Lista com os nomes dos integrantes de cada equipe](/teaching/DEE-2021/Trabalho-01/Equipes)
+
 
 ## Data de Entrega
 Prevista para **08/07/21**. Link para entrega será disponibilizado nesta página em breve.

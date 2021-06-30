@@ -80,6 +80,9 @@ Previsão para temas de trabalhos computacionais a serem desenvolvidos no decorr
 - **Trabalho 2**: Modelagem de linha de distribuição;
 - **Trabalho 3**: Análise de fluxo de carga em SDEE.
 
+<br>
+[**Lista de divisão das equipes de trabalho**](/teaching/DEE-2021/Trabalho-01/Equipes)
+
 # Estrutura da nota
 
 A nota da disciplina será composta pela média ponderada dos trabalhos computacionais realizados:
@@ -120,45 +123,45 @@ O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**n
 
 # Calendário de Planejamento
 
-| Data      | Semana    | Conteúdo                                                  | Estado    |
-|---------- |--------   |---------------------------------------------------------  |---------- |
-| 11/05/21  | I         | Introdução                                                | Concluída |
-| 13/05/21  | I         | Unidade 01                                                | Concluída |
-| 18/05/21  | II        | Unidade 01                                                | Concluída |
-| 20/05/21  | II        | Unidade 01                                                | Concluída |
-| 25/05/21  | III       | Unidade 01                                                | Concluída |
-| 27/05/21  | III       | Unidade 02                                                | Concluída |
-| 01/06/21  | IV        | Unidade 02                                                | Concluída |
-| 03/06/21  | IV        | Feriado Corpus Christi                                    | Concluída |
-| 08/06/21  | V         | Unidade 02                                                | Concluída |
-| 10/06/21  | V         | Unidade 03                                                | Concluída |
-| 15/06/21  | VI        | Unidade 03                                                | Concluída |
-| 17/06/21  | VI        | Unidade 04                                                |Executando|
-| 22/06/21  | VII       | Unidade 04                                                |Executando|
-| 24/06/21  | VII       | Unidade 04                                                |Executando|
-| 29/06/21  | VIII      | Unidade 04                                                |Executando|
-| 01/07/21  | VIII      | **Tira dúvidas do trabalho**                              | Pendente  |
-| 06/07/21  | IX        | Unidade 05                                                | Pendente  |
-| 08/07/21  | IX        | **Data prevista para entrega do Trabalho 01**             | Pendente  |
-| 13/07/21  | X         | Unidade 05                                                | Pendente  |
-| 15/07/21  | X         | Unidade 05                                                | Pendente  |
-| 20/07/21  | XI        | Unidade 05                                                | Pendente  |
-| 22/07/21  | XI        | Unidade 06                                                | Pendente  |
-| 27/07/21  | XII       | Unidade 06                                                | Pendente  |
-| 29/07/21  | XII       | Unidade 06                                                | Pendente  |
-| 03/08/21  | XIII      | Unidade 06                                                | Pendente  |
-| 05/08/21  | XIII      | Unidade 07                                                | Pendente  |
-| 10/08/21  | XIV       | Unidade 07                                                | Pendente  |
-| 12/08/21  | XIV       | Unidade 07                                                | Pendente  |
-| 17/08/21  | XV        | Unidade 07                                                | Pendente  |
-| 19/08/21  | XV        | Unidade 08                                                | Pendente  |
-| 24/08/21  | XVI       | Unidade 08                                                | Pendente  |
-| 26/08/21  | XVI       | Revisão de Conteúdo                                       | Pendente  |
-| 31/08/21  | XVII      | **Data prevista para realização da AP 02**                | Pendente  |
-| 02/09/21  | XVII      | **Término do semestre**                                   | Pendente  |
-| 03/09/21  | XVII      | Início do período de Avaliações Finais                    | Pendente  |
-| 07/09/21  | XVIII     | **Data prevista para Avaliação Final**                    | Pendente  |
-| 07/09/21  | XVIII     | Feriado Independência do Brasil                           | Pendente  |
-| 08/09/21  | XVIII     | **Divulgação dos Aprovados**                              | Pendente  |
-| 09/09/21  | XVIII     | Término do período de Avaliações Finais                   | Pendente  |
-| 10/09/21  | XVIII     | Consolidação das sínteses de notas e frequências 2021.1   | Pendente  |
+| Data     	| Semana 	| Conteúdo                                                	| Estado     	|
+|----------	|--------	|---------------------------------------------------------	|------------	|
+| 11/05/21 	| I      	| Introdução                                              	| Concluída  	|
+| 13/05/21 	| I      	| Unidade 01                                              	| Concluída  	|
+| 18/05/21 	| II     	| Unidade 01                                              	| Concluída  	|
+| 20/05/21 	| II     	| Unidade 01                                              	| Concluída  	|
+| 25/05/21 	| III    	| Unidade 01                                              	| Concluída  	|
+| 27/05/21 	| III    	| Unidade 02                                              	| Concluída  	|
+| 01/06/21 	| IV     	| Unidade 02                                              	| Concluída  	|
+| 03/06/21 	| IV     	| Feriado Corpus Christi                                  	| Concluída  	|
+| 08/06/21 	| V      	| Unidade 02                                              	| Concluída  	|
+| 10/06/21 	| V      	| Unidade 03                                              	| Concluída  	|
+| 15/06/21 	| VI     	| Unidade 03                                              	| Concluída  	|
+| 17/06/21 	| VI     	| Unidade 04                                              	| Executando 	|
+| 22/06/21 	| VII    	| Unidade 04                                              	| Executando 	|
+| 24/06/21 	| VII    	| Unidade 04                                              	| Executando 	|
+| 29/06/21 	| VIII   	| Unidade 04                                              	| Executando 	|
+| 01/07/21 	| VIII   	| Unidade 04                                              	| Pendente   	|
+| 06/07/21 	| IX     	| **Tira dúvidas do trabalho**                            	| Pendente   	|
+| 08/07/21 	| IX     	| Unidade 05                                              	| Pendente   	|
+| 13/07/21 	| X      	| Unidade 05                                              	| Pendente   	|
+| 15/07/21 	| X      	| **Data prevista para entrega do Trabalho 01**           	| Pendente   	|
+| 20/07/21 	| XI     	| Unidade 05                                              	| Pendente   	|
+| 22/07/21 	| XI     	| Unidade 06                                              	| Pendente   	|
+| 27/07/21 	| XII    	| Unidade 06                                              	| Pendente   	|
+| 29/07/21 	| XII    	| Unidade 06                                              	| Pendente   	|
+| 03/08/21 	| XIII   	| Unidade 06                                              	| Pendente   	|
+| 05/08/21 	| XIII   	| Unidade 07                                              	| Pendente   	|
+| 10/08/21 	| XIV    	| Unidade 07                                              	| Pendente   	|
+| 12/08/21 	| XIV    	| Unidade 07                                              	| Pendente   	|
+| 17/08/21 	| XV     	| Unidade 07                                              	| Pendente   	|
+| 19/08/21 	| XV     	| Unidade 08                                              	| Pendente   	|
+| 24/08/21 	| XVI    	| Unidade 08                                              	| Pendente   	|
+| 26/08/21 	| XVI    	| Revisão de Conteúdo                                     	| Pendente   	|
+| 31/08/21 	| XVII   	| **Data prevista para realização da AP 02**              	| Pendente   	|
+| 02/09/21 	| XVII   	| **Término do semestre**                                 	| Pendente   	|
+| 03/09/21 	| XVII   	| Início do período de Avaliações Finais                  	| Pendente   	|
+| 07/09/21 	| XVIII  	| **Data prevista para Avaliação Final**                  	| Pendente   	|
+| 07/09/21 	| XVIII  	| Feriado Independência do Brasil                         	| Pendente   	|
+| 08/09/21 	| XVIII  	| **Divulgação dos Aprovados**                            	| Pendente   	|
+| 09/09/21 	| XVIII  	| Término do período de Avaliações Finais                 	| Pendente   	|
+| 10/09/21 	| XVIII  	| Consolidação das sínteses de notas e frequências 2021.1 	| Pendente   	|
