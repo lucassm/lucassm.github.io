@@ -42,6 +42,6 @@ Estas questões devem ser entregues em arquivo de vídeo explicando sua resoluç
 
 
 ## Data de Entrega
-Prevista para **08/07/21**. Link para entrega será disponibilizado nesta página em breve.
+Prevista para **15/07/21**. Link para entrega será disponibilizado nesta página em breve.
 
 
