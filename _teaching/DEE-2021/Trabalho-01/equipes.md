@@ -48,13 +48,12 @@ location: Fortaleza, Brazil
 | Equipe 09  	| Alice de Sousa Freitas               	|
 |            	| Bruno Mascarenhas da Silva           	|
 |            	| Nathanael Duque Gadelha              	|
-
+| Equipe 10     | André Fellipe de Souza Cavalcante     |
+|               | Gabriel de Oliveira Almeida           |
 
 ## Lista de Nomes Pendentes
 
 - ANA KAROLINNE FERREIRA NASCIMENTO
-- ANDRÉ FELLIPE DE SOUZA CAVALCANTE
-- GABRIEL DE OLIVEIRA ALMEIDA
 - JANDERSON DA SILVA GOMES
 - MARCOS VINICIUS FREIRE SAMPAIO
 - RAIMUNDO CESAR RIBEIRO LEITE FILHO
