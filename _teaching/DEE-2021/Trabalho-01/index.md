@@ -40,8 +40,9 @@ Estas questões devem ser entregues em arquivo de vídeo explicando sua resoluç
 - [Formulário para envio das equipes](https://forms.gle/QcjxuQcRE9rd6iKv7).
 - [Lista com os nomes dos integrantes de cada equipe](/teaching/DEE-2021/Trabalho-01/Equipes)
 
+## Dúvidas
+- [Vídeo tira dúvidas 1](https://drive.google.com/file/d/1ncT3Etcj1yrNAhWQTZX9Z_Qo-_f3dpZ0/view?usp=sharing)
 
 ## Data de Entrega
 Prevista para **15/07/21**. Link para entrega será disponibilizado nesta página em breve.
-
 

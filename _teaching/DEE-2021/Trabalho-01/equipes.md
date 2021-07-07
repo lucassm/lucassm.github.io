@@ -50,14 +50,15 @@ location: Fortaleza, Brazil
 |            	| Nathanael Duque Gadelha              	|
 | Equipe 10     | André Fellipe de Souza Cavalcante     |
 |               | Gabriel de Oliveira Almeida           |
+| Equipe 11     | Ana Karolinne Ferreira Nascimento     |
+|               | Rebeca Rodrigues Ramos                |
+|               | Thiago Nunes Ferreira Andrade         |
+| Equipe 12     | Ana Karolinne Ferreira Nascimento     |
+|               | Janderson da Silva Gomes              |
+|               | Marcos Vinicius Freire Sampaio        |
+|               | Raimundo Cesar Ribeiro Leite Filho    |
+|               | Regina Celly de Almeida e Silva P.    |
 
-## Lista de Nomes Pendentes
 
-- ANA KAROLINNE FERREIRA NASCIMENTO
-- JANDERSON DA SILVA GOMES
-- MARCOS VINICIUS FREIRE SAMPAIO
-- RAIMUNDO CESAR RIBEIRO LEITE FILHO
-- REBECA RODRIGUES RAMOS
-- REGINA CELLY DE ALMEIDA E SILVA PINHEIRO
-- THIAGO NUNES FERREIRA ANDRADE
+
 

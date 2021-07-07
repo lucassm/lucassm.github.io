@@ -41,4 +41,6 @@ Videos com a quarta aula do curso, com o assunto: *Linhas de Distribuição de E
 - [Modelos de Linhas de Distribuição](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/Unidade-6-Modelos-de-Linhas-de-Distribuicao-protected.pdf)
 
 ## Exemplos
-Em breve.
+- [Exemplos 4-1 e 4-2](https://drive.google.com/file/d/1n01a6A7Em5brsoihB-Gqz6ovMNPcJP6L/view?usp=sharing)
+- [Exemplos 5-1 e 5-2](https://drive.google.com/file/d/11gNM2AUZQBpZNye_rRYw1gYNAP-TqDch/view?usp=sharing)
+- [Exemplo 6-1](https://drive.google.com/file/d/1_yUgm-GwL_dNLvqKB3R0-gwGSKqDJKDz/view?usp=sharing)
