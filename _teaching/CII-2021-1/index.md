@@ -64,7 +64,7 @@ Conteúdos e listagem das práticas a serem realizadas na disciplina:
 - [Lab V: Impedância](/teaching/CII-2021-1/Lab-V);
 - [Lab VI: Simulação RLC](/teaching/CII-2021-1/Lab-VI);
 - [Lab VII: Potência Monofásica](/teaching/CII-2021-1/Lab-VII);
-- Lab VIII: Compensação de Reativos;
+- [Lab VIII: Compensação de Reativos](/teaching/CII-2021-1/Lab-VIII);
 - Lab IX: Ressonância;
 - Lab X: Equivalente de Thévenin;
 - Lab XI: Circuitos Trifásicos Equilibrados;
@@ -98,28 +98,28 @@ Os simuladores serão apresentados e o aluno deverá escolher e justificar a sua
 
 # Calendário de Planejamento
 
-| #  | Data     | Semana | Conteúdo                                                | Estado   |
-|----|----------|--------|---------------------------------------------------------|----------|
-| 1  | 10/05/21 | I      | Não haverá encontro                                     | Concluída|
-| 2  | 18/05/21 | II     | Lab. I                                                  | Concluída|
-| 3  | 25/05/21 | III    | Lab II                                                  | Concluída|
-| 4  | 01/06/21 | IV     | Lab III                                                 | Concluída|
-| 5  | 08/06/21 | V      | Lab IV                                                  | Concluída|
-| 6  | 15/06/21 | VI     | Lab V                                                   | Concluída|
-| 7  | 22/06/21 | VII    | Lab VI                                                  |Executando|
-| 8  | 29/06/21 | VIII   | Lab VII                                                 | Pendente |
-| 9  | 06/07/21 | IX     | Lab VIII                                                | Pendente |
-| 10 | 13/07/21 | X      | Lab IX                                                  | Pendente |
-| 11 | 20/07/21 | XI     | Lab X                                                   | Pendente |
-| 12 | 27/07/21 | XII    | Lab XI                                                  | Pendente |
-| 13 | 03/08/21 | XIII   | Lab XII                                                 | Pendente |
-| 14 | 10/08/21 | XIV    | Não haverá encontro                                     | Pendente |
-| 15 | 17/08/21 | XV     | Não haverá encontro                                     | Pendente |
-| 16 | 24/08/21 | XVI    | Não haverá encontro                                     | Pendente |
-| 17 | 31/08/21 | XVII   | Não haverá encontro                                     | Pendente |
-| -  | 02/09/21 | XVII   | Término do semestre                                     | Pendente |
-| -  | 03/09/21 | XVII   | Início do período de Avaliações Finais                  | Pendente |
-| -  | 07/09/21 | XVIII  | Avaliação Final                                         | Pendente |
-| -  | 08/09/21 | XVIII  | Divulgação dos Aprovados por média                      | Pendente |
-| -  | 09/09/21 | XVIII  | Término do período de Avaliações Finais                 | Pendente |
-| -  | 10/09/21 | XVIII  | Consolidação das sínteses de notas e frequências 2019.1 | Pendente |
+| #    | Data       | Semana   | Conteúdo                                                  | Estado     |
+| ---- | ---------- | -------- | --------------------------------------------------------- | ---------- |
+| 1    | 10/05/21   | I        | Não haverá encontro                                       | Concluída  |
+| 2    | 18/05/21   | II       | Lab. I                                                    | Concluída  |
+| 3    | 25/05/21   | III      | Lab II                                                    | Concluída  |
+| 4    | 01/06/21   | IV       | Lab III                                                   | Concluída  |
+| 5    | 08/06/21   | V        | Lab IV                                                    | Concluída  |
+| 6    | 15/06/21   | VI       | Lab V                                                     | Concluída  |
+| 7    | 22/06/21   | VII      | Lab VI                                                    | Concluída  |
+| 8    | 29/06/21   | VIII     | Lab VII                                                   | Concluída  |
+| 9    | 06/07/21   | IX       | Não haverá encontro                                       | Concluída  |
+| 10   | 13/07/21   | X        | Lab VIII                                                  | Executando |
+| 11   | 20/07/21   | XI       | Lab IX                                                    | Pendente   |
+| 12   | 27/07/21   | XII      | Lab X                                                     | Pendente   |
+| 13   | 03/08/21   | XIII     | Lab XI                                                    | Pendente   |
+| 14   | 10/08/21   | XIV      | Lab XII                                                   | Pendente   |
+| 15   | 17/08/21   | XV       | Não haverá encontro                                       | Pendente   |
+| 16   | 24/08/21   | XVI      | Não haverá encontro                                       | Pendente   |
+| 17   | 31/08/21   | XVII     | Não haverá encontro                                       | Pendente   |
+| -    | 02/09/21   | XVII     | Término do semestre                                       | Pendente   |
+| -    | 03/09/21   | XVII     | Início do período de Avaliações Finais                    | Pendente   |
+| -    | 07/09/21   | XVIII    | Avaliação Final                                           | Pendente   |
+| -    | 08/09/21   | XVIII    | Divulgação dos Aprovados por média                        | Pendente   |
+| -    | 09/09/21   | XVIII    | Término do período de Avaliações Finais                   | Pendente   |
+| -    | 10/09/21   | XVIII    | Consolidação das sínteses de notas e frequências 2019.1   | Pendente   |
