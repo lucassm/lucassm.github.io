@@ -41,8 +41,9 @@ Estas questões devem ser entregues em arquivo de vídeo explicando sua resoluç
 - [Lista com os nomes dos integrantes de cada equipe](/teaching/DEE-2021/Trabalho-01/Equipes)
 
 ## Dúvidas
-- [Vídeo tira dúvidas 1 gravado em 07/07/21](https://drive.google.com/file/d/1ncT3Etcj1yrNAhWQTZX9Z_Qo-_f3dpZ0/view?usp=sharing)
-- [Tira dúvidas sobre o trabalho 01 com toda a turma, ocorrida em 08/07/21](https://drive.google.com/file/d/1yI2hCLlyphErebjF3EQ6byDEXYTiMOfv/view?usp=sharing)
+- [Vídeo tira dúvidas 1 gravado em 07/07/21](https://drive.google.com/file/d/1ncT3Etcj1yrNAhWQTZX9Z_Qo-_f3dpZ0/view?usp=sharing);
+- [Tira dúvidas sobre o trabalho 01 com toda a turma, ocorrida em 08/07/21](https://drive.google.com/file/d/1yI2hCLlyphErebjF3EQ6byDEXYTiMOfv/view?usp=sharing);
+- [Vídeo tira dúvidas 2 gravado em 12/07/21](https://drive.google.com/file/d/1tmQcTwITBc75gtD8NIe9ppy09Kgg4pbf/view?usp=sharing);
 
 ## Data de Entrega
 Prevista para **15/07/21**. Link para entrega será disponibilizado nesta página em breve.
