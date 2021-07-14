@@ -15,24 +15,24 @@ Como o tema desta prática não pode ser explorado por meio dos simuladores comp
 Pesquisa a respeito das seguintes tecnologias de iluminação:
 - Lâmpadas incadescentes;
 - Lâmpadas fluorescentes compactas;
-- Lâmapdas fluorescentes tubulares;
-- Lâmapdas de vapor metálico; 
-- Lâmapdas halógenas;
-- Lâmapdas LED.
+- Lâmpadas fluorescentes tubulares;
+- Lâmpadas de vapor metálico; 
+- Lâmpadas halógenas;
+- Lâmpadas LED.
 
-Pequisa sobre acionamento de lâmpadas flourescences utilizando:
+Pesquisa sobre acionamento de lâmpadas flourescences utilizando:
 - Reator Convencional;
 - Reator Eletrônico.
 
-Pequisas sobre os seguintes métodos de acionamento automático:
+Pequisa sobre os seguintes métodos de acionamento automático:
 - Fotocélula;
 - Sensor de presença.
 
 Os resultados devem ser apresentados da mesma forma que nas práticas anteriores, ou seja, vídeo relatório de no máximo 10 minutos.
 
 ## Roteiro de Prática
-- [**Prática 6*: Luminotécnica](https://github.com/lucassm/lucassm.github.io/raw/master/files/LE-2021-1/Lab_Eletrotecnica_06.pdf).
+- [**Prática 6: Luminotécnica**](https://github.com/lucassm/lucassm.github.io/raw/master/files/LE-2021-1/Lab_Eletrotecnica_06.pdf)
 
 ## Material de apoio à pesquisa
-- [Capítulo 4 sobre Luminotécnica do Livro Instalações Elétricas Prediais](https://github.com/lucassm/lucassm.github.io/raw/master/files/LE-2021-1/instalaes-eltricas-prediais-cavalin-cervelin-cap-4.pdf).
+- [**Capítulo 4 sobre Luminotécnica do Livro Instalações Elétricas Prediais**](https://github.com/lucassm/lucassm.github.io/raw/master/files/LE-2021-1/instalaes-eltricas-prediais-cavalin-cervelin-cap-4.pdf)
 

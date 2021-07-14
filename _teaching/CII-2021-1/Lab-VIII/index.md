@@ -9,7 +9,7 @@ location: Fortaleza, Brazil
 ---
 
 ## Aulas
-[Video com explicação da prática VIII]()
+[Video com explicação da prática VIII](https://drive.google.com/file/d/1wF5Wai2fbTOKtGIx3byF9VrUR_fEa00z/view?usp=sharing)
 
 ## Documentos
 - [**Prática VII**: Compensação de Potência Reativa](https://github.com/lucassm/lucassm.github.io/raw/master/files/CII-2021-1/Lab-VIII-Compensao-Reativa-2021.pdf);
