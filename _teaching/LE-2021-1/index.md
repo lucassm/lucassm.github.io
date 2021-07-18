@@ -121,7 +121,7 @@ Práticas relacionadas aos aspectos teóricos de eletrotécnica:
 
 Práticas relacionadas aos aspectos práticos de projetos de instalações elétricas residenciais:
 - [**Prática 6**: Luminotécnica e acionamento de dispositivos de comando de iluminação](/teaching/LE-2021-1/Lab-6);
-- **Prática 7**: Projeto de instalações elétricas;
+- [**Prática 7**: Projeto de instalações elétricas](/teaching/LE-2021-1/Lab-7);
 
 # Avaliações e estrutura da nota
 
@@ -130,6 +130,8 @@ A nota da disciplina será composta pela média das notas alcançadas nas aprese
 $$NF = \sum_{i=1}^{7} NAP_{i}$$
 
 Em que, $NF$ é a nota final da disciplina; $NAP_{i}$ é a nota da apresentação de resultados $i$ em que $i$ é um índice que varia de 1 a 7 e representa o número da prática realizada.
+
+[**Tabela de Notas**](/teaching/LE-2021-1/notas)
 
 # Política de Plágio
 
