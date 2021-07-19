@@ -160,11 +160,11 @@ Os dois simuladores serão apresentados e o aluno deverá escolher e justificar 
 | 5  | 07/06/21 | V      | Prática 2                                               | Concluída|
 | 6  | 14/06/21 | VI     | Prática 3                                               | Concluída|
 | 7  | 21/06/21 | VII    | Prática 4                                               | Concluída|
-| 8  | 28/06/21 | VIII   | Prática 5                                               |Executando|
-| 9  | 05/07/21 | IX     | Não haverá encontro                                     | Pendente |
-| 10 | 12/07/21 | X      | Prática 6                                               | Pendente |
-| 11 | 19/07/21 | XI     | Prática 7                                               | Pendente |
-| 12 | 26/07/21 | XII    | Prática 7                                               | Pendente |
+| 8  | 28/06/21 | VIII   | Prática 5                                               | Concluída|
+| 9  | 05/07/21 | IX     | Não haverá encontro                                     | Concluída|
+| 10 | 12/07/21 | X      | Prática 6                                               | Concluída|
+| 11 | 19/07/21 | XI     | Prática 7                                               | Execut.  |
+| 12 | 26/07/21 | XII    | Prática 7                                               | Execut.  |
 | 13 | 02/08/21 | XIII   | Não haverá encontro                                     | Pendente |
 | 14 | 09/08/21 | XIV    | Não haverá encontro                                     | Pendente |
 | 15 | 16/08/21 | XV     | Não haverá encontro                                     | Pendente |

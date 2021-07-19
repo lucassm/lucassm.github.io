@@ -19,9 +19,9 @@ location: "Fortaleza, Brazil"
 |            | LETICIA ALENCAR FERNANDES         |   7,33  |  10,00  |   0,00  |   0,00  |   0,00  |         |         |
 |            | RAISSA CASTRO CYSNE               |   7,33  |  10,00  |   0,00  |   0,00  |   0,00  |         |         |
 |            |                                   |         |         |         |         |         |         |         |
-|  Equipe 03 | DIANA PEREIRA DE ALENCAR          |   5,00  |   0,00  |   0,00  |   0,00  |   0,00  |         |         |
-|            | VITORIA RAQUEL SILVA SERAFIM LIMA |   0,00  |   9,33  |   1,00  |   4,00  |   0,00  |         |         |
-|            | VITORIA SALES FARIAS              |   0,00  |   0,00  |   0,00  |   0,00  |   0,00  |         |         |
+|  Equipe 03 | DIANA PEREIRA DE ALENCAR          |   5,00  |   9,33  |   1,00  |   4,00  |   0,00  |         |         |
+|            | VITORIA RAQUEL SILVA SERAFIM LIMA |   5,00  |   9,33  |   1,00  |   4,00  |   0,00  |         |         |
+|            | VITORIA SALES FARIAS              |   5,00  |   9,33  |   1,00  |   4,00  |   0,00  |         |         |
 |            |                                   |         |         |         |         |         |         |         |
 |  Equipe 04 | BARBARA DA SILVA OLIVEIRA         |   8,00  |   8,33  |   8,67  |   8,00  |   0,00  |         |         |
 |            | LARA FABIAN SOUSA AGUIAR          |   8,00  |   7,00  |   7,00  |   4,00  |   0,00  |         |         |
@@ -34,7 +34,7 @@ location: "Fortaleza, Brazil"
 ## Turma 11
 
 |   Equipe   |             Integrantes            | Lab. 01 | Lab. 02 | Lab. 03 | Lab. 04 | Lab. 05 | Lab. 06 | Lab. 07 |
-|:----------:|:----------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+|:----------:|------------------------------------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 | Equipe 01  | MARIA LETICIA FERREIRA PEREIRA     |   9,33  |   5,33  |   8,00  |   5,00  |         |         |         |
 |            | ISADORA VASCONCELOS GOMES TAVARES  |   9,33  |   5,33  |   8,00  |   5,00  |         |         |         |
 |            | ANA BEATRIZ DELFINO DE QUEIROZ     |   9,33  |   5,33  |   8,00  |   5,00  |         |         |         |
@@ -52,16 +52,16 @@ location: "Fortaleza, Brazil"
 ## Turma 13
 
 |   Equipe   |             Integrantes             | Lab. 01 | Lab. 02 | Lab. 03 | Lab. 04 | Lab. 05 | Lab. 06 | Lab. 07|
-|:----------:|:-----------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:------:|
-| Equipe 01  | ANTONIO RICARDO AMANCIO LIMA JUNIOR |   8,67  |   9,67  |   2,00  |   0,00  |   0,00  |         |        |
-|            | BRENDA LIMA RAMOS                   |   8,67  |   9,67  |   2,00  |   0,00  |   0,00  |         |        |
-|            | JOANNA KAREN MONTEIRO CAVALCANTE    |   8,67  |   9,67  |   2,00  |   0,00  |   0,00  |         |        |
-|            | MARIA GABRIELA OLIVEIRA DE PINHO    |   8,67  |   9,67  |   2,00  |   0,00  |   0,00  |         |        |
+|:----------:|-------------------------------------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:------:|
+| Equipe 01  | ANTONIO RICARDO AMANCIO LIMA JUNIOR |   8,67  |   9,67  |   2,00  |   4,00  |   0,00  |         |        |
+|            | BRENDA LIMA RAMOS                   |   8,67  |   9,67  |   2,00  |   4,00  |   0,00  |         |        |
+|            | JOANNA KAREN MONTEIRO CAVALCANTE    |   8,67  |   9,67  |   2,00  |   4,00  |   0,00  |         |        |
+|            | MARIA GABRIELA OLIVEIRA DE PINHO    |   8,67  |   9,67  |   2,00  |   4,00  |   0,00  |         |        |
 |  Equipe 02 | MATHEUS VASCONCELOS NASCIMENTO      |  10,00  |   9,33  |   9,33  |  10,00  |   0,00  |         |        |
 |            | LYSSANDRA MENESES DE OLIVEIRA LUCAS |  10,00  |   9,33  |   9,33  |  10,00  |   0,00  |         |        |
 |            | LUCAS CIPRIANO FEITOSA BRANDÃO      |   0,00  |   9,33  |   9,33  |  10,00  |   0,00  |         |        |
 |  Equipe 03 | HILLDYSON MOREIRA LEVY              |  10,00  |  10,00  |  10,00  |  10,00  |   0,00  |         |        |
-|  Equipe 04 | FRANCISCO GABRIEL MOREIRA SAMPAIO   |  10,00  |   0,00  |   0,00  |  10,00  |   0,00  |         |        |
-|            | KAUA SOUZA MAIA                     |   0,00  |  10,00  |   0,00  |   0,00  |   0,00  |         |        |
-|            | MARC ROBERT DONN SIMEUS             |   0,00  |   0,00  |   9,00  |   0,00  |   0,00  |         |        |
-|            | VITOR JUCA POLICARPO                |   0,00  |   0,00  |   0,00  |   0,00  |   0,00  |         |        |
+|  Equipe 04 | FRANCISCO GABRIEL MOREIRA SAMPAIO   |  10,00  |  10,00  |   9,00  |  10,00  |   0,00  |         |        |
+|            | KAUA SOUZA MAIA                     |  10,00  |  10,00  |   9,00  |  10,00  |   0,00  |         |        |
+|            | MARC ROBERT DONN SIMEUS             |  10,00  |  10,00  |   9,00  |  10,00  |   0,00  |         |        |
+|            | VITOR JUCA POLICARPO                |  10,00  |  10,00  |   9,00  |  10,00  |   0,00  |         |        |
