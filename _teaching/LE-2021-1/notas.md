@@ -10,7 +10,7 @@ location: "Fortaleza, Brazil"
 ## Turma 10 
 
 |   Equipe   |            Integrantes            | Lab. 01 | Lab. 01 | Lab. 03 | Lab. 04 | Lab. 05 | Lab. 06 | Lab. 07 |
-|:----------:|:---------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+|:----------:|-----------------------------------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 | Equipe 01  | FRANCISCO LUCAS DE SOUZA PEREIRA  |   8,00  |  10,00  |   0,00  |   0,00  |   0,00  |         |         |
 |            | INGRID LIMA SANTOS                |   8,00  |  10,00  |   0,00  |   0,00  |   0,00  |         |         |
 |            | JOAO VITOR DA SILVA DE MENEZES    |   8,00  |  10,00  |   0,00  |   0,00  |   0,00  |         |         |
@@ -32,6 +32,7 @@ location: "Fortaleza, Brazil"
 |            | PEDRO HENRIQUE GOMES FERREIRA     |  10,00  |  10,00  |   0,00  |   0,00  |   0,00  |         |         |
 
 ## Turma 11
+
 |   Equipe   |             Integrantes            | Lab. 01 | Lab. 02 | Lab. 03 | Lab. 04 | Lab. 05 | Lab. 06 | Lab. 07 |
 |:----------:|:----------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 | Equipe 01  | MARIA LETICIA FERREIRA PEREIRA     |   9,33  |   5,33  |   8,00  |   5,00  |         |         |         |
@@ -49,6 +50,7 @@ location: "Fortaleza, Brazil"
 
 
 ## Turma 13
+
 |   Equipe   |             Integrantes             | Lab. 01 | Lab. 02 | Lab. 03 | Lab. 04 | Lab. 05 | Lab. 06 | Lab. 07|
 |:----------:|:-----------------------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:------:|
 | Equipe 01  | ANTONIO RICARDO AMANCIO LIMA JUNIOR |   8,67  |   9,67  |   2,00  |   0,00  |   0,00  |         |        |
