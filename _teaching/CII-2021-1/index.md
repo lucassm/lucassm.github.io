@@ -65,7 +65,7 @@ Conteúdos e listagem das práticas a serem realizadas na disciplina:
 - [Lab VI: Simulação RLC](/teaching/CII-2021-1/Lab-VI);
 - [Lab VII: Potência Monofásica](/teaching/CII-2021-1/Lab-VII);
 - [Lab VIII: Compensação de Reativos](/teaching/CII-2021-1/Lab-VIII);
-- Lab IX: Ressonância;
+- [Lab IX: Ressonância](/teaching/CII-2021-1/Lab-IX);
 - Lab X: Equivalente de Thévenin;
 - Lab XI: Circuitos Trifásicos Equilibrados;
 - Lab XII: Circuitos Trifásicos Desequilibrados.
@@ -77,6 +77,8 @@ A nota da disciplina será composta pela média das notas alcançadas nas aprese
 $$NF = \sum_{i=1}^{7} NAP_{i}$$
 
 Em que, $NF$ é a nota final da disciplina; $NAP_{i}$ é a nota da apresentação de resultados $i$ em que $i$ é um índice que varia de 1 a 7 e representa o número da prática realizada.
+
+[**Tabela de Notas**](/teaching/CII-2021-1/notas)
 
 # Política de Plágio
 
@@ -109,8 +111,8 @@ Os simuladores serão apresentados e o aluno deverá escolher e justificar a sua
 | 7    | 22/06/21   | VII      | Lab VI                                                    | Concluída  |
 | 8    | 29/06/21   | VIII     | Lab VII                                                   | Concluída  |
 | 9    | 06/07/21   | IX       | Não haverá encontro                                       | Concluída  |
-| 10   | 13/07/21   | X        | Lab VIII                                                  | Executando |
-| 11   | 20/07/21   | XI       | Lab IX                                                    | Pendente   |
+| 10   | 13/07/21   | X        | Lab VIII                                                  | Concluída  |
+| 11   | 20/07/21   | XI       | Lab IX                                                    | Executando |
 | 12   | 27/07/21   | XII      | Lab X                                                     | Pendente   |
 | 13   | 03/08/21   | XIII     | Lab XI                                                    | Pendente   |
 | 14   | 10/08/21   | XIV      | Lab XII                                                   | Pendente   |
