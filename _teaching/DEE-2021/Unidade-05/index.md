@@ -23,6 +23,3 @@ location: Fortaleza, Brazil
 
 ## Exemplos
 Em breve
-<!-- - [Exemplo 7-1]()
-- [Exemplo 7-2]()
-- [Exemplo 7-3]() -->
