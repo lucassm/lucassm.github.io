@@ -52,7 +52,7 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - [**Unidade 02**](/teaching/DEE-2021/Unidade-02): Natureza das cargas no SDEE;
 - [**Unidade 03**](/teaching/DEE-2021/Unidade-03): Métodos aproximados de análise;
 - [**Unidade 04**](/teaching/DEE-2021/Unidade-04): Linhas de distribuição de eletricidade;
-- **Unidade 05**: Regulação de tensão em redes de distribuição de eletricidade; 
+- [**Unidade 05**](/teaching/DEE-2021/Unidade-05): Regulação de tensão em redes de distribuição de eletricidade; 
 - **Unidade 06**: Transformadores de distribuição trifásicos;
 - **Unidade 07**: Análise de alimentadores de distribuição utilizando ferramentas computacionais;
 - **Unidade 08**: Introdução a proteção de sistemas de distribuição.
