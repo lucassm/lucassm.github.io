@@ -53,8 +53,8 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - [**Unidade 03**](/teaching/DEE-2021/Unidade-03): Métodos aproximados de análise;
 - [**Unidade 04**](/teaching/DEE-2021/Unidade-04): Linhas de distribuição de eletricidade;
 - [**Unidade 05**](/teaching/DEE-2021/Unidade-05): Regulação de tensão em redes de distribuição de eletricidade; 
-- **Unidade 06**: Transformadores de distribuição trifásicos;
-- **Unidade 07**: Análise de alimentadores de distribuição utilizando ferramentas computacionais;
+- [**Unidade 06**](/teaching/DEE-2021/Unidade-06): Transformadores de distribuição trifásicos;
+- [**Unidade 07**](/teaching/DEE-2021/Unidade-07): Análise de alimentadores de distribuição utilizando ferramentas computacionais;
 - **Unidade 08**: Introdução a proteção de sistemas de distribuição.
 
 # Avaliações
@@ -150,10 +150,10 @@ O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**n
 | 27/07/21 	| XII    	| Unidade 06                                              	| Pendente   	|
 | 29/07/21 	| XII    	| Unidade 06                                              	| Pendente   	|
 | 03/08/21 	| XIII   	| Unidade 06                                              	| Pendente   	|
-| 05/08/21 	| XIII   	| Unidade 07                                              	| Pendente   	|
-| 10/08/21 	| XIV    	| Unidade 07                                              	| Pendente   	|
-| 12/08/21 	| XIV    	| Unidade 07                                              	| Pendente   	|
-| 17/08/21 	| XV     	| Unidade 07                                              	| Pendente   	|
+| 05/08/21 	| XIII   	| Unidade 07                                              	| Executando   	|
+| 10/08/21 	| XIV    	| Unidade 07                                              	| Executando   	|
+| 12/08/21 	| XIV    	| Unidade 07                                              	| Executando   	|
+| 17/08/21 	| XV     	| Unidade 07                                              	| Executando   	|
 | 19/08/21 	| XV     	| Unidade 08                                              	| Pendente   	|
 | 24/08/21 	| XVI    	| Unidade 08                                              	| Pendente   	|
 | 26/08/21 	| XVI    	| Revisão de Conteúdo                                     	| Pendente   	|
