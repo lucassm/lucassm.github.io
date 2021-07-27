@@ -66,7 +66,7 @@ Conteúdos e listagem das práticas a serem realizadas na disciplina:
 - [Lab VII: Potência Monofásica](/teaching/CII-2021-1/Lab-VII);
 - [Lab VIII: Compensação de Reativos](/teaching/CII-2021-1/Lab-VIII);
 - [Lab IX: Ressonância](/teaching/CII-2021-1/Lab-IX);
-- Lab X: Equivalente de Thévenin(/teaching/CII-2021-1/Lab-X);
+- [Lab X: Equivalente de Thévenin](/teaching/CII-2021-1/Lab-X);
 - Lab XI: Circuitos Trifásicos Equilibrados;
 - Lab XII: Circuitos Trifásicos Desequilibrados.
 
