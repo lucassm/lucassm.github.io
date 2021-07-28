@@ -4,7 +4,7 @@ collection: teaching
 permalink: /teaching/DEE-2021
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 excerpt: "Página dedicada à disciplina de Distribuição de Energia Elétrica - 2021.1"
-date: 2021-06-24
+date: 2021-07-28
 location: "Fortaleza, Brazil"
 ---
 
@@ -143,13 +143,13 @@ O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**n
 | 01/07/21 	| VIII   	| Unidade 04                                              	| Concluída   	|
 | 06/07/21 	| IX     	| Unidade 05                                              	| Executando   	|
 | 08/07/21 	| IX     	| **Tira dúvidas do trabalho**                             	| Concluída   	|
-| 13/07/21 	| X      	| Unidade 05                                              	| Executando   	|
+| 13/07/21 	| X      	| Unidade 05                                              	| Concluída   	|
 | 15/07/21 	| X      	| **Data prevista para entrega do Trabalho 01**           	| Concluída   	|
-| 20/07/21 	| XI     	| Unidade 05                                              	| Executando   	|
-| 22/07/21 	| XI     	| Unidade 06                                              	| Pendente   	|
-| 27/07/21 	| XII    	| Unidade 06                                              	| Pendente   	|
-| 29/07/21 	| XII    	| Unidade 06                                              	| Pendente   	|
-| 03/08/21 	| XIII   	| Unidade 06                                              	| Pendente   	|
+| 20/07/21 	| XI     	| Unidade 05                                              	| Concluída   	|
+| 22/07/21 	| XI     	| Unidade 06                                              	| Executando   	|
+| 27/07/21 	| XII    	| Unidade 06                                              	| Executando   	|
+| 29/07/21 	| XII    	| Unidade 06                                              	| Executando   	|
+| 03/08/21 	| XIII   	| Unidade 06                                              	| Executando   	|
 | 05/08/21 	| XIII   	| Unidade 07                                              	| Executando   	|
 | 10/08/21 	| XIV    	| Unidade 07                                              	| Executando   	|
 | 12/08/21 	| XIV    	| Unidade 07                                              	| Executando   	|
