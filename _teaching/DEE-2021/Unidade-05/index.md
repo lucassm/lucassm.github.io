@@ -9,10 +9,10 @@ location: Fortaleza, Brazil
 ---
 
 ## Aulas
-- [Parte 1](https://drive.google.com/file/d/1JWiRDx4I1AQcZsghoSkPaY5BIixlmch1/view?usp=sharing)
+- [Parte 1](https://drive.google.com/file/d/1PUYne5x1RL73m23CtuyQeDB1xr9cM0cU/view?usp=sharing)
 - [Parte 2](https://drive.google.com/file/d/1MQihdiHknAoS-bIurBAuQ9O15jaqnTF-/view?usp=sharing)
-- [Parte 3](https://drive.google.com/file/d/1PUYne5x1RL73m23CtuyQeDB1xr9cM0cU/view?usp=sharing)
-- [Parte 4](https://drive.google.com/file/d/1VhZgXmmx0BvnJ_C4GBk9uGiqmJj9qxk1/view?usp=sharing)
+- [Parte 3](https://drive.google.com/file/d/1VhZgXmmx0BvnJ_C4GBk9uGiqmJj9qxk1/view?usp=sharing)
+- [Parte 4](https://drive.google.com/file/d/1JWiRDx4I1AQcZsghoSkPaY5BIixlmch1/view?usp=sharing)
 - [Parte 5](https://drive.google.com/file/d/1wL54Ig3QsPnANUWSEjsJsouPWAOTkBCA/view?usp=sharing)
 
 ## Exemplos
