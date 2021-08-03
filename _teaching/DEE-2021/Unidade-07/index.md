@@ -26,8 +26,14 @@ location: Fortaleza, Brazil
 - [Aula 14: Função Plot](https://youtu.be/QIU1PYmM5_8)
 - [Aula 15: Conclusão](https://youtu.be/raVBgD-DQcQ)
 
-## Material
+## Textos
 - [Primer do OpenDSS](http://sourceforge.net/p/electricdss/code/HEAD/tree/trunk/Distrib/Doc/OpenDSSPrimer.pdf)
+- [Análise de alimentadores de distribuição](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/Unidade-10-Analise-de-Alimentadores-de-Distribuicao-protected.pdf)
+
+## Slides
+- - [Aula 7: Análise de alimentadores de distribuição](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/aula7.pdf)
+
 
 ## Links Úteis
 - [Site do OpenDSS](https://sourceforge.net/projects/electricdss/)
+
