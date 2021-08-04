@@ -26,6 +26,9 @@ location: Fortaleza, Brazil
 - [Aula 14: Função Plot](https://youtu.be/QIU1PYmM5_8)
 - [Aula 15: Conclusão](https://youtu.be/raVBgD-DQcQ)
 
+## Aulas com professor Lucas Melo
+- [Fluxo de scrga em sistemas de distribuição, OpenDSS e trabalho final](https://drive.google.com/file/d/1pgeT595Qqqej-P4Zm2nUU94YrcmPD84w/view?usp=sharing)
+
 ## Textos
 - [Primer do OpenDSS](http://sourceforge.net/p/electricdss/code/HEAD/tree/trunk/Distrib/Doc/OpenDSSPrimer.pdf)
 - [Análise de alimentadores de distribuição](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021/Unidade-10-Analise-de-Alimentadores-de-Distribuicao-protected.pdf)
