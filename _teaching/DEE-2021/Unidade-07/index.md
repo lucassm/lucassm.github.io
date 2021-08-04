@@ -27,7 +27,7 @@ location: Fortaleza, Brazil
 - [Aula 15: Conclusão](https://youtu.be/raVBgD-DQcQ)
 
 ## Aulas com professor Lucas Melo
-- [Fluxo de scrga em sistemas de distribuição, OpenDSS e trabalho final](https://drive.google.com/file/d/1pgeT595Qqqej-P4Zm2nUU94YrcmPD84w/view?usp=sharing)
+- [Fluxo de carga em sistemas de distribuição, OpenDSS e trabalho final](https://drive.google.com/file/d/1pgeT595Qqqej-P4Zm2nUU94YrcmPD84w/view?usp=sharing)
 
 ## Textos
 - [Primer do OpenDSS](http://sourceforge.net/p/electricdss/code/HEAD/tree/trunk/Distrib/Doc/OpenDSSPrimer.pdf)
