@@ -68,7 +68,7 @@ Conteúdos e listagem das práticas a serem realizadas na disciplina:
 - [Lab IX: Ressonância](/teaching/CII-2021-1/Lab-IX);
 - [Lab X: Equivalente de Thévenin](/teaching/CII-2021-1/Lab-X);
 - [Lab XI: Circuitos Trifásicos Equilibrados](/teaching/CII-2021-1/Lab-XI);
-- Lab XII: Circuitos Trifásicos Desequilibrados.
+- [Lab XII: Circuitos Trifásicos Desequilibrados](/teaching/CII-2021-1/Lab-XII).
 
 # Avaliações e estrutura da nota
 
