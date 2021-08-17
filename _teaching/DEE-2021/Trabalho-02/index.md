@@ -122,7 +122,7 @@ location: Fortaleza, Brazil
 
 ## Outras instruções
 - As equipes devem ser compostas por no máximo 5 integrantes; 
-- [Vídeo explicativo]();
+- [Vídeo explicativo](https://drive.google.com/file/d/1nW1IJzD57kkcNDi2JIb0T2MFCs2Xf9Fw/view?usp=sharing);
 - [Lista com os nomes dos integrantes de cada equipe](/teaching/DEE-2021/Trabalho-01/Equipes)
 
 ## Dúvidas
