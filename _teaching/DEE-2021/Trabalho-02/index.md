@@ -4,7 +4,7 @@ collection: teaching
 type: conteudo
 permalink: /teaching/DEE-2021/Trabalho-02
 venue: Federal University of Ceara, Department of Electrical Engineering
-date: 2021-08-03
+date: 2021-08-20
 location: Fortaleza, Brazil
 ---
 
@@ -123,10 +123,10 @@ location: Fortaleza, Brazil
 ## Outras instruções
 - As equipes devem ser compostas por no máximo 5 integrantes; 
 - [Vídeo explicativo](https://drive.google.com/file/d/1nW1IJzD57kkcNDi2JIb0T2MFCs2Xf9Fw/view?usp=sharing);
-- [Lista com os nomes dos integrantes de cada equipe](/teaching/DEE-2021/Trabalho-01/Equipes)
+- [Lista com os nomes dos integrantes de cada equipe](/teaching/DEE-2021/Trabalho-01/Equipes).
 
 ## Dúvidas
-Em breve.
+- [Vídeo gravado em 19/08/21 com esclarecimento de dúvidas a respeito do trbalho 02 de Distribuição](https://drive.google.com/file/d/1S2rY3kXHKTMPBZI6ya-9PXGEPij4jN3o/view?usp=sharing).
 
 ## Data de Entrega
 Prevista para **24/08/21**. Link para entrega será disponibilizado nesta página em breve.
