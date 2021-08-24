@@ -1,6 +1,6 @@
 ---
 title: "Notas de Laboratório de Circuitos Elétricos em Corrente Alternada"
-collection: teaching
+collection: conteudo
 permalink: /teaching/CII-2021-1/notas
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 date: 2021-05-16

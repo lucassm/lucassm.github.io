@@ -1,6 +1,6 @@
 ---
 title: "Notas de Laboratório de Eletrotécnica"
-collection: teaching
+collection: conteudo
 permalink: /teaching/LE-2021-1/notas
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 date: 2021-08-24
