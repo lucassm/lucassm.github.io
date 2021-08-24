@@ -7,7 +7,7 @@ date: 2021-08-24
 location: "Fortaleza, Brazil"
 ---
 
-## Notas
+## Notas do Trabalho 01
 
 | Equipe     | Integrantes                              |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1 |  1  |  1  |       |
 |------------|------------------------------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:---:|:---:|:-----:|
@@ -56,3 +56,7 @@ location: "Fortaleza, Brazil"
 |            | Marcos Vinicius Freire Sampaio           |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0  |  0  |  0,00 |
 |            | Raimundo Cesar Ribeiro Leite Filho       |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0  |  0  |  0,00 |
 |            | Regina Celly de Almeida e Silva Pinheiro |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0  |  0  |  0,00 |
+
+## Notas do Trabalho 02
+
+**Em breve.**
