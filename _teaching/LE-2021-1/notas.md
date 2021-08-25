@@ -30,7 +30,7 @@ location: "Fortaleza, Brazil"
 |            |                                   |         |         |         |         |         |         |         |         |       |
 | Equipe 05  | DANIEL AQUER DE MIRANDA ALMEIDA   | 10,00   | 10,00   | 0,00    | 0,00    | 9,20    | 9,50    | 5,00    | 5,00    | 6,09  |
 |            | JOABE ANGELO DE SOUSA             | 10,00   | 10,00   | 0,00    | 0,00    | 9,20    | 9,50    | 5,00    | 5,00    | 6,09  |
-|            | PEDRO HENRIQUE GOMES FERREIRA     | 10,00   | 10,00   | 0,00    | 0,00    | 9,20    | 0,00    | 5,00    | 5,00    | 4,90  |
+|            | PEDRO HENRIQUE GOMES FERREIRA     | 10,00   | 10,00   | 0,00    | 0,00    | 9,20    | 9,50    | 5,00    | 5,00    | 6,09  |
 
 ## Turma 11
 
