@@ -12,9 +12,9 @@ location: "Fortaleza, Brazil"
 | Equipe     | Integrantes                       | Lab. 01 | Lab. 02 | Lab. 03 | Lab. 04 | Lab. 05 | Lab. 06 | Lab. 07 | Lab. 07 | Média |
 |------------|-----------------------------------|---------|---------|---------|---------|---------|---------|---------|---------|-------|
 |            |                                   |         |         |         |         |         |         | a       | b       |       |
-| Equipe 01  | FRANCISCO LUCAS DE SOUZA PEREIRA  | 8,00    | 10,00   | 0,00    | 0,00    | 9,50    | 9,90    | 0,00    | 0,00    | 4,68  |
-|            | INGRID LIMA SANTOS                | 8,00    | 10,00   | 0,00    | 0,00    | 9,50    | 9,90    | 0,00    | 0,00    | 4,68  |
-|            | JOAO VITOR DA SILVA DE MENEZES    | 8,00    | 10,00   | 0,00    | 0,00    | 9,50    | 9,90    | 0,00    | 0,00    | 4,68  |
+| Equipe 01  | FRANCISCO LUCAS DE SOUZA PEREIRA  | 8,00    | 10,00   | 0,00    | 0,00    | 9,50    | 9,90    | 7,00    | 7,00    | 6,43  |
+|            | INGRID LIMA SANTOS                | 8,00    | 10,00   | 0,00    | 0,00    | 9,50    | 9,90    | 7,00    | 7,00    | 6,43  |
+|            | JOAO VITOR DA SILVA DE MENEZES    | 8,00    | 10,00   | 0,00    | 0,00    | 9,50    | 9,90    | 7,00    | 7,00    | 6,43  |
 |            |                                   |         |         |         |         |         |         |         |         |       |
 | Equipe 02  | FRANCISCO ERISSON ALVES ALMEIDA   | 7,33    | 10,00   | 0,00    | 0,00    | 9,20    | 9,50    | 5,00    | 5,00    | 5,75  |
 |            | LETICIA ALENCAR FERNANDES         | 7,33    | 10,00   | 0,00    | 0,00    | 9,20    | 9,50    | 5,00    | 5,00    | 5,75  |
@@ -28,9 +28,9 @@ location: "Fortaleza, Brazil"
 |            | LARA FABIAN SOUSA AGUIAR          | 8,00    | 7,00    | 7,00    | 4,00    | 9,50    | 9,30    | 3,00    | 3,00    | 6,35  |
 |            | SAMUEL DHILAN CAMPOS SILVA        | 0,00    | 0,00    | 0,00    | 0,00    | 0,00    | 0,00    | 0,00    | 0,00    | 0,00  |
 |            |                                   |         |         |         |         |         |         |         |         |       |
-| Equipe 05  | DANIEL AQUER DE MIRANDA ALMEIDA   | 10,00   | 10,00   | 0,00    | 0,00    | 9,20    | 9,50    | 0,00    | 0,00    | 4,84  |
-|            | JOABE ANGELO DE SOUSA             | 10,00   | 10,00   | 0,00    | 0,00    | 9,20    | 9,50    | 0,00    | 0,00    | 4,84  |
-|            | PEDRO HENRIQUE GOMES FERREIRA     | 10,00   | 10,00   | 0,00    | 0,00    | 9,20    | 0,00    | 0,00    | 0,00    | 3,65  |
+| Equipe 05  | DANIEL AQUER DE MIRANDA ALMEIDA   | 10,00   | 10,00   | 0,00    | 0,00    | 9,20    | 9,50    | 5,00    | 5,00    | 6,09  |
+|            | JOABE ANGELO DE SOUSA             | 10,00   | 10,00   | 0,00    | 0,00    | 9,20    | 9,50    | 5,00    | 5,00    | 6,09  |
+|            | PEDRO HENRIQUE GOMES FERREIRA     | 10,00   | 10,00   | 0,00    | 0,00    | 9,20    | 0,00    | 5,00    | 5,00    | 4,90  |
 
 ## Turma 11
 
@@ -65,7 +65,7 @@ location: "Fortaleza, Brazil"
 |            |                                     |         |         |         |         |         |         |         |         |       |
 | Equipe 02  | MATHEUS VASCONCELOS NASCIMENTO      | 10,00   | 9,33    | 9,33    | 10,00   | 9,00    | 9,60    | 9,00    | 9,00    | 9,41  |
 |            | LYSSANDRA MENESES DE OLIVEIRA LUCAS | 10,00   | 9,33    | 9,33    | 10,00   | 9,00    | 9,60    | 9,00    | 9,00    | 9,41  |
-|            | LUCAS CIPRIANO FEITOSA BRANDÃO      | 0,00    | 9,33    | 9,33    | 10,00   | 9,00    | 9,60    | 9,00    | 9,00    | 8,16  |
+|            | LUCAS CIPRIANO FEITOSA BRANDÃO      | 10,00   | 9,33    | 9,33    | 10,00   | 9,00    | 9,60    | 9,00    | 9,00    | 9,41  |
 |            |                                     |         |         |         |         |         |         |         |         |       |
 | Equipe 03  | HILLDYSON MOREIRA LEVY              | 10,00   | 10,00   | 10,00   | 10,00   | 9,80    | 9,90    | 7,00    | 7,00    | 9,21  |
 |            |                                     |         |         |         |         |         |         |         |         |       |
