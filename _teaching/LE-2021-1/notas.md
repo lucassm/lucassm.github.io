@@ -9,7 +9,7 @@ location: "Fortaleza, Brazil"
 
 ## Resultado Final da Disciplina
 
-<embed src="{{ '/teaching/LE-2021-1/Notas-Lab-Eletrotecnica-2021-1.pdf'|url }}" alt="Resultado Final" width="300" height="100">
+<embed src="{{ '/teaching/LE-2021-1/Notas-Lab-Eletrotecnica-2021-1.pdf'|url }}" alt="Resultado Final" width="300" height="150">
 
 ## Turma 10 
 
