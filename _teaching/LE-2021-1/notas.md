@@ -7,6 +7,12 @@ date: 2021-08-24
 location: "Fortaleza, Brazil"
 ---
 
+## Resultado Final da Disciplina
+
+<div class="text-center">
+    <embed src="{{ '/teaching/DEE-2021/Unidade-03/Notas-Lab-Eletrotecnica-2021-1.pdf'|url }}" alt="Resultado Final" width="300">
+</div>
+
 ## Turma 10 
 
 | Equipe     | Integrantes                       | Lab. 01 | Lab. 02 | Lab. 03 | Lab. 04 | Lab. 05 | Lab. 06 | Lab. 07 | Lab. 07 | Média |
