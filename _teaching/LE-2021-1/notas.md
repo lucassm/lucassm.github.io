@@ -11,6 +11,8 @@ location: "Fortaleza, Brazil"
 
 <embed src="{{ '/teaching/LE-2021-1/Notas-Lab-Eletrotecnica-2021-1.pdf'|url }}" alt="Resultado Final" width="300" height="150">
 
+[Link para download](https://github.com/lucassm/lucassm.github.io/raw/master/_teaching/LE-2021-1/Notas-Lab-Eletrotecnica-2021-1.pdf)
+
 ## Turma 10 
 
 | Equipe     | Integrantes                       | Lab. 01 | Lab. 02 | Lab. 03 | Lab. 04 | Lab. 05 | Lab. 06 | Lab. 07 | Lab. 07 | Média |
