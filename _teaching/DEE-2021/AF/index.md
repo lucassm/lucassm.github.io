@@ -1,5 +1,5 @@
 ---
-title: "Distribuição de Energia Elétrica - Unidade 01"
+title: "Distribuição de Energia Elétrica - Avaliação Final"
 collection: teaching
 type: conteudo
 permalink: /teaching/DEE-2021/af
