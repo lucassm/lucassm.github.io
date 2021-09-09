@@ -19,6 +19,6 @@ location: Fortaleza, Brazil
 
 ## Arquivo para realizaçao da avaliação
 
-<embed src="{{ '/_teaching/DEE-2021/AF/avaliacao-final-dee-2021-1.pdf'|url }}" alt="Resultado Final" width="300" height="150">
+<embed src="{{ '/_teaching/DEE-2021/AF/avaliacao-final-dee-2021-1.pdf'|url }}" alt="Avaliação Final" width="300" height="150">
 
 [Link para download](https://github.com/lucassm/lucassm.github.io/raw/master/_teaching/DEE-2021/AF/avaliacao-final-dee-2021-1.pdf)
