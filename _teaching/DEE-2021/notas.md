@@ -7,6 +7,12 @@ date: 2021-08-24
 location: "Fortaleza, Brazil"
 ---
 
+## Resultado Final
+
+<embed src="{{ '/teaching/DEE-2021/resultado-final-sdee-2021-1.pdf'|url }}" alt="Resultado Final" width="300" height="150">
+
+[Link para download](https://github.com/lucassm/lucassm.github.io/raw/master/_teaching/DEE-2021/resultado-final-sdee-2021-1.pdf)
+
 ## Notas do Trabalho 01
 
 | Equipe     | Integrantes                          | 1,00 | 1,00 | 1,00 | 1,00 | 1,00 | 1,00 | 1,00 | 1,00 | 1,00 | 1,00 | 1,00 |← Pesos|
