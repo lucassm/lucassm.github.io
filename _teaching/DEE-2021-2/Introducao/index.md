@@ -25,6 +25,3 @@ Videos com informações introdutórias sobre o desenvolvimento da disciplina:
 [Artigo sobre o sistema de testes de distribuição de energia elétrica IEEE 13 barras](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021-2/testfeeders.pdf)
 
 ## Links
-
-Acesso à lista de transmissão do Telegram: Clique [aqui](https://t.me/joinchat/ssPExuuTY9JjODQx) para soicitar acesso.
-

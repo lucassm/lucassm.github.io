@@ -3,7 +3,7 @@ title: "Distribuição de Energia Elétrica"
 collection: teaching
 permalink: /teaching/DEE-2021-2
 venue: "Federal University of Ceara, Department of Electrical Engineering"
-excerpt: "Página dedicada à disciplina de Distribuição de Energia Elétrica - 2021.1"
+excerpt: "Página dedicada à disciplina de Distribuição de Energia Elétrica - 2021.2"
 date: 2021-10-01
 location: "Fortaleza, Brazil"
 ---
@@ -45,15 +45,15 @@ Esta disciplina irá dedicar-se ao estudo das características e especificidades
 # Conteúdo
 
 Conteúdo programado para ser ministrado no decorrer da disciplina:
-- [**Introdução**](/teaching/DEE-2021/Introducao): Informações iniciais sobre a disciplina **Disponível*;
-- [**Unidade 01**](/teaching/DEE-2021/Unidade-01): Introdução ao SDEE **A ser postado**;
-- [**Unidade 02**](/teaching/DEE-2021/Unidade-02): Natureza das cargas no SDEE **A ser postado**;
-- [**Unidade 03**](/teaching/DEE-2021/Unidade-03): Métodos aproximados de análise **A ser postado**;
-- [**Unidade 04**](/teaching/DEE-2021/Unidade-04): Linhas de distribuição de eletricidade **A ser postado**;
-- [**Unidade 05**](/teaching/DEE-2021/Unidade-05): Regulação de tensão em redes de distribuição de eletricidade **A ser postado**; 
-- [**Unidade 06**](/teaching/DEE-2021/Unidade-06): Transformadores de distribuição trifásicos **A ser postado**;
-- [**Unidade 07**](/teaching/DEE-2021/Unidade-07): Análise de alimentadores de distribuição utilizando ferramentas computacionais **A ser postado**;
-- **Unidade 08**: Introdução a proteção de sistemas de distribuição **A ser postado**.
+- [**Introdução**](/teaching/DEE-2021-2/Introducao): Informações iniciais sobre a disciplina **Disponível*;
+- [**Unidade 01**](/teaching/DEE-2021-2/Unidade-01): Introdução ao SDEE - **A ser postado**;
+- [**Unidade 02**](/teaching/DEE-2021-2/Unidade-02): Natureza das cargas no SDEE - **A ser postado**;
+- [**Unidade 03**](/teaching/DEE-2021-2/Unidade-03): Métodos aproximados de análise - **A ser postado**;
+- [**Unidade 04**](/teaching/DEE-2021-2/Unidade-04): Linhas de distribuição de eletricidade - **A ser postado**;
+- [**Unidade 05**](/teaching/DEE-2021-2/Unidade-05): Regulação de tensão em redes de distribuição de eletricidade - **A ser postado**; 
+- [**Unidade 06**](/teaching/DEE-2021-2/Unidade-06): Transformadores de distribuição trifásicos - **A ser postado**;
+- [**Unidade 07**](/teaching/DEE-2021-2/Unidade-07): Análise de alimentadores de distribuição utilizando ferramentas computacionais - **A ser postado**;
+- [**Unidade 08**](/teaching/DEE-2021-2/Unidade-08): Introdução a proteção de sistemas de distribuição - **A ser postado**.
 
 # Avaliações
 
@@ -67,15 +67,15 @@ Conteúdo da **Avaliação Parcial 01**:
 
 Conteúdo da **Avaliação Parcial 02**:
 - **Unidade 05**: Regulação de tensão em redes de distribuição de eletricidade; 
-- **Unidade 06**: Transformadores de distribuição trifásicos;**A ser postado**
+- **Unidade 06**: Transformadores de distribuição trifásicos;
 - **Unidade 07**: Análise de alimentadores de distribuição utilizando ferramentas computacionais;
 - **Unidade 08**: Introdução a proteção de sistemas de distribuição.
 
 # Trabalhos
 
 Previsão para temas de trabalhos computacionais a serem desenvolvidos no decorrer da disciplina:
-- [**Trabalho 1**: Análise de cargas em SDEE](/teaching/DEE-2021/Trabalho-01) **A ser postado**;
-- [**Trabalho 2**: Modelagem de sistemas de distribuição de análise de fluxo de carga](/teaching/DEE-2021/Trabalho-02) **A ser postado**.
+- [**Trabalho 1**: Análise de cargas em SDEE](/teaching/DEE-2021-2/Trabalho-01) **A ser postado**;
+- [**Trabalho 2**: Modelagem de sistemas de distribuição de análise de fluxo de carga](/teaching/DEE-2021-2/Trabalho-02) **A ser postado**.
 
 <br>
 <!-- [**Lista de divisão das equipes de trabalho**](/teaching/DEE-2021/Trabalho-01/Equipes) -->
@@ -84,7 +84,7 @@ Previsão para temas de trabalhos computacionais a serem desenvolvidos no decorr
 
 A nota da disciplina será composta pela média ponderada dos trabalhos computacionais realizados:
 
-$$NF = \frac{0,6 * NT_1 + 0,4 * NT_2)}{2}$$
+$$NF = \frac{0,6 \cdot NT_1 + 0,4 \cdot NT_2)}{2}$$
 
 Em que, $NF$ é a nota final da disciplina e $NT_1$, $NT_2$ são as notas notas obitidas nos trabalhos computacionais.
 
@@ -157,9 +157,9 @@ O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**n
 |    31   |**Semana 5**|          -          |      -     | Unidade 08 |      -     |
 
 **Legenda**
-TS:  Término do semestre
-IAF: Início do período de Avaliações Finais  
-AF:  Avaliação Final
-AM:  Divulgação dos Aprovados por média
-TAF: Término do período de Avaliações Finais  
-CSNF:    Consolidação das sínteses de notas e frequências 2019.1
+TS:  Término do semestre<br>
+IAF: Início do período de Avaliações Finais<br>  
+AF:  Avaliação Final<br>
+AM:  Divulgação dos Aprovados por média<br>
+TAF: Término do período de Avaliações Finais<br>  
+CSNF:    Consolidação das sínteses de notas e frequências 2019.1<br>
