@@ -2,7 +2,7 @@
 title: "Laboratório de Circuitos Elétricos CC - Lab I"
 collection: teaching
 type: conteudo
-permalink: /teaching/Lab-CI-2021-2/Lab-II
+permalink: /teaching/Lab-CI-2021-2/Lab-I
 venue: Federal University of Ceara, Department of Electrical Engineering
 date: 2021-10-05
 location: Fortaleza, Brazil
