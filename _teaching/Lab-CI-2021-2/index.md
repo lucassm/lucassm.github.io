@@ -18,7 +18,7 @@ Todo material das aulas serão postados em uma lista de transmissão de consteú
 
 # Formato
 
-**Essa disciplina terá um formato síncrono**: as aulas serão transmitidas nas quartas e sextas feiras paras as turmas 02C e 02D respectivamente e nos horários acima indicados.
+**Essa disciplina terá um formato síncrono**: as aulas serão transmitidas nas quartas e sextas feiras paras as turmas 02B e 02D respectivamente e nos horários acima indicados.
 
 As aulas serão gravadas, e disponibilizadas na semana associada a cada conteúdo conforme cronograma estabelecido, para todos os participantes da disciplina.
 
@@ -73,5 +73,5 @@ Todos os trabalhos (a não ser que indicados explicitamentes) devem ser feitos d
 
 # Softwares
 Serão utilizados dois softwares:
-- [TinkerCAD das práticas I a V](https://www.ni.com/pt-br/support/downloads/software-products/download.multisim.html);
-- [Multisim das práticas VI a IX]().
+- [TinkerCAD das práticas I a V](https://www.tinkercad.com/);
+- [Multisim das práticas VI a IX](https://www.ni.com/pt-br/support/downloads/software-products/download.multisim.html).
