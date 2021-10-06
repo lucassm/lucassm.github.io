@@ -9,7 +9,7 @@ location: Fortaleza, Brazil
 ---
 
 ## Aulas
-- [Video com explicação da prática I - Turma 02C (Quarta-feira 10h as 12h)]()
+- [Video com explicação da prática I - Turma 02B (Quarta-feira 10h as 12h)]()
 - [Video com explicação da prática I - Turma 02D (Sexta-feira 10h as 12h)]()
 
 ## Documentos

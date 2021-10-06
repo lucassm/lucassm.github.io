@@ -84,7 +84,7 @@ Previsão para temas de trabalhos computacionais a serem desenvolvidos no decorr
 
 A nota da disciplina será composta pela média ponderada dos trabalhos computacionais realizados:
 
-$$NF = \frac{0,6 \cdot NT_1 + 0,4 \cdot NT_2)}{2}$$
+$$NF = \frac{(0,6 \cdot NT_1 + 0,4 \cdot NT_2)}{2}$$
 
 Em que, $NF$ é a nota final da disciplina e $NT_1$, $NT_2$ são as notas notas obitidas nos trabalhos computacionais.
 
@@ -122,44 +122,4 @@ O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**n
 
 # Calendário de Planejamento
 
-| Dia\Mês |   Outubro  |       Novembro      |  Dezembro  |   Janeiro  |  Fevereiro |
-|:-------:|:----------:|:-------------------:|:----------:|:----------:|:----------:|
-|    1    |      -     |      Unidade 02     | Unidade 05 |      -     |            |
-|    2    |      -     |                     |            |      -     | Unidade 08 |
-|    3    |**Semana 1**|      Unidade 03     |            |      -     |            |
-|    4    | Introdução |                     |            |      -     |            |
-|    5    |            |                     |**Sem. 10** |      -     |            |
-|    6    | Introdução |                     | Unidade 05 |      -     |  Semana 17 |
-|    7    |            |     **Semana 6**    |            |      -     |            |
-|    8    |            |      Unidade 03     | Unidade 05 |      -     |    AP 02   |
-|    9    |            |                     |            |  Semana 13 |            |
-|    10   |**Semana 2**|      Unidade 03     |            | Unidade 07 |     TS     |
-|    11   | Unidade 01 |                     |            |            |     IAF    |
-|    12   |            |                     |**Sem. 11** | Unidade 07 |            |
-|    13   | Unidade 01 |                     | Unidade 05 |            |  Semana 18 |
-|    14   |            |     **Semana 7**    |            |            |            |
-|    15   |            |      Unidade 04     | Unidade 06 |            |     AF     |
-|    16   |            |                     |            |  Semana 14 |     AM     |
-|    17   |**Semana 3**|      Unidade 04     |            | Unidade 07 |            |
-|    18   | Unidade 01 |                     |            |            |     TAF    |
-|    19   |            |                     |**Sem. 12** | Unidade 07 |    CSNF    |
-|    20   | Unidade 02 |                     | Unidade 06 |            |      -     |
-|    21   |            |     **Semana 8**    |            |            |      -     |
-|    22   |            |      Unidade 04     | Unidade 06 |            |      -     |
-|    23   |            |                     |      -     |  Semana 15 |      -     |
-|    24   |**Semana 4**| Revisão de Conteúdo |      -     | Unidade 07 |      -     |
-|    25   | Unidade 02 |                     |      -     |            |      -     |
-|    26   |            |                     |      -     | Unidade 08 |      -     |
-|    27   | Unidade 02 |                     |      -     |            |      -     |
-|    28   |            |     **Semana 9**    |      -     |            |      -     |
-|    29   |            |        AP 01        |      -     |            |      -     |
-|    30   |            |                     |      -     |  Semana 16 |      -     |
-|    31   |**Semana 5**|          -          |      -     | Unidade 08 |      -     |
-
-**Legenda**
-TS:  Término do semestre<br>
-IAF: Início do período de Avaliações Finais<br>  
-AF:  Avaliação Final<br>
-AM:  Divulgação dos Aprovados por média<br>
-TAF: Término do período de Avaliações Finais<br>  
-CSNF:    Consolidação das sínteses de notas e frequências 2019.1<br>
+Acesse o calendário [aqui](https://drive.google.com/file/d/1-CCjCpk5UAVUfahJi_JTq3PtPfi5wu7K/view?usp=sharing).

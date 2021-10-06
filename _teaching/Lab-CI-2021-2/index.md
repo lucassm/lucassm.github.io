@@ -52,7 +52,7 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 
 A nota da disciplina será composta pela média das notas dos procedimentos de pré-laboratório e do relatório da prática:
 
-$$NF = \frac{0,2 \cdot NT_1 + 0,8 \cdot NT_2)}{2}$$
+$$NF = \frac{(0,2 \cdot NT_1 + 0,8 \cdot NT_2)}{2}$$
 
 Em que, $NF$ é a nota final da disciplina e $NT_1$, $NT_2$ são as notas de pré-laboratório e de relatório das práticas, respectivamente.
 
@@ -61,8 +61,8 @@ Em que, $NF$ é a nota final da disciplina e $NT_1$, $NT_2$ são as notas de pr�
 # Informações adicionais
 
 Informações complementares importantes a respeito das aulas, trabalhos e avaliações:
-- Os relatórios devem ser realizados em equipe e composto por um arquivo em pdf preenchido com os valores obtidos nas simulações e um arquivo de vídeo explicando todo o procedimento com participação de cada um dos membros da equipe. Cada equipe deve ser composta por no máximo 3 membros;
-- Não serão aceitos trabalhos \textbf{após o prazo} estipulado.
+- Os relatórios devem ser realizados em equipe e composto por um arquivo em pdf preenchido com os valores obtidos nas simulações. Cada equipe deve ser composta por no máximo 3 membros;
+- Não serão aceitos trabalhos **após o prazo** estipulado.
 
 # Política de Plágio
 
@@ -73,5 +73,5 @@ Todos os trabalhos (a não ser que indicados explicitamentes) devem ser feitos d
 
 # Softwares
 Serão utilizados dois softwares:
-- [TinkerCAD das práticas I a V](https://www.tinkercad.com/);
-- [Multisim das práticas VI a IX](https://www.ni.com/pt-br/support/downloads/software-products/download.multisim.html).
+- [TinkerCAD das práticas I a VI](https://www.tinkercad.com/);
+- [Multisim das práticas VII a IX](https://www.ni.com/pt-br/support/downloads/software-products/download.multisim.html).
