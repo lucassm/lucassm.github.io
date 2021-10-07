@@ -72,7 +72,7 @@ O Curso será ministrado através de aulas teóricas complementadas com trabalho
 
 Conteúdo programado para ser ministrado no decorrer da disciplina:
 - [**Introdução**](/teaching/TEE-2021-2/Introducao): Informações iniciais sobre a disciplina **Disponível**;
-- [**Unidade 01**](/teaching/TEE-2021-2/Unidade-01): Introdução ao STEE - **A ser postado**;
+- [**Unidade 01**](/teaching/TEE-2021-2/Unidade-01): Introdução ao STEE;
 - [**Unidade 02**](/teaching/TEE-2021-2/Unidade-02): Aspectos Físicos de Linhas de Transmissão - **A ser postado**;
 - [**Unidade 03**](/teaching/TEE-2021-2/Unidade-03): Cálculos de Parâmetros das Linhas de Transmissão - **A ser postado**;
 - [**Unidade 04**](/teaching/TEE-2021-2/Unidade-04): Modelos Matemáticos das Linhas de Transmissão - **A ser postado**;

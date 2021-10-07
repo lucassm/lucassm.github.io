@@ -11,14 +11,11 @@ location: Fortaleza, Brazil
 ## Aulas
 
 Videos com informações introdutórias sobre o desenvolvimento da disciplina:
-- [Parte 1](https://drive.google.com/file/d/1co-rdBpC2EYU85x62At6OBHjRjlCbjIB/view?usp=drivesdk)
-- [Parte 2](https://drive.google.com/file/d/1VxZsVYCfD_TWbppJRSO1wQKaihsgW-4o/view?usp=drivesdk)
-- [Parte 3](https://drive.google.com/file/d/1rpqJvAoBJqGwoYCAQgXtCdBtwYQpeHEi/view?usp=drivesdk)
-- [Parte 4](https://drive.google.com/file/d/12J2-I_TQwJ97CD7ncj4lt1DpTrIGToRJ/view?usp=drivesdk)
+- [Parte 1](https://drive.google.com/file/d/16gqC__IB-RSKLDUitUGr69YYPcT4wl9T/view?usp=sharing)
 
 ## Slides
 
-[Introdução](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021-2/intro.pdf)
+[Introdução](https://drive.google.com/file/d/1Qcd3xq9Q6gMuGIN_3Oscg-tsCavrbtUX/view?usp=sharing)
 
 ## Textos
 
