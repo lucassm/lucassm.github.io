@@ -82,19 +82,19 @@ Previsão para temas de trabalhos computacionais a serem desenvolvidos no decorr
 
 # Estrutura da nota
 
-A nota da disciplina será composta pela média ponderada dos trabalhos computacionais realizados:
+A nota da disciplina será composta pela média ponderada das avaliações parciais e dos trabalhos computacionais realizados:
 
 $$NF = \frac{(0,6 \cdot NT_1 + 0,4 \cdot NT_2)}{2}$$
 
-Em que, $NF$ é a nota final da disciplina e $NT_1$, $NT_2$ são as notas notas obitidas nos trabalhos computacionais.
+Em que, $NF$ é a nota final da disciplina e $NT_1$, $NT_2$ são as notas notas obitidas nas avaliações parciais e nos trabalhos computacionais.
 
 [**Quadro de notas da disciplina**](/teaching/DEE-2021/notas)
 
 # Informações adicionais
 
 Informações complementares importantes a respeito das aulas, trabalhos e avaliações:
-- Os trabalhos serão realizados em \textbf{equipes com no máximo 04 membros cada};
-- Não serão aceitos trabalhos \textbf{após o prazo} estipulado.
+- Os trabalhos serão realizados em **equipes com no máximo 04 membros cada**;
+- Não serão aceitos trabalhos **após o prazo** estipulado.
 
 # Política de Plágio
 
