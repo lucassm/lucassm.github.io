@@ -45,7 +45,7 @@ Esta disciplina irá dedicar-se ao estudo das características e especificidades
 # Conteúdo
 
 Conteúdo programado para ser ministrado no decorrer da disciplina:
-- [**Introdução**](/teaching/DEE-2021-2/Introducao): Informações iniciais sobre a disciplina **Disponível*;
+- [**Introdução**](/teaching/DEE-2021-2/Introducao): Informações iniciais sobre a disciplina **Disponível**;
 - [**Unidade 01**](/teaching/DEE-2021-2/Unidade-01): Introdução ao SDEE - **A ser postado**;
 - [**Unidade 02**](/teaching/DEE-2021-2/Unidade-02): Natureza das cargas no SDEE - **A ser postado**;
 - [**Unidade 03**](/teaching/DEE-2021-2/Unidade-03): Métodos aproximados de análise - **A ser postado**;
