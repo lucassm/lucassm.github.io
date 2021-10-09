@@ -9,7 +9,5 @@ location: Fortaleza, Brazil
 ---
 
 ## Aulas
-- [Video com apresentação da disciplina - Turma 02C (Quarta-feira 10h as 12h)]()
-- [Video com apresentação da disciplina - Turma 02D (Sexta-feira 10h as 12h)]()
-
-## Documentos
+- [Video com apresentação da disciplina - Turma 02C (Quarta-feira 10h as 12h)](https://drive.google.com/file/d/1auOBAGHTdVFDjM1jkZqgnf4kVMZzIuX-/view?usp=sharing)
+- [Video com apresentação da disciplina - Turma 02D (Sexta-feira 10h as 12h)](https://drive.google.com/file/d/1KfHMffi8IxqyU5Z9yXhWAANZDY2uvTmz/view?usp=sharing)
