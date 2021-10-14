@@ -11,6 +11,7 @@ location: Fortaleza, Brazil
 ## Aulas
 Videos com a primeira aula do curso, com o assunto: *Linhas de transmissão: aspectos físicos*:
 - [Parte 1](https://drive.google.com/file/d/1VckZVmr2Z5DJAordZWWaUYYet1X7A-5p/view?usp=sharing)
+
 <!-- - [Parte 2](https://drive.google.com/file/d/1ocvZ0xVxqbY3boxGrFNsk82kwU3_h0_7/view?usp=sharing)
 - [Parte 3](https://drive.google.com/file/d/1-KOIcaOXgbYXlA9LbZFjBhJZqpOL4HJy/view?usp=sharing)
 - [Parte 4](https://drive.google.com/file/d/18WVMOTRcqZj9S0OFj7eIu1QSI34AtvKC/view?usp=sharing)
