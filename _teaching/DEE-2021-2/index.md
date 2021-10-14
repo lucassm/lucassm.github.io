@@ -45,9 +45,9 @@ Esta disciplina irá dedicar-se ao estudo das características e especificidades
 # Conteúdo
 
 Conteúdo programado para ser ministrado no decorrer da disciplina:
-- [**Introdução**](/teaching/DEE-2021-2/Introducao): Informações iniciais sobre a disciplina **Disponível**;
-- [**Unidade 01**](/teaching/DEE-2021-2/Unidade-01): Introdução ao SDEE;
-- [**Unidade 02**](/teaching/DEE-2021-2/Unidade-02): Natureza das cargas no SDEE - **A ser postado**;
+- [**Introdução**](/teaching/DEE-2021-2/Introducao): Informações iniciais sobre a disciplina **Disponível: Conteúdo concluído**;
+- [**Unidade 01**](/teaching/DEE-2021-2/Unidade-01): Introdução ao SDEE **Disponível: Conteúdo concluído**;
+- [**Unidade 02**](/teaching/DEE-2021-2/Unidade-02): Natureza das cargas no SDEE - **Disponível: Conteúdo em andamento**;
 - [**Unidade 03**](/teaching/DEE-2021-2/Unidade-03): Métodos aproximados de análise - **A ser postado**;
 - [**Unidade 04**](/teaching/DEE-2021-2/Unidade-04): Linhas de distribuição de eletricidade - **A ser postado**;
 - [**Unidade 05**](/teaching/DEE-2021-2/Unidade-05): Regulação de tensão em redes de distribuição de eletricidade - **A ser postado**; 
