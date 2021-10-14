@@ -2,9 +2,9 @@
 title: "Distribuição de Energia Elétrica - Unidade 01"
 collection: teaching
 type: conteudo
-permalink: /teaching/DEE-2021/Unidade-01/lista-01
+permalink: /teaching/DEE-2021-2/Unidade-01/lista-01
 venue: Federal University of Ceara, Department of Electrical Engineering
-date: 2021-05-18
+date: 2021-10-14
 location: Fortaleza, Brazil
 ---
 
