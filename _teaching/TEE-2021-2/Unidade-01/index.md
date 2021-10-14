@@ -4,7 +4,7 @@ collection: teaching
 type: conteudo
 permalink: /teaching/TEE-2021-2/Unidade-01
 venue: Federal University of Ceara, Department of Electrical Engineering
-date: 2021-10-07
+date: 2021-10-14
 location: Fortaleza, Brazil
 ---
 
