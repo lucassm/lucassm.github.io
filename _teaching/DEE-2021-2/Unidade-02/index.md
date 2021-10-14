@@ -2,7 +2,7 @@
 title: "Distribuição de Energia Elétrica - Unidade 02"
 collection: teaching
 type: conteudo
-permalink: /teaching/DEE-2021/Unidade-02
+permalink: /teaching/DEE-2021-2/Unidade-02
 venue: Federal University of Ceara, Department of Electrical Engineering
 date: 2021-10-14
 location: Fortaleza, Brazil
@@ -25,9 +25,9 @@ Videos com a segunda aula do curso, com o assunto: *Natureza das cargas*:
 
 
 ## Exercícios
-- [Exemplo 2.1](/teaching/DEE-2021/Unidade-02/example-2-1)
-- [Exemplo 2.2](/teaching/DEE-2021/Unidade-02/example-2-2)
-- [Exemplo 2.3](/teaching/DEE-2021/Unidade-02/example-2-3)
+- [Exemplo 2.1](/teaching/DEE-2021-2/Unidade-02/example-2-1)
+- [Exemplo 2.2](/teaching/DEE-2021-2/Unidade-02/example-2-2)
+- [Exemplo 2.3](/teaching/DEE-2021-2/Unidade-02/example-2-3)
 
 ## Resolução dos exercícios
 - Exemplo 2.1: [Parte 1](https://drive.google.com/file/d/1D4UqLHtrjrVdg1gduKbnooeqWCyqF7B3/view?usp=sharing) [Parte 2](https://drive.google.com/file/d/1dmCYlVATtWq8aAer6dfvpY5U7znqKMWP/view?usp=sharing)

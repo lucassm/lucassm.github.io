@@ -2,18 +2,18 @@
 title: "Distribuição de Energia Elétrica - Exemplo 2.3"
 collection: teaching
 type: conteudo
-permalink: /teaching/DEE-2021/Unidade-02/example-2-3
+permalink: /teaching/DEE-2021-2/Unidade-02/example-2-3
 venue: Federal University of Ceara, Department of Electrical Engineering
-date: 2021-05-31
+date: 2021-10-14
 location: Fortaleza, Brazil
 ---
 
 # Example 2.3
 
-For the system of [Example 2.1](/teaching/DEE-2021/Unidade-02/example-2-1), assume the voltage at N1 is 2400 volts and compute the secondary voltages on the three transformers using the diversity factors. The system of [Example 2.1](/teaching/DEE-2021/Unidade-02/example-2-1), including segment distances, is shown in Figure below.
+For the system of [Example 2.1](/teaching/DEE-2021-2/Unidade-02/example-2-1), assume the voltage at N1 is 2400 volts and compute the secondary voltages on the three transformers using the diversity factors. The system of [Example 2.1](/teaching/DEE-2021-2/Unidade-02/example-2-1), including segment distances, is shown in Figure below.
 
 <div class="text-center">
-    <img src="{{ '/teaching/DEE-2021/Unidade-02/example-2-3-a.png'|url }}" alt="example-2-3-a" width="500">
+    <img src="{{ '/teaching/DEE-2021-2/Unidade-02/example-2-3-a.png'|url }}" alt="example-2-3-a" width="500">
 </div>
 
 <br>

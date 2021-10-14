@@ -2,9 +2,9 @@
 title: "Distribuição de Energia Elétrica - Exemplo 2.1"
 collection: teaching
 type: conteudo
-permalink: /teaching/DEE-2021/Unidade-02/example-2-1
+permalink: /teaching/DEE-2021-2/Unidade-02/example-2-1
 venue: Federal University of Ceara, Department of Electrical Engineering
-date: 2021-05-31
+date: 2021-10-14
 location: Fortaleza, Brazil
 ---
 
@@ -17,7 +17,7 @@ kW_{demand} = 0.2 + 0.008 \cdot kWh
 $$
 
 <div class="text-center">
-<img src="{{ '/teaching/DEE-2021/Unidade-02/example-2-1-a.png'|url }}" alt="example-2-1-a" width="400">
+<img src="{{ '/teaching/DEE-2021-2/Unidade-02/example-2-1-a.png'|url }}" alt="example-2-1-a" width="400">
 
 <img src="{{ '/teaching/DEE-2021/Unidade-02/example-2-1-b.png'|url }}" alt="example-2-1-b" width="400">
 </div>
@@ -31,7 +31,7 @@ $$
 The results of this calculation for the remainder of the customers is summarized below by transformer.
 
 <div class="text-center">
-    <img src="{{ '/teaching/DEE-2021/Unidade-02/example-2-1-c.png'|url }}" alt="example-2-1-c" width="500">
+    <img src="{{ '/teaching/DEE-2021-2/Unidade-02/example-2-1-c.png'|url }}" alt="example-2-1-c" width="500">
 </div>
 
 
@@ -42,5 +42,5 @@ The results of this calculation for the remainder of the customers is summarized
 ## Dados para resolução do problema
 
 <div class="text-center">
-    <img src="{{ '/teaching/DEE-2021/Unidade-02/example-2-1-d.png'|url }}" alt="example-2-1-c" width="600">
+    <img src="{{ '/teaching/DEE-2021-2/Unidade-02/example-2-1-d.png'|url }}" alt="example-2-1-c" width="600">
 </div>
