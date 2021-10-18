@@ -21,7 +21,7 @@ Videos com a primeira aula do curso, com o assunto: *Linhas de transmissão: asp
 - [Parte 8](https://drive.google.com/file/d/1F4cpcbsWpJUDHLs-PkKvwar1ngWYCAF3/view?usp=sharing) -->
 
 ## Textos
-- [Instrodução aos sistemas elétricos de potência](https://drive.google.com/file/d/1sWtqHvRMO-DUn1ndWjgSNIC5HpT5_bWa/view?usp=sharing)
+- [Linhas de transmissão: aspectos físicos]()
 
 ## Exercícios
 
