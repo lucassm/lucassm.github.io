@@ -14,3 +14,7 @@ location: Fortaleza, Brazil
 
 ## Documentos
 - [**Prática II**: Leis de Kirchhoff e Divisor de Tensão](https://docs.google.com/document/d/1R5G-aEUQqzrfo0fETIsIW-R9z4lHMglU/edit?usp=drivesdk&ouid=115037078425068686312&rtpof=true&sd=true);
+
+## Links
+- [Envio de pré-laboratório](https://forms.gle/Qt8GEGpdKyv9Q2uw9)
+- [Envio de relatório](https://forms.gle/BtU4ndoz3Hq96sah8)

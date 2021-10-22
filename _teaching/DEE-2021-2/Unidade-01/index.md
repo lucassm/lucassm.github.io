@@ -22,6 +22,9 @@ Videos com a primeira aula do curso, com o assunto: *Introdução aos sistemas d
 - [Parte 10](https://drive.google.com/file/d/1frXMSjamVmfh-cvPldSMvkLtmxwyrTYa/view?usp=sharing)
 <!-- <p style="color: red">Parte 10 (Previsão para ser postada em: 20/05/21)</p> -->
 
+## Encontro Síncrono
+- [Gravação do encontro de 21/10/21](https://drive.google.com/file/d/1TC4ocLdHKtDrB_Efw0525fYLbMkaL0U5/view?usp=sharing)
+
 ## Slides
 [Aula 1: Introdução aos sistemas de distribuição de energia elétrica](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021-2/aula1.pdf)
 
