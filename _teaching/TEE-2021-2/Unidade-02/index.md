@@ -14,6 +14,7 @@ Vídeos com a primeira aula do curso, com o assunto: *Linhas de transmissão: as
 - [Parte 2](https://drive.google.com/file/d/16H2Q-5aWblWfbfismuOsAyjYbSEkWDW7/view?usp=sharing)
 - [Parte 3](https://drive.google.com/file/d/10a4t70KR79AU6Wlo7QYsgg1WQbuKy1BU/view?usp=sharing)
 - [Parte 4](https://drive.google.com/file/d/1ZBvK4gKwJIicPoV7RgeYJ_rXfKWENMGB/view?usp=sharing)
+- [Parte 5](https://drive.google.com/file/d/13BfetuUBclSaA0R8khKSgyhJuSoK9gcA/view?usp=sharing)
 
 ## Textos
 - [Linhas de transmissão: aspectos físicos](https://drive.google.com/file/d/189A8hQGej3529BQ8j-9uk-w3n8iX4y7V/view?usp=sharing)
