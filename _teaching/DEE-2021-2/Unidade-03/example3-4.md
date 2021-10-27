@@ -2,9 +2,9 @@
 title: "Distribuição de Energia Elétrica - Exemplo 3.4"
 collection: teaching
 type: conteudo
-permalink: /teaching/DEE-2021/Unidade-03/example-3-4
+permalink: /teaching/DEE-2021-2/Unidade-03/example-3-4
 venue: Federal University of Ceara, Department of Electrical Engineering
-date: 2021-06-05
+date: 2021-10-27
 location: Fortaleza, Brazil
 ---
 
@@ -19,5 +19,5 @@ $$
 Determine the percent voltage drop from N0 to N3.
 
 <div class="text-center">
-    <img src="{{ '/teaching/DEE-2021/Unidade-03/example-3-4.png'|url }}" alt="example-3-4" width="400">
+    <img src="{{ '/teaching/DEE-2021-2/Unidade-03/example-3-4.png'|url }}" alt="example-3-4" width="400">
 </div>

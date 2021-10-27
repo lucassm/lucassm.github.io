@@ -74,8 +74,8 @@ Conteúdo da **Avaliação Parcial 02**:
 # Trabalhos
 
 Previsão para temas de trabalhos computacionais a serem desenvolvidos no decorrer da disciplina:
-- [**Trabalho 1**: Análise de cargas em SDEE](/teaching/DEE-2021-2/Trabalho-01) **A ser postado**;
-- [**Trabalho 2**: Modelagem de sistemas de distribuição de análise de fluxo de carga](/teaching/DEE-2021-2/Trabalho-02) **A ser postado**.
+- [**Trabalho 1**: Análise de cargas em SDEE](/teaching/DEE-2021-2/trabalho-01) **Postado com entrega prevista para 25/11/21**;
+- [**Trabalho 2**: Modelagem de sistemas de distribuição de análise de fluxo de carga](/teaching/DEE-2021-2/trabalho-02) **A ser postado**.
 
 <br>
 <!-- [**Lista de divisão das equipes de trabalho**](/teaching/DEE-2021/Trabalho-01/Equipes) -->

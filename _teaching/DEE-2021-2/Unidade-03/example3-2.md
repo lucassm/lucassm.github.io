@@ -2,9 +2,9 @@
 title: "Distribuição de Energia Elétrica - Exemplo 3.2"
 collection: teaching
 type: conteudo
-permalink: /teaching/DEE-2021/Unidade-03/example-3-2
+permalink: /teaching/DEE-2021-2/Unidade-03/example-3-2
 venue: Federal University of Ceara, Department of Electrical Engineering
-date: 2021-06-05
+date: 2021-10-27
 location: Fortaleza, Brazil
 ---
 
@@ -13,7 +13,7 @@ location: Fortaleza, Brazil
 A three-phase line segment has the configuration as shown in Figure below. The spacings between conductors are:
 
 <div class="text-center">
-    <img src="{{ '/teaching/DEE-2021/Unidade-03/example-3-2-a.png'|url }}" alt="example-3-2" width="300">
+    <img src="{{ '/teaching/DEE-2021-2/Unidade-03/example-3-2-a.png'|url }}" alt="example-3-2" width="300">
 </div>
 
 $$
@@ -25,5 +25,5 @@ $$
 The conductors of the line are 336,400 26/7 ACSR. Determine the positive sequence impedance of the line in ohms/mile.
 
 <div class="text-center">
-    <img src="{{ '/teaching/DEE-2021/Unidade-03/example-3-2-b.png'|url }}" alt="example-3-2" width="500">
+    <img src="{{ '/teaching/DEE-2021-2/Unidade-03/example-3-2-b.png'|url }}" alt="example-3-2" width="500">
 </div>
