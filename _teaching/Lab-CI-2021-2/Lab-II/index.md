@@ -9,12 +9,12 @@ location: Fortaleza, Brazil
 ---
 
 ## Aulas
-- [Video com explicação da prática II - Turma 02B (Quarta-feira 10h as 12h)]()
-- [Video com explicação da prática II - Turma 02D (Sexta-feira 10h as 12h)]()
+- [Video com explicação da prática II - Turma 02B (Quarta-feira 10h as 12h)](https://drive.google.com/file/d/1gyNJJrCdOqf2QwwGtMmbZh2sIAXHlzws/view?usp=drivesdk)
+- [Video com explicação da prática II - Turma 02D (Sexta-feira 10h as 12h)](https://drive.google.com/file/d/1gWflm3I-AnPJCic5ajyD0zdP9jfJEFmH/view?usp=drivesdk)
 
 ## Documentos
 - [**Prática II**: Leis de Kirchhoff e Divisor de Tensão](https://docs.google.com/document/d/1R5G-aEUQqzrfo0fETIsIW-R9z4lHMglU/edit?usp=drivesdk&ouid=115037078425068686312&rtpof=true&sd=true);
 
 ## Links
 - [Envio de pré-laboratório](https://forms.gle/Qt8GEGpdKyv9Q2uw9)
-- [Envio de relatório](https://forms.gle/BtU4ndoz3Hq96sah8)
+- [Envio de relatório](https://forms.gle/fHb59QvvBMrWm6797)
