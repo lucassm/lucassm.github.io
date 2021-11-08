@@ -9,8 +9,8 @@ location: Fortaleza, Brazil
 ---
 
 ## Aulas
-- [Video com explicação da prática III - Turma 02B (Quarta-feira 10h as 12h)]()
-- [Video com explicação da prática III - Turma 02D (Sexta-feira 10h as 12h)]()
+- [Video com explicação da prática III - Turma 02B (Quarta-feira 10h as 12h)](https://drive.google.com/file/d/17kBdPXi9k_1Uk7da-R_ajeMsFar-1hNE/view?usp=drivesdk)
+- [Video com explicação da prática III - Turma 02D (Sexta-feira 10h as 12h)](https://drive.google.com/file/d/1_57xMOtCBvXA1ZmnlW4YvRQGup5_1pyE/view?usp=drivesdk)
 
 ## Documentos
 - [**Prática III**: Ponte de Wheatstone](https://docs.google.com/document/d/16yhDT9XFazXjdjHC4BQ8JuOdbX6c3b9P/edit?usp=drivesdk&ouid=115037078425068686312&rtpof=true&sd=true);
