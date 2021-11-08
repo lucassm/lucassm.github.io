@@ -13,6 +13,10 @@ Vídeos com a primeira aula do curso, com o assunto: *Cálculos de Parâmetros d
 - [Parte 1](https://drive.google.com/file/d/1gDM-cauwpfXNftowTkKaOpOWSQnesBk_/view?usp=sharing)
 - [Parte 2](https://drive.google.com/file/d/1MYinG1Gd9Ng5GgWnK61W6a1s0fNmoUK0/view?usp=sharing)
 - [Parte 3](https://drive.google.com/file/d/1VGPmBzrew6b7l7MW-Xgc7FnVB06Btln7/view?usp=sharing)
+- [Parte 4](https://drive.google.com/file/d/1TdTUqjOOorHmES6rxO9-jna7QYTpAS5V/view?usp=drivesdk)
+- [Parte 5](https://drive.google.com/file/d/1SJ3WQRjJ-OMwEb3gKVs0fNXu37kzQi-c/view?usp=drivesdk)
+- [Parte 6](https://drive.google.com/file/d/1BiWTzDZBs55bvAwRuaghTxjW2fSO2R_u/view?usp=drivesdk)
+- [Parte 7](https://drive.google.com/file/d/1MbcYw53REYQ4X1rsf1l-Dmnp9vALDddL/view?usp=drivesdk)
 
 ## Textos
 - [Cálculos de Parâmetros das Linhas de Transmissão](https://drive.google.com/file/d/1pbIv8IKK5ZDiIk-qGn7V_535VtwTytv3/view?usp=drivesdk)
