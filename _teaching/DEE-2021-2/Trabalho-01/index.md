@@ -25,7 +25,7 @@ Obs.: Para o item 4 uma metodologia específica deve ser adotada, conforme será
 - [Lista com os nomes dos integrantes de cada equipe](/teaching/DEE-2021-2/equipes)
 
 ## Dúvidas
-- [Vídeo com algumas explicações sobre o trabalho, gravado em xx/xx/xx]();
+- [Vídeo com algumas explicações sobre o trabalho, gravado em 04/11/21](https://drive.google.com/file/d/1DdbVfERG9hvRJ-boho5bzagew64oH-2e/view?usp=drivesdk);
 
 ## Data de Entrega
 Prevista para **25/11/21**. Link para entrega será disponibilizado nesta página em breve.
