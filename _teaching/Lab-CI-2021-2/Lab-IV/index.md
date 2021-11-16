@@ -9,8 +9,8 @@ location: Fortaleza, Brazil
 ---
 
 ## Aulas
-- [Video com explicação da prática IV - Turma 02B (Quarta-feira 10h as 12h)]()
-- [Video com explicação da prática IV - Turma 02D (Sexta-feira 10h as 12h)]()
+- [Video com explicação da prática IV - Turma 02B (Quarta-feira 10h as 12h)](https://drive.google.com/file/d/1Obq_1H0j3lxhmheouYFzvccs819-7UEP/view?usp=drivesdk)
+- [Video com explicação da prática IV - Turma 02D (Sexta-feira 10h as 12h)](https://drive.google.com/file/d/1fz8bDGXImAO9MtUKhtkaW8QmBNRQIXum/view?usp=drivesdk)
 
 ## Documentos
 - [**Prática IV**: Linearidade e Superposição](https://docs.google.com/document/d/1E5dvTWUIjrD_n5eNfCBa5p1-mW95t440/edit?usp=drivesdk&ouid=115037078425068686312&rtpof=true&sd=true);
