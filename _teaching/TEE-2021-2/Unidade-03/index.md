@@ -30,10 +30,12 @@ Vídeos com a primeira aula do curso, com o assunto: *Cálculos de Parâmetros d
 - [Cálculos de Parâmetros das Linhas de Transmissão](https://drive.google.com/file/d/1pbIv8IKK5ZDiIk-qGn7V_535VtwTytv3/view?usp=drivesdk)
 
 ## Exercícios
-- 3.12.3
-- 3.12.4
 - 3.12.5
 - 3.12.6
 - 3.12.7
 - 3.12.9
 - 3.12.10
+
+## Primeiro Trabalho Computacional da Disciplina
+- 3.12.3
+- 3.12.4
