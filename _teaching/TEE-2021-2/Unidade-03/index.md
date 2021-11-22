@@ -22,9 +22,18 @@ Vídeos com a primeira aula do curso, com o assunto: *Cálculos de Parâmetros d
 - [Parte 10](https://drive.google.com/file/d/1G-QdGycWy9jvSjChRf4DuEYxQy1Ts4w5/view?usp=drivesdk)
 - [Parte 11](https://drive.google.com/file/d/1MRrUK2zQX-MrJpllk5avJCkKv1iEbPjc/view?usp=drivesdk)
 - [Parte 12 - Aula síncrona](https://drive.google.com/file/d/1UMUcSGezPZ4TcDbZgNbx-tb4jZLdiJJf/view?usp=drivesdk)
+- [Parte 13](https://drive.google.com/file/d/1ynaoo02Pc4rBuwzZFub7P1nQWxmh052U/view?usp=drivesdk)
+- [Parte 14](https://drive.google.com/file/d/1U0Fd1XddmUCg9SC_9WrUQLPsJ1OseJZj/view?usp=drivesdk)
+- [Parte 15](https://drive.google.com/file/d/1prHWPDNVb2G8FKEU4pyTIw5jotkkiunP/view?usp=drivesdk)
 
 ## Textos
 - [Cálculos de Parâmetros das Linhas de Transmissão](https://drive.google.com/file/d/1pbIv8IKK5ZDiIk-qGn7V_535VtwTytv3/view?usp=drivesdk)
 
 ## Exercícios
-
+- 3.12.3
+- 3.12.4
+- 3.12.5
+- 3.12.6
+- 3.12.7
+- 3.12.9
+- 3.12.10
