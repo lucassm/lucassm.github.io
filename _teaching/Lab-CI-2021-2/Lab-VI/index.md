@@ -9,8 +9,8 @@ location: Fortaleza, Brazil
 ---
 
 ## Aulas
-- [Video com explicação da prática VI - Turma 02B (Quarta-feira 10h as 12h)]()
-- [Video com explicação da prática VI - Turma 02D (Sexta-feira 10h as 12h)]()
+- [Video com explicação da prática VI - Turma 02B (Quarta-feira 10h as 12h)](https://drive.google.com/file/d/1PXvw7FaQWrNHMO8j_xP8nnKWsUh15cFc/view?usp=drivesdk)
+- [Video com explicação da prática VI - Turma 02D (Sexta-feira 10h as 12h)](https://drive.google.com/file/d/1FXACM96Eab-6_Eq8bCpeYfeosuMBZoiV/view?usp=drivesdk)
 
 ## Documentos
 - [**Prática VI**: Potência e Máxima Transferência de Potência](https://docs.google.com/document/d/1MQZDwAzoeA06zpZFk9aoVphyzBvdMKXm/edit?usp=drivesdk&ouid=115037078425068686312&rtpof=true&sd=true);
