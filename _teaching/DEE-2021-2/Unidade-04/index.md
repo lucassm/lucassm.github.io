@@ -33,7 +33,7 @@ Videos com a quarta aula do curso, com o assunto: *Linhas de Distribuição de E
 ## Slides
 - [Aula 4-1: Linhas de Distribuição de Eletricidade](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021-2/aula4-1.pdf)
 - [Aula 4-2: Linhas de Distribuição de Eletricidade](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021-2/aula4-2.pdf)
-- [Aula 4-3: Modelos de Linhas de Distribuição de Eletricidade](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021-2/aula4-3)
+- [Aula 4-3: Modelos de Linhas de Distribuição de Eletricidade](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021-2/aula4-3.pdf)
 
 ## Textos
 - [Impedância Série de Linhas de Distribuição](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021-2/Unidade-4-Impedancia-Serie-protected.pdf)
