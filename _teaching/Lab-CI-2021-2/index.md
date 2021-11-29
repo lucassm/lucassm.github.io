@@ -41,8 +41,8 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - [17/11 e 19/11 – 5ª.prática – Thévenin e Northon](/teaching/Lab-CI-2021-2/Lab-V)
 - [24/11  e 26/11  – 6ª.prática – Potência e Máxima Transferência de Potência](/teaching/Lab-CI-2021-2/Lab-VI)
 - 29/11 a 03/12 – Semana da tecnologia / Encontros universitários
-- [08/12 e 10/12 – 7ª.prática – Osciloscópio parte I (apresentação do equipamento no software Multisim)](/teaching/Lab-CI-2021-2/Lab-VIIa)
-- [15/12 e 17/12 – 7ª.prática – Osciloscópio parte II](/teaching/Lab-CI-2021-2/Lab-VIIb)
+- [08/12 e 10/12 – 7ª.prática – Osciloscópio parte I (apresentação do equipamento no software Multisim)](/teaching/Lab-CI-2021-2/Lab-VII)
+- [15/12 e 17/12 – 7ª.prática – Osciloscópio parte II](/teaching/Lab-CI-2021-2/Lab-VII)
 - 23/12 e 09/01 – Recesso Escolar 
 - [12/01 e 14/01 – 8ª.prática – Circuitos RC e RL](/teaching/Lab-CI-2021-2/Lab-VIII)
 - [19/01 e 21/01 – 9ª.prática – Circuito RLC](/teaching/Lab-CI-2021-2/Lab-IX)
