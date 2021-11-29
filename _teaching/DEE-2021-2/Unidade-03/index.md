@@ -15,6 +15,7 @@ Videos com a terceira aula do curso, com o assunto: *Métodos Aproximados de An�
 - [Parte 3](https://drive.google.com/file/d/11qfh0-FlG0yUihPMIgV1A6AzPHeFpSL2/view?usp=sharing)
 - [Parte 4](https://drive.google.com/file/d/1Eui8TBkodggi0FTUZegxSzqqAM7JcqVP/view?usp=sharing)
 - [Parte 5](https://drive.google.com/file/d/1_fNvnLvSKU_OtqxWJcc9Cz4jE9_vTbVE/view?usp=sharing)
+- [Parte 6: Aula síncrona ocorrida no dia 18/11/21](https://drive.google.com/file/d/1C6b72Z4aQkIagHLFOCuNGgEVrjYbHESb/view?usp=drivesdk)
 
 ## Slides
 [Aula 3: Métodos Aproximados de Análise](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021-2/aula3.pdf)
