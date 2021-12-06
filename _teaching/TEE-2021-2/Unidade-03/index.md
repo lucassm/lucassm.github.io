@@ -9,7 +9,7 @@ location: Fortaleza, Brazil
 ---
 
 ## Aulas
-Vídeos com a primeira aula do curso, com o assunto: *Cálculos de Parâmetros das Linhas de Transmissão*:
+Vídeos com as aulas referentes ao assunto: *Cálculos de Parâmetros das Linhas de Transmissão*:
 - [Parte 1](https://drive.google.com/file/d/1gDM-cauwpfXNftowTkKaOpOWSQnesBk_/view?usp=sharing)
 - [Parte 2](https://drive.google.com/file/d/1MYinG1Gd9Ng5GgWnK61W6a1s0fNmoUK0/view?usp=sharing)
 - [Parte 3](https://drive.google.com/file/d/1VGPmBzrew6b7l7MW-Xgc7FnVB06Btln7/view?usp=sharing)
@@ -21,7 +21,7 @@ Vídeos com a primeira aula do curso, com o assunto: *Cálculos de Parâmetros d
 - [Parte 9](https://drive.google.com/file/d/1xAUZilYnLfxuQzqotSyMPb_IPjsXFnQG/view?usp=drivesdk)
 - [Parte 10](https://drive.google.com/file/d/1G-QdGycWy9jvSjChRf4DuEYxQy1Ts4w5/view?usp=drivesdk)
 - [Parte 11](https://drive.google.com/file/d/1MRrUK2zQX-MrJpllk5avJCkKv1iEbPjc/view?usp=drivesdk)
-- [Parte 12 - Aula síncrona](https://drive.google.com/file/d/1UMUcSGezPZ4TcDbZgNbx-tb4jZLdiJJf/view?usp=drivesdk)
+- [Parte 12 - Aula síncrona](https://drive.google.com/file/d/1yY2_cl8eab5fpZuYhGUu5l7gT5x8-i3v/view?usp=drivesdk)
 - [Parte 13](https://drive.google.com/file/d/1ynaoo02Pc4rBuwzZFub7P1nQWxmh052U/view?usp=drivesdk)
 - [Parte 14](https://drive.google.com/file/d/1U0Fd1XddmUCg9SC_9WrUQLPsJ1OseJZj/view?usp=drivesdk)
 - [Parte 15](https://drive.google.com/file/d/1prHWPDNVb2G8FKEU4pyTIw5jotkkiunP/view?usp=drivesdk)

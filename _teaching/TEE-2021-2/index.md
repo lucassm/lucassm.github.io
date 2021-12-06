@@ -74,11 +74,10 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - [**Introdução**](/teaching/TEE-2021-2/Introducao): Informações iniciais sobre a disciplina **Disponível: Conteúdo concluído**;
 - [**Unidade 01**](/teaching/TEE-2021-2/Unidade-01): Introdução ao STEE **Disponível: Conteúdo concluído**;
 - [**Unidade 02**](/teaching/TEE-2021-2/Unidade-02): Aspectos Físicos de Linhas de Transmissão - **Disponível: Conteúdo concluído**;
-- [**Unidade 03**](/teaching/TEE-2021-2/Unidade-03): Cálculos de Parâmetros das Linhas de Transmissão - **Disponível: Conteúdo em andamaneto**;
-- [**Unidade 04**](/teaching/TEE-2021-2/Unidade-04): Modelos Matemáticos das Linhas de Transmissão - **A ser postado**;
-- [**Unidade 05**](/teaching/TEE-2021-2/Unidade-05): Operação das Linhas de Transmissão em regime permanente - **A ser postado**; 
-- [**Unidade 06**](/teaching/TEE-2021-2/Unidade-06): Operação das Linhas de Transmissão em regime transitório - **A ser postado**;
-- [**Unidade 07**](/teaching/TEE-2021-2/Unidade-07): Utilização do software ATPDraw em análise de sistemas de transmissão - **A ser postado**;
+- [**Unidade 03**](/teaching/TEE-2021-2/Unidade-03): Cálculos de Parâmetros das Linhas de Transmissão - **Conteúdo concluído**;
+- [**Unidade 05**](/teaching/TEE-2021-2/Unidade-04): Operação das Linhas de Transmissão em regime permanente - **Disponível: Conteúdo em andamento**;
+- [**Unidade 06**](/teaching/TEE-2021-2/Unidade-05): Operação das Linhas de Transmissão em regime transitório - **A ser postado**;
+- [**Unidade 07**](/teaching/TEE-2021-2/Unidade-06): Utilização do software ATPDraw em análise de sistemas de transmissão - **A ser postado**;
 
 # Avaliações
 
