@@ -25,7 +25,7 @@ location: Fortaleza, Brazil
 - [Vídeo sobre as possibilidades de utilização dos osciloscópios no NI-Multisim](https://www.youtube.com/watch?v=TpFBLa0_WUo)
 - [Envio de relatório](https://forms.gle/Wqi6JVGVS7mT5Wmv8)
 
-# Observações
+## Observações
 - Não serão aceitos relatórios que não utilizem o NI-Multisim como ferramenta de simulação;
 - O osciloscópio utilizado deve ser o modelo da Tektronix;
 - O gerador de funções deve ser o modelo da Agilent.
