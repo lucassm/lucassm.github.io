@@ -30,6 +30,9 @@ Videos com a quarta aula do curso, com o assunto: *Linhas de Distribuição de E
 - [Parte 1](https://drive.google.com/file/d/1SZCTwtn_3HByYPBGJrnCu_3pt2QKJL4a/view?usp=sharing)
 - [Parte 2](https://drive.google.com/file/d/12Z6RIWIce9H_kdCNVx37UJSo25O0LzzH/view?usp=sharing)
 
+## Aula Síncrona
+- [Aula Síncrona gravada em 09/12/21](https://drive.google.com/file/d/1hyk0l5hfbE_Wtgr73DYboG2qPUofkXPD/view?usp=drivesdk)
+
 ## Slides
 - [Aula 4-1: Linhas de Distribuição de Eletricidade](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021-2/aula4-1.pdf)
 - [Aula 4-2: Linhas de Distribuição de Eletricidade](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021-2/aula4-2.pdf)
