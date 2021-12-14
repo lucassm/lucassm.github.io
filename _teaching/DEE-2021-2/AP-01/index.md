@@ -17,4 +17,4 @@ location: Fortaleza, Brazil
 
 > As respostas devem ser entregues escaneadas ou fotografadas em pacote .zip ou arquivo pdf único pois o formulário só aceitará o envio de um arquivo por aluno.
 
-Boa prova!
+Boa prova a todos!
