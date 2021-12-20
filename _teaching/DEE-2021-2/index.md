@@ -47,10 +47,10 @@ Esta disciplina irá dedicar-se ao estudo das características e especificidades
 Conteúdo programado para ser ministrado no decorrer da disciplina:
 - [**Introdução**](/teaching/DEE-2021-2/Introducao): Informações iniciais sobre a disciplina **Disponível: Conteúdo concluído**;
 - [**Unidade 01**](/teaching/DEE-2021-2/Unidade-01): Introdução ao SDEE **Disponível: Conteúdo concluído**;
-- [**Unidade 02**](/teaching/DEE-2021-2/Unidade-02): Natureza das cargas no SDEE - **Disponível: Conteúdo em andamento**;
-- [**Unidade 03**](/teaching/DEE-2021-2/Unidade-03): Métodos aproximados de análise - **Disponível: Conteúdo em andamento**;
-- [**Unidade 04**](/teaching/DEE-2021-2/Unidade-04): Linhas de distribuição de eletricidade - **A ser postado**;
-- [**Unidade 05**](/teaching/DEE-2021-2/Unidade-05): Regulação de tensão em redes de distribuição de eletricidade - **A ser postado**; 
+- [**Unidade 02**](/teaching/DEE-2021-2/Unidade-02): Natureza das cargas no SDEE - **Disponível: Conteúdo concluído**;
+- [**Unidade 03**](/teaching/DEE-2021-2/Unidade-03): Métodos aproximados de análise - **Disponível: Conteúdo concluído**;
+- [**Unidade 04**](/teaching/DEE-2021-2/Unidade-04): Linhas de distribuição de eletricidade - **Disponível: Conteúdo concluído**;
+- [**Unidade 05**](/teaching/DEE-2021-2/Unidade-05): Regulação de tensão em redes de distribuição de eletricidade - **Disponível: Conteúdo em andamento**; 
 - [**Unidade 06**](/teaching/DEE-2021-2/Unidade-06): Transformadores de distribuição trifásicos - **A ser postado**;
 - [**Unidade 07**](/teaching/DEE-2021-2/Unidade-07): Análise de alimentadores de distribuição utilizando ferramentas computacionais - **A ser postado**;
 - [**Unidade 08**](/teaching/DEE-2021-2/Unidade-08): Introdução a proteção de sistemas de distribuição - **A ser postado**.
