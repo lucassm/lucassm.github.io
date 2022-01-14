@@ -52,7 +52,7 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - [**Unidade 04**](/teaching/DEE-2021-2/Unidade-04): Linhas de distribuição de eletricidade - **Disponível: Conteúdo concluído**;
 - [**Unidade 05**](/teaching/DEE-2021-2/Unidade-05): Regulação de tensão em redes de distribuição de eletricidade - **Disponível: Conteúdo em andamento**; 
 - [**Unidade 06**](/teaching/DEE-2021-2/Unidade-06): Transformadores de distribuição trifásicos - **Disponível: Conteúdo em andamento**;
-- [**Unidade 07**](/teaching/DEE-2021-2/Unidade-07): Análise de alimentadores de distribuição utilizando ferramentas computacionais - **A ser postado**;
+- [**Unidade 07**](/teaching/DEE-2021-2/Unidade-07): Análise de alimentadores de distribuição utilizando ferramentas computacionais - **Disponível: Conteúdo em andamento**;
 - [**Unidade 08**](/teaching/DEE-2021-2/Unidade-08): Introdução a proteção de sistemas de distribuição - **A ser postado**.
 
 # Avaliações
