@@ -16,6 +16,7 @@ Vídeos com as aulas referentes ao assunto: *Operação das Linhas de Transmiss�
 - [Parte 4](https://drive.google.com/file/d/1WeIYTuiTURHKAPPd4j8NjS5F8vzlwGlO/view?usp=drivesdk)
 - [Parte 5](https://drive.google.com/file/d/17ETUUre1k5oCvOS0ylbutOq0M98y7Z5C/view?usp=drivesdk)
 - [Parte 6](https://drive.google.com/file/d/1pco14BFsB5rIzD7_0WAHRwzlgzV-PRAQ/view?usp=drivesdk)
+- [Parte 7](https://drive.google.com/file/d/10_J4ys10V01EC1qjh0hN_st8cLwCeExY/view?usp=drivesdk)
 
 ## Textos
 - [Operação das Linhas de Transmissão em regime permanente](https://drive.google.com/file/d/1IG3LDn_-7Fk0Hl8uqYBSH7KMOmW_EiU6/view?usp=drivesdk)
