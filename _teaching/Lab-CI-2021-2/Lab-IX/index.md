@@ -9,8 +9,8 @@ location: Fortaleza, Brazil
 ---
 
 ## Aulas
-- [Video com explicação da prática IX - Turma 02B (Quarta-feira 10h as 12h)]()
-- [Video com explicação da prática IX - Turma 02D (Sexta-feira 10h as 12h)]()
+- [Video com explicação da prática IX - Turma 02B (Quarta-feira 10h as 12h)](https://drive.google.com/file/d/1QZQHTkSL2wYpfotPFTHXIUYhpcKjfw_J/view?usp=sharing)
+- [Video com explicação da prática IX - Turma 02D (Sexta-feira 10h as 12h)](https://drive.google.com/file/d/1QZQHTkSL2wYpfotPFTHXIUYhpcKjfw_J/view?usp=sharing)
 
 ## Documentos
 - [**Prática IX**: Circuitos RLC](https://docs.google.com/document/d/1vdzQWVLP_xINi9doL5QCJL5bWFXG2hm9/edit?usp=drivesdk&ouid=115037078425068686312&rtpof=true&sd=true);
