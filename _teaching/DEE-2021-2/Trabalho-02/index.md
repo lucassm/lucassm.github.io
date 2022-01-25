@@ -8,7 +8,6 @@ date: 2022-01-25
 location: Fortaleza, Brazil
 ---
 
-# Trabalho 02 - Distribuição de Energia Elétrica 2021-2
 - [Arquivo descritivo](https://drive.google.com/file/d/1Wj51_sLM-Qkz-5QgNj_pfBGbIlt1ll0-/view?usp=sharing)
 - [Vídeo explicativo]()
 - [Formulário para entrega: entrega aceita até as 23:59h de 10/02/22]()
