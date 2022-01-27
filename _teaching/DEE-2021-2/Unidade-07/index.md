@@ -29,6 +29,8 @@ location: Fortaleza, Brazil
 
 ## Aulas com professor Lucas Melo
 - [Apresentação do OpenDSS: Aula realizada em 13/01/22](https://drive.google.com/file/d/1TtnJO2Lp3qcJ1a4fekSfGC5-Me93n36-/view?usp=drivesdk)
+- [Apresentação do OpenDSS: Aula realizada em 20/01/22](https://drive.google.com/file/d/1Q6k73lLLSleTBgli0lvwG6wRJcoQlFpt/view?usp=sharing)
+- [Apresentação do OpenDSS: Aula realizada em 27/01/22](https://drive.google.com/file/d/1bBx018sKsQv3Mj8sk-oUD4NP9rTuMXcw/view?usp=drivesdk)
 
 ## Textos
 - [Primer do OpenDSS](https://sourceforge.net/p/electricdss/code/HEAD/tree/trunk/Distrib/Doc/OpenDSSPrimer.pdf?format=raw)
