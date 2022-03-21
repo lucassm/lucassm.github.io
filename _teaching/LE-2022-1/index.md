@@ -12,7 +12,7 @@ location: "Fortaleza, Brazil"
 
 Horário de realização das interações síncronas da disciplina:
 - Turma 11: Segunda-feira as 16h.
-- Turma 12: Segunda-feira as 08h.
+- Turma 12: Quarta-feira as 08h.
 
 # Telegram
 
@@ -22,7 +22,7 @@ Para uma comunicação mais rápida utilizaremos uma lista de transmissão de co
 
 Essa disciplina terá um formato **100% presencial** com aulas semanais.
 
-Serão formadas **equipes de no máximo 3 integrantes** para realização das práticas. 
+Serão formadas **equipes de no máximo 4 integrantes** para realização das práticas. 
 
 # Objetivos
 
@@ -34,7 +34,7 @@ Propiciar ao estudante de Engenharia, conhecimentos **teóricos e práticos** so
 
 Práticas relacionadas aos aspectos teóricos de eletrotécnica:
 - [**Prática 0**: Apresentação da disciplina](/teaching/LE-2022-1/Lab-0);
-- [**Prática 1**: Introdução à utilização de simuladores](/teaching/LE-2022-1/Lab-1);
+- [**Prática 1**: Introdução à utilização do laboratório](/teaching/LE-2022-1/Lab-1);
 - [**Prática 2**: Leis de Ohm e Leis de Kirchoff](/teaching/LE-2022-1/Lab-2);
 - [**Prática 3**: Circuitos com cargas RLC](/teaching/LE-2022-1/Lab-3);
 - [**Prática 4**: Correção de fator de potência](/teaching/LE-2022-1/Lab-4);
@@ -43,16 +43,13 @@ Práticas relacionadas aos aspectos teóricos de eletrotécnica:
 ## Parte 2
 
 Práticas relacionadas aos aspectos práticos de projetos de instalações elétricas residenciais:
-- [**Prática 6**: Luminotécnica e acionamento de dispositivos de comando de iluminação](/teaching/LE-2022-1/Lab-6);
-- [**Prática 7**: Projeto de instalações elétricas](/teaching/LE-2022-1/Lab-7);
+- [**Prática 6**: Montagens básicas de instalações elétricas residenciais](/teaching/LE-2022-1/Lab-6);
+- [**Prática 7**: Luminotécnica e acionamento de dispositivos de comando de iluminação](/teaching/LE-2022-1/Lab-7);
+- [**Prática 8**: Projeto de instalações elétricas residenciais](/teaching/LE-2022-1/Lab-8);
 
 # Avaliações e estrutura da nota
 
-A nota da disciplina será composta pela média das notas alcançadas nas apresentações de resultados das práticas de laboratório:
-
-$$NF = \sum_{i=1}^{7} NAP_{i}$$
-
-Em que, $NF$ é a nota final da disciplina; $NAP_{i}$ é a nota da apresentação de resultados $i$ em que $i$ é um índice que varia de 1 a 7 e representa o número da prática realizada.
+Composição das notas de avaliações mais relatórios conforme explicado presencialmente.
 
 [**Tabela de Notas**](/teaching/LE-2022-1/notas)
 
@@ -72,3 +69,5 @@ Partindo da premissa que deveríamos usar de plataformas móveis e gratuitas, de
 - **Multisim Live**: Uma plataforma online para ser utilizada diretamente no navegador da internet (PC, smartphone e tablets).
 
 # Calendário de Planejamento
+
+Acesse o calendário [aqui](https://drive.google.com/file/d/1TA94sI-lO4PiE9i2bb8R78y--7UBViZD/view?usp=drivesdk).

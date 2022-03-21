@@ -123,4 +123,4 @@ O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**n
 
 # Calendário de Planejamento
 
-Acesse o calendário [aqui]().
+Acesse o calendário [aqui](https://drive.google.com/file/d/1fs3JpeUzd_0VlVCt_5HYGn1W9Y-NzEfv/view?usp=drivesdk).

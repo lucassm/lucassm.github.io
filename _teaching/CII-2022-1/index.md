@@ -11,7 +11,7 @@ location: "Fortaleza, Brazil"
 # Horário
 
 Horário de realização das interações síncronas da disciplina:
-- Turma 2-B: Terça-feira as 10h.
+- Turma 1-B: Terça-feira as 10h.
 - Turma 1-D: Quinta-feira as 08h.
 
 # Telegram
