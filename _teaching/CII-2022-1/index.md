@@ -4,7 +4,7 @@ collection: teaching
 permalink: /teaching/CII-2022-1
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 excerpt: "Página dedicada à disciplina de Circuitos Elétricos em Corrente Alternada - 2022.1"
-date: 2022-03-16
+date: 2022-03-21
 location: "Fortaleza, Brazil"
 ---
 

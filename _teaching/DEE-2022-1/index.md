@@ -4,7 +4,7 @@ collection: teaching
 permalink: /teaching/DEE-2022-1
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 excerpt: "Página dedicada à disciplina de Distribuição de Energia Elétrica - 2022.1"
-date: 2022-16-03
+date: 2022-03-21
 location: "Fortaleza, Brazil"
 ---
 
