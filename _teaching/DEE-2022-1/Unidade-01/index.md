@@ -9,11 +9,11 @@ location: Fortaleza, Brazil
 ---
 
 ## Slides
-- [Aula 1: Introdução aos sistemas de distribuição de energia elétrica]() - Será postado em breve
+- [Aula 1: Introdução aos sistemas de distribuição de energia elétrica](https://drive.google.com/file/d/1SpM9sio66z6dlkIfcSRuHMdvzk1uYKG6/view?usp=sharing) 
 
 ## Textos
-- [Fundamentos de sistemas de distribuição - parte 1]();
-- [Fundamentos de sistemas de distribuição - parte 2]();
+- [Fundamentos de sistemas de distribuição - parte 1](https://drive.google.com/file/d/1xOUaAwrUCkIgXfrUkM_rI8wgEEnjMWiQ/view?usp=sharing);
+- [Fundamentos de sistemas de distribuição - parte 2](https://drive.google.com/file/d/1lvIu-eEjsNj6V5hDJ1t1mOqe9G_AjBKq/view?usp=sharing);
 
 ## Exercícios
 - [Lista 1: Fundamentos de sistemas de distribuição]() - Será postado em breve
