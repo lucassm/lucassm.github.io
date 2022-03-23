@@ -41,15 +41,15 @@ Esta disciplina irá dedicar-se ao estudo das características e especificidades
 # Conteúdo
 
 Conteúdo programado para ser ministrado no decorrer da disciplina:
-- [**Introdução**](/teaching/DEE-2022-1/Introducao): Informações iniciais sobre a disciplina **A ser postado**;
-- [**Unidade 01**](/teaching/DEE-2022-1/Unidade-01): Introdução ao SDEE **A ser postado**;
-- [**Unidade 02**](/teaching/DEE-2022-1/Unidade-02): Modelagem de linhas de distribuição de eletricidade - **A ser postado**;
-- [**Unidade 03**](/teaching/DEE-2022-1/Unidade-03): Regulação de tensão em redes de distribuição de eletricidade - **A ser postado**;
-- [**Unidade 04**](/teaching/DEE-2022-1/Unidade-04): Modelagem de transformadores de distribuição trifásicos - **A ser postado**;
-- [**Unidade 05**](/teaching/DEE-2022-1/Unidade-05): Cargas e Bancos de Capacitores em redes de distribuição de eletricidade - **A ser postado**; 
-- [**Unidade 06**](/teaching/DEE-2022-1/Unidade-06):  - Fluxo de carga em redes de distribuição de eletrcidade**A ser postado**;
-- [**Unidade 07**](/teaching/DEE-2022-1/Unidade-07):  - Ferramentas computacionais para análise de redes de distribuição de eletricidade **A ser postado**;
-- [**Unidade 08**](/teaching/DEE-2022-1/Unidade-08): Introdução a proteção de sistemas de distribuição - **A ser postado**.
+- [**Introdução**](/teaching/DEE-2022-1/Introducao): Informações iniciais sobre a disciplina;
+- [**Unidade 01**](/teaching/DEE-2022-1/Unidade-01): Introdução ao SDEE;
+- [**Unidade 02**](/teaching/DEE-2022-1/Unidade-02): Modelagem de linhas de distribuição de eletricidade;
+- [**Unidade 03**](/teaching/DEE-2022-1/Unidade-03): Regulação de tensão em redes de distribuição de eletricidade;
+- [**Unidade 04**](/teaching/DEE-2022-1/Unidade-04): Modelagem de transformadores de distribuição trifásicos;
+- [**Unidade 05**](/teaching/DEE-2022-1/Unidade-05): Cargas e Bancos de Capacitores em redes de distribuição de eletricidade; 
+- [**Unidade 06**](/teaching/DEE-2022-1/Unidade-06):  - Fluxo de carga e curto-circuito em redes de distribuição de eletrcidade;
+- [**Unidade 07**](/teaching/DEE-2022-1/Unidade-07):  - Ferramentas computacionais para análise de redes de distribuição de eletricidade;
+- [**Unidade 08**](/teaching/DEE-2022-1/Unidade-08): Introdução a proteção de sistemas de distribuição.
 
 ## Bônus:
 - Natureza das cargas no SDEE
@@ -67,10 +67,9 @@ Conteúdo da **Avaliação Parcial 01**:
 
 Conteúdo da **Avaliação Parcial 02**:
 - **Unidade 05**: Cargas e Bancos de Capacitores em redes de distribuição de eletricidade; 
-- **Unidade 06**: Fluxo de carga em redes de distribuição de eletrcidade;
+- **Unidade 06**: Fluxo de carga e curto-circuito em redes de distribuição de eletrcidade;
 - **Unidade 07**: Ferramentas computacionais para análise de redes de distribuição de eletricidade;
 - **Unidade 08**: Introdução à proteção de sistemas de distribuição.
-
 
 # Trabalhos
 
