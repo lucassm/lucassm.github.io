@@ -47,6 +47,12 @@ Práticas relacionadas aos aspectos práticos de projetos de instalações elét
 - [**Prática 7**: Luminotécnica e acionamento de dispositivos de comando de iluminação](/teaching/LE-2022-1/Lab-7);
 - [**Prática 8**: Projeto de instalações elétricas residenciais](/teaching/LE-2022-1/Lab-8);
 
+# Modelo de Relatório
+
+O relatório deve ser redigido à mão seguindo as orientações contidas [neste arquivo](https://drive.google.com/file/d/1HBR5B8aZ4q63wbaFeP2H9Ps_RI8GlGtI/view?usp=drivesdk).
+
+Obs: No arquivo de orientações, onde houver laboratório de circuitos II, leia-se laboratório de eletrotécnica.
+
 # Avaliações e estrutura da nota
 
 Composição das notas de avaliações mais relatórios conforme explicado presencialmente.

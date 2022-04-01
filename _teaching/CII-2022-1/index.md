@@ -45,6 +45,10 @@ Conteúdos e listagem das práticas a serem realizadas na disciplina:
 - [Lab XI: Circuitos Trifásicos Equilibrados](/teaching/CII-2022-1/Lab-XI);
 - [Lab XII: Circuitos Trifásicos Desequilibrados](/teaching/CII-2022-1/Lab-XII).
 
+# Modelo de Relatório
+
+O relatório deve ser redigido à mão seguindo as orientações contidas [neste arquivo](https://drive.google.com/file/d/1HBR5B8aZ4q63wbaFeP2H9Ps_RI8GlGtI/view?usp=drivesdk).
+
 # Avaliações e estrutura da nota
 
 A nota da disciplina será composta pela média das notas alcançadas nas apresentações de resultados das das práticas de simulações:
