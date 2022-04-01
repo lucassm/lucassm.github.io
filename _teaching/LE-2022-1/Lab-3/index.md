@@ -2,7 +2,7 @@
 title: "Laboratório de Eletrotécnica - Lab 3"
 collection: teaching
 type: conteudo
-permalink: /teaching/LE-2021-1/Lab-3
+permalink: /teaching/LE-2022-1/Lab-3
 venue: Federal University of Ceara, Department of Electrical Engineering
 date: 2022-03-23
 location: Fortaleza, Brazil
