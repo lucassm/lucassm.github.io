@@ -16,7 +16,7 @@ location: Fortaleza, Brazil
 - [Fundamentos de sistemas de distribuição - parte 2](https://drive.google.com/file/d/1lvIu-eEjsNj6V5hDJ1t1mOqe9G_AjBKq/view?usp=sharing);
 
 ## Exercícios
-- [Lista 1: Fundamentos de sistemas de distribuição]() - Será postado em breve
+- [Lista 1: Fundamentos de sistemas de distribuição](https://drive.google.com/file/d/1o-mCMSVnmbCunK6urTEzaTDRl1jZbUa8/view?usp=sharing)
 
 ## Links
 - [Catálogo de condutores](https://drive.google.com/file/d/1j8wNQ7llOKwg1EaztDbxEMyZBW_QHeC5/view?usp=drivesdk)

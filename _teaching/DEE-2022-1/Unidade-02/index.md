@@ -9,14 +9,15 @@ location: Fortaleza, Brazil
 ---
 
 ## Slides
-- [Aula 2-1: Linhas de Distribuição de Eletricidade]()
-- [Aula 2-2: Linhas de Distribuição de Eletricidade]()
-- [Aula 2-3: Modelos de Linhas de Distribuição de Eletricidade]()
+- [Aula 2-1: Linhas de Distribuição de Eletricidade: Impedância série](https://drive.google.com/file/d/1dZ4u5xvIC2FKM2KoefhVQ4aSybJKcJzr/view?usp=sharing)
+- [Aula 2-2: Linhas de Distribuição de Eletricidade: Admitância shunt](https://drive.google.com/file/d/1_rDNZbAkGntZVKI06t5NFLPZ41ze4cr7/view?usp=sharing)
+- [Aula 2-3: Linhas de Distribuição de Eletricidade: Modelos de Linhas](https://drive.google.com/file/d/1ADd5Bj0Tyd3Q7cDnJToJlqyhF1LxP9S_/view?usp=sharing)
 
 ## Textos
-- [Impedância Série de Linhas de Distribuição]()
-- [Admitância em Derivação de Linhas de Distribuição]()
-- [Modelos de Linhas de Distribuição]()
+- [Os porquês da análise de sistemas de distribuição](https://drive.google.com/file/d/1728nw70VMb0yucNwR5uElDojYDoVipuO/view?usp=sharing)
+- [Impedância Série de Linhas de Distribuição](https://drive.google.com/file/d/1A90snvQZ6bihVjuSTDJ68cDgRbnm51Kp/view?usp=sharing)
+- [Admitância em Derivação de Linhas de Distribuição](https://drive.google.com/file/d/19pCGeMKQvl8FivVgFQfTVaPj-4-1VKi8/view?usp=sharing)
+- [Modelos de Linhas de Distribuição](https://drive.google.com/file/d/1q5x7JJiyQbK6BjIpL-K04pWgzhTtOt1z/view?usp=sharing)
 
 ## Exemplos
 - [Exemplos 4-1 e 4-2](https://drive.google.com/file/d/1n01a6A7Em5brsoihB-Gqz6ovMNPcJP6L/view?usp=sharing)
