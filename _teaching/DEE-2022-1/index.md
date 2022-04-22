@@ -123,3 +123,11 @@ O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**n
 # Calendário de Planejamento
 
 Acesse o calendário [aqui](https://drive.google.com/file/d/1fs3JpeUzd_0VlVCt_5HYGn1W9Y-NzEfv/view?usp=drivesdk).
+
+# Vídeos de Semestres Anteriores
+- Modelagem de linhas de distribuição:
+    - [Impedância Série](https://drive.google.com/drive/folders/1coUzvw3b9cKnqgP-pVKJ25pZNJLIoq4_?usp=sharing)
+    - [Admitância Shunt](https://drive.google.com/drive/folders/176P4AAe_QcHbeI0HXqxDAkitPLr0W2T8?usp=sharing)
+    - [Modelos de Linhas](https://drive.google.com/drive/folders/1HJUdGJ3Z2dioXq8RZLwgqipSIlwax2aE?usp=sharing)
+- [Modelagem de Reguladores de Tensão](https://drive.google.com/drive/folders/1YMsBClc5oAdJ_N3hFYdBVfYznLDod6x0?usp=sharing)
+- [Modelagem de Transformadores](https://drive.google.com/drive/folders/1H3tmPrGJWro6__Fv_MdMCb66GDWTwzfp?usp=sharing)
