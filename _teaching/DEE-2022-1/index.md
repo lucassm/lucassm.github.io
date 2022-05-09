@@ -47,8 +47,8 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - [**Unidade 03**](/teaching/DEE-2022-1/Unidade-03): Regulação de tensão em redes de distribuição de eletricidade;
 - [**Unidade 04**](/teaching/DEE-2022-1/Unidade-04): Modelagem de transformadores de distribuição trifásicos;
 - [**Unidade 05**](/teaching/DEE-2022-1/Unidade-05): Cargas e Bancos de Capacitores em redes de distribuição de eletricidade; 
-- [**Unidade 06**](/teaching/DEE-2022-1/Unidade-06):  - Fluxo de carga e curto-circuito em redes de distribuição de eletrcidade;
-- [**Unidade 07**](/teaching/DEE-2022-1/Unidade-07):  - Ferramentas computacionais para análise de redes de distribuição de eletricidade;
+- [**Unidade 06**](/teaching/DEE-2022-1/Unidade-06): Fluxo de carga e curto-circuito em redes de distribuição de eletrcidade;
+- [**Unidade 07**](/teaching/DEE-2022-1/Unidade-07): Ferramentas computacionais para análise de redes de distribuição de eletricidade;
 - [**Unidade 08**](/teaching/DEE-2022-1/Unidade-08): Introdução a proteção de sistemas de distribuição.
 
 ## Bônus:
@@ -74,7 +74,7 @@ Conteúdo da **Avaliação Parcial 02**:
 # Trabalhos
 
 Previsão para temas de trabalhos computacionais a serem desenvolvidos no decorrer da disciplina:
-- [**Trabalho 1**: Modelagem de sistemas de distribuição](/teaching/DEE-2022-1/Trabalho-01) **A ser postado**;
+- [**Trabalho 1**: Modelagem de sistemas de distribuição](/teaching/DEE-2022-1/Trabalho-01) **postado**;
 - [**Trabalho 2**: Fluxo de carga em sistemas de distribuição com OpenDSS](/teaching/DEE-2022-1/Trabalho-02) **A ser postado**.
 
 <br>
