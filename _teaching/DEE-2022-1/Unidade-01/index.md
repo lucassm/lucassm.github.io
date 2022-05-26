@@ -1,5 +1,5 @@
 ---
-title: "Distribuição de Energia Elétrica - Unidade 01"
+title: "Distribuição de Energia Elétrica - Unidade 01 - Introdução"
 collection: teaching
 type: conteudo
 permalink: /teaching/DEE-2022-1/Unidade-01

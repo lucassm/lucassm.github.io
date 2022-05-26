@@ -1,5 +1,5 @@
 ---
-title: "Distribuição de Energia Elétrica - Unidade 02"
+title: "Distribuição de Energia Elétrica - Unidade 02 - Linhas de Distribuição"
 collection: teaching
 type: conteudo
 permalink: /teaching/DEE-2022-1/Unidade-02
@@ -31,7 +31,14 @@ location: Fortaleza, Brazil
 - [Exemplos 5-1 e 5-2](https://drive.google.com/file/d/11gNM2AUZQBpZNye_rRYw1gYNAP-TqDch/view?usp=sharing)
 - [Exemplo 6-1](https://drive.google.com/file/d/1_yUgm-GwL_dNLvqKB3R0-gwGSKqDJKDz/view?usp=sharing)
 
-## Lista de Exercícios:
+# Notebooks
+- [Notebook com exemplo de cálculo de matriz de impedância de fase para linhas aéreas](https://drive.google.com/file/d/1byUbBdRdleldICl4X_thrWvTTAsAZ2KZ/view?usp=sharing)
+- [Notebook com exemplo de cálculo de matriz de impedância de fase para linhas subterrâneas](https://drive.google.com/file/d/1JYZkutqWMKDky0WtsQNlwR9IiHq-tTz2/view?usp=sharing)
+- [Notebook com exemplo de cálculo de matriz de admitância de fase para linhas aéreas](https://drive.google.com/file/d/1J3Eor0YXLdltrrX5QXVF4ejiROrP_LVv/view?usp=sharing)
+- [Notebook com exemplo de cálculo de matriz de admitância de fase para linhas subterrâneas](https://drive.google.com/file/d/16oqJ-M-N5w3FJ9I_Td9yj-UJhcNvkpfd/view?usp=sharing)
+- [Notebook com exemplo de cálculo de tensões e correntes em linha de distribuição](https://drive.google.com/file/d/13Ho31lBri6Jt47arRKQtCbq8x4nDhMOg/view?usp=sharing)
+
+<!-- ## Lista de Exercícios:
 - Linhas de Distribuição de Eletricidade - Impedância série: Questões 4.1, 4.9, 4.10, 4.12
 - Linhas de Distribuição de Eletricidade - Admitância shunt: Questões 
-- Linhas de Distribuição de Eletricidade - Modelos de Linhas
+- Linhas de Distribuição de Eletricidade - Modelos de Linhas -->
