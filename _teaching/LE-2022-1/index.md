@@ -43,9 +43,10 @@ Práticas relacionadas aos aspectos teóricos de eletrotécnica:
 ## Parte 2
 
 Práticas relacionadas aos aspectos práticos de projetos de instalações elétricas residenciais:
-- [**Prática 6**: Montagens básicas de instalações elétricas residenciais](/teaching/LE-2022-1/Lab-6);
-- [**Prática 7**: Luminotécnica e acionamento de dispositivos de comando de iluminação](/teaching/LE-2022-1/Lab-7);
-- [**Prática 8**: Projeto de instalações elétricas residenciais](/teaching/LE-2022-1/Lab-8);
+- [**Prática 6**: Luminotécnica e acionamento de dispositivos de comando de iluminação](/teaching/LE-2022-1/Lab-6);
+- [**Prática 7**: Montagens básicas de instalações elétricas residenciais](/teaching/LE-2022-1/Lab-7);
+- [**Prática 8 - Parte 1**: Projeto de instalações elétricas residenciais](/teaching/LE-2022-1/Lab-8);
+
 
 # Modelo de Relatório
 
