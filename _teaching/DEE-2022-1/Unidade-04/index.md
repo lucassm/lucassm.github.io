@@ -13,8 +13,10 @@ location: Fortaleza, Brazil
 
 ## Textos
 - [Transformadores em Sistemas de Distribuição](https://drive.google.com/file/d/1xSYS2DgYV4M6f2vMv4PawqeM-WbAt4ax/view?usp=sharing)
+- [Modelagem de transformadores no OpenDSS](https://drive.google.com/file/d/1kaEAmBGRzc3IQw2se8Ci8bGF5qSvynB9/view?usp=sharing)
 
+## Exercícios
+ - [Lista de exercícios 2](https://drive.google.com/file/d/1j5hUpvTUhOPNzsLvdoJSt7FzsGzai-UE/view?usp=sharing)
 
 ## Notebooks
-
 
