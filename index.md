@@ -5,22 +5,51 @@ author_profile: true
 permalink: /
 ---
 
-Assistant Professor at the [Department of Electrical Engineering](http://www.dee.ufc.br) of [Federal University of Ceara (UFC)](http://www.ufc.br). I teach **Electrical Distribution System Analysis** at BSc level and colaborate with [UFC Smart Grid Group - GREI](https://grei-ufc.github.io/) 
+## Short Bio
 
-I am in a doctoral studies program in Federal University of Ceara under Dr. Ruth Leão supervision. I am as a visiting scholar in [Laboratorio de Planejamento de Sistemas de Energia Eletrica](https://labplan.paginas.ufsc.br/) at [Federal University of Santa Catarina](http://www.ufsc.br) under Dr. Diego Issicaba supervision.
+Adjunct Professor at the [Department of Electrical Engineering](http://www.dee.ufc.br) of [Federal University of Ceara (UFC)](http://www.ufc.br).
 
-My research interests are in:
+## Education
+
+[Doctoral Degree Thesis](https://repositorio.ufc.br/handle/riufc/66268) **Multidomain computer simulation model for the analysis of smart electrical grids with application in energy economic transactions**.
+
+[Master Degree Dissertation](http://www.repositorio.ufc.br/handle/riufc/13773): **Development of a platform for implementing multi-agents systems for application to automatic restoration of electric power distribution systems**.
+
+## Teaching
+
+I teach at BSc degree:
+
+- [Electrical Distribution System Analysis](/);
+- Electrical Transmission System Analysis;
+- Eletrotecnic for Engineering;
+- Computer Networks;
+- AC Circuits (Laboratory);
+- DC Circuits (Laboratory);
+- Eletrotecnic for Engineering (Laboratory);
+
+## Research Interests
+
+I am a colaborator of [UFC Smart Grid Group - GREI](https://grei-ufc.github.io/). My research interests are:
 - Smart Grids applications;
 - Multiagent systems applied in electrical power systems;
 - Co-simulation of smart grid systems;
 - Optimization in electrical power systems;
 - Distributed Energetic Resourses integration and coordeination.
 
-[Master Degree Dissertation](http://www.repositorio.ufc.br/handle/riufc/13773): **Development of a platform for implementing multi-agents systems for application to automatic restoration of electric power distribution systems**.
+## Contact
+
+Email: lucassmelo at dee dot ufc dot br
+Mailing Address: 
+Department of Electrical Engineering
+Federal University of Ceara
+Campus do Pici. Cemtro de Tecnologia
+Fortaleza, Ceará, Brasil
+
+## Links
 
 [Lattes CV](http://lattes.cnpq.br/7082243734904289)
 
-[GitHub Repository](https://github.com/lucassm).
+[GitHub Repository](https://github.com/lucassm)
 
 [ResearchGate](https://www.researchgate.net/profile/Lucas_Melo9)
 
