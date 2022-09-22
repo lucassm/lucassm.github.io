@@ -19,13 +19,13 @@ Adjunct Professor at the [Department of Electrical Engineering](http://www.dee.u
 
 I teach at BSc degree:
 
-- [Electrical Distribution System Analysis](/);
-- Electrical Transmission System Analysis;
-- Eletrotecnic for Engineering;
+- [Electrical Distribution System Analysis](/DEE);
+- [Electrical Transmission System Analysis](/TEE);
+- [Eletrotecnic for Engineering](/EE);
 - Computer Networks;
-- AC Circuits (Laboratory);
-- DC Circuits (Laboratory);
-- Eletrotecnic for Engineering (Laboratory);
+- [AC Circuits (Laboratory)](/CII-Lab);
+- ]DC Circuits (Laboratory)](/CI-Lab);
+- [Eletrotecnic for Engineering (Laboratory)](/EE-Lab);
 
 ## Research Interests
 

@@ -2,7 +2,7 @@
 title: "Trabalho 01 - Transmissão de Energia Elétrica"
 collection: teaching
 type: conteudo
-permalink: /teaching/TEE-2021-2/Trabalho-01
+permalink: /teaching/TEE/Trabalho-01
 venue: Federal University of Ceara, Department of Electrical Engineering
 date: 2021-12-13
 location: Fortaleza, Brazil

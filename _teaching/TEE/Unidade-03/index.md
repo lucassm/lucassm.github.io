@@ -2,7 +2,7 @@
 title: "Transmissão de Energia Elétrica - Unidade 03"
 collection: teaching
 type: conteudo
-permalink: /teaching/TEE-2021-2/Unidade-03
+permalink: /teaching/TEE/Unidade-03
 venue: Federal University of Ceara, Department of Electrical Engineering
 date: 2021-10-26
 location: Fortaleza, Brazil
