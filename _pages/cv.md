@@ -51,7 +51,9 @@ Talks
 Teaching
 ======
   <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
+    {% if post.type != 'conteudo' %}
+        {% include archive-single-cv.html %}
+    {% endif %}
   {% endfor %}</ul>
   
 Service and leadership
