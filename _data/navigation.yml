@@ -8,7 +8,13 @@ main:
 
   - title: "Teaching"
     url: /teaching/    
-        
+  
+  - title: "Students"
+    url: /students/
+
+  - title: "References"
+    url: /references/
+
   - title: "Blog Posts"
     url: /year-archive/
     

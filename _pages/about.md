@@ -1,12 +1,14 @@
 ---
 permalink: /
-title: "About me"
+title: "Professor Lucas Melo, Dr."
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+## About me
 
 Hello, my name is Lucas Melo and I am Assistant Professor at the [Department of Electrical Engineering](http://www.dee.ufc.br) of [Federal University of Ceara (UFC)](http://www.ufc.br).
 
@@ -35,14 +37,16 @@ I teach at BSc degree:
 
 ## Contact
 
-
-
 >**Email**: lucassmelo **at** *dee* **dot** *ufc* **dot** *br*  
 **Mailing Address**:  
 Department of Electrical Engineering  
 Federal University of Ceará  
 Campus do Pici - Centro de Tecnologia  
 Fortaleza, Ceará, Brazil  
+
+## Calendar
+
+<iframe src="https://calendar.google.com/calendar/embed?src=lucassmelo%40dee.ufc.br&ctz=America%2FFortaleza" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Links
 
