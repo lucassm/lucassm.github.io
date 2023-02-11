@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Electrical Engineering, Federal University of Ceará (Sobral), 2013
 * M.S. in Jekyll, GitHub University, 2014
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
