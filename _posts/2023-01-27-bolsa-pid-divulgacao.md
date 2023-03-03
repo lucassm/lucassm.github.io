@@ -37,3 +37,8 @@ Lembrando que são requisitos para participação no processo seletivo da monito
 - **Não apresentar reprovação em nenhum componente curricular** durante o exercício (vigência) da monitoria.
 
 **Lembrete**: As monitorias remunerada e voluntária contarão como créditos complementares.
+
+
+## Resultado da seleção
+
+[Resultado](https://drive.google.com/file/d/148xTB38vNxlaKMJKQ0wgfVG79tQvxPM4/view?usp=share_link)

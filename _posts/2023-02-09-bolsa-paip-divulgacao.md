@@ -41,3 +41,7 @@ Lembrando que são requisitos para participação no processo seletivo da monito
 - Não apresentar reprovação em nenhum componente curricular durante o exercício (vigência) da bolsa.
 
 **Importante**: Além dos critérios acima, para este projeto é necessário que o aluno tenha cursado pelo menos as disciplinas de **cálculo para enegenharia e lógica de programação computacional para engenharia**.
+
+## Resultado da seleção
+
+[Resultado](https://drive.google.com/file/d/1-VkHpqvKE0838khrzAdbOSJtFeQZfiBb/view?usp=share_link)

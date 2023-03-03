@@ -12,8 +12,8 @@ redirect_from:
 Education
 ======
 * B.S. in Electrical Engineering, Federal University of Ceará (Sobral), 2013
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Electrical Engineering, Federal University of Ceará (Fortaleza), 2015
+* Ph.D in Electrical Engineering, Federal University of Ceará (Fortaleza), 2022
 
 Work experience
 ======
@@ -29,12 +29,9 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Power Distribution Systems Modeling
+* Knowledge of the following programming languages: Python, Matlab/Octave, C/C++
+* Linux Operational System 
 
 Publications
 ======
