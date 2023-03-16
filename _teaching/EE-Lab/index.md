@@ -11,8 +11,8 @@ location: "Fortaleza, Brazil"
 # Horário
 
 Horário de realização das interações síncronas da disciplina:
-- Turma 11: Segunda-feira as 16h.
-- Turma 12: Quarta-feira as 08h.
+- Turma 03: Quarta-feira de 08:00 as 10:00.
+- Turma 04: Quarta-feira de 10:00 as 12:00.
 
 # Telegram
 
@@ -22,7 +22,7 @@ Para uma comunicação mais rápida utilizaremos uma lista de transmissão de co
 
 Essa disciplina terá um formato **100% presencial** com aulas semanais.
 
-Serão formadas **equipes de no máximo 4 integrantes** para realização das práticas. 
+Serão formadas **equipes de no máximo 4 integrantes** para realização das práticas.
 
 # Objetivos
 
@@ -43,10 +43,9 @@ Práticas relacionadas aos aspectos teóricos de eletrotécnica:
 ## Parte 2
 
 Práticas relacionadas aos aspectos práticos de projetos de instalações elétricas residenciais:
-- [**Prática 6**: Luminotécnica e acionamento de dispositivos de comando de iluminação](/teaching/EE-Lab/Lab-6);
-- [**Prática 7**: Montagens básicas de instalações elétricas residenciais](/teaching/EE-Lab/Lab-7);
-- [**Prática 8 - Parte 1**: Projeto de instalações elétricas residenciais](/teaching/EE-Lab/Lab-8);
-
+- [**Prática 6**: Montagens básicas de instalações elétricas residenciais](/teaching/EE-Lab/Lab-6);
+- [**Prática 7**: Luminotécnica e acionamento de dispositivos de comando de iluminação](/teaching/EE-Lab/Lab-7);
+- [**Prática 8**: Projeto de instalações elétricas residenciais](/teaching/EE-Lab/Lab-8);
 
 # Modelo de Relatório
 
@@ -66,7 +65,7 @@ Todos os trabalhos (a não ser que indicados explicitamentes) devem ser pelas eq
 
 # Bibliografia Básica
 
-Roteiro de práticas a ser postado a medida que o cronograma previsto for sendo cumprido.
+Roteiro das práticas já disponibilizado nos links descritos acima.
 
 # Softwares
 
@@ -77,4 +76,4 @@ Partindo da premissa que deveríamos usar de plataformas móveis e gratuitas, de
 
 # Calendário de Planejamento
 
-Acesse o calendário [aqui](https://drive.google.com/file/d/1TA94sI-lO4PiE9i2bb8R78y--7UBViZD/view?usp=drivesdk).
+Acesse o calendário [aqui](https://drive.google.com/file/d/1e1JQAGeTwkK3gqaAqhlmKnkEyyF3FvsT/view?usp=share_link).

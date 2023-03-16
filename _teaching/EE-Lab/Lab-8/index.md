@@ -2,9 +2,9 @@
 title: "Laboratório de Eletrotécnica - Lab 8"
 collection: teaching
 type: conteudo
-permalink: /teaching/LE-2022-1/Lab-8
+permalink: /teaching/EE-Lab/Lab-8
 venue: Federal University of Ceara, Department of Electrical Engineering
-date: 2022-06-06
+date: 2023-03-15
 location: Fortaleza, Brazil
 ---
 

@@ -2,9 +2,9 @@
 title: "Laboratório de Eletrotécnica - Lab 0"
 collection: teaching
 type: conteudo
-permalink: /teaching/LE-2022-1/Lab-0
+permalink: /teaching/EE-Lab/Lab-0
 venue: Federal University of Ceara, Department of Electrical Engineering
-date: 2021-05-25
+date: 2023-03-15
 location: Fortaleza, Brazil
 ---
 
