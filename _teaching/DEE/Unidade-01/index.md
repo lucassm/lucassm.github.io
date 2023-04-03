@@ -10,6 +10,8 @@ location: Fortaleza, Brazil
 
 ## Slides
 - [Aula 1: Introdução aos sistemas de distribuição de energia elétrica](https://drive.google.com/file/d/1SpM9sio66z6dlkIfcSRuHMdvzk1uYKG6/view?usp=sharing)
+- [Aula 2: Alocação de Cargas em sistemas de distribuição](https://drive.google.com/file/d/1tDxw3warz7A4nA43mwsJ659wmu6ShqlX/view?usp=share_link)
+- [Aula 3: Métodos Aproximados de Análise](https://drive.google.com/file/d/1336DSY1bFc3PRx4uRYdbexknRt4cznw0/view?usp=share_link)
 
 ## Textos
 - [Fundamentos de sistemas de distribuição - parte 1](https://drive.google.com/file/d/1xOUaAwrUCkIgXfrUkM_rI8wgEEnjMWiQ/view?usp=sharing);
