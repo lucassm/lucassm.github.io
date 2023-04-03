@@ -4,7 +4,7 @@ collection: teaching
 type: conteudo
 permalink: /teaching/DEE/Trabalho-01
 venue: Federal University of Ceara, Department of Electrical Engineering
-date: 2022-05-09
+date: 2023-04-03
 location: Fortaleza, Brazil
 ---
 
