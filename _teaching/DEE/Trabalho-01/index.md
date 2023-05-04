@@ -4,24 +4,26 @@ collection: teaching
 type: conteudo
 permalink: /teaching/DEE/Trabalho-01
 venue: Federal University of Ceara, Department of Electrical Engineering
-date: 2023-04-03
+date: 2023-05-04
 location: Fortaleza, Brazil
 ---
 
 ## Questões
-- [Arquivo contendo as informações do trabalho](https://docs.google.com/document/d/1rZPgVSjp1CR5KCPMGDGaIfzsNzKyyUHYXA1eY2Wj0v4/edit?usp=sharing)
+- [Arquivo contendo as informações do trabalho](https://drive.google.com/file/d/1QaxR11V5Ze0Qwu7rRZZgc9_T6Rm8cc6Y/view?usp=share_link)
 
 ## Outras instruções
-- As equipes devem ser compostas por 2 integrantes;
+- As equipes devem ser compostas por 2 integrantes cada;
+- Serão realizadas apresentações com o resultado do trabalho;
+- Consultar material sobre alocação de carga em sistemas de distribuição para realizar o trabalho.
 
 ## Dúvidas
 - Serão tiradas em sala de aula
 
 ## Data de Entrega
-Prevista para 25/04/23.
+Prevista para **11/05/23**.
 
-Link para entrega será disponibilizado nesta página em breve.
+Link para entrega: [Entregar Trabalho 1](https://forms.gle/XNucpz1SU2MDonQb8)
 
 ## Links Úteis
 - [Jupyter-notebook do Google-Colab com instruções de utilização do pandas](https://drive.google.com/file/d/1k4QSyiyelzPzaKmUnE3TBMi60gMUmmcf/view?usp=sharing)
-- [Jupyter-notebook do Google-Colab com instruções de utilização do simbench](https://colab.research.google.com/drive/1Lpl4ToMADCYU4Uy_HQlmLGVxZVE77jn8?usp=sharing)
+- [Jupyter-notebook do Google-Colab com instruções de utilização do simbench](https://colab.research.google.com/drive/17bARCpGtc0R8sRafLlf7zzLIzdPMDlhg?usp=sharing)
