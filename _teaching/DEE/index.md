@@ -50,6 +50,10 @@ Conteúdo da **Avaliação Parcial 01**:
 - **Unidade 02**: Modelagem de linhas de distribuição de eletricidade;
 - **Unidade 03**: Regulação de tensão em redes de distribuição de eletricidade;
 
+# Lista de Exercícios
+
+- Lista de Exercícios relacionada às unidades 01 e 02: [Link](https://drive.google.com/file/d/1ufRtstPs8eX2oMoWx0Juw-wdAUeWu8OK/view?usp=share_link).
+
 # Trabalhos
 
 Previsão para temas de trabalhos computacionais a serem desenvolvidos no decorrer da disciplina:
