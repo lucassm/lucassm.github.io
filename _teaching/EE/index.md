@@ -53,11 +53,11 @@ Conteúdo da **Avaliação Parcial 02**:
 
 # Lista de Exercícios
 
-- [Lista 1: Conceitos básicos de eletricidade]() - Não disponível.
+- [Lista 1: Conceitos básicos de eletricidade]().
 
 # Trabalhos
 
-- [**Trabalho Final**: ](/teaching/EE/Trabalho-Final) - Não disponível.
+- [**Trabalho Final**: ](/teaching/EE/Trabalho-Final)
 
 # Estrutura da nota
 
