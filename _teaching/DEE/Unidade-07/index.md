@@ -4,7 +4,7 @@ collection: teaching
 type: conteudo
 permalink: /teaching/DEE/Unidade-07
 venue: Federal University of Ceara, Department of Electrical Engineering
-date: 2022-05-09
+date: 2023-05-22
 location: Fortaleza, Brazil
 ---
 
@@ -30,13 +30,10 @@ location: Fortaleza, Brazil
 ## Textos
 - [Primer do OpenDSS](https://sourceforge.net/p/electricdss/code/HEAD/tree/trunk/Distrib/Doc/OpenDSSPrimer.pdf?format=raw)
 - [Manual do OpenDSS](https://sourceforge.net/p/electricdss/code/HEAD/tree/trunk/Distrib/Doc/OpenDSSManual.pdf?format=raw)
-- [Análise de alimentadores de distribuição](https://github.com/lucassm/lucassm.github.io/raw/master/files/SDEE-2021-2/Unidade-10-Analise-de-Alimentadores-de-Distribuicao-protected.pdf)
-
-## Slides
-- [OpenDSS Training Workshop: Basics and Scripting](https://drive.google.com/file/d/1MBSLvcnw7CMDVTCRYFIXKmpCLNeXBdoH/view?usp=sharing)
-- [Aula 7: Análise de alimentadores de distribuição]() - Será postado
-
 
 ## Links Úteis
 - [Site para download do OpenDSS](https://sourceforge.net/projects/electricdss/)
 - [Site do EPRI com links úteis para o OpenDSS](https://www.epri.com/pages/sa/opendss?lang=en-US)
+
+# Material das Aulas presenciais
+- [Pasta Compartilhada com material](https://drive.google.com/drive/folders/15vNLgxCOAomQ3-M-JcUg5K0W6Jq2ziST?usp=share_link)
