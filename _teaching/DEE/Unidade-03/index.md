@@ -9,11 +9,10 @@ location: Fortaleza, Brazil
 ---
 
 ## Slides
-[Aula 3: Reguladores de Tensão em Sistemas de Distribuição](https://drive.google.com/file/d/14YXkMPtcqV_TlabtWEQ8ryOrifMu68q1/view?usp=sharing)
+[Aula 3: Reguladores de Tensão em Sistemas de Distribuição](https://drive.google.com/file/d/1IXb3TNthpp4sg1tyLH_bGj4o5MXXxWtp/view?usp=share_link)
 
 ## Textos
 - [Reguladores de Tensão em Sistemas de Distribuição](https://drive.google.com/file/d/1-xeQLsq9BEvPizD9yFPpleEIhWUI5x0K/view?usp=sharing)
-
 
 ## Notebooks
 
