@@ -8,7 +8,6 @@ date: 2023-03-20
 location: "Fortaleza, Brazil"
 ---
 
-
 # Objetivos
 
 Desenvolver no aluno habilidades para analisar projetos básicos que envolvem instalações elétricas prediais.
@@ -51,6 +50,8 @@ Conteúdo da **Avaliação Parcial 02**:
 - **Unidade 07**: Aterramento de instalações elétricas;
 - **Unidade 08**: Proteção de instalações elétricas.
 
+[**Planilha de Notas**](/teaching/EE-Lab/notas)
+
 # Lista de Exercícios
 
 - [Lista 1: Conceitos básicos de eletricidade]().
@@ -72,6 +73,7 @@ Em que, $NF$ é a nota final da disciplina; $NAP$ é a média das notas das aval
 $$
     NAP = \frac{NAP_1 + NAP_2}{2}
 $$
+
 
 # Informações adicionais
 

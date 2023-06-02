@@ -57,7 +57,7 @@ Obs: No arquivo de orientações, onde houver laboratório de circuitos II, leia
 
 Composição das notas de avaliações mais relatórios conforme explicado presencialmente.
 
-[**Tabela de Notas**](/teaching/LE-2022-1/notas)
+[**Planilha de Notas**](/teaching/EE-Lab/notas)
 
 # Política de Plágio
 
