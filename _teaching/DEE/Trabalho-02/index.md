@@ -12,9 +12,7 @@ location: Fortaleza, Brazil
 - [Arquivo contendo as informações do trabalho](https://drive.google.com/file/d/10wMmhfZlKDcqvotwaO7LKI627eEI_-hp/view?usp=share_link)
 
 ## Material de Apoio
-- [Apostila: Modelagem com OpenDSS](https://drive.google.com/file/d/1g1pMCQq47ujibAcYGyPHo6OJysttdqAS/view?usp=sharing);
-- [Exemplo IEEE 13bus](https://drive.google.com/drive/folders/1m3qxwnlOBltpzA65mTkhH_9pyR7PJvye?usp=sharing);
-- [OpenDSS Primer](https://drive.google.com/file/d/1eHZMbamc9bbXHwBbmffZzxe3zG9F3Myx/view?usp=sharing).
+- [Pasta Compartilhada com material](https://drive.google.com/drive/folders/15vNLgxCOAomQ3-M-JcUg5K0W6Jq2ziST?usp=share_link)
 
 ## Outras instruções
 - O trabalho deve ser apresentado oralmente por toda a equipe;
