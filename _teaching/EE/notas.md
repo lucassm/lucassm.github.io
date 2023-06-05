@@ -1,8 +1,8 @@
 ---
-title: "Eletrotécnica para Engenharia"
+title: "Link para Acesso às Notas de Eletrotécnica para Engenharia"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/EE
+permalink: /teaching/EE/notas
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 date: 2023-06-02
 location: "Fortaleza, Brazil"
