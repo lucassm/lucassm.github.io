@@ -50,7 +50,7 @@ Conteúdo da **Avaliação Parcial 02**:
 - **Unidade 07**: Aterramento de instalações elétricas;
 - **Unidade 08**: Proteção de instalações elétricas.
 
-[**Planilha de Notas**](/teaching/EE-Lab/notas)
+[**Planilha de Notas**](/teaching/EE/notas)
 
 # Lista de Exercícios
 
