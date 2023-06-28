@@ -1,7 +1,7 @@
 ---
 title: "Laboratório de Eletrotécnica"
 collection: teaching
-type: "Undergraduate course"
+type: conteudo
 permalink: /teaching/EE-Lab/notas
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 date: 2023-06-02

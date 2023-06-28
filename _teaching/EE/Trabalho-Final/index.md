@@ -21,7 +21,7 @@ location: Fortaleza, Brazil
 2. Murilo Almeida Oliveira,  Andressa Maria Silva Monteiro,  Francisco Davi de Lima,  José Figueiredo da Rocha Neto,  Vitória Hellen Feitosa Coelho.
 3. Victor Duarte Souza da Costa,  Thomas da Silva Oliveira,  Mendeleyev Santos Amorim,  Albanir Pinto de Almeida Neto,  Ian Victor de Oliveira e Alvim.
 4. Lino Souza Filho,  Raíssa Gomes dos Santos,  Vitor Paiva da Silva,  Steven Renato Ferreira Vasconcelos,  Cibele Lima Sousa.
-5. Álvaro Carneiro de Araujo,  Nicolas Fernandes Plim Brandão,  Raica Barreto da Silva,  Eva Furtado.
+5. Álvaro Carneiro de Araujo,  Nicolas Fernandes Plim Brandão,  Raica Barreto da Silva,  Eva Furtado, Candida Souza Oliveira.
 6. Clarice Paiva Bezerra,  Gabriela Da Silva Nascimento,  Stepheson Maciel Cabral Filho,  Yuri Bernardino Vieira.
 7. Victor Emanuel Alves dos Santos,  Joaquim Sampaio de Almeida Schuler,  Letícia Lucena de Aguiar,  José Valtemberg de Sousa e Silva,  Francisco Thierry Oliveira Sousa.
 8. Flaine Adina de Albuquerque,  Breno Fernandes Barbosa de Sousa,  Nelson Rodrigues de Vasconcelos Junior,  William Loiola Lima,  Luis Gustavo Rodrigues Sa.

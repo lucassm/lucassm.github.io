@@ -1,7 +1,7 @@
 ---
 title: "Link para Acesso às Notas de Eletrotécnica para Engenharia"
 collection: teaching
-type: "Undergraduate course"
+type: conteudo
 permalink: /teaching/EE/notas
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 date: 2023-06-02
