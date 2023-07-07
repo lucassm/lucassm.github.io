@@ -33,8 +33,8 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - [**Unidade 05**](https://drive.google.com/file/d/1NL-Pt1T28UCDsj6Jgrlai2-JMEvuXVIL/view?usp=share_link): Dimensionamento da instalação elétrica;
 - [**Unidade 06**](https://drive.google.com/file/d/1n1jjFr7v5pG22Ijz3W_RTKoxlMI5ROAA/view?usp=share_link): Fornecimento de Energia elétrica;
 - [**Unidade 07**](https://drive.google.com/file/d/15AC3blWgFxrsMyij9ioCOVyR6sUOVDTi/view?usp=share_link): Proteção de instalações elétricas.
-- [**Unidade 08**](): Aterramento de instalações elétricas;
-- [**Unidade 09**](): Dimensionamento de Eletrodutos;
+- [**Unidade 08**](https://drive.google.com/file/d/17s0l4YEGKQxkLZWlU73E-Z5TVxO2VaNJ/view?usp=sharing): Dimensionamento de Eletrodutos;
+- [**Unidade 09**](https://drive.google.com/file/d/1TSfGhYuiZklRiopILsLV0K90zHD-xHTA/view?usp=sharing): Aterramento de instalações elétricas;
 
 # Avaliações
 
