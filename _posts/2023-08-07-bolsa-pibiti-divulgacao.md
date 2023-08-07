@@ -63,8 +63,7 @@ ix) O candidato contemplado com bolsa remunerada poderá desenvolver atividades 
 
 Além de observar os requisitos descritos acima **os bolsistas a serem indicados devem, preferencialmente, atender aos seguintes critérios** que definam seu perfil acadêmico:
 
-- Ter cursado a disciplina de circuitos elétricos II;
-- Ter conhecimentos em técnicas e protocolos necessários para o desenvolvimento do projeto;
+- Ter cursado as disciplinas de Cálculo e Programação;
 - Ter conhecimento de linguagem de programação Python;
 - Ter conhecimento de gerenciamento de projetos de software utilizando Github;
 - Ter conhecimento de escrita de artigos científicos em Latex;
