@@ -11,11 +11,19 @@ tags:
 
 # Instrumento de Seleção dos Bolsistas para indicação na Plataforma Ícaro Moreira
 
-# Projeto de Pesquisa: 10388
+# Projeto de Pesquisa: 10959
 
 Número de Bolsas Remuneradas da UFC: **01(uma) bolsa remunerada**.
 
+## Resumo do Projeto:
+
+Em decorrência das inúmeras transformações porque vem passando o sistema elétrico de potência muitas oportunidades estão sendo criadas. Uma delas é a possibilidade de comprar e/ou vender energia elétrica em mercados mais próximos dos consumidores, ou seja, os mercados varejistas de eletricidade. Para operar nesses mercador é necessário que as decisões de compra e venda sejam baseadas em estratégias que visem gerenciar os Recursos Energéticos de um prosumidor de forma otimizada. Para que isso se torne realidade serão necessários dispositivos com tecnologia de otimização embarcada que executem as análises de gerenciamento e tomem as decisões adequadas dentro do contexto de controle e operação dos RED. **Esse projeto tem como objetivos modelar e desenvolver estratégias de gerenciamento de recursos energéticos utilizando programação matemática dos tipos linear, inteira, quadrática e não-linear e aplicar os modelos desenvolvidos em dispositivos computacionais de baixo custo**.
+
+## Informações Importantes
+
 O período de seleção e indicação dos bolsistas (PIBITI-Bolsa UFC) pelos orientadores no âmbito do PIBITI 2023-2024 será **de a 04 a 16 de agosto de 2023**.
+
+Os alunos interessados devem enviar histórico escolar para o e-mail: **lucassmelo@dee.ufc.br** até 10/08. As entrevistas para seleção dos bolsistas serão agendadas por e-mail.
 
 Conforme indicado na sessão 5 do edital PRPPG/UFC nº 02/2023 os seguintes **requisitos e compromissos** devem ser atendidos pelos bolsistas:
 
@@ -56,17 +64,10 @@ ix) O candidato contemplado com bolsa remunerada poderá desenvolver atividades 
 Além de observar os requisitos descritos acima **os bolsistas a serem indicados devem, preferencialmente, atender aos seguintes critérios** que definam seu perfil acadêmico:
 
 - Ter cursado a disciplina de circuitos elétricos II;
-- Conhecimentos em técnicas e protocolos necessários para o desenvolvimento do projeto;
-- Conhecimento de linguagem de programação Python;
+- Ter conhecimentos em técnicas e protocolos necessários para o desenvolvimento do projeto;
+- Ter conhecimento de linguagem de programação Python;
 - Ter conhecimento de gerenciamento de projetos de software utilizando Github;
 - Ter conhecimento de escrita de artigos científicos em Latex;
-
-
-## Resumo do Projeto:
-
-Em decorrência das inúmeras transformações porque vem passando o sistema elétrico de potência muitas oportunidades estão sendo criadas. Uma delas é a possibilidade de comprar e/ou vender energia elétrica em mercados mais próximos dos consumidores, ou seja, os mercados varejistas de eletricidade. Para operar nesses mercador é necessário que as decisões de compra e venda sejam baseadas em estratégias que visem gerenciar os Recursos Energéticos de um prosumidor de forma otimizada. Para que isso se torne realidade serão necessários dispositivos com tecnologia de otimização embarcada que executem as análises de gerenciamento e tomem as decisões adequadas dentro do contexto de controle e operação dos RED. Esse projeto tem como objetivos modelar e desenvolver estratégias de gerenciamento de recursos energéticos utilizando programação matemática dos tipos linear, inteira, quadrática e não-linear e aplicar os modelos desenvolvidos em dispositivos computacionais de baixo custo.
-
-Os alunos interessados devem enviar histórico escolar para o e-mail: lucassmelo@dee.ufc.br até 10/08. As entrevistas para seleção dos bolsistas serão agendadas por e-mail.
 
 Prof. Dr. Lucas Silveira Melo - Departamento de Engenharia Elétrica
 
