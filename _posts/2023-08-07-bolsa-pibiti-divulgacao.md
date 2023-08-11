@@ -11,7 +11,7 @@ tags:
 
 # Instrumento de Seleção dos Bolsistas para indicação na Plataforma Ícaro Moreira
 
-# Projeto de Pesquisa: 10959
+# Projeto de Pesquisa: PIBITI-UFC-10959
 
 Número de Bolsas Remuneradas da UFC: **01(uma) bolsa remunerada**.
 
@@ -73,4 +73,4 @@ Prof. Dr. Lucas Silveira Melo - Departamento de Engenharia Elétrica
 
 ## Resultado da Seleção
 
-Será postado em breve.
+[Reultado PIBITI 2023](https://drive.google.com/file/d/1KaQiwVJv0XASRtVGvztUec-3RltAfgVf/view?usp=sharing)
