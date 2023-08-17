@@ -74,7 +74,6 @@ $$
     NAP = \frac{NAP_1 + NAP_2}{2}
 $$
 
-
 # Informações adicionais
 
 - O trabalho final será realizado em equipe (máx. 04 integrantes);
@@ -83,10 +82,7 @@ $$
 # Softwares
 - [Python](https://www.python.org/)
 - [GNS-3](https://www.gns3.com/)
-
-# Política de Plágio
-
-Todos os trabalhos (a não ser que indicados explicitamentes) devem ser feitos de forma individual. O que você entregar deve ser fruto do seu trabalho. Alunos são permitidos e encorajados para discutir os trabalhos e projetos com outros alunos. Alunos não são permitidos copiar solução ou parte de solução de colegas. Na presença de plágio, os alunos envolvidos não receberão pontos da atividade em questão.
+- [Wireshark](https://www.wireshark.org/)
 
 # Bibliografia Básica
 
@@ -94,5 +90,15 @@ Todos os trabalhos (a não ser que indicados explicitamentes) devem ser feitos d
 
 Além do livro texto, serão disponibilizados **[slides](http://gaia.cs.umass.edu/kurose-ross-ppt-6e/)**, que trarão bastante informação, e **outros recursos de texto** que serão disponibilizados no decorrer da disciplina.
 
+# Links Interessantes
+
+- Applets: [link](https://www2.tkn.tu-berlin.de/teaching/rn/animations/)
+- The OPE project: [link](https://www.opte.org/the-internet)
+- Kurose and Ross Book webpage: [link](https://gaia.cs.umass.edu/kurose_ross/index.php)
+
 # Calendário de Planejamento da disciplina
-Acesse o calendário [aqui]().
+Acesse o calendário [aqui](https://drive.google.com/file/d/1YRy6VWZ6EoEw0OmFczOf0MHD9D_roSpX/view?usp=drivesdk).
+
+# Política de Plágio
+
+Todos os trabalhos (a não ser que indicados explicitamentes) devem ser feitos de forma individual. O que você entregar deve ser fruto do seu trabalho. Alunos são permitidos e encorajados para discutir os trabalhos e projetos com outros alunos. Alunos não são permitidos copiar solução ou parte de solução de colegas. Na presença de plágio, os alunos envolvidos não receberão pontos da atividade em questão.
