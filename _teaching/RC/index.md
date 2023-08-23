@@ -52,8 +52,15 @@ Conteúdo da **Avaliação Parcial 02**:
 
 # Lista de Exercícios
 
-- [Lista 1: Conceitos básicos, camada de aplicação, camada de transporte]().
-- [Lista 2: Camada de rede, camada de enlace, aplicações em automação de sistemas elétricos]().
+- [Lista 1: conceitos básicos](https://drive.google.com/file/d/1_zhGPNDSq1yi7bHOmMdr-c3sTIco88Vv/view?usp=sharing)
+- [Lista 2: camada de aplicação]()
+- [Lista 3: camada de transporte]()
+- [Lista 4: camada de rede]()
+- [Lista 5: camada de enlace]().
+
+# Trabalhos de pesquisa complementares
+
+- Elabore um resumo entre 5.000 e 9.000 caracteres sobre os diferentes tipos de serviços disponibilizados pelas três maiores empresas de computação em nuvem, a saber: Google, Microsoft e Amazon. Se posssível especificandos planos de pagamento e valores. Entregar via [link]().
 
 # Trabalhos
 
