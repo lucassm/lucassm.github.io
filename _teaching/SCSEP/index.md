@@ -94,4 +94,4 @@ Todos os trabalhos (a não ser que indicados explicitamentes) devem ser feitos d
 Além do livro texto, serão disponibilizados **slides** e **outros recursos de texto** que serão disponibilizados no decorrer da disciplina.
 
 # Calendário de Planejamento da disciplina
-Acesse o calendário [aqui]().
+Acesse o calendário [aqui](https://drive.google.com/file/d/1b0lIFZd83GiwXeF41qCCqxyf6AscQIuA/view?usp=sharing).
