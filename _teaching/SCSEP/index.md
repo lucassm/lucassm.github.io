@@ -51,6 +51,14 @@ Conteúdo da **Avaliação Parcial 02**:
 
 [**Planilha de Notas**](/teaching/EE/notas)
 
+# Seminários
+
+**1a Fase**:
+
+- **Equipe 1**: Protocolo Modbus (Data da apresentação: 19/09)
+- **Equipe 2**: Protocolo IEC 60870-5 101/103 (Data da apresentação: 21/09)
+- **Equipe 3**: Protocolo DNP 3.0 (Data da apresentação: 26/09)
+
 # Trabalhos
 
 - [**Trabalho 1**:  Construção de uma aplicação de software utilizando os protocolos da IEC 61850.](/teaching/EE/Trabalho-01)
@@ -79,9 +87,10 @@ $$
 # Softwares
 Serão utilizados os softwares durante a disciplina:
 
-- Wireshark;
-- libiec61850 scripts de programação em C ou Python; e
-- SCADA-BR.
+- [Wireshark](https://www.wireshark.org/);
+- [libiec61850/libiec60870](https://libiec61850.com/); e
+- [PyModbus](https://pymodbus.readthedocs.io/en/latest/)
+- [SCADA-BR]().
 
 # Política de Plágio
 
