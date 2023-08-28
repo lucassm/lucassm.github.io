@@ -90,7 +90,7 @@ Serão utilizados os softwares durante a disciplina:
 - [Wireshark](https://www.wireshark.org/);
 - [libiec61850/libiec60870](https://libiec61850.com/); e
 - [PyModbus](https://pymodbus.readthedocs.io/en/latest/)
-- [SCADA-BR]().
+- [SCADA-BR](http://www.scadabr.com.br/).
 
 # Política de Plágio
 

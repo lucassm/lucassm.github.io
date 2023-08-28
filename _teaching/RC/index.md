@@ -40,12 +40,12 @@ Conteúdo da **Avaliação Parcial 01**:
 
 - Unidade 01: Redes de Computadores e a Internet;
 - Unidade 02: Camada de Aplicação;
-- Unidade 03: Camada de Transporte;
+- Unidade 04: Camada de Rede;
 
 Conteúdo da **Avaliação Parcial 02**:
 
-- Unidade 04: Camada de Rede;
 - Unidade 05: Camada de Enlace e Redes Locais;
+- Unidade 03: Camada de Transporte;
 - Unidade 06: Aplicações de Redes de Computadores na Automação do SEP.
 
 [**Planilha de Notas**](/teaching/RC/notas)
@@ -58,14 +58,16 @@ Conteúdo da **Avaliação Parcial 02**:
 - [Lista 4: camada de rede]()
 - [Lista 5: camada de enlace]().
 
-# Trabalhos de pesquisa complementares
+# Trabalhos Complementares
 
-- Elabore um resumo entre 5.000 e 9.000 caracteres sobre os diferentes tipos de serviços disponibilizados pelas três maiores empresas de computação em nuvem, a saber: Google, Microsoft e Amazon. Se posssível especificandos planos de pagamento e valores. Entregar via [link]().
+- **TC 1**: Elabore um resumo entre 5.000 e 9.000 caracteres sobre os diferentes tipos de serviços disponibilizados pelas três maiores empresas de computação em nuvem, a saber: Google, Microsoft e Amazon. Se posssível especificandos planos de pagamento e valores. Data limite para entrega: **01/09/23**.
 
-# Trabalhos
+Os trabalhos de pesquisas complementares deverão ser entregues por este[link](https://forms.gle/mFRbepL6LAvh91QL6).
 
-- [**Trabalho 1**: Desenvolvimento de uma aplicação utilizando os protocolos de Camada de Aplicação](/teaching/RC/Trabalho-01)
-- [**Trabalho 2**: Simulação de uma infraestrutura de rede de médio porte](/teaching/RC/Trabalho-02)
+# Trabalhos de Avaliação
+
+- [**TA 1**: Desenvolvimento de uma aplicação utilizando os protocolos de Camada de Aplicação](/teaching/RC/Trabalho-01)
+- [**TA 2**: Simulação de uma infraestrutura de rede de médio porte](/teaching/RC/Trabalho-02)
 
 # Estrutura da nota
 
@@ -83,7 +85,7 @@ $$
 
 # Informações adicionais
 
-- O trabalho final será realizado em equipe (máx. 04 integrantes);
+- Os trabalhos devem ser realizados em equipe (máx. 05 integrantes);
 - A presença nas aulas é importante! Poderá ser motivo de reprovação;
 
 # Softwares
@@ -102,6 +104,8 @@ Além do livro texto, serão disponibilizados **[slides](http://gaia.cs.umass.ed
 - Applets: [link](https://www2.tkn.tu-berlin.de/teaching/rn/animations/)
 - The OPE project: [link](https://www.opte.org/the-internet)
 - Kurose and Ross Book webpage: [link](https://gaia.cs.umass.edu/kurose_ross/index.php)
+- [Internet Map 1](https://global-internet-map-2022.telegeography.com/)
+- [Internet Map 2](https://www.infrapedia.com/)
 
 # Calendário de Planejamento da disciplina
 Acesse o calendário [aqui](https://drive.google.com/file/d/1YRy6VWZ6EoEw0OmFczOf0MHD9D_roSpX/view?usp=drivesdk).
