@@ -59,10 +59,14 @@ Conteúdo da **Avaliação Parcial 02**:
 - **Equipe 2**: Protocolo IEC 60870-5 101/103 (Data da apresentação: 21/09)
 - **Equipe 3**: Protocolo DNP 3.0 (Data da apresentação: 26/09)
 
-# Trabalhos
+# Trabalhos Complementares
 
-- [**Trabalho 1**:  Construção de uma aplicação de software utilizando os protocolos da IEC 61850.](/teaching/EE/Trabalho-01)
-- [**Trabalho 2**: Construção de uma aplicação simples utilizando o software SCADA-BR.](/teaching/EE/Trabalho-02)
+As descrições dos trabalhos complementares podem ser acessadas [aqui](/teaching/SCSEP/trab-comp).
+
+# Trabalhos de Avaliação
+
+- [**Trabalho 1**:  Construção de uma aplicação de software utilizando os protocolos da IEC 61850.](/teaching/SCSEP/Trabalho-01)
+- [**Trabalho 2**: Construção de uma aplicação simples utilizando o software SCADA-BR.](/teaching/SCSEP/Trabalho-02)
 
 # Estrutura da nota
 

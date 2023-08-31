@@ -10,9 +10,11 @@ redirect_from:
 
 ## About me
 
-I am Assistant Professor at the [Department of Electrical Engineering](http://www.dee.ufc.br) of [Federal University of Ceara (UFC)](http://www.ufc.br).
+Assistant Professor at the [Department of Electrical Engineering](http://www.dee.ufc.br) of [Federal University of Ceara (UFC)](http://www.ufc.br). Colaborator of [UFC Smart Grid Group - GREI](https://grei-ufc.github.io/).
 
-I am a colaborator of [UFC Smart Grid Group - GREI](https://grei-ufc.github.io/). My research interests are:
+Degree in electrical engineering from UFC campus Sobral and master's and doctorate from UFC campus Fortaleza, with a sandwich internship at UFSC in Florianópolis.
+
+Research topics interests:
 - Modeling and Simulation of Distributed Energetic Resourses (DER) Integration and Coordination in Electric Power Systems.
 - Application of Optimization Techniques, Multiagent Systems and Co-simulation in Protection, Automation and Control of Electric Power Systems;
 - Transactive Energy Systems.
@@ -20,7 +22,6 @@ I am a colaborator of [UFC Smart Grid Group - GREI](https://grei-ufc.github.io/)
 ## News
 
 - 07/2023: Our paper intitled [Co-simulation platform for the assessment of transactive energy systems](https://doi.org/10.1016/j.epsr.2023.109693) has been accepted in Electric Power Systems Research Journal. Congratulations to all researchers involved!
-- 07/2023: 
 
 ## Teaching
 
