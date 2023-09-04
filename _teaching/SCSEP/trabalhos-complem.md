@@ -13,14 +13,15 @@ location: "Fortaleza, Brazil"
 Realize o levantamento dos pontos digitais dos seguintes equipamentos listados abaixo, que devem ser ligados aos paineis de proteção e controle em que estão localizados  os IEDs da subestação, para que suas entradas e saídas digitais possam ser alimentadas:
 
 - [Disjuntor de 72,5 kV](https://drive.google.com/file/d/1L6lPa7-tFgU0hEA96Lsudy7qJAtmH6T5/view?usp=sharing);
-- Chave Seccionadora de 72,5 kV;
-- Transformador de 5/6,25 MVA;
-- Disjuntor de 15,0 kV.
+- [Chave Seccionadora de 72,5 kV](https://drive.google.com/file/d/1A0jd7o0fg_jokW6ZUY13F5nNsCuZugzU/view?usp=sharing);
+- [Intertravamento](https://drive.google.com/file/d/1BclrU0dy4ksNG9URlLa6Uk8ahZJHht5C/view?usp=sharing)
+- [Transformador de 5/6,25 MVA](https://drive.google.com/file/d/1LnvU-ztLifpPF-dXaC_dErZliuxXYlUt/view?usp=sharing);
+- [Disjuntor de 15,0 kV](https://drive.google.com/file/d/1YixllVmL1Spktz-ri1gZVF5gIgEZf_hf/view?usp=sharing).
 
 Realize o mesmo procedimento para os pontos analógicos presentes nos seguintes equipamentos:
 
-- TC de 72,5 kV;
-- TP de 72,5 kV;
+- [TC de 72,5 kV](https://drive.google.com/file/d/1JkEpuRLN8B6_CDcZpX3NO1Zo_atkEbru/view?usp=drive_link);
+- [TP de 72,5 kV](https://drive.google.com/file/d/1Jh14o27cetbMKGmH9rNwSkh_G0ThOkDK/view?usp=sharing);
 - TCs do Transformador 5/6,25 MVA;
 - TC de 15,0 kV;
 - TP de 15,0 kV;
