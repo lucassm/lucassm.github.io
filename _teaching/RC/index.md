@@ -61,6 +61,7 @@ Conteúdo da **Avaliação Parcial 02**:
 # Trabalhos Complementares
 
 - **TC 1**: Elabore um resumo entre 5.000 e 9.000 caracteres sobre os diferentes tipos de serviços disponibilizados pelas três maiores empresas de computação em nuvem, a saber: Google, Microsoft e Amazon. Se posssível especificandos planos de pagamento e valores. Data limite para entrega: **01/09/23**.
+- **TC 2**: Elabore um resumo entre 5.000 e 9.000 caracteres descrevendo o funcionamento dos protocolos de e-mail SMNP, IMAP e POP3. O uso do ChatGPT para essa tarefa está **estritamente proibido**. O livro texto da disciplina contém todas as informações necessárias para a realização do trabalho. Leiam o texto e sintetizem as informações apresentadas. Data limite para entrega: **15/09/23**.
 
 Os trabalhos de pesquisas complementares deverão ser entregues por este[link](https://forms.gle/mFRbepL6LAvh91QL6).
 
