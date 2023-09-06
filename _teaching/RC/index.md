@@ -66,7 +66,7 @@ Os trabalhos de pesquisas complementares deverão ser entregues por este[link](h
 
 # Trabalhos de Avaliação
 
-- [**TA 1**: Desenvolvimento de uma aplicação utilizando os protocolos de Camada de Aplicação](/teaching/RC/Trabalho-01)
+- [**TA 1**: Desenvolvimento de uma aplicação utilizando os protocolos de Camada de Aplicação](/teaching/RC/TA1)
 - [**TA 2**: Simulação de uma infraestrutura de rede de médio porte](/teaching/RC/Trabalho-02)
 
 # Estrutura da nota
