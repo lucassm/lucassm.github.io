@@ -33,3 +33,5 @@ A lista de pontos deve conter as seguintes colunas:
 - Equipamento PARA;
 - Terminal do Equipamento PARA;
 - Evento da Ligação;
+
+[Link para entrega do trabalho](https://forms.gle/ZAeHQMWbEx7HXLvv7)

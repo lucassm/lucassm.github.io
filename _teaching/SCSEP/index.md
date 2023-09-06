@@ -59,6 +59,8 @@ Conteúdo da **Avaliação Parcial 02**:
 - **Equipe 2**: Protocolo IEC 60870-5 101/103 (Data da apresentação: 21/09)
 - **Equipe 3**: Protocolo DNP 3.0 (Data da apresentação: 26/09)
 
+A descrição dos seminários pode ser acessada [aqui](/teaching/SCSEP/seminarios).
+
 # Trabalhos Complementares
 
 As descrições dos trabalhos complementares podem ser acessadas [aqui](/teaching/SCSEP/trab-comp).
