@@ -23,12 +23,12 @@ Desenvolver no aluno habilidades relacionadas aos conceitos básicos de redes de
 
 Conteúdo programado para ser ministrado no decorrer da disciplina:
 
-- Unidade 01: Redes de Computadores e a Internet;
-- Unidade 02: Camada de Aplicação;
-- Unidade 03: Camada de Transporte;
-- Unidade 04: Camada de Rede;
-- Unidade 05: Camada de Enlace e Redes Locais;
-- Unidade 06: Aplicações de Redes de Computadores na Automação do SEP.
+- Unidade 01: Redes de Computadores e a Internet (**Concluído**)
+- Unidade 02: Camada de Aplicação; (**Concluído**)
+- Unidade 03: Camada de Transporte; (**Adiado**)
+- Unidade 04: Camada de Rede; (**Executando**)
+- Unidade 05: Camada de Enlace e Redes Locais; (**Em espera**)
+- Unidade 06: Aplicações de Redes de Computadores na Automação do SEP. (**Em espera**)
 
 O material de slides pode ser encontrado no site do livro texto disponível por meio deste [Link](http://gaia.cs.umass.edu/kurose-ross-ppt-6e/)
 
@@ -53,7 +53,7 @@ Conteúdo da **Avaliação Parcial 02**:
 # Lista de Exercícios
 
 - [Lista 1: conceitos básicos](https://drive.google.com/file/d/1_zhGPNDSq1yi7bHOmMdr-c3sTIco88Vv/view?usp=sharing)
-- [Lista 2: camada de aplicação]()
+- [Lista 2: camada de aplicação](https://drive.google.com/file/d/1jlG9jTpwVJ3PkBDKA1jSr612KGogROxx/view?usp=sharing)
 - [Lista 3: camada de transporte]()
 - [Lista 4: camada de rede]()
 - [Lista 5: camada de enlace]().
@@ -107,6 +107,10 @@ Além do livro texto, serão disponibilizados **[slides](http://gaia.cs.umass.ed
 - Kurose and Ross Book webpage: [link](https://gaia.cs.umass.edu/kurose_ross/index.php)
 - [Internet Map 1](https://global-internet-map-2022.telegeography.com/)
 - [Internet Map 2](https://www.infrapedia.com/)
+- [List of assigned /8 IPv4 address blocks](https://en.wikipedia.org/wiki/List_of_assigned_/8_IPv4_address_blocks)
+- [Classful network](https://en.wikipedia.org/wiki/Classful_network)
+- [Carrier Grade NAT](https://pt.wikipedia.org/wiki/Carrier_Grade_NAT)
+- [RFC 1918](https://datatracker.ietf.org/doc/html/rfc1918)
 
 # Calendário de Planejamento da disciplina
 Acesse o calendário [aqui](https://drive.google.com/file/d/1YRy6VWZ6EoEw0OmFczOf0MHD9D_roSpX/view?usp=drivesdk).
