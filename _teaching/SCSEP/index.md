@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/SCSEP
 venue: "Federal University of Ceara, Department of Electrical Engineering"
-date: 2023-08-11
+date: 2023-10-02
 location: "Fortaleza, Brazil"
 ---
 
@@ -39,15 +39,17 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 
 As avaliações estão previstas para ocorrer conforme a data estabelecida no cronograma.
 
+- Data de realização da Avaliação Parcial 01: 17/10/23
+- Data de realização da Avaliação Parcial 02: 07/12/23
+
 Conteúdo da **Avaliação Parcial 01**:
 - **Unidade 01**: Power System Automation;
 - **Unidade 02**: SCADA Fundamentals;
-- **Unidade 03**: SCADA Communication;
+
 
 Conteúdo da **Avaliação Parcial 02**:
+- **Unidade 03**: SCADA Communication;
 - **Unidade 04**: Substation Automation;
-- **Unidade 05**: Energy Management Systems;
-- **Unidade 06**: Distribution Automation.
 
 [**Planilha de Notas**](/teaching/EE/notas)
 
@@ -67,8 +69,8 @@ As descrições dos trabalhos complementares podem ser acessadas [aqui](/teachin
 
 # Trabalhos de Avaliação
 
-- [**Trabalho 1**:  Construção de uma aplicação de software utilizando os protocolos da IEC 61850.](/teaching/SCSEP/Trabalho-01)
-- [**Trabalho 2**: Construção de uma aplicação simples utilizando o software SCADA-BR.](/teaching/SCSEP/Trabalho-02)
+- [**Trabalho 1**: Construção de base de dados de subestação de 69,0/13,8 kV em Modbus.](/teaching/SCSEP/Trabalho-01)
+- [**Trabalho 2**: Integração de base de dados de subestação de 69,0/13,8 kV SCADA-BR via Modbus.](/teaching/SCSEP/Trabalho-02)
 
 # Estrutura da nota
 
@@ -78,7 +80,7 @@ $$
   NF = 0,6 \cdot NAP + 0,4 \cdot NT
 $$
 
-Em que, $NF$ é a nota final da disciplina; $NAP$ é a média das notas das avaliações parciais; $NT$ é a nota obitida no trabalho final.
+Em que, $NF$ é a nota final da disciplina; $NAP$ é a média das notas das avaliações parciais; $NT$ é a média das notas dos trabalhos de avaliação.
 
 $$
     NAP = \frac{NAP_1 + NAP_2}{2}
@@ -94,8 +96,10 @@ $$
 Serão utilizados os softwares durante a disciplina:
 
 - [Wireshark](https://www.wireshark.org/);
-- [libiec61850/libiec60870](https://libiec61850.com/); e
+- [libiec61850/libiec60870](https://libiec61850.com/)
 - [PyModbus](https://pymodbus.readthedocs.io/en/latest/)
+- [PyModbusTCP](https://pymodbustcp.readthedocs.io/en/latest/)
+- [DNP3-python](https://pypi.org/project/dnp3-python/)
 - [SCADA-BR](http://www.scadabr.com.br/).
 
 # Política de Plágio

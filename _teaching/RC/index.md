@@ -12,11 +12,11 @@ location: "Fortaleza, Brazil"
 
 Desenvolver no aluno habilidades relacionadas aos conceitos básicos de redes de computadores, abordando especificamente os seguintes tópicos:
 
-- Camada de aplicação, serviços e protocolos;
-- Camada de transporte, serviços e protocolos;
-- Camada de rede, serviços e protocolos;
-- Camada de enlace e tecnologias;
-- Novas tecnologias em redes de computadores;
+- Camada de aplicação: serviços e protocolos;
+- Camada de transporte: serviços e protocolos;
+- Camada de rede: serviços e protocolos;
+- Camada de enlace: tecnologias;
+- Avanços tecnológicos em redes de computadores;
 - Aplicações de redes de computadores em sistemas de energia.
 
 # Conteúdo
@@ -30,23 +30,28 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - Unidade 05: Camada de Enlace e Redes Locais; (**Em espera**)
 - Unidade 06: Aplicações de Redes de Computadores na Automação do SEP. (**Em espera**)
 
-O material de slides pode ser encontrado no site do livro texto disponível por meio deste [Link](http://gaia.cs.umass.edu/kurose-ross-ppt-6e/)
+Os slides serão disponibilizados neste [Link](http://gaia.cs.umass.edu/kurose-ross-ppt-6e/)
+
+Os roteiros de laboratórios serão disponibilizados neste [Link](https://gaia.cs.umass.edu/kurose_ross/wireshark.php).
 
 # Avaliações
 
-As avaliações estão previstas para ocorrer conforme a data estabelecida no [cronograma]().
+As avaliações estão previstas para ocorrer:
+
+- **Avaliação Parcial 01**: 16/10/23
+- **Avaliação Parcial 02**: 05/12/23
 
 Conteúdo da **Avaliação Parcial 01**:
 
 - Unidade 01: Redes de Computadores e a Internet;
 - Unidade 02: Camada de Aplicação;
-- Unidade 04: Camada de Rede;
+- Unidade 04: Camada de Rede (Até a sessão 4.4);
 
 Conteúdo da **Avaliação Parcial 02**:
 
-- Unidade 05: Camada de Enlace e Redes Locais;
 - Unidade 03: Camada de Transporte;
-- Unidade 06: Aplicações de Redes de Computadores na Automação do SEP.
+- Unidade 04: Camada de Rede (A partir da sessão 4.5);
+- Unidade 05: Camada de Enlace e Redes Locais;
 
 [**Planilha de Notas**](/teaching/RC/notas)
 
@@ -55,7 +60,7 @@ Conteúdo da **Avaliação Parcial 02**:
 - [Lista 1: conceitos básicos](https://drive.google.com/file/d/1_zhGPNDSq1yi7bHOmMdr-c3sTIco88Vv/view?usp=sharing)
 - [Lista 2: camada de aplicação](https://drive.google.com/file/d/1jlG9jTpwVJ3PkBDKA1jSr612KGogROxx/view?usp=sharing)
 - [Lista 3: camada de transporte]()
-- [Lista 4: camada de rede]()
+- [Lista 4: camada de rede](https://drive.google.com/file/d/1kfPn-84GIDdvgdy5XKGxDXSRHZqmfzu7/view?usp=sharing)
 - [Lista 5: camada de enlace]().
 
 # Trabalhos Complementares
@@ -72,13 +77,13 @@ Os trabalhos de pesquisas complementares deverão ser entregues por este[link](h
 
 # Estrutura da nota
 
-A nota da disciplina será composta pela média ponderada de avaliações escritas e trabalho final, da seguinte forma:
+A nota da disciplina será composta pela média ponderada de avaliações escritas e trabalhos computacionais, da seguinte forma:
 
 $$
   NF = 0,6 \cdot NAP + 0,4 \cdot NT
 $$
 
-Em que, $NF$ é a nota final da disciplina; $NAP$ é a média das notas das avaliações parciais; $NT$ é a nota obitida no trabalho final.
+Em que, $NF$ é a nota final da disciplina; $NAP$ é a média das notas das avaliações parciais; $NT$ é média das notas dos trabalhos computacionais.
 
 $$
     NAP = \frac{NAP_1 + NAP_2}{2}
@@ -111,6 +116,15 @@ Além do livro texto, serão disponibilizados **[slides](http://gaia.cs.umass.ed
 - [Classful network](https://en.wikipedia.org/wiki/Classful_network)
 - [Carrier Grade NAT](https://pt.wikipedia.org/wiki/Carrier_Grade_NAT)
 - [RFC 1918](https://datatracker.ietf.org/doc/html/rfc1918)
+
+# Material Complementar
+
+- [IPv4 Subnetting](https://drive.google.com/file/d/15v9e_ixZy1_AL87p6WGF-WnxBrJmms9Y/view?usp=drive_link)
+- [IPv6](https://drive.google.com/file/d/10Pj9PCBrCM9amvWQ_2F08j6LR1SZHIsS/view?usp=drive_link)
+- [NAT](https://drive.google.com/file/d/1uf8zr3DCbhkg80FbZs_U6Li6WxwsVWe2/view?usp=drive_link)
+- [Common Ports](https://drive.google.com/file/d/1xQJ5ay-xM0Pd6yhE6P9yI8RQMRrmJBJi/view?usp=drive_link)
+- [Physical Terminantions](https://drive.google.com/file/d/1U5XBibFs8lOHBZP6F74p_yEB_VpB49rI/view?usp=sharing)
+- [Wireshark Display](https://drive.google.com/file/d/13T3dTIOeqHHGmibGz6DonWYv9kF6SRnH/view?usp=sharing)
 
 # Calendário de Planejamento da disciplina
 Acesse o calendário [aqui](https://drive.google.com/file/d/1YRy6VWZ6EoEw0OmFczOf0MHD9D_roSpX/view?usp=drivesdk).
