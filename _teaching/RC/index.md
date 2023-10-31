@@ -125,6 +125,8 @@ Além do livro texto, serão disponibilizados **[slides](http://gaia.cs.umass.ed
 - [Common Ports](https://drive.google.com/file/d/1xQJ5ay-xM0Pd6yhE6P9yI8RQMRrmJBJi/view?usp=drive_link)
 - [Physical Terminantions](https://drive.google.com/file/d/1U5XBibFs8lOHBZP6F74p_yEB_VpB49rI/view?usp=sharing)
 - [Wireshark Display](https://drive.google.com/file/d/13T3dTIOeqHHGmibGz6DonWYv9kF6SRnH/view?usp=sharing)
+- [Laboratório 1 - GNS3 e Redes Locais](https://drive.google.com/file/d/14OsDSj5xVFFnQz9XVCO8GiinoNj_veqG/view?usp=sharing)
+- [Laboratório 2 - Rotas Estáticas](https://drive.google.com/drive/folders/1BgcrxtpzkrSOat_vUkI-VM2E36HhAA6E?usp=sharing)
 
 # Calendário de Planejamento da disciplina
 Acesse o calendário [aqui](https://drive.google.com/file/d/1YRy6VWZ6EoEw0OmFczOf0MHD9D_roSpX/view?usp=drivesdk).
