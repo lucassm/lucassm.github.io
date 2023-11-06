@@ -1,7 +1,5 @@
 ---
 title: "Trabalho de Avaliação 1"
-collection: teaching
-type: "Undergraduate course"
 permalink: /teaching/RC/TA1
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 date: 2023-09-06
