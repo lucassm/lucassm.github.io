@@ -1,6 +1,6 @@
 ---
 title: "Laboratório Computacional 1 de Redes de Computadores"
-permalink: /teaching/RC
+permalink: /teaching/RC/lab1
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 date: 2023-11-06
 location: "Fortaleza, Brazil"
@@ -20,3 +20,7 @@ location: "Fortaleza, Brazil"
 - [Instruções de Instalação da GNS3-VM](https://docs.gns3.com/docs/getting-started/installation/download-gns3-vm)
 - [Conbfiguração do GNS3 com VM](https://docs.gns3.com/docs/getting-started/setup-wizard-gns3-vm)
 - [Primeiros passos no GNS3](https://docs.gns3.com/docs/getting-started/your-first-gns3-topology)
+
+# Entrega
+
+Entrega do relatório nesse [link]()
