@@ -1,6 +1,9 @@
 ---
 title: "Trabalhos Complementares"
+collection: teaching
+type: conteudo
 permalink: /teaching/SCSEP/trab-comp
+venue: Federal University of Ceara, Department of Electrical Engineering
 date: 2023-08-30
 location: "Fortaleza, Brazil"
 ---

@@ -1,6 +1,9 @@
 ---
 title: "Laboratório Computacional 1 de Redes de Computadores"
+collection: teaching
+type: conteudo
 permalink: /teaching/RC/lab1
+venue: Federal University of Ceara, Department of Electrical Engineering
 date: 2023-11-06
 location: "Fortaleza, Brazil"
 ---
