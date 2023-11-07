@@ -1,7 +1,6 @@
 ---
 title: "Trabalho de Avaliação 1"
 permalink: /teaching/RC/TA1
-venue: "Federal University of Ceara, Department of Electrical Engineering"
 date: 2023-09-06
 location: "Fortaleza, Brazil"
 ---

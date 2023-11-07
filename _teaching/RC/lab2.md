@@ -1,7 +1,6 @@
 ---
 title: "Laboratório Computacional 2 de Redes de Computadores"
 permalink: /teaching/RC/lab2
-venue: "Federal University of Ceara, Department of Electrical Engineering"
 date: 2023-11-06
 location: "Fortaleza, Brazil"
 ---
