@@ -10,5 +10,5 @@ location: "Fortaleza, Brazil"
 
 # Software de Simulação GNS3 e Rotas Estáticas
 
-- [Laboratório 2 - Rotas Estáticas](https://drive.google.com/drive/folders/1BgcrxtpzkrSOat_vUkI-VM2E36HhAA6E?usp=sharing)
+- [Laboratório 2 - Rotas Estáticas](https://drive.google.com/file/d/1KSGkuuMxPVJakGmd4T93u0muKO35cyaJ/view?usp=drivesdk)
 - [Imagem do Roteador Cisco-2733](https://drive.google.com/file/d/1ezog-bmp7hklGuEnmlh93_tsBjQVNMgt/view?usp=drivesdk)
