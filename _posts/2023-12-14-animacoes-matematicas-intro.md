@@ -9,7 +9,7 @@ tags:
   - Jupyter Notebook
 ---
 
-Durante o ano de 2023 o GREI iniciou o desenvolvimento do projeto de animações matemáticas aplicadas à disciplinas de engenharia elétrica. A primeira disciplina a ser contemplada com os desenvolvimentos foi a disciplina de circuitos elétricos em corrente alternada, conhecida entre os estudantes de engenharia como circuitos II.
+Durante o ano de 2023 o GREI iniciou o desenvolvimento do projeto de animações matemáticas aplicadas à disciplinas selecionadas de engenharia elétrica. A primeira disciplina a ser seleciondas com os desenvolvimentos do projeto foi a disciplina de circuitos elétricos em corrente alternada, conhecida entre os estudantes de engenharia como circuitos elétricos II.
 
 As animações são desenvolvidas em Python com a ajuda da biblioteca para construção de animações matemáticas [Manim](https://www.manim.community/).
 
