@@ -15,9 +15,9 @@ Assistant Professor at the [Department of Electrical Engineering](http://www.dee
 Degree in electrical engineering from UFC campus Sobral and master's and doctorate from UFC campus Fortaleza, with a sandwich internship at UFSC in Florianópolis.
 
 Research topics interests:
-- Modeling and Simulation of Distributed Energetic Resourses (DER) Integration and Coordination in Electric Power Systems.
+- Modeling and Simulation of Distributed Energetic Resourses (DER) Integration and Coordination in Electric Power Systems;
 - Application of Optimization Techniques, Multiagent Systems and Co-simulation in Protection, Automation and Control of Electric Power Systems;
-- Transactive Energy Systems.
+- Transactive Energy Systems Development.
 
 ## News
 
