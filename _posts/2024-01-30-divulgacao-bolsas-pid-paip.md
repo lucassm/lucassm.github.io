@@ -19,4 +19,5 @@ Os interessados devem enviar a documentação necessária por e-mail, conforme i
 
 ## Resultado da seleção
 
-Previsão para divulgação dos resultados em 05/02/24 neste [link]().
+- [Resultado da Seleção para projeto PAIP](https://drive.google.com/file/d/17JNYFGiE6noKE5afyklIWNCL8AuH7T4N/view?usp=sharing)
+- [Resultado da Seleção para projeto PID](https://drive.google.com/file/d/1mRLTnVUCHHl9FMONkMIhKyegF5KrAqNz/view?usp=sharing)
