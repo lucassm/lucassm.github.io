@@ -41,26 +41,26 @@ Ao final, a teoria de fluxo de carga em redes elétricas é apresentada, com apr
 ## Ementa
 
 **Parte 1**
-1.1 Introdução aos sistemas elétricos de potência (SEP).
-1.3 Conceitos Básicos de sistemas elétricos trifásicos e em corrente alternada;
-1.2 Modelos dos componentes do SEP: Modelo das Linhas de Transmissão, Modelo dos Transformadores, Modelo de Geradores, Modelo de Cargas.
-1.3 Sistema em por unidade.
-1.4 Modelo de redes elétricas em regime permanente.
+- 1.1 Introdução aos sistemas elétricos de potência (SEP).
+- 1.3 Conceitos Básicos de sistemas elétricos trifásicos e em corrente alternada;
+- 1.2 Modelos dos componentes do SEP: Modelo das Linhas de Transmissão, Modelo dos Transformadores, Modelo de Geradores, Modelo de Cargas.
+- 1.3 Sistema em por unidade.
+- 1.4 Modelo de redes elétricas em regime permanente.
 
 **Parte 2**
-3.1 Curto-circuito.
-3.2 Fenômenos elétricos.
-3.3 Componentes simétricas.
-3.4 Estudo de tipos de curto-circuito.
-3.5 Comportamento de motores síncronos e assíncronos.
-3.6 Contribuição ao curto circuito de fontes com conversores eletrônicos.
-3.7 Capacidade de curto-circuito de uma barra.
+- 3.1 Curto-circuito.
+- 3.2 Fenômenos elétricos.
+- 3.3 Componentes simétricas.
+- 3.4 Estudo de tipos de curto-circuito.
+- 3.5 Comportamento de motores síncronos e assíncronos.
+- 3.6 Contribuição ao curto circuito de fontes com conversores eletrônicos.
+- 3.7 Capacidade de curto-circuito de uma barra.
 
 **Parte 3**
-2.1 Fluxo de carga.
-2.2 Formulação matemática do fluxo de carga.
-2.3 Métodos de solução de fluxo de carga: Gauss e Gauss-Seidel, Newton-Raphson, Desacoplado rápido, Equivalente CC
-2.4 Cálculo do estado da rede elétrica em regime permanente.
+- 2.1 Fluxo de carga.
+- 2.2 Formulação matemática do fluxo de carga.
+- 2.3 Métodos de solução de fluxo de carga: Gauss e Gauss-Seidel, Newton-Raphson, Desacoplado rápido, Equivalente CC
+- 2.4 Cálculo do estado da rede elétrica em regime permanente.
 
 ## Avaliações e Atividades
 
