@@ -1,8 +1,8 @@
 ---
 title: "Trabalho de Avaliação 2"
-permalink: /teaching/RC/TA2
 collection: teaching
 type: conteudo
+permalink: /teaching/RC/TA2
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 date: 2023-11-24
 location: "Fortaleza, Brazil"

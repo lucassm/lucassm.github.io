@@ -1,5 +1,7 @@
 ---
 title: "Trabalho de Avaliação 1"
+collection: teaching
+type: conteudo
 permalink: /teaching/RC/TA1
 date: 2023-09-06
 location: "Fortaleza, Brazil"

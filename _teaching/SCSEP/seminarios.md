@@ -1,7 +1,7 @@
 ---
 title: "Seminários de Sup. e Contr. de SEP"
 collection: teaching
-type: "Undergraduate course"
+type: conteudo
 permalink: /teaching/SCSEP/seminarios
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 date: 2023-09-06
