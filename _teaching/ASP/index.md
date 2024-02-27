@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/ASP
 venue: "Federal University of Ceara, Department of Electrical Engineering"
-date: 2023-12-26
+date: 2024-02-26
 location: "Fortaleza, Brazil"
 ---
 
