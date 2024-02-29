@@ -96,8 +96,13 @@ Utilizaremos os seguintes softwares para analise de sistemas de distribuição:
 - **Pandapower**, software livre disponibilizado para download [**neste link**](http://www.pandapower.org/). O **Pandapower** é bem documentado e um tutorial inicial pode ser visualizado [**neste link**](https://pandapower.readthedocs.io/en/latest/).
 -  **OpenDSS**, software livre disponibilizado para download [**neste link**](https://sourceforge.net/projects/electricdss/). O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**neste link**](http://sourceforge.net/p/electricdss/code/HEAD/tree/trunk/Distrib/Doc/OpenDSSPrimer.pdf).
 
-## Cronograma
+## Links Úteis
 
+- Article: [The Whys of Distribution System Analysis](https://drive.google.com/file/d/1728nw70VMb0yucNwR5uElDojYDoVipuO/view?usp=drive_link)
+- Article: [Recommended Practices for Distribution System Analysis](https://drive.google.com/file/d/1xZ_PAEg1wIqt2_3Qpkmvq40_bDmqWJ-7/view?usp=drive_link)
+- Article: [Distribution System Analysis and the Future Smart Grid](https://drive.google.com/file/d/1tDoFq_6vQ5UmswGnpFy590RePzQajfpc/view?usp=drive_link)
+
+## Cronograma
 
 | Semana | Data          | Conteúdo                                       |
 | ------ | ------------- | ---------------------------------------------- |
