@@ -81,6 +81,11 @@ A nota final será composta de 60% das APs e 40% dos trabalhos computacionais.
 
 Além desses instrumentos de avaliação serão passadas listas de exercícios valendo 1,0 pt em cada AP e seminários temáticos espaçados ao longo da disciplina.
 
+## Atividades Complementares
+
+1. [Introdução ao SEP](/teaching/ASP/task-01)
+
+
 ## Cronograma
 
 | Semana | Data          | Conteúdo                                                                                               |
@@ -108,7 +113,7 @@ Obs: O cronograma está sujeito à alterações.
 
 ## Material Disponibilizado
 
-Todo o material do curso (slides, códigos fonte e jupyter-notebooks) está disponibilizado no repositório GitHub acessível por meio deste [link](https://github.com/lucassm/asp-ufc)
+Todo o material do curso (slides, scripts de programação e jupyter-notebooks) está disponibilizado no repositório GitHub acessível por meio deste [link](https://github.com/lucassm/asp-ufc)
 
 ## Softwares
 - [Matpower](https://matpower.org/)
