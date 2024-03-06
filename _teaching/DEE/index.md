@@ -11,6 +11,7 @@ location: "Fortaleza, Brazil"
 # Distribuição de Energia Elétrica
 
 ## Dias e Horários da Disciplina
+
 No semestre de 2024.1 a disciplina de DIST será ofertada presencialmente às segundas e terças no horário de 14:00 as 16:00.
 
 ## Descrição do Curso
@@ -25,6 +26,7 @@ O curso de Distribuição de Energia Elétrica tem por objetivo fornecer uma **v
 - **Propor e analisar soluções** corretivas para os principais efeitos adversos no SDEE (sobre/sub-tensões, sobrecargas, etc.).
 
 Ao longo do curso o estudante irá dedicar-se ao estudo das características e especificidades do sistema de distribuição de energia elétrica, abordando os temas:
+
 - Constituição do SDEE;
 - Modelagem trifásica dos elementos característicos do SDEE;
 - Cálculos de queda de tensão e perdas no SDEE com métodos aproximados e exatos;
@@ -41,19 +43,17 @@ Editora: CRC Press
 Autor: Tom A. Short
 Editora: CRC Press
 
-
-Além do livro texto, serão disponibilizados **slides**, com as principais informações abordadas em sala de aula.
-
 ## Ementa do Curso
 
 Conteúdo programado para ser ministrado no decorrer da disciplina:
-- [**Introdução**](/teaching/DEE/Introducao): Apresentação da Disciplina e Introdução ao SDEE;
-- [**Unidade 01**](/teaching/DEE/Unidade-01): Alocação de Cargas e Métodos de Análise Aproximados;
-- [**Unidade 02**](/teaching/DEE/Unidade-02): Modelagem de linhas de distribuição de eletricidade;
-- [**Unidade 03**](/teaching/DEE/Unidade-03): Regulação de tensão em redes de distribuição de eletricidade;
-- [**Unidade 04**](/teaching/DEE/Unidade-04): Modelagem de transformadores trifásicos, Bancos de Capacitores e Cargas Elétricas; 
-- [**Unidade 05**](/teaching/DEE/Unidade-06): Fluxo de carga em redes de distribuição de eletricidade;
-- [**Unidade 06**](/teaching/DEE/Unidade-07): Curto-circuito em redes de distribuição de eletricidade;
+
+- **Introdução**: Apresentação da Disciplina e Introdução ao SDEE;
+- **Unidade 01**: Alocação de Cargas e Métodos de Análise Aproximados;
+- **Unidade 02**: Modelagem de linhas de distribuição de eletricidade;
+- **Unidade 03**: Regulação de tensão em redes de distribuição de eletricidade;
+- **Unidade 04**: Modelagem de transformadores trifásicos, Bancos de Capacitores e Cargas Elétricas; 
+- **Unidade 05**: Fluxo de carga em redes de distribuição de eletricidade;
+- **Unidade 06**: Curto-circuito em redes de distribuição de eletricidade;
 
 ## Avaliações e Atividades
 
@@ -73,7 +73,7 @@ Conteúdo da **Avaliação Parcial 02**:
 
 ### Lista de Exercícios
 
-- Lista de Exercícios relacionada às unidades 01 e 02: [Link]().
+*Aguarde, ainda não disponível*
 
 ### Trabalhos
 
@@ -88,19 +88,6 @@ A nota da disciplina será composta pela média ponderada das avaliações parci
 $$NF = 0,6 \cdot NA + 0,4 \cdot NT$$
 
 Em que, $NF$ é a nota final da disciplina e $NA$, $NT$ são as notas notas obitidas nas avaliações parciais e nos trabalhos computacionais.
-
-## Softwares
-
-Utilizaremos os seguintes softwares para analise de sistemas de distribuição:
-
-- **Pandapower**, software livre disponibilizado para download [**neste link**](http://www.pandapower.org/). O **Pandapower** é bem documentado e um tutorial inicial pode ser visualizado [**neste link**](https://pandapower.readthedocs.io/en/latest/).
--  **OpenDSS**, software livre disponibilizado para download [**neste link**](https://sourceforge.net/projects/electricdss/). O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**neste link**](http://sourceforge.net/p/electricdss/code/HEAD/tree/trunk/Distrib/Doc/OpenDSSPrimer.pdf).
-
-## Links Úteis
-
-- Article: [The Whys of Distribution System Analysis](https://drive.google.com/file/d/1728nw70VMb0yucNwR5uElDojYDoVipuO/view?usp=drive_link)
-- Article: [Recommended Practices for Distribution System Analysis](https://drive.google.com/file/d/1xZ_PAEg1wIqt2_3Qpkmvq40_bDmqWJ-7/view?usp=drive_link)
-- Article: [Distribution System Analysis and the Future Smart Grid](https://drive.google.com/file/d/1tDoFq_6vQ5UmswGnpFy590RePzQajfpc/view?usp=drive_link)
 
 ## Cronograma
 
@@ -124,3 +111,20 @@ Utilizaremos os seguintes softwares para analise de sistemas de distribuição:
 | 16     | 11/06 e 13/06 | Modelagem computacional com openDSS            |
 | 17     | 18/06 e 20/06 | Modelagem computacional com openDSS            |
 | 18     | 25/06 e 27/06 | Revisão e AP2                                  |
+
+## Material Disponibilizado
+
+Todo o material do curso (slides, scripts de programação e jupyter-notebooks) está disponibilizado no repositório GitHub acessível por meio deste [link](https://github.com/lucassm/dist-ufc)
+
+## Softwares
+
+Utilizaremos os seguintes softwares para analise de sistemas de distribuição:
+
+- **Pandapower**, software livre disponibilizado para download [**neste link**](http://www.pandapower.org/). O **Pandapower** é bem documentado e um tutorial inicial pode ser visualizado [**neste link**](https://pandapower.readthedocs.io/en/latest/).
+-  **OpenDSS**, software livre disponibilizado para download [**neste link**](https://sourceforge.net/projects/electricdss/). O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**neste link**](http://sourceforge.net/p/electricdss/code/HEAD/tree/trunk/Distrib/Doc/OpenDSSPrimer.pdf).
+
+## Links Úteis
+
+- Article: [The Whys of Distribution System Analysis](https://drive.google.com/file/d/1728nw70VMb0yucNwR5uElDojYDoVipuO/view?usp=drive_link)
+- Article: [Recommended Practices for Distribution System Analysis](https://drive.google.com/file/d/1xZ_PAEg1wIqt2_3Qpkmvq40_bDmqWJ-7/view?usp=drive_link)
+- Article: [Distribution System Analysis and the Future Smart Grid](https://drive.google.com/file/d/1tDoFq_6vQ5UmswGnpFy590RePzQajfpc/view?usp=drive_link)

@@ -106,6 +106,10 @@ Além desses instrumentos de avaliação serão passadas listas de exercícios v
 
 Obs: O cronograma está sujeito à alterações.
 
+## Material Disponibilizado
+
+Todo o material do curso (slides, códigos fonte e jupyter-notebooks) está disponibilizado no repositório GitHub acessível por meio deste [link](https://github.com/lucassm/asp-ufc)
+
 ## Softwares
 - [Matpower](https://matpower.org/)
 - [Pypower](https://pypi.org/project/PYPOWER/)
