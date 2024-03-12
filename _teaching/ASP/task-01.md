@@ -1,7 +1,7 @@
 ---
 title: "Atividade 01 de ASP"
 collection: teaching
-type: task
+type: conteudo
 permalink: /teaching/ASP/task-01
 venue: "Federal University of Ceara, Department of Electrical Engineering"
 date: 2024-03-06
