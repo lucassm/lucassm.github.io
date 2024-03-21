@@ -128,3 +128,4 @@ Utilizaremos os seguintes softwares para analise de sistemas de distribuição:
 - Article: [The Whys of Distribution System Analysis](https://drive.google.com/file/d/1728nw70VMb0yucNwR5uElDojYDoVipuO/view?usp=drive_link)
 - Article: [Recommended Practices for Distribution System Analysis](https://drive.google.com/file/d/1xZ_PAEg1wIqt2_3Qpkmvq40_bDmqWJ-7/view?usp=drive_link)
 - Article: [Distribution System Analysis and the Future Smart Grid](https://drive.google.com/file/d/1tDoFq_6vQ5UmswGnpFy590RePzQajfpc/view?usp=drive_link)
+- Prática computacional sobre alocação de cargas: [Link 1](https://gist.github.com/lucassm/5367649033551bc7d0bd0e2ff6d8ffd5) [Link 2](https://gist.github.com/lucassm/00b61585936efa67a4447f52b5f3279f)
