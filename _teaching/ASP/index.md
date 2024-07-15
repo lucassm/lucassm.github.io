@@ -92,26 +92,30 @@ Além desses instrumentos de avaliação serão passadas listas de exercícios v
 
 ## Cronograma
 
+
 | Semana | Data          | Conteúdo                                                                                               |
 | ------ | ------------- | ------------------------------------------------------------------------------------------------------ |
 | 1      | 26/02 e 28/02 | Apresentação da disciplina e Introdução ao SEP                                                         |
 | 2      | 04/03 e 06/03 | Introdução ao SEP e <br>Conceitos Básicos de Sistemas Elétricos - Fasores e Potência Elétrica Complexa |
 | 3      | 11/03 e 13/02 | Conceitos Básicos de Sistemas Elétricos - Fator de Potência,<br>Equações de Rede e Sistemas Trifásicos |
-| 4      | 18/03 e 19/03 | Modelos de Transformadores, Geradores, Linhas de Transmissão e Cargas Elétricas                        |
-| 5      | 25/03 e 27/03 | Feriado Data Magna<br>Modelos de Transformadores, Geradores, Linhas de Transmissão e Cargas Elétricas  |
-| 6      | 01/04 e 03/04 | Sistema em Por Unidade                                                                                 |
-| 7      | 08/04 e 10/04 | Sistema em Por Unidade                                                                                 |
-| 8      | 15/04 e 17/04 | Revisão e AP1                                                                                          |
-| 9      | 22/04 e 24/04 | Curto Circuito Equilibrado                                                                             |
-| 10     | 29/04 e 01/05 | Componentes Simétricas e Curto Circuito Desequilibrado                                                 |
-| 11     | 06/05 e 08/05 | Curto Circuito Desequilibrado                                                                          |
-| 12     | 13/05 e 15/05 | Curto Circuito Desequilibrado e Aplicação Computacional                                                |
-| 13     | 20/05 e 22/05 | Revisão e AP2                                                                                          |
-| 14     | 27/05 e 29/05 | Fluxo de Carga: Conceitos Iniciais                                                                     |
-| 15     | 03/06 e 05/06 | Fluxo de Carga: Gauss-Seidel e Newton Raphson                                                          |
-| 16     | 10/06 e 12/06 | Fluxo de Carga: Desacoplado Rápido e Equivalente CC                                                    |
-| 17     | 17/06 e 19/06 | Fluxo de Carga: Aplicação Computacional                                                                |
-| 18     | 24/06 e 26/06 | Revisão e AP3                                                                                          |
+| 4      | 18/03 e 20/03 | **Recesso do Feriado de São José**<br>Modelos de Transformadores                                       |
+| 5      | 25/03 e 27/03 | **Feriado Data Magna** e **Semana Santa**<br>Modelos de Transformadores e Sistema em Por Unidade       |
+| 6      | 01/04 e 03/04 | Modelos de Transformadores e Sistema em Por Unidade                                                    |
+| 7      | 08/04 e 10/04 | Modelos de Transformadores e Sistema em Por Unidade                                                    |
+| 8      | 15/04 a 12/07 | **Interrupção das aulas por motivo de Greve Docente (3 meses)**                                        |
+|        |               | <span style="color:rgb(0, 176, 80)">Novo Calendário - Pós Greve</span>                                 |
+| 8      | 15/07 e 17/07 | Modelos de Linhas de Transmissão e sua operação em regime permanente.                                  |
+| 9      | 22/07 e 24/07 | Curto Circuito Equilibrado                                                                             |
+| 10     | 29/07 e 31/07 | Revisão e AP1                                                                                          |
+| 11     | 05/08 e 07/08 | Componentes Simétricas e Curto Circuito Desequilibrado                                                 |
+| 12     | 12/08 e 14/08 | Curto Circuito Desequilibrado e Aplicação Computacional                                                |
+| 13     | 19/08 e 21/08 | Fluxo de Carga: Conceitos Iniciais                                                                     |
+| 14     | 26/08 e 28/08 | Revisão e AP2                                                                                          |
+| 15     | 02/09 e 04/09 | Fluxo de Carga: Gauss-Seidel e Newton Raphson                                                          |
+| 16     | 09/09 e 11/09 | Fluxo de Carga: Desacoplado Rápido e Equivalente CC                                                    |
+| 17     | 16/09 e 18/09 | Fluxo de Carga: Aplicação Computacional                                                                |
+| 18     | 23/09 e 25/09 | Revisão e AP3                                                                                          |
+
 
 Obs: O cronograma está sujeito à alterações.
 
