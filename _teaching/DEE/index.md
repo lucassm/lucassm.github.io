@@ -91,26 +91,29 @@ Em que, $NF$ é a nota final da disciplina e $NA$, $NT$ são as notas notas obit
 
 ## Cronograma
 
-| Semana | Data          | Conteúdo                                       |
-| ------ | ------------- | ---------------------------------------------- |
-| 1      | 27/02 e 29/02 | Apresentação da Disciplina e Introdução a DSEE |
-| 2      | 05/03 e 07/03 | Unidade 01                                     |
-| 3      | 12/03 e 14/02 | Unidade 01                                     |
-| 4      | 19/03 e 20/03 | Unidade 02                                     |
-| 5      | 26/03 e 28/03 | Unidade 02                                     |
-| 6      | 02/04 e 04/04 | Unidade 03                                     |
-| 7      | 09/04 e 11/04 | Unidade 03                                     |
-| 8      | 16/04 e 18/04 | Revisão e AP1                                  |
-| 9      | 23/04 e 25/04 | Modelagem computacional com openDSS            |
-| 10     | 30/04 e 02/05 | Unidade 04                                     |
-| 11     | 07/05 e 09/05 | Unidade 04                                     |
-| 12     | 14/05 e 16/05 | Modelagem computacional com openDSS            |
-| 13     | 21/05 e 23/05 | Unidade 05                                     |
-| 14     | 28/05 e 30/05 | Unidade 05                                     |
-| 15     | 04/06 e 06/06 | Unidade 05                                     |
-| 16     | 11/06 e 13/06 | Modelagem computacional com openDSS            |
-| 17     | 18/06 e 20/06 | Modelagem computacional com openDSS            |
-| 18     | 25/06 e 27/06 | Revisão e AP2                                  |
+| Semana | Data          | Conteúdo                                                               |
+| :----: | ------------- | ---------------------------------------------------------------------- |
+|   1    | 27/02 e 29/02 | Apresentação da Disciplina e Introdução a DSEE                         |
+|   2    | 05/03 e 07/03 | Unidade 01                                                             |
+|   3    | 12/03 e 14/02 | Unidade 01 e Atividade Computacional (Simbench/pandapower)             |
+|   4    | 19/03 e 21/03 | (**Feriado São José**) Finalização da Unidade 01                       |
+|   5    | 26/03 e 28/03 | Unidade 02 (**Feriado Semana Santa**)                                  |
+|   6    | 02/04 e 04/04 | Unidade 02                                                             |
+|   7    | 09/04 e 11/04 | Unidade 03                                                             |
+|   8    | 16/04 e 18/04 | **Interrupção das aulas por motivo de greve docente**                  |
+|        |               | <span style="color:rgb(0, 176, 80)">Novo Calendário - Pós Greve</span> |
+|   8    | 16/07 e 18/07 | Unidade 03<br>                                                         |
+|   9    | 23/07 e 25/07 | Modelagem computacional com openDSS                                    |
+|   10   | 30/07 e 01/08 | Unidade 04                                                             |
+|   11   | 06/08 e 08/08 | Revisão e AP1                                                          |
+|   12   | 13/08 e 15/08 | Unidade 04                                                             |
+|   13   | 20/08 e 22/08 | Modelagem computacional com openDSS                                    |
+|   14   | 26/08 e 28/08 | Unidade 05                                                             |
+|   15   | 02/09 e 04/09 | Unidade 05                                                             |
+|   16   | 09/09 e 11/09 | Modelagem computacional com openDSS                                    |
+|   17   | 16/09 e 18/09 | Modelagem computacional com openDSS                                    |
+|   18   | 23/09 e 25/09 | Revisão e AP2                                                          |
+|        |               |                                                                        |
 
 ## Material Disponibilizado
 
