@@ -126,8 +126,10 @@ Todo o material do curso (slides, scripts de programação e jupyter-notebooks) 
 ## Softwares
 - [Matpower](https://matpower.org/)
 - [Pypower](https://pypi.org/project/PYPOWER/)
+- [GridCal](https://github.com/SanPen/GridCal/)
 - [Pandapower](https://www.pandapower.org/)
 - [OpenDSS](https://sourceforge.net/projects/electricdss/)
+- [PowerModels.jl](https://lanl-ansi.github.io/PowerModels.jl/)
 - [Power Grid Model](https://github.com/PowerGridModel/power-grid-model)
 
 ## Links Úteis
