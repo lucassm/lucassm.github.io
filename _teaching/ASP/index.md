@@ -89,9 +89,9 @@ Além desses instrumentos de avaliação serão passadas listas de exercícios v
 
 1. Questões sobre **Conceitos Básicos de SEP**: 2.2, 2.8, 2.9, 2.10, 2.14, 2.19, 2.23, 2.30, 2.35, 2.40, 2.42, 2.47.
 2. Questões sobre **Transformadores**: 3.2, 3.4, 3.10, 3.14, 3.20, 3.22, 3.25, 3.28, 3.37, 3.43, 3.64.
+3. Questões sobre **Linhas de Transmissão**: 5.2, 5.3, 5.14, 5.15, 5.23, 5.26, 5.27, 5.38, 5.39, 5.46
 
 ## Cronograma
-
 
 | Semana | Data          | Conteúdo                                                                                               |
 | ------ | ------------- | ------------------------------------------------------------------------------------------------------ |
