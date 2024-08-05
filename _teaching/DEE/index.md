@@ -73,7 +73,8 @@ Conteúdo da **Avaliação Parcial 02**:
 
 ### Lista de Exercícios
 
-*Aguarde, ainda não disponível*
+- [**Lista de Exercícios 1**: Modelagem de linhas de distribuição de eletricidade](https://drive.google.com/file/d/1svurqh2XK4rAz37oRlNnrDeWgTX9yRc3/view?usp=sharing)
+
 
 ### Trabalhos
 
