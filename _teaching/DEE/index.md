@@ -80,7 +80,8 @@ Conteúdo da **Avaliação Parcial 02**:
 
 Previsão para temas de trabalhos computacionais a serem desenvolvidos no decorrer da disciplina:
 - [**Trabalho 1**: Análise de Dados em sistemas de distribuição](/teaching/DEE/Trabalho-01);
-- [**Trabalho 2**: Análise de Fluxo de carga em sistemas de distribuição com OpenDSS](/teaching/DEE/Trabalho-02).
+- [**Trabalho 2**: Fluxo de Carga com Regulador de Tensão](/teaching/DEE/Trabalho-02);
+- [**Trabalho 3**: Análise de Fluxo de carga em sistemas de distribuição com OpenDSS](/teaching/DEE/Trabalho-03).
 
 ### Estrutura da nota
 
