@@ -74,8 +74,8 @@ Os Conteúdos das APs serão:
 Obs.: A AP3 é obrigatória e ao final do semestre a menor das três notas será descartada.
 
 Serão realizados dois trabalhos computacionais ao longo da disciplina:
-- [T1: cálculo de curto-circuito](/asp-t1);
-- [T2: cálculo de fluxo de carga](/asp-t2).
+- [T1: cálculo de curto-circuito](/teaching/ASP/comp-work-01);
+- [T2: cálculo de fluxo de carga](/teaching/ASP/comp-work-02).
 
 A nota final será composta de 60% das APs e 40% dos trabalhos computacionais.
 
