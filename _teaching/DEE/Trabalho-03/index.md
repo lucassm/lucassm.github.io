@@ -19,4 +19,4 @@ location: Fortaleza, Brazil
 
 ## Data de Entrega
 - Envio de arquivos até **27/09/24**.
-- O Link para entrega dos arquivos do trabalho será disponibilizado nesta página em breve.
+Link para entrega do trabalho: [Link](https://forms.gle/hecWYTYqngNgRxdw9)

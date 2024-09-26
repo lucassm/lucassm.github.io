@@ -20,4 +20,4 @@ Trabalho deve ser realizado em grupos de no máximo três alunos e ser enviado v
 
 ## Instruções para entrega da atividade
 
-Link de envio será postado aqui em breve.
+Link para entrega do trabalho: [link](https://forms.gle/WVp1xSb7TXrjamRJ9)
