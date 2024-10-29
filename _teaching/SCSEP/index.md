@@ -60,10 +60,10 @@ Conteúdo da **Avaliação Parcial 02**:
 
 Temas retirados da revista IEEE Power and Energy Society Magazine Volume 17, Number 4, July/August 2019, com o título *Substations: The Heart and Brain of the Grid*
 
-- **Equipe 1**: Smart and Green Substations - ;
-- **Equipe 2**: The Substation of the Future - ;
-- **Equipe 3**: Substations for Future HVdc Grids - ;
-- **Equipe 4**: Offshore Substation Design - .
+- **Seminário 1**: Smart and Green Substations - 21/11 (Equipe 4);
+- **Seminário 2**: The Substation of the Future - 28/11 (Equipe 2);
+- **Seminário 3**: Substations for Future HVdc Grids - 05/12 (Equipe 1);
+- **Seminário 4**: Offshore Substation Design - 12/12 (Equipe 3);
 
 **2a Fase**:
 
@@ -71,7 +71,7 @@ A ser definido.
 
 ## Trabalhos Complementares
 
-As descrições dos trabalhos complementares podem ser acessadas [aqui](/teaching/SCSEP/trab-comp).
+A serem definidos.
 
 ## Trabalhos de Avaliação
 
