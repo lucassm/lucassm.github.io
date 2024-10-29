@@ -14,7 +14,6 @@ No semestre de *2024.2* a disciplina de Supervisão e Controle de Sistemas Elét
 
 Local: Sala 51, Bloco 707. Centro de tecnologia. Campus do Pici. UFC. Fortaleza. Ceará. Brasil.
 
-
 ## Descrição do Curso
 
 Este curso tem como objetivo fornecer aos alunos da disciplina noções fundamentais nos seguintes temas:
@@ -28,7 +27,7 @@ Este curso tem como objetivo fornecer aos alunos da disciplina noções fundamen
 - Funções de Controle e Automação da Distribuição (SAD);
 - Projeto de sistema supervisório SCADA para uma planta elétrica;
 
-# Conteúdo
+## Conteúdo
 
 Conteúdo programado para ser ministrado no decorrer da disciplina:
 
@@ -37,7 +36,7 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - **Unidade 03**: SCADA Communication;
 - **Unidade 04**: Substation Automation;
 
-# Avaliações
+## Avaliações
 
 As avaliações estão previstas para ocorrer conforme a data estabelecida no cronograma.
 
@@ -55,26 +54,31 @@ Conteúdo da **Avaliação Parcial 02**:
 
 [**Planilha de Notas**](/teaching/EE/notas)
 
-# Seminários
+## Seminários
 
 **1a Fase**:
 
-- **Equipe 1**: Artigo a ser definido - Data a ser definida;
-- **Equipe 2**: Artigo a ser definido - Data a ser definida;
-- **Equipe 3**: Artigo a ser definido - Data a ser definida.
+Temas retirados da revista IEEE Power and Energy Society Magazine Volume 17, Number 4, July/August 2019, com o título *Substations: The Heart and Brain of the Grid*
 
-A descrição dos seminários pode ser acessada [aqui](/teaching/SCSEP/seminarios).
+- **Equipe 1**: Smart and Green Substations - ;
+- **Equipe 2**: The Substation of the Future - ;
+- **Equipe 3**: Substations for Future HVdc Grids - ;
+- **Equipe 4**: Offshore Substation Design - .
 
-# Trabalhos Complementares
+**2a Fase**:
+
+A ser definido.
+
+## Trabalhos Complementares
 
 As descrições dos trabalhos complementares podem ser acessadas [aqui](/teaching/SCSEP/trab-comp).
 
-# Trabalhos de Avaliação
+## Trabalhos de Avaliação
 
-- [**Trabalho 1**: Parametrização de Relé SEL/Schenneider.](/teaching/SCSEP/Trabalho-01)
-- [**Trabalho 2**: Integração de base de dados de subestação de 69,0/13,8 kV no SCADA-LTS via Modbus/DNP3.](/teaching/SCSEP/Trabalho-02)
+- [**Trabalho 1**: Integração de base de dados de subestação de 69,0/13,8 kV no SCADA-LTS via Modbus.](/teaching/SCSEP/Trabalho-01)
+- [**Trabalho 2**: Parametrização de Relé SEL/Schenneider.](/teaching/SCSEP/Trabalho-02)
 
-# Estrutura da nota
+## Estrutura da nota
 
 A nota da disciplina será composta pela média ponderada de avaliações escritas e trabalho final, da seguinte forma:
 
@@ -88,13 +92,12 @@ $$
     NAP = \frac{NAP_1 + NAP_2}{2}
 $$
 
-
-# Informações adicionais
+## Informações adicionais
 
 - Os trabalhos serão realizados em equipe (máx. 03 integrantes);
 - A presença nas aulas é importante! Poderá ser motivo de reprovação;
 
-# Softwares
+## Softwares
 Serão utilizados os softwares durante a disciplina:
 
 - [Wireshark](https://www.wireshark.org/);
@@ -102,15 +105,15 @@ Serão utilizados os softwares durante a disciplina:
 - [PyModbus](https://pymodbus.readthedocs.io/en/latest/)
 - [PyModbusTCP](https://pymodbustcp.readthedocs.io/en/latest/)
 - [DNP3-python](https://pypi.org/project/dnp3-python/)
-- [SCADA-BR](http://scada-lts.com/).
+- [SCADA-LTS](http://scada-lts.com/).
 
-# Bibliografia Básica
+## Bibliografia Básica
 
 - Título: Power System SCADA and Smart Grids, 1a ed, Autor: Mini S. Thomas and John D. McDonald ., Editora: Editora CRC Pres, Ano: 2015.
 
 Além do livro texto, serão disponibilizados **slides** e **outros recursos de texto** que serão disponibilizados no decorrer da disciplina.
 
-# Calendário de Planejamento da disciplina
+## Calendário de Planejamento da disciplina
 
 
 | **#** | **Dia Semana** | **Data** | **Descrição do Conteúdo**                                                |
@@ -124,19 +127,19 @@ Além do livro texto, serão disponibilizados **slides** e **outros recursos de 
 | 7     | Terça-Feira    | 12/11/24 | Unidade 01: Power System Automation                                      |
 | 8     | Quinta-Feira   | 14/11/24 | Unidade 03: SCADA Communication – Networking                             |
 | 9     | Terça-Feira    | 19/11/24 | Unidade 02: SCADA Fundamentals                                           |
-| 10    | Quinta-Feira   | 21/11/24 | Unidade 03: SCADA Communication – Networking                             |
+| 10    | Quinta-Feira   | 21/11/24 | Unidade 03: SCADA Communication – Networking / Seminário 1               |
 | 11    | Terça-Feira    | 26/11/24 | Unidade 02: SCADA Fundamentals                                           |
-| 12    | Quinta-Feira   | 28/11/24 | Unidade 03: SCADA Communication – Networking                             |
+| 12    | Quinta-Feira   | 28/11/24 | Unidade 03: SCADA Communication – Networking / Seminário 2               |
 | 13    | Terça-Feira    | 03/12/24 | Unidade 02: SCADA Fundamentals                                           |
-| 14    | Quinta-Feira   | 05/12/24 | Unidade 03: SCADA Communication - Protocolo ModBus                       |
+| 14    | Quinta-Feira   | 05/12/24 | Unidade 03: SCADA Communication - Protocolo ModBus / Seminário 3         |
 | 15    | Terça-Feira    | 10/12/24 | Unidade 02: SCADA Fundamentals                                           |
-| 16    | Quinta-Feira   | 12/12/24 | Unidade 03: SCADA Communication - Protocolo ModBus                       |
+| 16    | Quinta-Feira   | 12/12/24 | Unidade 03: SCADA Communication - Protocolo ModBus / Seminário 4         |
 | 17    | Terça-Feira    | 17/12/24 | Unidade 03: SCADA Communication - Protocolo ModBus                       |
 | 18    | Quinta-Feira   | 19/12/24 | AP 1                                                                     |
 | -     | -              | 21/12/24 | Recesso de Fim de Ano – Início                                           |
 | -     | -              | 06/01/25 | Recesso de Fim de Ano – Término                                          |
 | 19    | Terça-Feira    | 07/01/25 | Unidade 04: Substation Automation                                        |
-| 20    | Quinta-Feira   | 09/01/25 | Unidade 03: SCADA Communication - Protocolo DNP3                         |
+| 20    | Quinta-Feira   | 09/01/25 | Unidade 03: SCADA Communication - Protocolo DNP3 / Entrega Trabalho 1    |
 | 21    | Terça-Feira    | 14/01/25 | Unidade 04: Substation Automation                                        |
 | 22    | Quinta-Feira   | 16/01/25 | Unidade 03: SCADA Communication – Protocolo DNP3                         |
 | 23    | Terça-Feira    | 21/01/25 | Unidade 04: Substation Automation                                        |
@@ -152,8 +155,7 @@ Além do livro texto, serão disponibilizados **slides** e **outros recursos de 
 | 33    | Terça-Feira    | 25/02/25 | Implementação de Lógicas de Proteção/Automação                           |
 | 34    | Quinta-Feira   | 27/02/25 | AP 2                                                                     |
 | 35    | Terça-Feira    | 04/03/25 | Carnaval                                                                 |
-| 36    | Quinta-Feira   | 06/03/25 | Livre                                                                    |
+| 36    | Quinta-Feira   | 06/03/25 | Livre / Entrega Trabalho 2                                               |
 | -     | -              | 07/03/25 | Término do Semestre Letivo 2024.2                                        |
 | -     | -              | 14/03/25 | Último dia para consolidação das notas                                   |
-
 
