@@ -21,6 +21,7 @@ O estudo de circuitos elétricos tem por finalidade fornecer a base teórica par
 
 ## Conteúdo
 
+O link em cada uma das práticas irão levar à *Pluto Notebooks* com experimentos computacionais relacionados à temática de cada prática.
 Conteúdo programado para ser ministrado no decorrer da disciplina:
 
 - 23/10 – Apresentação da disciplina e do Laboratório.
