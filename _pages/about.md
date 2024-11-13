@@ -10,30 +10,63 @@ redirect_from:
 
 ## About me
 
-Assistant Professor at the [Department of Electrical Engineering](http://www.dee.ufc.br) of [Federal University of Ceara (UFC)](http://www.ufc.br). Colaborator of [UFC Smart Grid Group - GREI](https://grei-ufc.github.io/).
+Assistant Professor at the [Department of Electrical Engineering](http://www.dee.ufc.br) of [Federal University of Ceara (UFC)](http://www.ufc.br), Brazil. Colaborator of [UFC Smart Grid Group - GREI](https://grei-ufc.github.io/).
 
-Degree in electrical engineering from UFC campus Sobral and master's and doctorate from UFC campus Fortaleza, with a sandwich internship at UFSC in Florianópolis.
+Degree in electrical engineering from UFC campus Sobral-CE and master's and doctorate from UFC campus Fortaleza-CE, with a sandwich internship at UFSC in Florianópolis-SC.
 
 Research topics interests:
+
 - Modeling and Simulation of Distributed Energetic Resourses (DER) Integration and Coordination in Electric Power Systems;
 - Application of Optimization Techniques, Multiagent Systems and Co-simulation in Protection, Automation and Control of Electric Power Systems;
 - Transactive Energy Systems Development.
 
 ## News
 
+- 11/2024: Many works presented in Local University Meetings 2024. Congratulations students!
+- 10/2024: First Master degree supervision concluded with sucess. Congratulations João Paulo!
+- 10/2024: 2024.2 semester start. Excited to teach Supervision and Control of Electrical Power Systems!  
+- 10/2024: Three works presented in CBA 2024 in Rio de Janeiro, Brazil.
+- 08/3034: A new phase of Co-simulation and Demand Response undergraduate projects. Start of the cycle 2024/2025.
 - 07/2023: Our paper intitled [Co-simulation platform for the assessment of transactive energy systems](https://doi.org/10.1016/j.epsr.2023.109693) has been accepted in Electric Power Systems Research Journal. Congratulations to all researchers involved!
 
 ## Teaching
 
-I teach at BSc degree:
 
-- [Electrical Distribution System Analysis](/teaching/DEE);
-- [Electrical Transmission System Analysis](/teaching/TEE);
-- [Eletrotecnic for Engineering](/teaching/EE);
-- Computer Networks;
-- [AC Circuits (Laboratory)](/teaching/CII-Lab);
-- [DC Circuits (Laboratory)](/teaching/CI-Lab);
+Currently offering (2024.2):
+
+- [Supervision and Control of Power Ssystems](/teaching/SCSEP/)
 - [Eletrotecnic for Engineering (Laboratory)](/teaching/EE-Lab);
+- [DC Circuits (Laboratory)](/teaching/CI-Lab);
+
+Offered last semester (2024.1):
+
+- [Power System Analysis](/teaching/ASP/);
+- [Electrical Distribution System Analysis](/teaching/DEE);
+- [AC Circuits (Laboratory)](/teaching/CII-Lab);
+
+Previously offered in other semesters:
+
+- [Computer Networks](/teaching/RC/);
+- [Eletrotecnic for Engineering](/teaching/EE);
+
+## Supervision 
+
+Students currently under supervision:
+
+- Levi Nogueira (PhD - Co-supervision)
+- Luiz Freire (MSc);
+- Mozart Daniel (MSc);
+- Alysson Ponciano (MSc - Co-supervision);
+- João Pedro (Under-graduation project);
+- Victor Gonzaga (Under-graduation project);
+- Raphael Silva (Under-graduation project);
+- Edinardo Vascondelos (Under-graduation project);
+- Larissa Vitória (Under-graduation project);
+- Diego Rodrigues (Under-graduation project);
+- Jessiano (Under-graduation project);
+
+
+For a more detailed description about the research themes, please visit [projects](/projects/) and [publications](/publications/).
 
 ## Education
 

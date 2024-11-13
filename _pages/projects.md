@@ -91,12 +91,13 @@ Início: Março de 2024.<br>
 Término: Novembro de 2025.
 
 
-## Orientações em andamento em Monografias (Graduação), Dissertações (Mestrado) e Teses (Doutorado)
+## Orientações e co-orientações em andamento em Monografias (Graduação), Dissertações (Mestrado) e Teses (Doutorado)
 
-- **Dissertação**: Luiz Freire com o tema de aplicação de otimização em sistemas de energia transativos;
-- **Dissertação**: Mozart Daniel com o tema de aplicação de otimização no gerenciamento de RED conectados à rede elétrica;
+- **Dissertação**: Orientação de Luiz Freire com o tema de aplicação de otimização em sistemas de energia transativos;
+- **Dissertação**: Orientação de Mozart Daniel com o tema de aplicação de otimização no gerenciamento de RED conectados à rede elétrica;
+- **Dissertação**: Co-orientação de Alysson Ponciano com o tema de aplicação de algoritmos de otimização linear inteira mista em resposta da demanda;
 - **TCC** Caio Lucas com o tema de co-simulação de RED com Mosaik; 
-- **TCC** do aluno **Diego Rodrigues Duarte**: Modelagem de alimentadores de distribuição utilizando o software OpenDSS;
+- **TCC** do aluno **Diego Rodrigues Duarte**: Estudo do impacto de geração distribuída e de usinas fotovoltáicas na rede elétrica do campus do Pici utilizando o software OpenDSS;
 - **TCC** do aluno **Jessiano Freire dos Santos**: Utilização de OpenDSS na modelagem de GD conectada à rede elétrica da Universidade Federal do Ceará no Campus do Pici;
 
 Integrantes:
