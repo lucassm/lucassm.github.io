@@ -22,10 +22,10 @@ Research topics interests:
 
 ## News
 
-- 11/2024: Many works presented in Local University Meetings 2024. Congratulations students!
+- 11/2024: Many works presented in [Local University Meetings 2024](/posts/2024/11/eu-2024/). Congratulations students!
 - 10/2024: First Master degree supervision concluded with sucess. Congratulations João Paulo!
 - 10/2024: 2024.2 semester start. Excited to teach Supervision and Control of Electrical Power Systems!  
-- 10/2024: Three works presented in CBA 2024 in Rio de Janeiro, Brazil.
+- 10/2024: Three works presented in CBA 2024 in Rio de Janeiro, Brazil. More info about our works presented in the event [here](/posts/2024/11/cba-2024).
 - 08/3034: A new phase of Co-simulation and Demand Response undergraduate projects. Start of the cycle 2024/2025.
 - 07/2023: Our paper intitled [Co-simulation platform for the assessment of transactive energy systems](https://doi.org/10.1016/j.epsr.2023.109693) has been accepted in Electric Power Systems Research Journal. Congratulations to all researchers involved!
 
@@ -68,7 +68,7 @@ Students currently under supervision:
 
 For a more detailed description about the research themes, please visit [projects](/projects/) and [publications](/publications/).
 
-## Education
+## Doctoral and Master Degree Documents
 
 [Doctoral Degree Thesis](https://repositorio.ufc.br/handle/riufc/66268) **Multidomain computer simulation model for the analysis of smart electrical grids with application in energy economic transactions**.
 
