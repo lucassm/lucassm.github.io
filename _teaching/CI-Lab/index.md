@@ -25,11 +25,11 @@ O link em cada uma das práticas irão levar à *Pluto Notebooks* com experiment
 Conteúdo programado para ser ministrado no decorrer da disciplina:
 
 - 23/10 – Apresentação da disciplina e do Laboratório.
-- [30/10 – Prática 1– Lei de Ohm](/files/CI-Lab/1-lei-de-ohm)
+- [30/10 – Prática 1– Lei de Ohm](/files/CI-Lab/1-lei-de-ohm-e-leis-de-kirchhoff)
 - 06/11 - Encontros Universitários: Não haverá aula.
-- [13/11 – Prática 2 – Leis de Kirchhoff – Divisor de Tensão]()
+- [13/11 – Prática 2 – Leis de Kirchhoff – Divisor de Tensão](/files/CI-Lab/1-lei-de-ohm-e-leis-de-kirchhoff)
 - 20/11 - Não haverá aula.
-- [27/11 – Prática 3 – Ponte de Wheatstone e Transformação Delta-Estrela]()
+- [27/11 – Prática 3 – Ponte de Wheatstone e Transformação Delta-Estrela](/files/CI-Lab/2-ponte-de-wheatstone-e-transf-delta-y)
 - [04/12 – Prática 4 – Linearidade e Superposição]()
 - [11/12 – Prática 5 – Thévenin e Northon]()
 - [18/12  – Prática 6 – Potência e Máxima Transferência de Potência]()
