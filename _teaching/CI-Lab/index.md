@@ -30,7 +30,7 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - [13/11 – Prática 2 – Leis de Kirchhoff – Divisor de Tensão](/files/CI-Lab/1-lei-de-ohm-e-leis-de-kirchhoff)
 - 20/11 - Não haverá aula.
 - [27/11 – Prática 3 – Ponte de Wheatstone e Transformação Delta-Estrela](/files/CI-Lab/2-ponte-de-wheatstone-e-transf-delta-y)
-- [04/12 – Prática 4 – Linearidade e Superposição]()
+- [04/12 – Prática 4 – Linearidade e Superposição](/files/CI-Lab/3-linearidade-e-superposicao)
 - [11/12 – Prática 5 – Thévenin e Northon]()
 - [18/12  – Prática 6 – Potência e Máxima Transferência de Potência]()
 - 21/12 a 05/01 - Recesso de final de ano.
