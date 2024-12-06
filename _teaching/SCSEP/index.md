@@ -64,6 +64,7 @@ Temas retirados da revista IEEE Power and Energy Society Magazine Volume 17, Num
 - **Seminário 2**: The Substation of the Future - 28/11 (Equipe 2);
 - **Seminário 3**: Substations for Future HVdc Grids - 05/12 (Equipe 1);
 - **Seminário 4**: Offshore Substation Design - 12/12 (Equipe 3);
+- **Seminário 5**: Managing the New Grid - 19/12 (Equipe 5);
 
 **2a Fase**:
 
@@ -72,6 +73,7 @@ A ser definido.
 ## Trabalhos Complementares
 
 - Trabalho Complementar 1 (31/10/24): Trabalho individual. Com base no diagrama unifilar disponibilizado [aqui](https://drive.google.com/file/d/1_dujEn5-1ty2NOexEotcr9kTOkS3UItn/view?usp=sharing), liste em uma planilha cada um dos equipamentos presentes na SE do diagrama. Descreva o equipamento com base nas informações do diagrama. Apresente os códigos operacionais de cada elemento e indique o que significa o código de cada equipamento. Se houver mais de um equipamento do mesmo tipo, indique a quantidade. Entrega: **01/11/24** em arquivo .pdf pelo link de envio de trabalhos abaixo.
+- Trabalho Complementar 2 (05/12/24): Trabalho em dupla. Elaboração de planilha de pontos analógicos e digitais e suas respectivas ligações externas, conforme procedimento descrito [neste arquivo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/AC2.pdf). Anexo: [anexo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/1-funcionais-eq-campo-69-13_8.pdf). Data da entrega: **20/12/24** em arquivo .pdf pelo link de envio de trabalhos abaixo.;
 
 Link para envio dos trabalhos: [Envie os trabalhos por aqui](https://forms.gle/2JLAv9788Bdf3QwGA)
 

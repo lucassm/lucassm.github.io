@@ -34,7 +34,7 @@ Research topics interests:
 
 Currently offering (2024.2):
 
-- [Supervision and Control of Power Ssystems](/teaching/SCSEP/)
+- [Supervision and Control of Power Ssystems](/teaching/SCSEP)
 - [Eletrotecnic for Engineering (Laboratory)](/teaching/EE-Lab);
 - [DC Circuits (Laboratory)](/teaching/CI-Lab);
 
