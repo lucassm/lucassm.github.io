@@ -31,7 +31,7 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - 20/11 - Não haverá aula.
 - [27/11 – Prática 3 – Ponte de Wheatstone e Transformação Delta-Estrela](/files/CI-Lab/2-ponte-de-wheatstone-e-transf-delta-y)
 - [04/12 – Prática 4 – Linearidade e Superposição](/files/CI-Lab/3-linearidade-e-superposicao)
-- [11/12 – Prática 5 – Thévenin e Northon]()
+- [11/12 – Prática 5 – Thévenin e Northon](files/CI-Lab/4-thevennin-e-norton)
 - [18/12  – Prática 6 – Potência e Máxima Transferência de Potência]()
 - 21/12 a 05/01 - Recesso de final de ano.
 - [15/01  – Prática 7 – Osciloscópio parte I]()
