@@ -33,14 +33,14 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 
 - [**Unidade 01**: Power System Automation](https://drive.google.com/file/d/1I0CrcAJtWPwAYsQB9WdcLBEilkz2qwFz/view?usp=sharing);
 - [**Unidade 02**: SCADA Fundamentals](https://drive.google.com/file/d/1jopaJbLVpyhYZXyKex68RE04myZjxYou/view?usp=sharing);
-- **Unidade 03**: SCADA Communication;
+- **Unidade 03**: SCADA Communication - Material Disponibiliado em pasta compartilhada no canal de Telegram privado da Disciplina;
 - **Unidade 04**: Substation Automation;
 
 ## Avaliações
 
 As avaliações estão previstas para ocorrer conforme a data estabelecida no cronograma.
 
-- Data de realização da Avaliação Parcial 01: 19/12/24
+- Data de realização da Avaliação Parcial 01: 23/01/25
 - Data de realização da Avaliação Parcial 02: 27/02/25
 
 Conteúdo da **Avaliação Parcial 01**:
@@ -73,7 +73,8 @@ A ser definido.
 ## Trabalhos Complementares
 
 - Trabalho Complementar 1 (31/10/24): Trabalho individual. Com base no diagrama unifilar disponibilizado [aqui](https://drive.google.com/file/d/1_dujEn5-1ty2NOexEotcr9kTOkS3UItn/view?usp=sharing), liste em uma planilha cada um dos equipamentos presentes na SE do diagrama. Descreva o equipamento com base nas informações do diagrama. Apresente os códigos operacionais de cada elemento e indique o que significa o código de cada equipamento. Se houver mais de um equipamento do mesmo tipo, indique a quantidade. Entrega: **01/11/24** em arquivo .pdf pelo link de envio de trabalhos abaixo.
-- Trabalho Complementar 2 (05/12/24): Trabalho em dupla. Elaboração de planilha de pontos analógicos e digitais e suas respectivas ligações externas, conforme procedimento descrito [neste arquivo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/AC2.pdf). Anexo: [anexo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/1-funcionais-eq-campo-69-13_8.pdf). Data da entrega: **20/12/24** em arquivo .pdf pelo link de envio de trabalhos abaixo.;
+- Trabalho Complementar 2 (05/12/24): Trabalho em dupla. Elaboração de planilha de pontos analógicos e digitais e suas respectivas ligações externas, conforme procedimento descrito [neste arquivo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/AC2.pdf). Anexo: [anexo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/1-funcionais-eq-campo-69-13_8.pdf). Data da entrega: **10/01/25** em arquivo .pdf pelo link de envio de trabalhos abaixo.;
+- Trabalho Complementar 3 (06/01/2025): Lista de exercícios sobre redes locais e camada de enlace e introdução ao uso do pacote Python de análise de redes Scapy. Entrega: **17/01/25**. Arquivo disponível [neste link](https://drive.google.com/file/d/1qsO0F6IxDYElVru5qk1yEXNKBjcYJ1g7/view?usp=sharing)
 
 Link para envio dos trabalhos: [Envie os trabalhos por aqui](https://forms.gle/2JLAv9788Bdf3QwGA)
 
