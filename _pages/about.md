@@ -83,9 +83,13 @@ Federal University of Ceará
 Campus do Pici - Centro de Tecnologia  
 Fortaleza, Ceará, Brazil  
 
-## Calendar
+## Book an appointment
 
-<iframe src="https://calendar.google.com/calendar/embed?src=lucassmelo%40dee.ufc.br&ctz=America%2FFortaleza" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<!-- Google Calendar Appointment Scheduling begin -->
+<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3MTUIRTx54yNLzWEHbpJ9Kzn-jglcRgprm6qUmlN_HPBJOuud2u2X2bIt-PFaNR8mrMqmK_TaD?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+<!-- end Google Calendar Appointment Scheduling -->
+
+<!-- <iframe src="https://calendar.google.com/calendar/embed?src=lucassmelo%40dee.ufc.br&ctz=America%2FFortaleza" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
 
 ## Links
 

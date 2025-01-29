@@ -75,7 +75,7 @@ O projeto associado ao Grupo de Redes Elétricas Inteligentes - GREI é projeto 
 
 Para que esse objetivo possa ser alcançado de forma eficaz, uma série de atividades vem sendo desenvolvida pelo grupo:
 
-- Ralização de revisão sistemática sobre a transição energética e arcabouço legal e regulatório-normativo do H2, e modelagem, desenvolvimento, implantação, teste e validação de ferramentas computacionais para: a) estimação de potencial de produção de H2V no Ceará;
+- Ralização de revisão sistemática sobre a transição energética e arcabouço legal e regulatório-normativo do H2, e modelagem, desenvolvimento, implantação, teste e validação de ferramentas computacionais para: estimação de potencial de produção de H2V no Ceará;
 - Análise técnico-econômica de sistemas de hidrogênio renovável;
 - Alocação de estação de abastecimento de H2 para veículo leve; 
 - despacho econômico ótimo multiperíodo de recursos energéticos da rede elétrica híbrida (fontes renováveis variáveis + P2V + armazenamento + célula a combustível); 
@@ -84,7 +84,7 @@ Para que esse objetivo possa ser alcançado de forma eficaz, uma série de ativi
 - Integração de sistema de controle e automação padrão IEC 61850 na microrrede com fontes renováveis do DEE/UFC.
 
 
-Integrantes: **Larissa Vitória**.<br>
+Integrantes sob minha orientação direta no projeto: **Larissa Vitória**.<br>
 Apoio financeiro: FUNCAP (Fundação Cearence de Apoio ao Desenvolvimento Científico e Tecnológico).
 
 Início: Março de 2024.<br>

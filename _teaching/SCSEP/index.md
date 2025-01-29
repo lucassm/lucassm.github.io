@@ -112,7 +112,8 @@ Serão utilizados os softwares durante a disciplina:
 - [PyModbus](https://pymodbus.readthedocs.io/en/latest/)
 - [PyModbusTCP](https://pymodbustcp.readthedocs.io/en/latest/)
 - [DNP3-python](https://pypi.org/project/dnp3-python/)
-- [SCADA-LTS](http://scada-lts.com/).
+- [SCADA-LTS](http://scada-lts.com/)
+- [Scapy](https://scapy.net/)
 
 ## Bibliografia Básica
 
