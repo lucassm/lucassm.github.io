@@ -21,7 +21,7 @@ Este curso tem como objetivo fornecer aos alunos da disciplina noções fundamen
 - **Operação** do sistemas elétricos de potência: topologias, arranjos elétricos, equipamentos primários e secundários, estados de operação, modo de controle;
 - **Evolução** dos sistemas de automação no Setor Elétrico;
 - Topologias e Tecnologia de **Redes de Comunicação** Local e Remoto;
-- Noções de **Centro de Controle e Gerenciamento Sistema**; 
+- Noções de **Centro de Controle e Gerenciamento Sistema**;
 - **Sistema de Aquisição de Dados e Controle Supervisório** - SCADA;
 - Sistemas de Automação de Subestação (SAS);
 - Funções de Controle e Automação da Distribuição (SAD);
@@ -33,8 +33,18 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 
 - [**Unidade 01**: Power System Automation](https://drive.google.com/file/d/1I0CrcAJtWPwAYsQB9WdcLBEilkz2qwFz/view?usp=sharing);
 - [**Unidade 02**: SCADA Fundamentals](https://drive.google.com/file/d/1jopaJbLVpyhYZXyKex68RE04myZjxYou/view?usp=sharing);
-- **Unidade 03**: SCADA Communication - Material Disponibiliado em pasta compartilhada no canal de Telegram privado da Disciplina;
+- **Unidade 03**: SCADA Communication;
+  - modbus;
+    - [Links Úteis](https://github.com/lucassm/superv-control-ufc/blob/master/modbus/links-modbus.pdf)
+    - [Prática de Laboratório]()
+    - [Slides]()
+  - dnp3;
+  - iec61850;
 - **Unidade 04**: Substation Automation;
+
+Além dos links acima existe um repositório GitHub público com materias de apoio disponíveis.
+
+Alguns documentos de uso restrito, como por exemplo, manuais de IEDs utilizados no laboratório serão disponibilizados via pasta compartilhada no Google Drive apenas para os alunos matriculados na disciplina.
 
 ## Avaliações
 
@@ -105,12 +115,14 @@ $$
 - A presença nas aulas é importante! Poderá ser motivo de reprovação;
 
 ## Softwares
+
 Serão utilizados os softwares durante a disciplina:
 
 - [Wireshark](https://www.wireshark.org/);
 - [libiec61850/libiec60870](https://libiec61850.com/)
 - [PyModbus](https://pymodbus.readthedocs.io/en/latest/)
 - [PyModbusTCP](https://pymodbustcp.readthedocs.io/en/latest/)
+- [Simulador modbus - ModbusPal](https://modbuspal.sourceforge.net/)
 - [DNP3-python](https://pypi.org/project/dnp3-python/)
 - [SCADA-LTS](http://scada-lts.com/)
 - [Scapy](https://scapy.net/)
@@ -166,4 +178,3 @@ Além do livro texto, serão disponibilizados **slides** e **outros recursos de 
 | 36    | Quinta-Feira   | 06/03/25 | Livre / Entrega Trabalho 2                                               |
 | -     | -              | 07/03/25 | Término do Semestre Letivo 2024.2                                        |
 | -     | -              | 14/03/25 | Último dia para consolidação das notas                                   |
-

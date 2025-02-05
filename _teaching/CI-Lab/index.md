@@ -37,7 +37,7 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - [15/01  – Prática 7 – Osciloscópio parte I]()
 - [22/01 – Prática 7 – Osciloscópio parte II]()
 - [29/01 – Prática 8 – Circuitos RC e RL](/files/CI-Lab/8-circuitos-rl-rc.html)
-- [05/02 – Prática 9 – Circuito RLC]()
+- [05/02 – Prática 9 – Circuito RLC](/files/CI-Lab/9-circuito-rlc.html)
 - 12/02 - Recuperação de prática perdida.
 - 03/03 a 05/03 - Recesso de carnaval.
 - 07/03 - Encerramento do Semestre.
