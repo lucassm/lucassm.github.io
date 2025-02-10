@@ -39,7 +39,13 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
     - [Prática de Laboratório]()
     - [Slides]()
   - dnp3;
+    - [Links Úteis]()
+    - [Prática de Laboratório]()
+    - [Slides]()
   - iec61850;
+    - [Links Úteis]()
+    <!-- - [Prática de Laboratório]() -->
+    - [Slides]()
 - **Unidade 04**: Substation Automation;
 
 Além dos links acima existe um repositório GitHub público com materias de apoio disponíveis.
@@ -85,6 +91,7 @@ A ser definido.
 - Trabalho Complementar 1 (31/10/24): Trabalho individual. Com base no diagrama unifilar disponibilizado [aqui](https://drive.google.com/file/d/1_dujEn5-1ty2NOexEotcr9kTOkS3UItn/view?usp=sharing), liste em uma planilha cada um dos equipamentos presentes na SE do diagrama. Descreva o equipamento com base nas informações do diagrama. Apresente os códigos operacionais de cada elemento e indique o que significa o código de cada equipamento. Se houver mais de um equipamento do mesmo tipo, indique a quantidade. Entrega: **01/11/24** em arquivo .pdf pelo link de envio de trabalhos abaixo.
 - Trabalho Complementar 2 (05/12/24): Trabalho em dupla. Elaboração de planilha de pontos analógicos e digitais e suas respectivas ligações externas, conforme procedimento descrito [neste arquivo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/AC2.pdf). Anexo: [anexo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/1-funcionais-eq-campo-69-13_8.pdf). Data da entrega: **10/01/25** em arquivo .pdf pelo link de envio de trabalhos abaixo.;
 - Trabalho Complementar 3 (06/01/2025): Lista de exercícios sobre redes locais e camada de enlace e introdução ao uso do pacote Python de análise de redes Scapy. Entrega: **17/01/25**. Arquivo disponível [neste link](https://drive.google.com/file/d/1qsO0F6IxDYElVru5qk1yEXNKBjcYJ1g7/view?usp=sharing)
+- Trabalho Complementar 4 (10/02/25): Trabalho a ser realizado em equipes de três membros cada. Desenvolvimento de um simulador de comunicação utilizando os protocolos dnp3 e modbus associados ao sistema SCADA-LTS para representação da subestação de 69,0 kV da UFC. Entrega: **06/03/25**. Arquivo contendo descrição detalhada do trabalho disponível neste [link](https://github.com/lucassm/superv-control-ufc/blob/master/AC4/main.pdf).
 
 Link para envio dos trabalhos: [Envie os trabalhos por aqui](https://forms.gle/2JLAv9788Bdf3QwGA)
 
