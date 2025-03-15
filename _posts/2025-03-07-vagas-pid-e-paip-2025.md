@@ -18,4 +18,5 @@ Maiores informações ou esclarecimento de dúvidas enviar e-mail para prof. Luc
 
 ## Resultados da Seleção
 
-- PID (Projeto PID202519862): [Resultado PID-2025](https://drive.google.com/uc?export=download&id=1M37S3zPy1aGecwGH6pgaZ4zYBeRgWZFI) - (Projeto PAIP202519862): [Resultado PAIP-2025](https://drive.google.com/uc?export=download&id=1OlLydHcPPb5dcNeoR0YSV751yMXRW3vI)
+- PID (Projeto PID202519862): [Resultado PID-2025](https://drive.google.com/uc?export=download&id=1SINYjumjf_CPHzTnfkgWUstxplVbyDx6)
+- PAIP (Projeto PAIP202519862): [Resultado PAIP-2025](https://drive.google.com/uc?export=download&id=1rkYVe97PIBLLbJ1DGSyX4W4PtB9xEe4y)
