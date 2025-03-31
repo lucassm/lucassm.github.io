@@ -4,30 +4,32 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/ASP
 venue: "Federal University of Ceara, Department of Electrical Engineering"
-date: 2024-02-26
+date: 2025-04-01
 location: "Fortaleza, Brazil"
 ---
 
 ## Dias e Horários da Disciplina
 
-No semestre de *2024.1* a disciplina de ASP será ofertada *presencialmente* às *segundas e quartas* no horário de *16:00 as 18:00*.
+No semestre de *2025.1* a disciplina de ASP será ofertada *presencialmente* às *segundas e quartas* no horário de *16:00 as 18:00*.
 
 ## Descrição do Curso
 
 O curso de Análise de Sistemas de Potência (ASP) tem por objetivo habilitar os estudantes a *compreender conceitos teóricos fundamentais* e aplicá-los na *realização de estudos em redes elétricas*, especificamente em estudos de **curto-circuito** e **fluxo de carga**.
 
-Inicialmente serão apresentadas as ferramentas matemáticas e conceitos teóricos essenciais na realização das análises e estudos propostos, consolidando conhecimentos de outras disciplinas importantes do curso de engenharia elétrica, como análise de circuitos elétricos em corrente alternada, conversão eletromecânica de energia e máquinas elétricas.
+Inicialmente serão apresentadas as **ferramentas matemáticas** e **conceitos teóricos** essenciais na realização das análises e estudos propostos, consolidando conhecimentos de outras disciplinas importantes do curso de engenharia elétrica, como análise de circuitos elétricos em corrente alternada, máquinas elétricas e transmissão de energia elétrica.
 
 Na segunda parte da disciplina serão apresentados conceitos relacionados à:
+
 - Cálculo de curto-circuito equilibrado em redes elétricas;
 - Teoria de componentes simétricas; e
 - Cálculo de curto-circuito desequilibrado em redes de elétricas.
 
 Ao final, a teoria de fluxo de carga em redes elétricas é apresentada, com aprofundamento em quatro métodos de cálculo principais:
+
 - Gauss-Seidel
 - Newton-Rhapson
-- Desacoplado Rápido
-- Equivalente CC
+- Método Desacoplado Rápido
+- Método Equivalente CC
 
 ## Bibliografia Básica Adotada no Curso
 
@@ -41,6 +43,7 @@ Ao final, a teoria de fluxo de carga em redes elétricas é apresentada, com apr
 ## Ementa
 
 **Parte 1**
+
 - 1.1 Introdução aos sistemas elétricos de potência (SEP).
 - 1.3 Conceitos Básicos de sistemas elétricos trifásicos e em corrente alternada;
 - 1.2 Modelos dos componentes do SEP: Modelo das Linhas de Transmissão, Modelo dos Transformadores, Modelo de Geradores, Modelo de Cargas.
@@ -48,42 +51,45 @@ Ao final, a teoria de fluxo de carga em redes elétricas é apresentada, com apr
 - 1.4 Modelo de redes elétricas em regime permanente.
 
 **Parte 2**
-- 3.1 Curto-circuito.
-- 3.2 Fenômenos elétricos.
-- 3.3 Componentes simétricas.
-- 3.4 Estudo de tipos de curto-circuito.
-- 3.5 Comportamento de motores síncronos e assíncronos.
-- 3.6 Contribuição ao curto circuito de fontes com conversores eletrônicos.
-- 3.7 Capacidade de curto-circuito de uma barra.
+
+- 2.1 Curto-circuito.
+- 2.2 Fenômenos elétricos.
+- 2.3 Componentes simétricas.
+- 2.4 Estudo de tipos de curto-circuito.
+- 2.5 Comportamento de motores síncronos e assíncronos.
+- 2.6 Contribuição ao curto circuito de fontes com conversores eletrônicos.
+- 2.7 Capacidade de curto-circuito de uma barra.
 
 **Parte 3**
-- 2.1 Fluxo de carga.
-- 2.2 Formulação matemática do fluxo de carga.
-- 2.3 Métodos de solução de fluxo de carga: Gauss e Gauss-Seidel, Newton-Raphson, Desacoplado rápido, Equivalente CC
-- 2.4 Cálculo do estado da rede elétrica em regime permanente.
+
+- 3.1 Fluxo de carga.
+- 3.2 Formulação matemática do fluxo de carga.
+- 3.3 Métodos de solução de fluxo de carga: Gauss e Gauss-Seidel, Newton-Raphson, Desacoplado rápido, Equivalente CC
+- 3.4 Cálculo do estado da rede elétrica em regime permanente.
 
 ## Avaliações e Atividades
 
 Serão realizadas 3 APs no decorrer da disciplina, com as datas mais prováveis listadas na sessão de [Cronograma](#cronograma).
 
 Os Conteúdos das APs serão:
+
 - AP1: Conceitos Básicos de análise de SEP
 - AP2: Estudo e Cálculo de Curto-Circuito
 - AP3: Estudo e Algoritmos de Fluxo de Carga
 
-Obs.: A AP3 é obrigatória e ao final do semestre a menor das três notas será descartada.
+Obs.: **A AP3 é obrigatória** e ao final do semestre a menor das três notas será descartada.
 
 Serão realizados dois trabalhos computacionais ao longo da disciplina:
-- [T1: cálculo de curto-circuito](/teaching/ASP/comp-work-01);
-- [T2: cálculo de fluxo de carga](/teaching/ASP/comp-work-02).
+- [T1: cálculo de curto-circuito](/teaching/ASP/comp-work-01-2025);
+- [T2: cálculo de fluxo de carga](/teaching/ASP/comp-work-02-2025).
 
-A nota final será composta de 60% das APs e 40% dos trabalhos computacionais.
+> A nota final será composta de 70% das APs e 30% dos trabalhos computacionais.
 
-Além desses instrumentos de avaliação serão passadas listas de exercícios valendo 1,0 pt em cada AP e seminários temáticos espaçados ao longo da disciplina.
+Além desses instrumentos de avaliação poderão ser realizadas listas de exercícios valendo 1,0 pt em cada AP e seminários temáticos espaçados ao longo da disciplina.
 
 ## Atividades Complementares
 
-1. [Introdução ao SEP](/teaching/ASP/task-01)
+1. [Introdução ao SEP](/teaching/ASP/task-01-2025)
 
 ## Lista de Exercícios
 
@@ -93,35 +99,55 @@ Além desses instrumentos de avaliação serão passadas listas de exercícios v
 
 ## Cronograma
 
-| Semana | Data          | Conteúdo                                                                                               |
-| ------ | ------------- | ------------------------------------------------------------------------------------------------------ |
-| 1      | 26/02 e 28/02 | Apresentação da disciplina e Introdução ao SEP                                                         |
-| 2      | 04/03 e 06/03 | Introdução ao SEP e <br>Conceitos Básicos de Sistemas Elétricos - Fasores e Potência Elétrica Complexa |
-| 3      | 11/03 e 13/02 | Conceitos Básicos de Sistemas Elétricos - Fator de Potência,<br>Equações de Rede e Sistemas Trifásicos |
-| 4      | 18/03 e 20/03 | **Recesso do Feriado de São José**<br>Modelos de Transformadores                                       |
-| 5      | 25/03 e 27/03 | **Feriado Data Magna** e **Semana Santa**<br>Modelos de Transformadores e Sistema em Por Unidade       |
-| 6      | 01/04 e 03/04 | Modelos de Transformadores e Sistema em Por Unidade                                                    |
-| 7      | 08/04 e 10/04 | Modelos de Transformadores e Sistema em Por Unidade                                                    |
-| 8      | 15/04 a 12/07 | **Interrupção das aulas por motivo de Greve Docente (3 meses)**                                        |
-|        |               | <span style="color:rgb(0, 176, 80)">Novo Calendário - Pós Greve</span>                                 |
-| 8      | 15/07 e 17/07 | Modelos de Linhas de Transmissão e sua operação em regime permanente.                                  |
-| 9      | 22/07 e 24/07 | Curto Circuito Equilibrado                                                                             |
-| 10     | 29/07 e 31/07 | Revisão e AP1                                                                                          |
-| 11     | 05/08 e 07/08 | Componentes Simétricas e Curto Circuito Desequilibrado                                                 |
-| 12     | 12/08 e 14/08 | Curto Circuito Desequilibrado e Aplicação Computacional                                                |
-| 13     | 19/08 e 21/08 | Fluxo de Carga: Conceitos Iniciais                                                                     |
-| 14     | 26/08 e 28/08 | Revisão e AP2                                                                                          |
-| 15     | 02/09 e 04/09 | Fluxo de Carga: Gauss-Seidel e Newton Raphson                                                          |
-| 16     | 09/09 e 11/09 | Fluxo de Carga: Desacoplado Rápido e Equivalente CC                                                    |
-| 17     | 16/09 e 18/09 | Fluxo de Carga: Aplicação Computacional                                                                |
-| 18     | 23/09 e 25/09 | Revisão e AP3                                                                                          |
+| #  | Data     | Conteúdo Programado                                                                                 |
+|----|----------|-----------------------------------------------------------------------------------------------------|
+| 1  | 31/03/25 | Não haverá aula                                                                                     |
+| 2  | 02/04/25 | Apresentação da disciplina e Introdução ao SEP                                                      |
+| 3  | 07/04/25 | Introdução ao SEP e  Conceitos Básicos de Sistemas Elétricos - Fasores e Potência Elétrica Complexa |
+| 4  | 09/04/25 | Conceitos Básicos de Sistemas Elétricos - Fator de Potência, Equações de Rede e Sistemas Trifásicos |
+| 5  | 14/04/25 | Conceitos Básicos de Sistemas Elétricos - Fator de Potência, Equações de Rede e Sistemas Trifásicos |
+| 6  | 16/04/25 | Modelos de Transformadores e Sistema em Por Unidade                                                 |
+| 7  | 21/04/25 | Feriado Tiradentes                                                                                  |
+| 8  | 23/04/25 | Modelos de Transformadores e Sistema em Por Unidade                                                 |
+| 9  | 28/04/25 | Modelos de Transformadores e Sistema em Por Unidade                                                 |
+| 10 | 30/04/25 | Modelos de Transformadores e Sistema em Por Unidade                                                 |
+| 11 | 05/05/25 | Modelos de Linhas de Transmissão e sua operação em regime permanente.                               |
+| 12 | 07/05/25 | Modelos de Linhas de Transmissão e sua operação em regime permanente.                               |
+| 13 | 12/05/25 | Modelos de Linhas de Transmissão e sua operação em regime permanente.                               |
+| 14 | 14/05/25 | Modelos de Linhas de Transmissão e sua operação em regime permanente.                               |
+| 15 | 19/05/25 | AP1                                                                                                 |
+| 16 | 21/05/25 | Aula de Laboratório                                                                                 |
+| 17 | 26/05/25 | Curto Circuito Equilibrado                                                                          |
+| 18 | 28/05/25 | Curto Circuito Equilibrado                                                                          |
+| 19 | 02/06/25 | Curto Circuito Equilibrado                                                                          |
+| 20 | 04/06/25 | Componentes Simétricas e Curto Circuito Desequilibrado                                              |
+| 21 | 09/06/25 | Componentes Simétricas e Curto Circuito Desequilibrado                                              |
+| 22 | 11/06/25 | Componentes Simétricas e Curto Circuito Desequilibrado                                              |
+| 23 | 16/06/25 | Componentes Simétricas e Curto Circuito Desequilibrado                                              |
+| 24 | 18/06/25 | AP 2                                                                                                |
+| 25 | 23/06/25 | Aula de Laboratório                                                                                 |
+| 26 | 25/06/25 | Fluxo de Carga: Conceitos Iniciais                                                                  |
+| 27 | 30/06/25 | Fluxo de Carga: Conceitos Iniciais                                                                  |
+| 28 | 02/07/25 | Fluxo de Carga: Gauss-Seidel e Newton Raphson                                                       |
+| 29 | 07/07/25 | Fluxo de Carga: Gauss-Seidel e Newton Raphson                                                       |
+| 30 | 09/07/25 | Fluxo de Carga: Gauss-Seidel e Newton Raphson                                                       |
+| 31 | 14/07/25 | Fluxo de Carga: Desacoplado Rápido e Equivalente CC                                                 |
+| 32 | 16/07/25 | Fluxo de Carga: Desacoplado Rápido e Equivalente CC                                                 |
+| 33 | 21/07/25 | Aula de Laboratório                                                                                 |
+| 34 | 23/07/25 | Aula de Laboratório                                                                                 |
+| 35 | 28/07/25 | AP 3                                                                                                |
+| 36 | 30/07/25 | Livre                                                                                               |
+| 37 | 01/08/25 | Término do Semestre                                                                                 |
+| 38 | 02/08/25 | Início do período de AFs                                                                            |
+| 39 | 08/08/25 | Término do período de AFs                                                                           |
+| 40 | 09/08/25 | Último dia para postagem das notas no SIGAA                                                         |
 
 
 Obs: O cronograma está sujeito à alterações.
 
 ## Material Disponibilizado
 
-Todo o material do curso (slides, scripts de programação e jupyter-notebooks) está disponibilizado no repositório GitHub acessível por meio deste [link](https://github.com/lucassm/asp-ufc)
+Todo o material do curso (slides, scripts de programação e jupyter-notebooks) está disponibilizado no **repositório GitHub acessível por meio deste** [link](https://github.com/lucassm/asp-ufc) e pelo canal de Telegram com link a ser disponibilizado via SIGAA.
 
 ## Softwares
 - [Matpower](https://matpower.org/)
@@ -135,4 +161,3 @@ Todo o material do curso (slides, scripts de programação e jupyter-notebooks) 
 ## Links Úteis
 - [Power Systems Test Cases Archive](https://labs.ece.uw.edu/pstca/)
 - [Sistema de Geração Brasileiro](https://app.powerbi.com/view?r=eyJrIjoiNjc4OGYyYjQtYWM2ZC00YjllLWJlYmEtYzdkNTQ1MTc1NjM2IiwidCI6IjQwZDZmOWI4LWVjYTctNDZhMi05MmQ0LWVhNGU5YzAxNzBlMSIsImMiOjR9)
-

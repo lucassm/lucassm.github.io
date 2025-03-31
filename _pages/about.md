@@ -32,24 +32,25 @@ Research topics interests:
 ## Teaching
 
 
-Currently offering (2024.2):
+Currently offering (2025.1):
+
+- [Power System Analysis](/teaching/ASP);
+- [Electrical Distribution System Analysis](/teaching/DEE);
+- [AC Circuits (Laboratory)](/teaching/CII-Lab);
+
+
+Offered last semester (2024.2):
 
 - [Supervision and Control of Power Ssystems](/teaching/SCSEP)
 - [Eletrotecnic for Engineering (Laboratory)](/teaching/EE-Lab);
 - [DC Circuits (Laboratory)](/teaching/CI-Lab);
-
-Offered last semester (2024.1):
-
-- [Power System Analysis](/teaching/ASP/);
-- [Electrical Distribution System Analysis](/teaching/DEE);
-- [AC Circuits (Laboratory)](/teaching/CII-Lab);
 
 Previously offered in other semesters:
 
 - [Computer Networks](/teaching/RC/);
 - [Eletrotecnic for Engineering](/teaching/EE);
 
-## Supervision 
+## Supervision
 
 Students currently under supervision:
 
