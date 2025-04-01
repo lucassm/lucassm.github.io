@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/DEE
 venue: "Federal University of Ceara, Department of Electrical Engineering"
-date: 2024-02-27
+date: 2025-04-01
 location: "Fortaleza, Brazil"
 ---
 
@@ -12,7 +12,7 @@ location: "Fortaleza, Brazil"
 
 ## Dias e Horários da Disciplina
 
-No semestre de 2024.1 a disciplina de DIST será ofertada presencialmente às segundas e terças no horário de 14:00 as 16:00.
+No semestre de 2025.1 a disciplina de DEE será ofertada presencialmente às segundas e terças no horário de 14:00 as 16:00.
 
 ## Descrição do Curso
 
@@ -51,7 +51,7 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - **Unidade 01**: Alocação de Cargas e Métodos de Análise Aproximados;
 - **Unidade 02**: Modelagem de linhas de distribuição de eletricidade;
 - **Unidade 03**: Regulação de tensão em redes de distribuição de eletricidade;
-- **Unidade 04**: Modelagem de transformadores trifásicos, Bancos de Capacitores e Cargas Elétricas; 
+- **Unidade 04**: Modelagem de transformadores trifásicos, Bancos de Capacitores e Cargas Elétricas;
 - **Unidade 05**: Fluxo de carga em redes de distribuição de eletricidade;
 - **Unidade 06**: Curto-circuito em redes de distribuição de eletricidade;
 
@@ -62,19 +62,25 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 As avaliações estão previstas para ocorrer conforme a data estabelecida no cronograma.
 
 Conteúdo da **Avaliação Parcial 01**:
+
 - **Unidade 01**: Alocação de Carga e Métodos Aproximados de Análise;
 - **Unidade 02**: Modelagem de linhas de distribuição de eletricidade;
-- **Unidade 03**: Regulação de tensão em redes de distribuição de eletricidade;
 
 Conteúdo da **Avaliação Parcial 02**:
+
+- **Unidade 03**: Regulação de tensão em redes de distribuição de eletricidade;
 - **Unidade 04**: Modelagem de transformadores de distribuição trifásicos; 
+
+Conteúdo da **Avaliação Parcial 03**:
+
 - **Unidade 05**: Fluxo de carga em redes de distribuição de eletricidade;
 - **Unidade 06**: Curto-circuito em redes de distribuição de eletricidade;
 
 ### Lista de Exercícios
 
-- [**Lista de Exercícios 1**: Modelagem de linhas de distribuição de eletricidade](https://drive.google.com/file/d/1svurqh2XK4rAz37oRlNnrDeWgTX9yRc3/view?usp=sharing)
-
+- [**Lista de Exercícios 1**]()
+- [**Lista de Exercícios 2**]()
+- [**Lista de Exercícios 3**]()
 
 ### Trabalhos
 
@@ -87,35 +93,54 @@ Previsão para temas de trabalhos computacionais a serem desenvolvidos no decorr
 
 A nota da disciplina será composta pela média ponderada das avaliações parciais e dos trabalhos computacionais realizados:
 
-$$NF = 0,6 \cdot NA + 0,4 \cdot NT$$
+$$NF = 0,7 \cdot NA + 0,3 \cdot NT$$
 
 Em que, $NF$ é a nota final da disciplina e $NA$, $NT$ são as notas notas obitidas nas avaliações parciais e nos trabalhos computacionais.
 
 ## Cronograma
 
-| Semana | Data          | Conteúdo                                                               |
-| :----: | ------------- | ---------------------------------------------------------------------- |
-|   1    | 27/02 e 29/02 | Apresentação da Disciplina e Introdução a DSEE                         |
-|   2    | 05/03 e 07/03 | Unidade 01                                                             |
-|   3    | 12/03 e 14/02 | Unidade 01 e Atividade Computacional (Simbench/pandapower)             |
-|   4    | 19/03 e 21/03 | (**Feriado São José**) Finalização da Unidade 01                       |
-|   5    | 26/03 e 28/03 | Unidade 02 (**Feriado Semana Santa**)                                  |
-|   6    | 02/04 e 04/04 | Unidade 02                                                             |
-|   7    | 09/04 e 11/04 | Unidade 03                                                             |
-|   8    | 16/04 e 18/04 | **Interrupção das aulas por motivo de greve docente**                  |
-|        |               | <span style="color:rgb(0, 176, 80)">Novo Calendário - Pós Greve</span> |
-|   8    | 16/07 e 18/07 | Unidade 03<br>                                                         |
-|   9    | 23/07 e 25/07 | Modelagem computacional com openDSS                                    |
-|   10   | 30/07 e 01/08 | Unidade 04                                                             |
-|   11   | 06/08 e 08/08 | Revisão e AP1                                                          |
-|   12   | 13/08 e 15/08 | Unidade 04                                                             |
-|   13   | 20/08 e 22/08 | Modelagem computacional com openDSS                                    |
-|   14   | 26/08 e 28/08 | Unidade 05                                                             |
-|   15   | 02/09 e 04/09 | Unidade 05                                                             |
-|   16   | 09/09 e 11/09 | Modelagem computacional com openDSS                                    |
-|   17   | 16/09 e 18/09 | Modelagem computacional com openDSS                                    |
-|   18   | 23/09 e 25/09 | Revisão e AP2                                                          |
-|        |               |                                                                        |
+| #  | Data     | Conteúdo Programado                            |
+|----|----------|------------------------------------------------|
+| 1  | 01/04/25 | Apresentação da Disciplina e Introdução a DSEE |
+| 2  | 03/04/25 | Apresentação da Disciplina e Introdução a DSEE |
+| 3  | 08/04/25 | Unidade 01                                     |
+| 4  | 10/04/25 | Unidade 01                                     |
+| 5  | 15/04/25 | Unidade 01                                     |
+| 6  | 17/04/25 | Feriado de Quinta-Feira Santa                  |
+| 7  | 22/04/25 | Unidade 02                                     |
+| 8  | 24/04/25 | Unidade 02                                     |
+| 9  | 29/04/25 | Unidade 02                                     |
+| 10 | 01/05/25 | Feriado Dia do Trabalho                        |
+| 11 | 06/05/25 | Unidade 02                                     |
+| 12 | 08/05/25 | Unidade 02                                     |
+| 13 | 13/05/25 | Unidade 02                                     |
+| 14 | 15/05/25 | AP1                                            |
+| 15 | 20/05/25 | Unidade 03                                     |
+| 16 | 22/05/25 | Unidade 03                                     |
+| 17 | 27/05/25 | Unidade 03                                     |
+| 18 | 29/05/25 | Unidade 03                                     |
+| 19 | 03/06/25 | Unidade 04                                     |
+| 20 | 05/06/25 | Unidade 04                                     |
+| 21 | 10/06/25 | Unidade 04                                     |
+| 22 | 12/06/25 | Unidade 04                                     |
+| 23 | 17/06/25 | Atividade Computacional                        |
+| 24 | 19/06/25 | AP 2                                           |
+| 25 | 24/06/25 | Unidade 05                                     |
+| 26 | 26/06/25 | Unidade 05                                     |
+| 27 | 01/07/25 | Unidade 05                                     |
+| 28 | 03/07/25 | Unidade 05                                     |
+| 29 | 08/07/25 | Unidade 06                                     |
+| 30 | 10/07/25 | Unidade 06                                     |
+| 31 | 15/07/25 | Unidade 06                                     |
+| 32 | 17/07/25 | Unidade 06                                     |
+| 33 | 22/07/25 | Atividade Computacional                        |
+| 34 | 24/07/25 | Atividade Computacional                        |
+| 35 | 29/07/25 | AP 3                                           |
+| 36 | 31/07/25 | Livre                                          |
+| 37 | 01/08/25 | Término do Semestre                            |
+| 38 | 02/08/25 | Início do período de AFs                       |
+| 39 | 08/08/25 | Término do período de AFs                      |
+| 40 | 09/08/25 | Último dia para postagem das notas no SIGAA    |
 
 ## Material Disponibilizado
 
@@ -125,7 +150,7 @@ Todo o material do curso (slides, scripts de programação e jupyter-notebooks) 
 
 Utilizaremos os seguintes softwares para analise de sistemas de distribuição:
 
-- **Pandapower**, software livre disponibilizado para download [**neste link**](http://www.pandapower.org/). O **Pandapower** é bem documentado e um tutorial inicial pode ser visualizado [**neste link**](https://pandapower.readthedocs.io/en/latest/).
+<!-- - **Pandapower**, software livre disponibilizado para download [**neste link**](http://www.pandapower.org/). O **Pandapower** é bem documentado e um tutorial inicial pode ser visualizado [**neste link**](https://pandapower.readthedocs.io/en/latest/). -->
 -  **OpenDSS**, software livre disponibilizado para download [**neste link**](https://sourceforge.net/projects/electricdss/). O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**neste link**](http://sourceforge.net/p/electricdss/code/HEAD/tree/trunk/Distrib/Doc/OpenDSSPrimer.pdf).
 
 ## Links Úteis
