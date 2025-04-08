@@ -12,7 +12,7 @@ location: "Fortaleza, Brazil"
 
 ## Dias e Horários da Disciplina
 
-No semestre de 2025.1 a disciplina de DEE será ofertada presencialmente às segundas e terças no horário de 14:00 as 16:00.
+No semestre de 2025.1 a disciplina de DEE será ofertada presencialmente às segundas e quartas no horário de 14:00 as 16:00.
 
 ## Descrição do Curso
 
@@ -148,14 +148,21 @@ Todo o material do curso (slides, scripts de programação e jupyter-notebooks) 
 
 ## Softwares
 
-Utilizaremos os seguintes softwares para analise de sistemas de distribuição:
+Na disciplina de Distribuição de Energia Elétrica, o software para realização de estudos e análises elétricas, tanto de fluxo de carga, quanto de curto-circuito, será o OpenDSS.
+
+O **OpenDSS**, é software livre disponibilizado para download gratuitamente. É uma ferramenta bem documentada e desenvolvida pelo conhecido instituto americano EPRI. Seguem alguns links importantes sobre OpenDSS:
+
+- [**Download do Instalador OpenDSS**](https://sourceforge.net/projects/electricdss/);
+- [**Página do OpenDSS mantida pelo EPRI**](https://www.epri.com/pages/sa/opendss);
+- [**Manual do Usuário de OpenDSS**](https://opendss.epri.com/opendss_documentation.html);
+- [**Sistemas teste do IEEE**](https://cmte.ieee.org/pes-testfeeders/resources/);
+- [**Sistemas tests do IEEE em OpenDSS**](https://github.com/tshort/OpenDSS/tree/master/Distrib/IEEETestCases);
 
 <!-- - **Pandapower**, software livre disponibilizado para download [**neste link**](http://www.pandapower.org/). O **Pandapower** é bem documentado e um tutorial inicial pode ser visualizado [**neste link**](https://pandapower.readthedocs.io/en/latest/). -->
--  **OpenDSS**, software livre disponibilizado para download [**neste link**](https://sourceforge.net/projects/electricdss/). O **OpenDSS** é bem documentado e um tutorial inicial pode ser visualizado [**neste link**](http://sourceforge.net/p/electricdss/code/HEAD/tree/trunk/Distrib/Doc/OpenDSSPrimer.pdf).
+
 
 ## Links Úteis
 
-- Article: [The Whys of Distribution System Analysis](https://drive.google.com/file/d/1728nw70VMb0yucNwR5uElDojYDoVipuO/view?usp=drive_link)
-- Article: [Recommended Practices for Distribution System Analysis](https://drive.google.com/file/d/1xZ_PAEg1wIqt2_3Qpkmvq40_bDmqWJ-7/view?usp=drive_link)
-- Article: [Distribution System Analysis and the Future Smart Grid](https://drive.google.com/file/d/1tDoFq_6vQ5UmswGnpFy590RePzQajfpc/view?usp=drive_link)
-- Prática computacional sobre alocação de cargas: [Link 1](https://gist.github.com/lucassm/5367649033551bc7d0bd0e2ff6d8ffd5) [Link 2](https://gist.github.com/lucassm/00b61585936efa67a4447f52b5f3279f)
+- Article: [The Whys of Distribution System Analysis]()
+- Article: [Recommended Practices for Distribution System Analysis]()
+- Article: [Distribution System Analysis and the Future Smart Grid]()
