@@ -15,27 +15,26 @@ location: "Fortaleza, Brazil"
 - [Curto-Circuito Simétrico](https://github.com/lucassm/asp-ufc/blob/main/slides/04-symmetrical-faults.pdf)
 - [Componentes Simétricas](https://github.com/lucassm/asp-ufc/blob/main/slides/05-symmetrical-components.pdf) e [Curto-Circuito Assimétrico](https://github.com/lucassm/asp-ufc/blob/main/slides/06-unsymetrical-faults.pdf)
 - [Fluxo de Carga no Sistema de Transmissão - Métodos Clássicos](https://github.com/lucassm/asp-ufc/blob/main/slides/07-power-flow.pdf)
-- Fluxo de Carga no Sistema de Distribuição: [Varredura Direta-Inversa](https://github.com/lucassm/dist-ufc/blob/master/slides/08-distribution-feeder-analysis.pdf) [Método Iterativo de Ponto Fixo (OpenDSS)](https://github.com/lucassm/dist-ufc/tree/master/slides)
+- Fluxo de Carga no Sistema de Distribuição: [Varredura Direta-Inversa](https://github.com/lucassm/dist-ufc/blob/master/slides/08-distribution-feeder-analysis.pdf) e [Método Iterativo de Ponto Fixo (OpenDSS)](https://github.com/lucassm/dist-ufc/blob/master/slides/12-OpenDSS-Power-Flow.pdf)
 
 ## Princípios de Automação de Subestações e da Rede de Distribuição
 
 - [Introdução à Automação de Subestações de Energia Elétrica]()
 - [Protocolos Tradicionais de Automação de SE: ModBus e DNP3]()
-- [Protocolos Modernos de Automação de SE: Norma IEC 61850]()
-- 
+- [Protocolos Modernos de Automação de SE: Norma IEC 61850]()d
 
 ## Seminários
 
 **1a Fase**: Estudos Elétricos
 
-- Wigla
+- FRANCISCA WIGLLA DE MOURA NOBRE
 - LUCAS MACENA LIMA DA SILVA
-- Pablo
+- LUIS PABLO
 - ADRIEL DE OLIVEIRA FREITAS
 
 **2a Fase**: Automação de Subestações e da Rede de Distribuição
 
-- Amanda
+- AMANDA CARVALHO ALEXANDRE
 - JOÃO PEDRO MAGALHÃES DE LIMA
 - HENRIQUE RESENDE SANTOS
 - DANIEL KENJI DE ALENCAR OHI
