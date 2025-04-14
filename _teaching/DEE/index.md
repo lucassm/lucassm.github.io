@@ -160,7 +160,6 @@ O **OpenDSS**, é software livre disponibilizado para download gratuitamente. É
 
 <!-- - **Pandapower**, software livre disponibilizado para download [**neste link**](http://www.pandapower.org/). O **Pandapower** é bem documentado e um tutorial inicial pode ser visualizado [**neste link**](https://pandapower.readthedocs.io/en/latest/). -->
 
-
 ## Links Úteis
 
 - Article: [The Whys of Distribution System Analysis]()
