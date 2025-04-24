@@ -17,7 +17,7 @@ Propiciar aos estudantes de engenharia conhecimentos **teóricos e práticos** c
 Conteúdos e listagem das práticas a serem realizadas na disciplina:
 
 - [PRÁTICA 1 – INSTRUMENTOS ELÉTRICOS E PARÂMETROS DE MEDIÇÃO](https://drive.google.com/file/d/1fa-bsKBUKz1iVuaZCLPZgY0yeSsMw7LP/view?usp=sharing)
-- [PRÁTICA 2 – SINUSÓIDES: VALORES MÉDIO E EFICAZ](https://drive.google.com/file/d/19VbHCvMmbyNnBR5G_uyiHrW1LU0E9nPp/view?usp=sharing) - Material de Complementar: [pdf](https://drive.google.com/file/d/1qB7rxzvwnACqE5rjZKdOQh4ZFej_vjfk/view?usp=sharing) [geogebra](https://drive.google.com/file/d/1JkR5Hf5nfLu3aETYMq9znHDLERsJIJFZ/view?usp=sharing)
+- [PRÁTICA 2 – SINUSÓIDES: VALORES MÉDIO E EFICAZ](https://drive.google.com/file/d/19VbHCvMmbyNnBR5G_uyiHrW1LU0E9nPp/view?usp=sharing) - Material Complementar: [pdf](https://drive.google.com/file/d/1qB7rxzvwnACqE5rjZKdOQh4ZFej_vjfk/view?usp=sharing) [geogebra](https://drive.google.com/file/d/1JkR5Hf5nfLu3aETYMq9znHDLERsJIJFZ/view?usp=sharing)
 - [PRÁTICA 3 – MEDIÇÕES COM OSCILOSCÓPIO EM CIRCUITOS BÁSICOS EM CA](https://drive.google.com/file/d/1kQoBRaidtvmVR9ye1CMA6i10tPjhQYhh/view?usp=sharing)
 - PRÁTICA 4 – IMPEDÂNCIA
 - PRÁTICA 5 – POTÊNCIA MONOFÁSICA NO DOMÍNIO DA FREQUÊNCIA
