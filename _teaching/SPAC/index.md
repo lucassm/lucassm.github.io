@@ -17,20 +17,27 @@ location: "Fortaleza, Brazil"
 - [Fluxo de Carga no Sistema de Transmissão - Métodos Clássicos](https://github.com/lucassm/asp-ufc/blob/main/slides/07-power-flow.pdf)
 - Fluxo de Carga no Sistema de Distribuição: [Varredura Direta-Inversa](https://github.com/lucassm/dist-ufc/blob/master/slides/08-distribution-feeder-analysis.pdf) e [Método Iterativo de Ponto Fixo (OpenDSS)](https://github.com/lucassm/dist-ufc/blob/master/slides/12-OpenDSS-Power-Flow.pdf)
 
-## Princípios de Automação de Subestações e da Rede de Distribuição
+### Princípios de Automação de Subestações e da Rede de Distribuição
 
 - [Introdução à Automação de Subestações de Energia Elétrica]()
 - [Protocolos Tradicionais de Automação de SE: ModBus e DNP3]()
 - [Protocolos Modernos de Automação de SE: Norma IEC 61850]()d
 
+## Trabalhos Computacionais
+
+- [Trabalho computacional 1: Simulação de Curto-circuito e Fluxo de Carga](https://drive.google.com/file/d/1wK8ty18rXMUKBQ4oFCFB03fmG_qg6yDD/view?usp=sharing). Data para entrega: 16/05-2025
+
 ## Seminários
 
 **1a Fase**: Estudos Elétricos
 
-- FRANCISCA WIGLLA DE MOURA NOBRE
-- LUCAS MACENA LIMA DA SILVA
-- LUIS PABLO
-- ADRIEL DE OLIVEIRA FREITAS
+- Estudo de Curto-circuito em rede de distribuição com alta penetração de IBRs.
+  - FRANCISCA WIGLLA DE MOURA NOBRE
+  - LUCAS MACENA LIMA DA SILVA
+
+- Representação de Microrredes em estudos de fluxo de carga.
+  - LUIS PABLO
+  - ADRIEL DE OLIVEIRA FREITAS
 
 **2a Fase**: Automação de Subestações e da Rede de Distribuição
 
