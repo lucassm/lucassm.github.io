@@ -85,7 +85,7 @@ Conteúdo da **Avaliação Parcial 03**:
 ### Trabalhos
 
 Previsão para temas de trabalhos computacionais a serem desenvolvidos no decorrer da disciplina:
-- [**Trabalho 1**: Análise de Dados em sistemas de distribuição](https://drive.google.com/file/d/1GFZz_aZOQH_rpmQUXO0jK4u-S-Atx0jS/view?usp=sharing);
+- [**Trabalho 1**: Análise de Dados em sistemas de distribuição](https://drive.google.com/file/d/1GFZz_aZOQH_rpmQUXO0jK4u-S-Atx0jS/view?usp=sharing) - [Gravação da Aula Explicativa sobre o Trabalho 1](https://youtu.be/O7Fm-bLCtOQ);
 - [**Trabalho 2**: Fluxo de Carga com Regulador de Tensão]();
 - [**Trabalho 3**: Análise de Fluxo de carga em sistemas de distribuição com OpenDSS]().
 
