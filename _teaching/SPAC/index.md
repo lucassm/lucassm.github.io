@@ -23,29 +23,53 @@ location: "Fortaleza, Brazil"
 - [Protocolos Tradicionais de Automação de SE: ModBus e DNP3]()
 - [Protocolos Modernos de Automação de SE: Norma IEC 61850]()d
 
+## Alunos Participantes da Disciplina
+
+| #  | Nome                                  | Situação    |
+|----|---------------------------------------|-------------|
+| 1  | Adriel de Oliveira Freitas            | matriculado |
+| 2  | Amanda Carvalho Alexandre             | matriculado |
+| 3  | Daniel Kenji de Alencar Ohi           | matriculado |
+| 4  | Daniel Reboucas Jaguaribe             | matriculado |
+| 5  | Francisca Wiglla de Moura Nobre       | ouvinte     |
+| 6  | Francisco Edenilson Cordeiro da Silva | ouvinte     |
+| 7  | Guilherme Barnabe Pinheiro            | matriculado |
+| 8  | Henrique Resende Santos               | matriculado |
+| 9  | João Pedro Magalhães de Lima          | matriculado |
+| 10 | Lucas Macena Lima da Silva            | matriculado |
+| 11 | Luis Felipe Carneiro de Sousa         | ouvinte     |
+| 12 | Luis Pablo Pereira Saraiva            | ouvinte     |
+| 13 | Simão Pedro de Andrade Silva          | ouvinte     |
+
 ## Trabalhos Computacionais
 
-- [Trabalho computacional 1: Simulação de Curto-circuito e Fluxo de Carga](https://drive.google.com/file/d/1wK8ty18rXMUKBQ4oFCFB03fmG_qg6yDD/view?usp=sharing). Data para entrega: 16/05-2025
+- [Trabalho computacional 1: Simulação de Curto-circuito e Fluxo de Carga](https://drive.google.com/file/d/1wK8ty18rXMUKBQ4oFCFB03fmG_qg6yDD/view?usp=sharing). Data para entrega: 28/05/2025
 
 ## Seminários
 
 **1a Fase**: Estudos Elétricos
 
 - Estudo de Curto-circuito em rede de distribuição com alta penetração de IBRs.
-  - FRANCISCA WIGLLA DE MOURA NOBRE
-  - LUCAS MACENA LIMA DA SILVA
+  - Francisca Wiglla de Moura Nobre
+  - Lucas Macena Lima da Silva
+  - Luis Felipe Carneiro de Sousa
 
 - Representação de Microrredes em estudos de fluxo de carga.
-  - LUIS PABLO
-  - ADRIEL DE OLIVEIRA FREITAS
+  - Luis Pablo Pereira Saraiva
+  - Adriel de Oliveira Freitas
+  - Simão Pedro de Andrade Silva
+
+**Data para apresentação dos seminários sobre estudos elétricos: 19/05/2025**
 
 **2a Fase**: Automação de Subestações e da Rede de Distribuição
 
-- AMANDA CARVALHO ALEXANDRE
-- JOÃO PEDRO MAGALHÃES DE LIMA
-- HENRIQUE RESENDE SANTOS
-- DANIEL KENJI DE ALENCAR OHI
-- DANIEL REBOUCAS JAGUARIBE
+- Amanda Carvalho Alexandre
+- João Pedro Magalhães de Lima
+- Henrique Resende Santos
+- Daniel Kenji de Alencar Ohi
+- Daniel Reboucas Jaguaribe
+- Guilherme Barnabe Pinheiro
+- Francisco Edenilson Cordeiro da Silva
 
 ## Calendário de Planejamento da disciplina
 
@@ -56,19 +80,19 @@ location: "Fortaleza, Brazil"
 | 3  | 07/04/25 | Apresentação da Disciplina                                                                    |
 | 4  | 09/04/25 | Ferramentas e Estudos Elétricos – Curto-circuito Simétrico                                    |
 | 5  | 14/04/25 |                                                                                               |
-| 6  | 16/04/25 | Ferramentas e Estudos Elétricos – Curto-circuito Assimétrico                                  |
+| 6  | 16/04/25 | Ferramentas e Estudos Elétricos – Curto-circuito Simétrico                                    |
 | 7  | 21/04/25 | Feriado Tiradentes                                                                            |
-| 8  | 23/04/25 | Ferramentas e Estudos Elétricos – Fluxo de Carga Clássico                                     |
+| 8  | 23/04/25 | Ferramentas e Estudos Elétricos – Componentes Simétricas e Curto-circuito Assimétrico         |
 | 9  | 28/04/25 |                                                                                               |
-| 10 | 30/04/25 | Ferramentas e Estudos Elétricos – Fluxo de Carga Clássico                                     |
+| 10 | 30/04/25 | Ferramentas e Estudos Elétricos – Curto-circuito Assimétrico e Fluxo de Carga Clássico        |
 | 11 | 05/05/25 |                                                                                               |
-| 12 | 07/05/25 | Ferramentas e Estudos Elétricos – Fluxo de Carga na Distribuição                              |
-| 13 | 12/05/25 |                                                                                               |
-| 14 | 14/05/25 | Apresentação de Artigos                                                                       |
-| 15 | 19/05/25 |                                                                                               |
-| 16 | 21/05/25 | Sistemas de Automação de SEP – Introdução à Automação                                         |
+| 12 | 07/05/25 | Minicurso de ANAFAS                                                                           |
+| 13 | 12/05/25 | Ferramentas e Estudos Elétricos – Fluxo de Carga Clássico e Fluxo de Carga na Distribuição    |
+| 14 | 14/05/25 |                                                                                               |
+| 15 | 19/05/25 | Apresentação de Artigos                                                                       |
+| 16 | 21/05/25 |                                                                                               |
 | 17 | 26/05/25 |                                                                                               |
-| 18 | 28/05/25 | Sistemas de Automação de SEP – Princípios de Redes de Computadores                            |
+| 18 | 28/05/25 | Sistemas de Automação de SEP – Introdução à Automação e Princípios de Redes de Computadores   |
 | 19 | 02/06/25 |                                                                                               |
 | 20 | 04/06/25 | Sistemas de Automação de SEP – Automação de Subestações: Conceitos Básicos                    |
 | 21 | 09/06/25 |                                                                                               |
