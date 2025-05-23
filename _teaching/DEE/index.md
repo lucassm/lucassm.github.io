@@ -78,7 +78,7 @@ Conteúdo da **Avaliação Parcial 03**:
 
 ### Lista de Exercícios
 
-- [**Lista de Exercícios 1**]()
+- [**Lista de Exercícios 1**](https://drive.google.com/file/d/1Q3KNb3BWVBd7SNqDLO4svXQkiQgNh3Kw/view?usp=drive_link)
 - [**Lista de Exercícios 2**]()
 - [**Lista de Exercícios 3**]()
 
