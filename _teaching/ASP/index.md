@@ -80,8 +80,8 @@ Os Conteúdos das APs serão:
 Obs.: **A AP3 é obrigatória** e ao final do semestre a menor das três notas será descartada.
 
 Serão realizados dois trabalhos computacionais ao longo da disciplina:
-- [T1: cálculo de curto-circuito](/teaching/ASP/comp-work-01-2025);
-- [T2: cálculo de fluxo de carga](/teaching/ASP/comp-work-02-2025).
+- [T1: cálculo de curto-circuito]();
+- [T2: cálculo de fluxo de carga]().
 
 > A nota final será composta de 70% das APs e 30% dos trabalhos computacionais.
 
@@ -89,7 +89,7 @@ Além desses instrumentos de avaliação poderão ser realizadas listas de exerc
 
 ## Atividades Complementares
 
-1. [Introdução ao SEP](/teaching/ASP/task-01-2025)
+1. [Atividade Complementar sobre Linhas de Transmissão para composição de nota da AP1](https://drive.google.com/file/d/17ySATIKQEq9B6S-yiFSig45udHAGaAAI/view?usp=sharing) - *Entrega até 30/05/25*
 
 ## Lista de Exercícios
 
