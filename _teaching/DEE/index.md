@@ -53,7 +53,6 @@ Conteúdo programado para ser ministrado no decorrer da disciplina:
 - **Unidade 03**: Regulação de tensão em redes de distribuição de eletricidade;
 - **Unidade 04**: Modelagem de transformadores trifásicos, Bancos de Capacitores e Cargas Elétricas;
 - **Unidade 05**: Fluxo de carga em redes de distribuição de eletricidade;
-- **Unidade 06**: Curto-circuito em redes de distribuição de eletricidade;
 
 ## Avaliações e Atividades
 
@@ -69,18 +68,17 @@ Conteúdo da **Avaliação Parcial 01**:
 Conteúdo da **Avaliação Parcial 02**:
 
 - **Unidade 03**: Regulação de tensão em redes de distribuição de eletricidade;
-- **Unidade 04**: Modelagem de transformadores de distribuição trifásicos; 
+- **Unidade 04**: Modelagem de transformadores de distribuição trifásicos;
 
 Conteúdo da **Avaliação Parcial 03**:
 
 - **Unidade 05**: Fluxo de carga em redes de distribuição de eletricidade;
-- **Unidade 06**: Curto-circuito em redes de distribuição de eletricidade;
 
 ### Lista de Exercícios
 
-- [**Lista de Exercícios 1**](https://drive.google.com/file/d/1Q3KNb3BWVBd7SNqDLO4svXQkiQgNh3Kw/view?usp=drive_link)
-- [**Lista de Exercícios 2**]()
-- [**Lista de Exercícios 3**]()
+- [**Lista de Exercícios 1: Métodos Aproximados de Análise e Impedância Série de LD**](https://drive.google.com/file/d/1Q3KNb3BWVBd7SNqDLO4svXQkiQgNh3Kw/view?usp=drive_link)
+- [**Lista de Exercícios 2: Admitância Shunt, Modelos de LD**]()
+- [**Lista de Exercícios 3: Regulação de Tensão, Transformadores e Fluxo de Carga**]()
 
 ### Trabalhos
 
@@ -107,36 +105,36 @@ Em que, $NF$ é a nota final da disciplina e $NA$, $NT$ são as notas notas obit
 | 4  | 10/04/25 | Unidade 01                                     |
 | 5  | 15/04/25 | Unidade 01                                     |
 | 6  | 17/04/25 | Feriado de Quinta-Feira Santa                  |
-| 7  | 22/04/25 | Unidade 02                                     |
-| 8  | 24/04/25 | Unidade 02                                     |
+| 7  | 22/04/25 | Unidade 01                                     |
+| 8  | 24/04/25 | Unidade 01                                     |
 | 9  | 29/04/25 | Unidade 02                                     |
 | 10 | 01/05/25 | Feriado Dia do Trabalho                        |
 | 11 | 06/05/25 | Unidade 02                                     |
 | 12 | 08/05/25 | Unidade 02                                     |
 | 13 | 13/05/25 | Unidade 02                                     |
-| 14 | 15/05/25 | AP1                                            |
-| 15 | 20/05/25 | Unidade 03                                     |
-| 16 | 22/05/25 | Unidade 03                                     |
-| 17 | 27/05/25 | Unidade 03                                     |
-| 18 | 29/05/25 | Unidade 03                                     |
-| 19 | 03/06/25 | Unidade 04                                     |
-| 20 | 05/06/25 | Unidade 04                                     |
-| 21 | 10/06/25 | Unidade 04                                     |
-| 22 | 12/06/25 | Unidade 04                                     |
-| 23 | 17/06/25 | Atividade Computacional                        |
-| 24 | 19/06/25 | AP 2                                           |
-| 25 | 24/06/25 | Unidade 05                                     |
-| 26 | 26/06/25 | Unidade 05                                     |
-| 27 | 01/07/25 | Unidade 05                                     |
-| 28 | 03/07/25 | Unidade 05                                     |
-| 29 | 08/07/25 | Unidade 06                                     |
-| 30 | 10/07/25 | Unidade 06                                     |
-| 31 | 15/07/25 | Unidade 06                                     |
-| 32 | 17/07/25 | Unidade 06                                     |
+| 14 | 15/05/25 | Unidade 02                                     |
+| 15 | 20/05/25 | Unidade 02                                     |
+| 16 | 22/05/25 | Unidade 02                                     |
+| 17 | 27/05/25 | Unidade 02                                     |
+| 18 | 29/05/25 | AP1                                            |
+| 19 | 03/06/25 | Atividade Computacional (model. de LD Sub.)    |
+| 20 | 05/06/25 | Unidade 02                                     |
+| 21 | 10/06/25 | Atividade Computacional (Admit. e Flux.-Pot.)  |
+| 22 | 12/06/25 | Atividade Computacional (Flux.-Pot.)           |
+| 23 | 17/06/25 | Atividade Computacional (OpenDSS)              |
+| 24 | 19/06/25 | Feriado de Corpus Christi                      |
+| 25 | 24/06/25 | Unidade 03                                     |
+| 26 | 26/06/25 | Unidade 03                                     |
+| 27 | 01/07/25 | AP 2                                           |
+| 28 | 03/07/25 | Unidade 04                                     |
+| 29 | 08/07/25 | Unidade 04                                     |
+| 30 | 10/07/25 | Unidade 04                                     |
+| 31 | 15/07/25 | Unidade 05                                     |
+| 32 | 17/07/25 | Unidade 05                                     |
 | 33 | 22/07/25 | Atividade Computacional                        |
 | 34 | 24/07/25 | Atividade Computacional                        |
-| 35 | 29/07/25 | AP 3                                           |
-| 36 | 31/07/25 | Livre                                          |
+| 35 | 29/07/25 | Atividade Computacional                        |
+| 36 | 31/07/25 | AP 3                                           |
 | 37 | 01/08/25 | Término do Semestre                            |
 | 38 | 02/08/25 | Início do período de AFs                       |
 | 39 | 08/08/25 | Término do período de AFs                      |

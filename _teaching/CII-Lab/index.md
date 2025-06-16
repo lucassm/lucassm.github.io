@@ -34,7 +34,13 @@ Conteúdos e listagem das práticas a serem realizadas na disciplina:
 
 ## Relatórios Corrigidos
 
-- [Relatórios da Prática 1](https://drive.google.com/drive/folders/1AzMua29aobT0m5yYflKKf13skT8L6ZAA?usp=sharing)
+Planilha com as notas dos relatórios de cada uma das práticas: [Link para planilha](https://docs.google.com/spreadsheets/d/1mNr54EcX8l6BSuuLwcdPqGnZGkSkAUw0qWjR-k2zWgI/edit?usp=sharing)
+<!-- - [Relatórios da Prática 1](https://drive.google.com/drive/folders/1AzMua29aobT0m5yYflKKf13skT8L6ZAA?usp=sharing) -->
+
+## Notas das Avaliações Parciais
+
+- Avaliação Parcial 1
+- Avaliação Parcial 2
 
 ## Avaliações e estrutura da nota
 

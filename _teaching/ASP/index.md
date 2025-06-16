@@ -73,17 +73,18 @@ Serão realizadas 3 APs no decorrer da disciplina, com as datas mais prováveis 
 
 Os Conteúdos das APs serão:
 
-- AP1: Conceitos Básicos de análise de SEP
+- AP1: Conceitos Básicos de análise de SEP e Sistemas em Por Unidade
 - AP2: Estudo e Cálculo de Curto-Circuito
 - AP3: Estudo e Algoritmos de Fluxo de Carga
 
 Obs.: **A AP3 é obrigatória** e ao final do semestre a menor das três notas será descartada.
 
 Serão realizados dois trabalhos computacionais ao longo da disciplina:
-- [T1: cálculo de curto-circuito]();
-- [T2: cálculo de fluxo de carga]().
+- [T1: Cálculo de Linhas de Transmissão]();
+- [T2: cálculo de curto-circuito]();
+- [T3: cálculo de fluxo de carga]().
 
-> A nota final será composta de 70% das APs e 30% dos trabalhos computacionais.
+<!-- > A nota final será composta de 70% das APs e 30% dos trabalhos computacionais. -->
 
 Além desses instrumentos de avaliação poderão ser realizadas listas de exercícios valendo 1,0 pt em cada AP e seminários temáticos espaçados ao longo da disciplina.
 
@@ -96,6 +97,9 @@ Além desses instrumentos de avaliação poderão ser realizadas listas de exerc
 1. Questões sobre **Conceitos Básicos de SEP**: 2.2, 2.8, 2.9, 2.10, 2.14, 2.19, 2.23, 2.30, 2.35, 2.40, 2.42, 2.47.
 2. Questões sobre **Transformadores**: 3.2, 3.4, 3.10, 3.14, 3.20, 3.22, 3.25, 3.28, 3.37, 3.43, 3.64.
 3. Questões sobre **Linhas de Transmissão**: 5.2, 5.3, 5.14, 5.15, 5.23, 5.26, 5.27, 5.38, 5.39, 5.46
+4. Questões sobre **Curto Circuito Equilibrado**: 7.1, 7.2, 7.3, 7.6, 7.12, 7.18, 7.19
+5. Questões sobre **Componentes Simétricas**: 8.7, 8.8, 8.14, 8.15, 8.16, 8.21, 8.22, 8.26, 8.29, 8.32, 8.38, 8.45.
+6. Questões sobre **Curto Circuito Desequilibrado**: 9.1, 9.2, 9.3, 9.14, 9.16, 9.17.
 
 ## Cronograma
 
@@ -106,29 +110,29 @@ Além desses instrumentos de avaliação poderão ser realizadas listas de exerc
 | 3  | 07/04/25 | Introdução ao SEP e  Conceitos Básicos de Sistemas Elétricos - Fasores e Potência Elétrica Complexa |
 | 4  | 09/04/25 | Conceitos Básicos de Sistemas Elétricos - Fator de Potência, Equações de Rede e Sistemas Trifásicos |
 | 5  | 14/04/25 | Conceitos Básicos de Sistemas Elétricos - Fator de Potência, Equações de Rede e Sistemas Trifásicos |
-| 6  | 16/04/25 | Modelos de Transformadores e Sistema em Por Unidade                                                 |
+| 6  | 16/04/25 | Conceitos Básicos de Sistemas Elétricos - Fator de Potência, Equações de Rede e Sistemas Trifásicos |
 | 7  | 21/04/25 | Feriado Tiradentes                                                                                  |
 | 8  | 23/04/25 | Modelos de Transformadores e Sistema em Por Unidade                                                 |
 | 9  | 28/04/25 | Modelos de Transformadores e Sistema em Por Unidade                                                 |
 | 10 | 30/04/25 | Modelos de Transformadores e Sistema em Por Unidade                                                 |
-| 11 | 05/05/25 | Modelos de Linhas de Transmissão e sua operação em regime permanente.                               |
+| 11 | 05/05/25 | Modelos de Transformadores e Sistema em Por Unidade                                                 |
 | 12 | 07/05/25 | Modelos de Linhas de Transmissão e sua operação em regime permanente.                               |
 | 13 | 12/05/25 | Modelos de Linhas de Transmissão e sua operação em regime permanente.                               |
 | 14 | 14/05/25 | Modelos de Linhas de Transmissão e sua operação em regime permanente.                               |
-| 15 | 19/05/25 | AP1                                                                                                 |
-| 16 | 21/05/25 | Aula de Laboratório                                                                                 |
-| 17 | 26/05/25 | Curto Circuito Equilibrado                                                                          |
+| 15 | 19/05/25 | Modelos de Linhas de Transmissão e sua operação em regime permanente.                               |
+| 16 | 21/05/25 | Modelos de Linhas de Transmissão e sua operação em regime permanente.                               |
+| 17 | 26/05/25 | AP1                                                                                                 |
 | 18 | 28/05/25 | Curto Circuito Equilibrado                                                                          |
 | 19 | 02/06/25 | Curto Circuito Equilibrado                                                                          |
-| 20 | 04/06/25 | Componentes Simétricas e Curto Circuito Desequilibrado                                              |
-| 21 | 09/06/25 | Componentes Simétricas e Curto Circuito Desequilibrado                                              |
-| 22 | 11/06/25 | Componentes Simétricas e Curto Circuito Desequilibrado                                              |
+| 20 | 04/06/25 | Curto Circuito Equilibrado                                                                          |
+| 21 | 09/06/25 | Curto Circuito Equilibrado                                                                          |
+| 22 | 11/06/25 | Aula de Laboratório                                                                                 |
 | 23 | 16/06/25 | Componentes Simétricas e Curto Circuito Desequilibrado                                              |
-| 24 | 18/06/25 | AP 2                                                                                                |
-| 25 | 23/06/25 | Aula de Laboratório                                                                                 |
-| 26 | 25/06/25 | Fluxo de Carga: Conceitos Iniciais                                                                  |
-| 27 | 30/06/25 | Fluxo de Carga: Conceitos Iniciais                                                                  |
-| 28 | 02/07/25 | Fluxo de Carga: Gauss-Seidel e Newton Raphson                                                       |
+| 24 | 18/06/25 | Componentes Simétricas e Curto Circuito Desequilibrado                                              |
+| 25 | 23/06/25 | Componentes Simétricas e Curto Circuito Desequilibrado                                              |
+| 26 | 25/06/25 | Aula de Laboratório                                                                                 |
+| 27 | 30/06/25 | AP 2                                                                                                |
+| 28 | 02/07/25 | Fluxo de Carga: Conceitos Iniciais                                                                  |
 | 29 | 07/07/25 | Fluxo de Carga: Gauss-Seidel e Newton Raphson                                                       |
 | 30 | 09/07/25 | Fluxo de Carga: Gauss-Seidel e Newton Raphson                                                       |
 | 31 | 14/07/25 | Fluxo de Carga: Desacoplado Rápido e Equivalente CC                                                 |
@@ -141,7 +145,6 @@ Além desses instrumentos de avaliação poderão ser realizadas listas de exerc
 | 38 | 02/08/25 | Início do período de AFs                                                                            |
 | 39 | 08/08/25 | Término do período de AFs                                                                           |
 | 40 | 09/08/25 | Último dia para postagem das notas no SIGAA                                                         |
-
 
 Obs: O cronograma está sujeito à alterações.
 

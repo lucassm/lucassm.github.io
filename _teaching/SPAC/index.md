@@ -19,9 +19,10 @@ location: "Fortaleza, Brazil"
 
 ### Princípios de Automação de Subestações e da Rede de Distribuição
 
+- Princípios de redes de computadores: [Camada de Enlace - Layer 2]() e [Camada de Rede - Layer 3]()
 - [Introdução à Automação de Subestações de Energia Elétrica]()
 - [Protocolos Tradicionais de Automação de SE: ModBus e DNP3]()
-- [Protocolos Modernos de Automação de SE: Norma IEC 61850]()d
+- [Protocolos Modernos de Automação de SE: Norma IEC 61850]()
 
 ## Alunos Participantes da Disciplina
 
@@ -44,6 +45,7 @@ location: "Fortaleza, Brazil"
 ## Trabalhos Computacionais
 
 - [Trabalho computacional 1: Simulação de Curto-circuito e Fluxo de Carga](https://drive.google.com/file/d/1wK8ty18rXMUKBQ4oFCFB03fmG_qg6yDD/view?usp=sharing). Data para entrega: 28/05/2025
+- [Trabalho computacional 2: Automação de Subestações com a norma IEC 61850]()
 
 ## Seminários
 
@@ -92,21 +94,21 @@ location: "Fortaleza, Brazil"
 | 15 | 19/05/25 | Apresentação de Artigos                                                                       |
 | 16 | 21/05/25 |                                                                                               |
 | 17 | 26/05/25 |                                                                                               |
-| 18 | 28/05/25 | Sistemas de Automação de SEP – Introdução à Automação e Princípios de Redes de Computadores   |
+| 18 | 28/05/25 | Sistemas de Automação de SEP – Introdução à Automação de Subestações                          |
 | 19 | 02/06/25 |                                                                                               |
-| 20 | 04/06/25 | Sistemas de Automação de SEP – Automação de Subestações: Conceitos Básicos                    |
+| 20 | 04/06/25 | Sistemas de Automação de SEP – Princípios de Redes de Computadores                            |
 | 21 | 09/06/25 |                                                                                               |
-| 22 | 11/06/25 | Sistemas de Automação de SEP – Protocolos de Comunicação: Relé SEL 751 e Protocolo Modbus     |
+| 22 | 11/06/25 | Sistemas de Automação de SEP – Princípios de Redes de Computadores                            |
 | 23 | 16/06/25 |                                                                                               |
-| 24 | 18/06/25 | Sistemas de Automação de SEP – Protocolos de Comunicação: Protocolo DNP3                      |
+| 24 | 18/06/25 | Sistemas de Automação de SEP – Protocolos de Comunicação: Relé SEL 751 e Protocolo Modbus     |
 | 25 | 23/06/25 |                                                                                               |
-| 26 | 25/06/25 | Sistemas de Automação de SEP – Protocolos de Comunicação: Norma IEC 61850                     |
+| 26 | 25/06/25 | Sistemas de Automação de SEP – Protocolos de Comunicação: Protocolo DNP3                      |
 | 27 | 30/06/25 |                                                                                               |
 | 28 | 02/07/25 | Sistemas de Automação de SEP – Protocolos de Comunicação: Norma IEC 61850                     |
 | 29 | 07/07/25 |                                                                                               |
-| 30 | 09/07/25 | Sistemas de Automação de SEP – Redes Elétricas Inteligentes                                   |
+| 30 | 09/07/25 | Sistemas de Automação de SEP – Protocolos de Comunicação: Norma IEC 61850                     |
 | 31 | 14/07/25 |                                                                                               |
-| 32 | 16/07/25 | Sistemas de Automação de SEP – Métodos de Otimização Aplicados à Redes Elétricas Inteligentes |
+| 32 | 16/07/25 | Sistemas de Automação de SEP – Protocolos de Comunicação: Norma IEC 61850                     |
 | 33 | 21/07/25 |                                                                                               |
 | 34 | 23/07/25 | Sistemas de Automação de SEP – Apresentação de Artigos                                        |
 | 35 | 28/07/25 |                                                                                               |
