@@ -73,11 +73,13 @@ Serão realizadas 3 APs no decorrer da disciplina, com as datas mais prováveis 
 
 Os Conteúdos das APs serão:
 
-- AP1: Conceitos Básicos de análise de SEP e Sistemas em Por Unidade
+- AP1: Conceitos Básicos de análise de SEP e Sistemas em Por Unidade ([Resolução da AP1](https://drive.google.com/file/d/1q4TuMHBE4HPAtGRuPRt7nCdQdxASvTmF/view?usp=sharing))
 - AP2: Estudo e Cálculo de Curto-Circuito
 - AP3: Estudo e Algoritmos de Fluxo de Carga
 
 Obs.: **A AP3 é obrigatória** e ao final do semestre a menor das três notas será descartada.
+
+- [Planilha de notas](https://docs.google.com/spreadsheets/d/1BO0mTRL9vz1tYeHCZoMGMyuhkvi9mT-06varj-tkDvA/edit?usp=sharing)
 
 Serão realizados dois trabalhos computacionais ao longo da disciplina:
 - [T1: Cálculo de Linhas de Transmissão]();

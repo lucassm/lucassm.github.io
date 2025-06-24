@@ -64,6 +64,7 @@ Conteúdo da **Avaliação Parcial 01**:
 
 - **Unidade 01**: Alocação de Carga e Métodos Aproximados de Análise;
 - **Unidade 02**: Modelagem de linhas de distribuição de eletricidade;
+- [**Avaliação Parcial 1 Resolvida**](https://drive.google.com/file/d/1yb8RBnZZozgLKk9DQAomzMrEzAplFogw/view?usp=sharing)
 
 Conteúdo da **Avaliação Parcial 02**:
 
@@ -77,7 +78,7 @@ Conteúdo da **Avaliação Parcial 03**:
 ### Lista de Exercícios
 
 - [**Lista de Exercícios 1: Métodos Aproximados de Análise e Impedância Série de LD**](https://drive.google.com/file/d/1Q3KNb3BWVBd7SNqDLO4svXQkiQgNh3Kw/view?usp=drive_link)
-- [**Lista de Exercícios 2: Admitância Shunt, Modelos de LD**]()
+- **Lista de Exercícios 2: Admitância Shunt, Modelos de LD**: Questões 5.1, 5.6, 6.1, 6.2, 6.3, 6.4,6.5, 6.9.
 - [**Lista de Exercícios 3: Regulação de Tensão, Transformadores e Fluxo de Carga**]()
 
 ### Trabalhos
@@ -94,6 +95,8 @@ A nota da disciplina será composta pela média ponderada das avaliações parci
 $$NF = 0,7 \cdot NA + 0,3 \cdot NT$$
 
 Em que, $NF$ é a nota final da disciplina e $NA$, $NT$ são as notas notas obitidas nas avaliações parciais e nos trabalhos computacionais.
+
+- [Planilha de Notas](https://docs.google.com/spreadsheets/d/1furhO1j-p4sx5qPjDl7nH7CUtcuctHJkjrnOz_1cWSE/edit?usp=sharing)
 
 ## Cronograma
 
@@ -125,8 +128,8 @@ Em que, $NF$ é a nota final da disciplina e $NA$, $NT$ são as notas notas obit
 | 24 | 19/06/25 | Feriado de Corpus Christi                      |
 | 25 | 24/06/25 | Unidade 03                                     |
 | 26 | 26/06/25 | Unidade 03                                     |
-| 27 | 01/07/25 | AP 2                                           |
-| 28 | 03/07/25 | Unidade 04                                     |
+| 28 | 01/07/25 | Unidade 04                                     |
+| 27 | 03/07/25 | AP 2                                           |
 | 29 | 08/07/25 | Unidade 04                                     |
 | 30 | 10/07/25 | Unidade 04                                     |
 | 31 | 15/07/25 | Unidade 05                                     |
