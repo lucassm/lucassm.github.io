@@ -25,7 +25,7 @@ Conteúdos e listagem das práticas a serem realizadas na disciplina:
 - [PRÁTICA 7 – RESSONÂNCIA ELÉTRICA](https://drive.google.com/file/d/12SBKJ_3tVc8r7HTJ4zMCjgLE_yMjhGii/view?usp=sharing)
 - [PRÁTICA 8 – CIRCUITOS TRIFÁSICOS EQUILIBRADOS](https://drive.google.com/file/d/1XYbCN7RwEoa3Q9VJ8Yr1odYjjsA8i87G/view?usp=sharing)
 - [PRÁTICA 9 – MEDIÇÃO DE POTÊNCIA ATIVA PELO MÉTODO DE N-1 WATTÍMETROS](https://drive.google.com/file/d/1cm-K0lLSiUtLG535z8YoV6NmAR1UwMHo/view?usp=sharing)
-- PRÁTICA 10 – CIRCUITOS TRIFÁSICOS DESEQUILIBRADOS
+- [PRÁTICA 10 – CIRCUITOS TRIFÁSICOS NÃO EQUILIBRADOS](https://drive.google.com/file/d/1r7Q0uqYOmY8L8J-ZHDucmKvoFLzLErRd/view?usp=sharing)
 
 ## Modelo de Relatório
 
