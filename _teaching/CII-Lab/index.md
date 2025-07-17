@@ -40,7 +40,7 @@ Planilha com as notas dos relatórios de cada uma das práticas: [Link para plan
 ## Notas das Avaliações Parciais
 
 - Avaliação Parcial 1
-- Avaliação Parcial 2
+- [Avaliação Parcial 2](https://drive.google.com/file/d/1QQlwvAVmNfQcMbRevYlJaUQUhhbU4ArP/view?usp=sharing)
 
 ## Avaliações e estrutura da nota
 
