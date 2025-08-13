@@ -11,7 +11,7 @@ tags:
 
 # Projeto de Pesquisa Universal CNPq
 
-Número de Bolsas Remuneradas sonsedidas pelo CNPq:
+Número de bolsas remuneradas concedidas pelo CNPq:
 
 **03 (três) bolsas remuneradas no valor de R$ 700,00 cada**.
 
@@ -39,7 +39,7 @@ Onde diferentes domínios são sincronizados uns com os outros para fornecer uma
 
 Na figura abaixo são mostrados de forma simplificada cada componente da pltaforma de co-simulação proposta pelo projeto.
 
-![esquema representativo do projeto](https://drive.google.com/thumbnail?id=1_7dfcBJM1sMw1EE9gn4HEbWwsMBm02hn&sz=w800)
+![esquema representativo do projeto](https://drive.google.com/thumbnail?id=1_7dfcBJM1sMw1EE9gn4HEbWwsMBm02hn&sz=w600)
 
 ## Requisitos importantes, porém não obrigatórios
 
