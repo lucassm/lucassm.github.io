@@ -22,6 +22,8 @@ Research topics interests:
 
 ## News
 
+- 08/2025: New work presented in SIMPASE in Foz do Iguaçu city, state of Paraná.
+- 07/2025: New work presented in SBSE in São João Del Rey city, state of Belo Horizonte by graduate student *Mozart Daniel*. Congratulations Mozart!
 - 11/2024: Many works presented in [Local University Meetings 2024](/posts/2024/11/eu-2024/). Congratulations students!
 - 10/2024: First Master degree supervision concluded with sucess. Congratulations João Paulo!
 - 10/2024: 2024.2 semester start. Excited to teach Supervision and Control of Electrical Power Systems!  
