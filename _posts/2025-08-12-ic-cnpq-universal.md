@@ -58,3 +58,30 @@ Os alunos interessados devem enviar histórico escolar e currículo, detacando a
 - Profa. Raquel Gregory.
 - Prof. Lucas Silveira.
 - Profa. Janaina Almada.
+
+## Resultado da seleção
+
+Resultado da seleção para bolsista IC do projeto de pesquisa CNPq: Arcabouço Computacional e Tecnológico Multidomínio Aplicado às Redes Elétricas Inteligentes para a Transição Energética. 
+
+| Posição |                Nome               |    Resultado    |
+|:-------:|:---------------------------------:|:---------------:|
+|    1    | PAULO VICTOR PEREIRA LIMA         | CLASSIFICADO    |
+|    2    | LUIZ ALBERTO SILVA SALES MARINHO  | CLASSIFICADO    |
+|    3    | RAFAEL DOS SANTOS MOURA           | CLASSIFICADO    |
+|    4    | FRANCISCO DOUGLAS BARROS DA SILVA | CLASSIFICADO    |
+|    5    | LAIZA EDWIGENS ROCHA SILVA        | CLASSIFICADO    |
+|    6    | HENRIQUE SEGUNDO DA FONSECA       | LISTA DE ESPERA |
+|    7    | KAUE VIEIRA DA SILVA              | LISTA DE ESPERA |
+|    8    | LUCAS MACEDO LOPES                | LISTA DE ESPERA |
+|    9    | CARLOS HENRIQUE BRITO DOS SANTOS  | LISTA DE ESPERA |
+|    10   | ANNA BEATRIZ FELIX DE BARROS      | LISTA DE ESPERA |
+|    11   | JOAO VICTOR SOUSA MAGNO           | LISTA DE ESPERA |
+|    12   | NAIARA DE SOUZA MOREIRA           | DESCLASSIFICADO |
+
+Solicita-se aos cadidatos que obtiveram o resultado *CLASSIFICADO* que entre em contato o mais breve possível por e-mail confimando o preenchimento da vaga.
+
+Agradecemos a todos os interessados pela compreensão e paciência durante o processo de seleção. Caso haja desistências entre os candidatos classificados, as vagas remanescentes serão disponibilizadas aos candidados que obtiveram o resultado *LISTA DE ESPERA*, por ordem de classificação.
+
+<br>
+<br>
+Prof. Dr. Lucas Silveira Melo - Departamento de Engenharia Elétrica - UFC
