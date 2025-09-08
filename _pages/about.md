@@ -33,19 +33,17 @@ Research topics interests:
 
 ## Teaching
 
-
-Currently offering (2025.1):
-
-- [Power System Analysis](/teaching/ASP);
-- [Electrical Distribution System Analysis](/teaching/DEE);
-- [AC Circuits (Laboratory)](/teaching/CII-Lab);
-
-
-Offered last semester (2024.2):
+Currently offering (2025.2):
 
 - [Supervision and Control of Power Ssystems](/teaching/SCSEP)
 - [Eletrotecnic for Engineering (Laboratory)](/teaching/EE-Lab);
 - [DC Circuits (Laboratory)](/teaching/CI-Lab);
+
+Offered last semester (2025.1):
+
+- [Power System Analysis](/teaching/ASP);
+- [Electrical Distribution System Analysis](/teaching/DEE);
+- [AC Circuits (Laboratory)](/teaching/CII-Lab);
 
 Previously offered in other semesters:
 
@@ -61,13 +59,9 @@ Students currently under supervision:
 - Mozart Daniel (MSc);
 - Alysson Ponciano (MSc - Co-supervision);
 - João Pedro (Under-graduation project);
-- Victor Gonzaga (Under-graduation project);
 - Raphael Silva (Under-graduation project);
 - Edinardo Vascondelos (Under-graduation project);
 - Larissa Vitória (Under-graduation project);
-- Diego Rodrigues (Under-graduation project);
-- Jessiano (Under-graduation project);
-
 
 For a more detailed description about the research themes, please visit [projects](/projects/) and [publications](/publications/).
 

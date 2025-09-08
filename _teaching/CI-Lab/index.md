@@ -87,3 +87,29 @@ Todos os trabalhos (a não ser que indicados explicitamentes) devem ser feitos d
 
 - [Roteiro de Práticas](https://drive.google.com/file/d/1zaqSxv1e7krdH0J5psduGDslgaWDdW0a/view?usp=sharing).
 - Livro texto adotado na disciplina teórica.
+
+## Cronograma Previsto das Práticas
+
+| Data                | Descrição                                                                    |
+|---------------------|------------------------------------------------------------------------------|
+| 17/09/25            | Apresentação: Laboratório/Equipamentos/Componentes                           |
+| 24/09/25            | 1ª prática – Lei de Ohm                                                      |
+| 01/10/25            | 2ª prática – Leis de Kirchhoff – Divisor de tensão                           |
+| 08/10/25            | 3ª prática – Ponte de Wheatstone e Transformação delta-estrela               |
+| 15/10/25            | 4ª prática – Linearidade e Superposição                                      |
+| 22/10/25            | 5ª prática – Thévenin e Northon                                              |
+| 29/10/25            | 6ª prática – Potência e Máxima Transferência de Potência                     |
+| 05/11/25            | Encontros Universitários                                                     |
+| 12/11/25            | 1ª prova prática                                                             |
+| 19/11/25            | Recesso Escolar (dia 21/11)                                                  |
+| 26/11/25            | 7ª prática – Osciloscópio (parte 1)                                          |
+| 03/12/25            | 7ª prática – Osciloscópio (parte 2)                                          |
+| 10/12/25            | 8ª prática – Circuitos RC e RL                                               |
+| 17/12/25            | 9ª prática – Circuito RLC                                                    |
+| 22/12/25 a 04/01/26 | Recesso Natalino                                                             |
+| 07/01/26            | Recuperação de 01 prática perdida mediante justificativa (exceto prática 07) |
+| 14/01/26            | 2ª prova prática                                                             |
+| 21/01/26            | Divulgação dos resultados finais                                             |
+| 22/01/26            | Encerramento do semestre letivo                                              |
+| 23/01/26 a 29/01/26 | Período das Avaliações Finais                                                |
+| 30/01/26            | Consolidação da síntese de notas e frequências                               |
