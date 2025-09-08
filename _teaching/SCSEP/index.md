@@ -1,56 +1,78 @@
 ---
-title: "Supervisão e Controle de Sistemas Elétricos de Potência"
+title: "Supervisão, Controle e Automação de Sistemas Elétricos de Potência"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/SCSEP
 venue: "Federal University of Ceara, Department of Electrical Engineering"
-date: 2024-10-21
+date: 2025-09-05
 location: "Fortaleza, Brazil"
 ---
 
+Nome oficial da disciplina: TH0194 - SUPERVISÃO E CONT. DE SIST. ELÉTRICOS DE POTENCIA
+
 ## Dias e Horários da Disciplina
 
-No semestre de *2024.2* a disciplina de Supervisão e Controle de Sistemas Elétricos de Potência (SCSEP) será ofertada *presencialmente* às *terças e quintas* no horário de *16:00 as 18:00*.
+No semestre de *2025.2* a disciplina de Supervisão e Controle de Sistemas Elétricos de Potência (SCSEP) será ofertada *presencialmente* às *terças e quintas* no horário de *16:00 as 18:00*.
 
-Local: Sala 51, Bloco 707. Centro de tecnologia. Campus do Pici. UFC. Fortaleza. Ceará. Brasil.
+Local: Sala ??, Bloco ???. Centro de tecnologia. Campus do Pici. UFC. Fortaleza. Ceará. Brasil.
 
-## Descrição do Curso
+## Conteúdo Abordado
 
 Este curso tem como objetivo fornecer aos alunos da disciplina noções fundamentais nos seguintes temas:
 
-- **Operação** do sistemas elétricos de potência: topologias, arranjos elétricos, equipamentos primários e secundários, estados de operação, modo de controle;
+- **Operação** de sistemas elétricos de potência: topologias, arranjos elétricos, equipamentos primários e secundários;
 - **Evolução** dos sistemas de automação no Setor Elétrico;
-- Topologias e Tecnologia de **Redes de Comunicação** Local e Remoto;
-- Noções de **Centro de Controle e Gerenciamento Sistema**;
-- **Sistema de Aquisição de Dados e Controle Supervisório** - SCADA;
-- Sistemas de Automação de Subestação (SAS);
-- Funções de Controle e Automação da Distribuição (SAD);
-- Projeto de sistema supervisório SCADA para uma planta elétrica;
+- Topologias e Tecnologia de **Redes de computadores** LAN e WAN;
+- **Sistemas de Aquisição de Dados e Controle Supervisório** - SCADA;
+- Digitalização de Sistemas de Automação e Proteção de Subestação - Subestações Digitais;
+- Noções básicas de Protocolos de comunicação: ModBus e DNP3;
+- Protocolos da norma IEC 61850: MMS, GOOSE e Sampled Values;
+- Noções de Sincronismo de tempo em subestações;
+- Projetos de sistemas de automação e controle para uma subestação de energia elétrica;
 
-## Conteúdo
+## Detalhamento do Conteúdo
 
-Conteúdo programado para ser ministrado no decorrer da disciplina:
+### Módulo 1: Introdução a automação de sistemas elétricos de potência
 
-- [**Unidade 01**: Power System Automation](https://drive.google.com/file/d/1I0CrcAJtWPwAYsQB9WdcLBEilkz2qwFz/view?usp=sharing);
-- [**Unidade 02**: SCADA Fundamentals](https://drive.google.com/file/d/1jopaJbLVpyhYZXyKex68RE04myZjxYou/view?usp=sharing);
-- **Unidade 03**: SCADA Communication;
-  - modbus;
-    - [Links Úteis](https://github.com/lucassm/superv-control-ufc/blob/master/modbus/links-modbus.pdf)
-    - [Prática de Laboratório]()
-    - [Slides]()
-  - dnp3;
-    - [Links Úteis]()
-    - [Prática de Laboratório]()
-    - [Slides]()
-  - iec61850;
-    - [Links Úteis]()
-    <!-- - [Prática de Laboratório]() -->
-    - [Slides]()
-- **Unidade 04**: Substation Automation;
+1. Conceitos básicos de subestações: diagrama unifilar, arranjos, equipamentos primários, sistemas de serviços auxiliares.
+2. Conceitos básicos de automação de subestações: UTR, CLP IED, medidor, controlador de Bay, níveis hierárquicos, sistemas scada.
+3. Evolução dos sistemas de automação no setor elétrico.
 
-Além dos links acima existe um repositório GitHub público com materias de apoio disponíveis.
+### Módulo 2: Tópicos básicos de redes de computadores
 
-Alguns documentos de uso restrito, como por exemplo, manuais de IEDs utilizados no laboratório serão disponibilizados via pasta compartilhada no Google Drive apenas para os alunos matriculados na disciplina.
+1. Noções básicas de protocolos TCP/IP: Ethernet, IP, TCP, LAN, WAN.
+2. Requisitos de redes ethernet para automação de SEs: VLANs, IEEE 802.1q, RSTP.
+
+### Módulo 3: Comunicação em Subestações
+
+1. Sincronização de tempo.
+2. Protocolo ModBUS.
+3. Protocolo DNP3.
+4. Padrões 101, 103, 104.
+
+### Módulo 4: Norma IEC 61850
+
+1. Conceitos básicos.
+2. Modelo de dados.
+3. Arquivos SCL.
+4. MMS, GOOSE e SV.
+
+### Módulo 5: Projetos de Automação de Subestações
+
+1. Arquitetura de comunicação.
+2. Documentação de projetos.
+3. Demonstrações práticas de níveis de automação 0, 1 e 2.
+4. VLANs e priorização de mensagens.
+
+### Tópicos Complementares
+
+1. Segurança Cibernética.
+2. Gerenciamento de informação
+   2.1. Coleta automática de oscilografias.
+   2.2. Monitoramento de equipamentos e da rede de comunicação.
+3. Procedimentos de rede do ONS.
+4. Virtualização da proteção ou proteção centralizada.
+5. Redes de comunicação definidas por software.
 
 ## Avaliações
 
@@ -76,11 +98,11 @@ Conteúdo da **Avaliação Parcial 02**:
 
 Temas retirados da revista IEEE Power and Energy Society Magazine Volume 17, Number 4, July/August 2019, com o título *Substations: The Heart and Brain of the Grid*
 
-- **Seminário 1**: Smart and Green Substations - 21/11 (Equipe 4);
-- **Seminário 2**: The Substation of the Future - 28/11 (Equipe 2);
-- **Seminário 3**: Substations for Future HVdc Grids - 05/12 (Equipe 1);
-- **Seminário 4**: Offshore Substation Design - 12/12 (Equipe 3);
-- **Seminário 5**: Managing the New Grid - 19/12 (Equipe 5);
+- **Seminário 1**: - xx/xx (Equipe 4);
+- **Seminário 2**:  - xx/xx (Equipe 2);
+- **Seminário 3**:  - xx/xx (Equipe 1);
+- **Seminário 4**:  - xx/xx (Equipe 3);
+- **Seminário 5**:  - xx/xx (Equipe 5);
 
 **2a Fase**:
 
@@ -88,10 +110,10 @@ A ser definido.
 
 ## Trabalhos Complementares
 
-- Trabalho Complementar 1 (31/10/24): Trabalho individual. Com base no diagrama unifilar disponibilizado [aqui](https://drive.google.com/file/d/1_dujEn5-1ty2NOexEotcr9kTOkS3UItn/view?usp=sharing), liste em uma planilha cada um dos equipamentos presentes na SE do diagrama. Descreva o equipamento com base nas informações do diagrama. Apresente os códigos operacionais de cada elemento e indique o que significa o código de cada equipamento. Se houver mais de um equipamento do mesmo tipo, indique a quantidade. Entrega: **01/11/24** em arquivo .pdf pelo link de envio de trabalhos abaixo.
-- Trabalho Complementar 2 (05/12/24): Trabalho em dupla. Elaboração de planilha de pontos analógicos e digitais e suas respectivas ligações externas, conforme procedimento descrito [neste arquivo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/AC2.pdf). Anexo: [anexo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/1-funcionais-eq-campo-69-13_8.pdf). Data da entrega: **10/01/25** em arquivo .pdf pelo link de envio de trabalhos abaixo.;
-- Trabalho Complementar 3 (06/01/2025): Lista de exercícios sobre redes locais e camada de enlace e introdução ao uso do pacote Python de análise de redes Scapy. Entrega: **17/01/25**. Arquivo disponível [neste link](https://drive.google.com/file/d/1qsO0F6IxDYElVru5qk1yEXNKBjcYJ1g7/view?usp=sharing)
-- Trabalho Complementar 4 (10/02/25): Trabalho a ser realizado em equipes de três membros cada. Desenvolvimento de um simulador de comunicação utilizando os protocolos dnp3 e modbus associados ao sistema SCADA-LTS para representação da subestação de 69,0 kV da UFC. Entrega: **06/03/25**. Arquivo contendo descrição detalhada do trabalho disponível neste [link](https://github.com/lucassm/superv-control-ufc/blob/master/AC4/main.pdf).
+- Trabalho Complementar 1 (xx/xx/xx): Trabalho individual. Com base no diagrama unifilar disponibilizado [aqui](https://drive.google.com/file/d/1_dujEn5-1ty2NOexEotcr9kTOkS3UItn/view?usp=sharing), liste em uma planilha cada um dos equipamentos presentes na SE do diagrama. Descreva o equipamento com base nas informações do diagrama. Apresente os códigos operacionais de cada elemento e indique o que significa o código de cada equipamento. Se houver mais de um equipamento do mesmo tipo, indique a quantidade. Entrega: **01/11/24** em arquivo .pdf pelo link de envio de trabalhos abaixo.
+- Trabalho Complementar 2 (xx/xx/xx): Trabalho em dupla. Elaboração de planilha de pontos analógicos e digitais e suas respectivas ligações externas, conforme procedimento descrito [neste arquivo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/AC2.pdf). Anexo: [anexo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/1-funcionais-eq-campo-69-13_8.pdf). Data da entrega: **10/01/25** em arquivo .pdf pelo link de envio de trabalhos abaixo.;
+- Trabalho Complementar 3 (xx/xx/xx): Lista de exercícios sobre redes locais e camada de enlace e introdução ao uso do pacote Python de análise de redes Scapy. Entrega: **17/01/25**. Arquivo disponível [neste link](https://drive.google.com/file/d/1qsO0F6IxDYElVru5qk1yEXNKBjcYJ1g7/view?usp=sharing)
+- Trabalho Complementar 4 (xx/xx/xx): Trabalho a ser realizado em equipes de três membros cada. Desenvolvimento de um simulador de comunicação utilizando os protocolos dnp3 e modbus associados ao sistema SCADA-LTS para representação da subestação de 69,0 kV da UFC. Entrega: **06/03/25**. Arquivo contendo descrição detalhada do trabalho disponível neste [link](https://github.com/lucassm/superv-control-ufc/blob/master/AC4/main.pdf).
 
 Link para envio dos trabalhos: [Envie os trabalhos por aqui](https://forms.gle/2JLAv9788Bdf3QwGA)
 
