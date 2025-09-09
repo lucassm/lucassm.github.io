@@ -79,8 +79,8 @@ Este curso tem como objetivo fornecer aos alunos da disciplina noções fundamen
 
 As avaliações estão previstas para ocorrer conforme a data estabelecida no cronograma.
 
-- Data de realização da Avaliação Parcial 01: xx/xx/25
-- Data de realização da Avaliação Parcial 02: xx/xx/25
+- Data de realização da Avaliação Parcial 01: 30/10/25
+- Data de realização da Avaliação Parcial 02: 18/12/25
 
 Conteúdo da **Avaliação Parcial 01**: Módulos 1 e 2.
 
@@ -188,7 +188,7 @@ Além do livro texto, serão disponibilizados **slides** e **outros recursos de 
 | 27 | 09/12/2025 | Módulo 4                                                                         |
 | 28 | 11/12/2025 | Apresentação Eletrobras Chesf: Operação e manutenção de subestações e Lts.       |
 | 29 | 16/12/2025 | Módulo 5                                                                         |
-| 30 | 18/12/2025 | Módulo 5                                                                         |
+| 30 | 18/12/2025 | Avaliação Parcial 2                                                              |
 | 31 | 23/12/2025 | Recesso Natalino                                                                 |
 | 32 | 25/12/2025 | Recesso Natalino                                                                 |
 | 33 | 30/12/2025 | Recesso Natalino                                                                 |
