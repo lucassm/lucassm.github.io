@@ -88,8 +88,6 @@ Conteúdo da **Avaliação Parcial 02**: Módulos 3 e 4.
 
 ## Seminários
 
-**1a Fase**:
-
 Artigos selecionados de trabalhos apresentados no XIV SIMPASE - Simpósio Brasileiro de Automação de Sistemas Elétricos.
 
 - **Seminário 1**: - Data de apresentação: xx/xx (Equipe 4);
@@ -122,7 +120,7 @@ Link para envio dos trabalhos: [Envie os trabalhos por aqui](https://forms.gle/2
 A nota da disciplina será composta pela média ponderada de avaliações escritas e trabalho final, da seguinte forma:
 
 $$
-  NF = 0,6 \cdot NAP + 0,3 \cdot NT + 0,1 \cdot NS
+  NF = 0,5 \cdot NAP + 0,4 \cdot NT + 0,1 \cdot NS
 $$
 
 Em que:
@@ -142,6 +140,7 @@ Serão utilizados os softwares durante a disciplina:
 
 - [Wireshark](https://www.wireshark.org/);
 - [libiec61850/libiec60870](https://libiec61850.com/)
+- [openserver iec61850](https://github.com/robidev/iec61850_open_server)
 - [PyModbus](https://pymodbus.readthedocs.io/en/latest/)
 - [PyModbusTCP](https://pymodbustcp.readthedocs.io/en/latest/)
 - [Simulador modbus - ModbusPal](https://modbuspal.sourceforge.net/)
