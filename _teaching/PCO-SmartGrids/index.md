@@ -42,7 +42,7 @@ location: "Fortaleza, Brazil"
   - Otimização por Enxame de Partículas.
   - Redes Neurais Artificiais.
 
-## Módulo 3: Fluxo de potência ótimo e aplicação de métodos de inteligência computacional em SDEE - 10 h
+### Módulo 3: Fluxo de potência ótimo e aplicação de métodos de inteligência computacional em SDEE - 10 h
 
 - Fluxo de Potência Ótimo em SDEE.
 - Despacho econômico de sistemas elétricos.
