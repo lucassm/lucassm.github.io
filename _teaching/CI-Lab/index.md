@@ -96,7 +96,7 @@ Todos os trabalhos (a não ser que indicados explicitamentes) devem ser feitos d
 
 ## Bibliografia Básica
 
-- [Roteiro de Práticas](https://drive.google.com/file/d/1zaqSxv1e7krdH0J5psduGDslgaWDdW0a/view?usp=sharing).
+- [Roteiro de Práticas](https://drive.google.com/file/d/14jGnOV9Sh8fVOxtl2hzuxlZt4PuKUJl2/view?usp=sharing).
 - Livro texto adotado na disciplina teórica.
 
 ## Cronograma Previsto das Práticas
