@@ -57,19 +57,30 @@ O link em cada uma das práticas irão levar à *Pluto Notebooks* com experiment
 - [Prática 8 – Circuitos RC e RL](/files/CI-Lab/8-circuitos-rl-rc.html)
 - [Prática 9 – Circuito RLC](/files/CI-Lab/9-circuito-rlc.html)
 
-## Avaliações
+## Modelo de Relatório
 
-Serão realizadas no decorrer das práticas de laboratório com avaliação individual.
+[Modelo de Relatório para todas as práticas do semestre](https://drive.google.com/file/d/1GZ1fYzrnRxrkhZJw72JkiaNh9QCy79bQ/view?usp=sharing)
 
-## Estrutura da nota
+## Avaliações e estrutura da nota
 
-A nota da disciplina será composta pela média das notas dos relatórios de práticas e das avaliações parciais:
+A avaliação do rendimento escolar será realizada de acordo com os critérios de 
 
-$$NF = \frac{(0,6 \cdot NT_1 + 0,4 \cdot NT_2)}{2}$$
+- (a) assiduidade.
+- (b) eficiência.
 
-Em que, $NF$ é a nota final da disciplina e $NT_1$ é a nota média das avaliações parciais, $NT_2$ é nota média dos relatórios de práticas, respectivamente.
+Sendo ambos eliminatórios.
 
-[**Quadro de notas da disciplina**](/teaching/CI-Lab/notas)
+Dessa forma, o critério avaliativo para aproveitamento da disciplina englobará os indicadores de:
+
+- (a) frequência;
+- (b1) média parcial;
+- (b2) média final.
+
+(a) **Frequência**: entende-se por frequência o comparecimento às aulas presenciais. Nesse quesito, será aprovado o aluno que frequentar 75% ou mais da carga horária da disciplina, vedado o abono de faltas. Caso contrário, o aluno será reprovado.
+
+(b1) **Média Parcial**: a Média Parcial (MP) consiste na média ponderada das notas das Avaliações Parciais (APs), com peso de 80%, e da nota dos Relatórios Técnicos (RTs), com peso de 20%. As APs se tratam de avaliações de montagem em bancada no laboratório, valendo 10,0 pontos cada. As APs abrangerão os conteúdos das Práticas 01 à 05 (AP1) e das Práticas 06 à 08 (AP2), cuja nota final será obtida pela média aritmética das notas da AP1 e AP2. A nota dos RTs será obtida a partir da média aritmética das notas dos relatórios das Práticas 01 à 08, cada qual valendo 10,0 pontos. No quesito eficiência, será aprovado o aluno de apresentar MP maior ou igual a 7,0 pontos. O aluno que obtiver MP inferior a 7,0 e igual ou superior a 4,0 será elegível para realizar a Avaliação Final (AF), a qual abrangerá o conteúdo das Práticas 01 a 08. Será reprovado o aluno que não cumprir esses critérios.
+
+(b2) **Média Final**: o cálculo da Média Final (MF), para os alunos que realizaram a Avaliação Final, consiste na média aritimética das notas da Avaliação Final (AF) e da Média Parcial (MP). Nesse quesito, será aprovado o aluno que obtiver nota igual ou superior a 4,0 na Avaliação Final e apresentar Média Final igual ou superior a 5,0. Será reprovado o aluno que não cumprir esses critérios.
 
 ## Informações adicionais
 
