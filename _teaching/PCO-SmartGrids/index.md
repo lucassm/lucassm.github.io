@@ -25,10 +25,10 @@ location: "Fortaleza, Brazil"
 - Fluxo de carga com OpenDSS.
 - Modelagem dos **principais componentes** dos SDEE com OpenDSS.
   - Fonte Principal.
-  - Linhas de distribuição.
+  - Linhas de Distribuição.
   - Transformadores e Reguladores de Tensão.
   - Cargas.
-  - Sistemas fotovoltáicos e bancos de baterias.
+  - Sistemas Fotovoltáicos e Bancos de Baterias.
 
 ### Módulo 2: Métodos de otimização aplicados à SDEE - 8 h
 
@@ -81,6 +81,7 @@ location: "Fortaleza, Brazil"
 
 - [Documentação do OpenDSS](https://opendss.epri.com/)
 - [PyDSSInterface]()
+- [PyDSSDirect]()
 - [PyOmo]()
 - [JuMP]()
 - [PowerModels.jl]()
@@ -90,10 +91,10 @@ location: "Fortaleza, Brazil"
 | #   |        Data         | Descrição                                      |
 | --- | :-----------------: | ---------------------------------------------- |
 | 1   |      17/09/25       | Aula – Apresentação do Conteúdo – Módulo 1     |
-| 2   |      24/09/25       | Aula - Módulo 1                                |
-| 3   |      01/10/25       | Aula - Módulo 1                                |
-| 4   |      08/10/25       | Aula - Módulo 1                                |
-| 5   |      15/10/25       | Aula - Módulo 1                                |
+| 2   |      24/09/25       | Aula - Módulo 1 - Linhas e Fontes              |
+| 3   |      01/10/25       | Aula - Módulo 1 - Trafos e Reguladores         |
+| 4   |      08/10/25       | Aula - Módulo 1 - Cargas e REDs                |
+| 5   |      15/10/25       | Aula - Módulo 1 - Demonstração Prática         |
 | 6   |      22/10/25       | Aula – Módulo 2                                |
 | 7   |      29/10/25       | Aula – Módulo 2                                |
 |     |      05/11/25       | Encontros Universitários                       |

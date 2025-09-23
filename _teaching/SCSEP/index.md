@@ -38,6 +38,10 @@ Este curso tem como objetivo fornecer aos alunos da disciplina noções fundamen
 2. Conceitos básicos de automação de subestações: UTR, CLP IED, medidor, controlador de Bay, níveis hierárquicos, sistemas scada.
 3. Evolução dos sistemas de automação no setor elétrico.
 
+Material disponível para o módulo 1:
+
+- [slides subestacoes](https://github.com/lucassm/superv-control-ufc/blob/master/automacao-de-subestacoes/01-subestacoes.pdf)
+
 ### Módulo 2: Tópicos básicos de redes de computadores e lógicas digitais
 
 1. Noções básicas de protocolos TCP/IP: Ethernet, IP, TCP, LAN, WAN.
@@ -90,11 +94,20 @@ Conteúdo da **Avaliação Parcial 02**: Módulos 3 e 4.
 
 Artigos selecionados de trabalhos apresentados no XIV SIMPASE - Simpósio Brasileiro de Automação de Sistemas Elétricos.
 
-- **Seminário 1**: - Data de apresentação: xx/xx (Equipe 4);
-- **Seminário 2**: - Data de apresentação: xx/xx (Equipe 2);
-- **Seminário 3**: - Data de apresentação: xx/xx (Equipe 1);
-- **Seminário 4**: - Data de apresentação: xx/xx (Equipe 3);
-- **Seminário 5**: - Data de apresentação: xx/xx (Equipe 5);
+- **Seminário 1**: - Data de apresentação: 16/10/25 (Equipe x);
+- **Seminário 2**: - Data de apresentação: 23/10/25 (Equipe x);
+- **Seminário 3**: - Data de apresentação: 13/11/25 (Equipe x);
+- **Seminário 4**: - Data de apresentação: 20/11/25 (Equipe x);
+- **Seminário 5**: - Data de apresentação: 04/12/25 (Equipe x);
+
+### Temas dos Seminários
+
+- Seminário 1: Modernização da SE de 500 kV da Eletrobras Chesf Terezina II.
+- Seminário 2: Evolução dos protocolos de barramento de processo nas normas IEC 61850 e IEC 61869.
+- Seminário 3: Análise de viabilidade financeira de subestação digital.
+- Seminário 4: Proposta e análise de sistema de de supervisão, proteção e controle digital modular.
+- SEminário 5: Aplicação da tecnologia de gemeos digitais em testes de transformadores de subestações.
+- Seminário 6: Proposta e desenvolvimento de TC óptico aplicado a subestações de potência.
 
 Considerando o máximo de 20 vagas disponibilizadas para a disciplina, poderemos ter equipes de 3 ou 4 alunos.
 
@@ -169,21 +182,21 @@ Além do livro texto, serão disponibilizados **slides** e **outros recursos de 
 | 9  | 07/10/2025 | Módulo 2                                                                         |
 | 10 | 09/10/2025 | Módulo 2                                                                         |
 | 11 | 14/10/2025 | Módulo 2                                                                         |
-| 12 | 16/10/2025 | Módulo 2                                                                         |
+| 12 | 16/10/2025 | Módulo 2 - Seminário 1                                                           |
 | 13 | 21/10/2025 | Módulo 3                                                                         |
-| 14 | 23/10/2025 | Módulo 3                                                                         |
+| 14 | 23/10/2025 | Módulo 3 - Seminário 2                                                           |
 | 15 | 28/10/2025 | Módulo 3                                                                         |
 | 16 | 30/10/2025 | Avaliação Parcial 1                                                              |
 | 17 | 04/11/2025 | Encontros Universitários                                                         |
 | 18 | 06/11/2025 | Encontros Universitários                                                         |
 | 19 | 11/11/2025 | Apresentação Eldeman: projetos de automação e proteção de subestações            |
-| 20 | 13/11/2025 | Módulo 3                                                                         |
+| 20 | 13/11/2025 | Módulo 3 - Seminário 3                                                           |
 | 21 | 18/11/2025 | Módulo 3                                                                         |
-| 22 | 20/11/2025 | Módulo 4                                                                         |
+| 22 | 20/11/2025 | Módulo 4 - Seminário 4                                                           |
 | 23 | 25/11/2025 | Módulo 4                                                                         |
-| 24 | 27/11/2025 | Módulo 4                                                                         |
+| 24 | 27/11/2025 | Módulo 4 - Seminário 5                                                           |
 | 25 | 02/12/2025 | Módulo 4                                                                         |
-| 26 | 04/12/2025 | Módulo 4                                                                         |
+| 26 | 04/12/2025 | Módulo 4 - Seminário 6                                                           |
 | 27 | 09/12/2025 | Módulo 4                                                                         |
 | 28 | 11/12/2025 | Apresentação Eletrobras Chesf: Operação e manutenção de subestações e Lts.       |
 | 29 | 16/12/2025 | Módulo 5                                                                         |
