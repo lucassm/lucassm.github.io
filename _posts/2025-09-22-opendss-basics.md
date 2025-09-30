@@ -204,3 +204,6 @@ New reactor.rg_name
 ## A importância dos sistemas teste do IEEE no desenvolvimento do OpenDSS
 
 Um famoso paper escrito pelo subcomitê de análise de sistemas de distribuição da Power and Energy Society [IEEE Radial Distribution Test Feeders](https://ewh.ieee.org/soc/pes/dsacom/testfeeders/testfeeders.pdf)
+
+
+

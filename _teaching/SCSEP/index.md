@@ -94,11 +94,35 @@ Conteúdo da **Avaliação Parcial 02**: Módulos 3 e 4.
 
 Artigos selecionados de trabalhos apresentados no XIV SIMPASE - Simpósio Brasileiro de Automação de Sistemas Elétricos.
 
-- **Seminário 1**: - Data de apresentação: 16/10/25 (Equipe x);
-- **Seminário 2**: - Data de apresentação: 23/10/25 (Equipe x);
-- **Seminário 3**: - Data de apresentação: 13/11/25 (Equipe x);
-- **Seminário 4**: - Data de apresentação: 20/11/25 (Equipe x);
-- **Seminário 5**: - Data de apresentação: 04/12/25 (Equipe x);
+- **Seminário 1**: - Data de apresentação: 16/10/25 (Equipe 2)
+- **Seminário 2**: - Data de apresentação: 23/10/25 (Equipe 6)
+- **Seminário 3**: - Data de apresentação: 13/11/25 (Equipe 1)
+- **Seminário 4**: - Data de apresentação: 20/11/25 (Equipe 3)
+- **Seminário 5**: - Data de apresentação: 27/11/25 (Equipe 5)
+- **Seminário 6**: - Data de apresentação: 04/12/25 (Equipe 6)
+
+### Equipes
+
+| Nome                                   | Equipe |
+|----------------------------------------|--------|
+| ANA KEVIA DA SILVA MENDES              | 5      |
+| CARLOS HENRIQUE BRITO DOS SANTOS       | 1      |
+| EDUARDO ROSA CAVALCANTE                | 3      |
+| ELISEU RODRIGUES DE SOUZA              | 1      |
+| FRANCISCO EDINARDO ARAUJO VASCONCELOS  | 2      |
+| GABRIEL GONZAGA SA BARRETO             | 2      |
+| IZAIAS FACANHA DE SOUSA NETO           | 6      |
+| JOAB GOMES DE AQUINO MENDES            | 5      |
+| LUCAS MESQUITA SANTIAGO                | 4      |
+| MARCOS PAULO DE CASTRO E SILVA FREITAS | 1      |
+| MARIA NAIDE NOGUEIRA FERREIRA          | 6      |
+| MICAEL DOS SANTOS DAS NEVES            | 2      |
+| PAMELA ELLEN BEZERRA PORTELA           | 5      |
+| SERGILENE RODRIGUES DE MELO            | 4      |
+| TIAGO MENDES GOMES                     | 3      |
+| VICENTE CARNEIRO JERONIMO              | 3      |
+| VICTOR GONZAGA AMORIM                  | 4      |
+| LUIZ FELIPE CARNEIRO                   | 6      |
 
 ### Temas dos Seminários
 
@@ -106,14 +130,14 @@ Artigos selecionados de trabalhos apresentados no XIV SIMPASE - Simpósio Brasil
 - Seminário 2: Evolução dos protocolos de barramento de processo nas normas IEC 61850 e IEC 61869.
 - Seminário 3: Análise de viabilidade financeira de subestação digital.
 - Seminário 4: Proposta e análise de sistema de de supervisão, proteção e controle digital modular.
-- SEminário 5: Aplicação da tecnologia de gemeos digitais em testes de transformadores de subestações.
+- SEminário 5: Aplicação da tecnologia de gêmeos digitais em testes de transformadores de subestações.
 - Seminário 6: Proposta e desenvolvimento de TC óptico aplicado a subestações de potência.
 
 Considerando o máximo de 20 vagas disponibilizadas para a disciplina, poderemos ter equipes de 3 ou 4 alunos.
 
 ## Trabalhos Complementares
 
-- Trabalho complementar 01:
+- Trabalho complementar 01: Desenvolvimento de lista de pontos de supervisão de SE e de ligações DE-PARA entre painéis de proteção e controle e painéis de equipamentos externos da SE. [Link 1](https://drive.google.com/file/d/1vz_Wxa9NlESAhsAUbqxZUYwLNgKY0_kw/view?usp=sharing) [Link 2](https://drive.google.com/file/d/12pLav9f67vsfg_ZHTxRA4xN8AvIrPLaO/view?usp=sharing)
 - Trabalho complementar 02:
 - Trabalho complementar 03:
 

@@ -8,7 +8,11 @@ tags:
   - fé e ciência
 ---
 
-Do livro *Imitação de Cristo* Livro I, capítulo III, sobre a Verdade encarnada e o quão vã é a busca do conhecimento fora da verdadeira Fé e da verdadeira doutrina, e de como devemos nos esforçar mais em busca de uma vida virtuoso que satisfazer nossa curiosidade sobre assuntos diversos.
+## Breve Comentário sobre o texto
+
+Do livro *A Imitação de Cristo* Livro I, capítulo III, sobre a Verdade encarnada e o quão vã é a busca do conhecimento fora da verdadeira Fé e da verdadeira Doutrina, e de como devemos nos esforçar mais em busca de uma vida virtuosa do que em satisfazer nossas curiosidades e se entregar à vaidade das ciências.
+
+## Texto da Imitação
 
 Feliz aquele a quem a Verdade por si ensina, não por figuras ou palavras que passam senão por si mesma, mostrando-se tal qual é. Nossa razão e nossos sentidos veem pouco e muitas vezes nos enganam. Que aproveitam estas discussões sutis de coisas ocultas e obscuras de que não seremos arguidos no juízo de Deus por as havermos ignorado? 
 
