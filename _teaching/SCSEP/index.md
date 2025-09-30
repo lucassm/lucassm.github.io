@@ -41,6 +41,7 @@ Este curso tem como objetivo fornecer aos alunos da disciplina noções fundamen
 Material disponível para o módulo 1:
 
 - [slides subestacoes](https://github.com/lucassm/superv-control-ufc/blob/master/automacao-de-subestacoes/01-subestacoes.pdf)
+- [slides automacao de subestacoes](https://github.com/lucassm/superv-control-ufc/blob/master/automacao-de-subestacoes/02-automacao-de-subestacoes.pdf)
 
 ### Módulo 2: Tópicos básicos de redes de computadores e lógicas digitais
 
