@@ -201,28 +201,37 @@ New reactor.rg_name
 ~ R=0.1 X=700.0
 ```
 
-## Principais Elementos e suas caracteristicas
+## Principais Elementos e suas características
 
-Agora que entendemos como o OpenDSS realiza a conexão dos elementos, ou mais especificamente como é realizado a conexão entre os condutores dos terminais dos elementos e os nós dos barramentos é importante conehcer um pouco das caracteristicas dos principais elementos que constituem o sistema de distribuição, são eles:
+Agora que entendemos como a conexão dos elementos é realizada no OpenDSS, ou mais especificamente, como é realizada a conexão entre os condutores dos terminais dos elementos e os nós dos barramentos, é importante conhecer um pouco das características dos principais elementos encontrados nas redes elétricas de distribuição, são eles:
 
 - Elemento Fonte de Tensão
 - Elemento Linha de Distribuição
 - Elemento Transformador
-- Elemento carga
+- Elemento Carga
 
 Existem ainda os elementos de controle que também são bastante importantes:
 
-- controle de regulador de tensão
-- controle de banco de capacitor
+- Controle de regulador de tensão
+- Controle de bancos de capacitores
 
 Outros elementos importantes são:
 
-- Curva de carga
+- Curva de cargas
 - Medidor
 - Monitor
 - Geração fotovoltaica
 
+Iremos comentar um pouco sobre cada um desses elementos e demonstrar como cada um deles pode ser declarado utilizando a linguagem de scripts do OpenDSS. O primeiro deles é a fonte de tensão:
 
+```
+New circuit.IEEE13Nodeckt
+~ basekv=115 pu=1.0001 phases=3 bus1=SourceBus
+~ Angle=30
+~ MVAsc3=20000 MVASC1=21000
+```
+
+Esse elemento já havia sido declarado acima, mas é interessante comentar sobre algumas de suas características. Talvez os parâmetros mais importantes desse elemento sejam os `MVAsc3=20000` e `MVASC1` que indicam respectivamente *potência de curto-circuito monofásica* e *potência de curto-circuito trifásica*.
 
 ## A importância dos sistemas teste do IEEE no desenvolvimento do OpenDSS
 

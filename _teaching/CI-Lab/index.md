@@ -59,7 +59,12 @@ O link em cada uma das práticas irão levar à *Pluto Notebooks* com experiment
 
 ## Modelo de Relatório
 
-[Modelo de Relatório para todas as práticas do semestre](https://drive.google.com/file/d/1GZ1fYzrnRxrkhZJw72JkiaNh9QCy79bQ/view?usp=sharing)
+As práticas devem ser entregues seguindo o modelo dos próprios roteiros de práticas, preenchidos com os valores calculados e medidos. Também será apreciado se breves comentários a respeito dos resultados obtidos forem realizados em cada um dos pontos do roteiro. A organização das informações no relatório são importantes e podem gerar descontos consideráveis na nota final de cada relatório.
+
+O relatório deverá ser entregue na semana seguinte da realização da prática, até as 23:59h via formulário google com link enviado pelo canal de Telegram da disciplina.
+
+> **Atenção!** 
+> Relatórios enviados depois do prazo estipulado serão desconsiderados.
 
 ## Avaliações e estrutura da nota
 
