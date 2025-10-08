@@ -1,6 +1,6 @@
 ---
 title: Introdução ao uso de OpenDSS
-date: 29-09-25
+date: 25-09-25
 permalink: /posts/2025/09/opendss-basics
 tags:
     - opendss

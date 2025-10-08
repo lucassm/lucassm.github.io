@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de dependências e projetos em Python
-date: 29-09-25
+date: 25-09-25
 permalink: posts/2025/09/python-tools--venv-pyenv-e-uv
 ---
 
