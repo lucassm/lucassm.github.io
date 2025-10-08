@@ -138,7 +138,7 @@ Considerando o máximo de 20 vagas disponibilizadas para a disciplina, poderemos
 
 ## Trabalhos Complementares
 
-- Trabalho complementar 01: Desenvolvimento de lista de pontos de supervisão de SE e de ligações DE-PARA entre painéis de proteção e controle e painéis de equipamentos externos da SE. [Link 1](https://drive.google.com/file/d/1vz_Wxa9NlESAhsAUbqxZUYwLNgKY0_kw/view?usp=sharing) [Link 2](https://drive.google.com/file/d/12pLav9f67vsfg_ZHTxRA4xN8AvIrPLaO/view?usp=sharing)
+- Trabalho complementar 01: Desenvolvimento de lista de pontos de supervisão de SE e de ligações DE-PARA entre painéis de proteção e controle e painéis de equipamentos externos da SE. [Link 1](https://drive.google.com/file/d/1vz_Wxa9NlESAhsAUbqxZUYwLNgKY0_kw/view?usp=sharing) [Link 2](https://drive.google.com/file/d/12pLav9f67vsfg_ZHTxRA4xN8AvIrPLaO/view?usp=sharing) [Link 3](https://drive.google.com/file/d/1Ic-YvYdoubhskbcE6NVwbOJnvsZTNEtM/view?usp=sharing)
 - Trabalho complementar 02:
 - Trabalho complementar 03:
 
