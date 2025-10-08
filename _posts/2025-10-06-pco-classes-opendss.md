@@ -9,7 +9,6 @@ tags:
     - simulação da rede elétrica
 ---
 
-
 Este arquivo tem como objetivo servir de roteiro de acompanhamento das discussões
 que vem sendo realizadas nas aulas da disciplina de pós-graduação *Proteção, Controle
 e Otimização de sistemas elétricos e Redes Elétricas Inteligentes (PCOSmartGrid)*.
