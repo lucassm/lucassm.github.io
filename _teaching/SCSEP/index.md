@@ -1,41 +1,51 @@
 ---
-title: "Supervisão e Controle de Sistemas Elétricos de Potência"
+title: 'Supervisão e Controle de Sistemas Elétricos de Potência'
 collection: teaching
-type: "Undergraduate course"
+type: 'Undergraduate course'
 permalink: /teaching/SCSEP
-venue: "Federal University of Ceara, Department of Electrical Engineering"
+venue: 'Federal University of Ceara, Department of Electrical Engineering'
 date: 2025-09-05
-location: "Fortaleza, Brazil"
+location: 'Fortaleza, Brazil'
 ---
 
-Nome oficial da disciplina: TH0194 - SUPERVISÃO E CONTROLE DE SISTEMAS ELÉTRICOS DE POTENCIA.
+Nome oficial da disciplina: TH0194 - SUPERVISÃO E CONTROLE DE SISTEMAS ELÉTRICOS
+DE POTENCIA.
 
 ## Dias e Horários da Disciplina
 
-No semestre de *2025.2* a disciplina de Supervisão e Controle de Sistemas Elétricos de Potência (SCSEP) será ofertada *presencialmente* às *terças e quintas* no horário de *16:00 as 18:00*.
+No semestre de _2025.2_ a disciplina de Supervisão e Controle de Sistemas
+Elétricos de Potência (SCSEP) será ofertada _presencialmente_ às _terças e
+quintas_ no horário de _16:00 as 18:00_.
 
-Local: Sala 16, Bloco 726 Centro de tecnologia. Campus do Pici. UFC. Fortaleza. Ceará. Brasil.
+Local: Sala 16, Bloco 726 Centro de tecnologia. Campus do Pici. UFC. Fortaleza.
+Ceará. Brasil.
 
 ## Conteúdo Abordado
 
-Este curso tem como objetivo fornecer aos alunos da disciplina noções fundamentais nos seguintes temas:
+Este curso tem como objetivo fornecer aos alunos da disciplina noções
+fundamentais nos seguintes temas:
 
-- **Operação** de sistemas elétricos de potência: topologias, arranjos elétricos, equipamentos primários e secundários;
+- **Operação** de sistemas elétricos de potência: topologias, arranjos
+  elétricos, equipamentos primários e secundários;
 - **Evolução** dos sistemas de automação no Setor Elétrico;
 - Topologias e Tecnologia de **Redes de computadores** LAN e WAN;
 - Noções básicas de Protocolos de comunicação: ModBus e DNP3;
 - **Sistemas de Aquisição de Dados e Controle Supervisório** - SCADA;
-- Conceituação de *Subestações Digitais* e da próxima geração dos sistemas de proteção e automação;
+- Conceituação de _Subestações Digitais_ e da próxima geração dos sistemas de
+  proteção e automação;
 - Protocolos da norma IEC 61850: MMS, GOOSE e Sampled Values;
 - Noções de Sincronismo de tempo no barramento de processos;
-- Projetos de sistemas de automação e controle para uma subestação de energia elétrica;
+- Projetos de sistemas de automação e controle para uma subestação de energia
+  elétrica;
 
 ## Detalhamento do Conteúdo
 
 ### Módulo 1: Introdução a automação de sistemas elétricos de potência
 
-1. Conceitos básicos de subestações: equipamentos primários, diagrama unifilar, arranjos de subestações, sistemas de serviços auxiliares.
-2. Conceitos básicos de automação de subestações: UTR, CLP IED, medidor, controlador de Bay, níveis hierárquicos, sistemas scada.
+1. Conceitos básicos de subestações: equipamentos primários, diagrama unifilar,
+   arranjos de subestações, sistemas de serviços auxiliares.
+2. Conceitos básicos de automação de subestações: UTR, CLP IED, medidor,
+   controlador de Bay, níveis hierárquicos, sistemas scada.
 3. Evolução dos sistemas de automação no setor elétrico.
 
 Material disponível para o módulo 1:
@@ -48,6 +58,10 @@ Material disponível para o módulo 1:
 1. Noções básicas de protocolos TCP/IP: Ethernet, IP, TCP, LAN, WAN.
 2. Requisitos de redes ethernet para automação de SEs: VLANs, IEEE 802.1q, RSTP.
 3. Conceitos básicos de lógicas digitais.
+
+- [slides visão geral de redes](https://tinyurl.com/3tced67y)
+- [slides camada de enlace](https://tinyurl.com/3hvn5ec5)
+- [slides camda de rede](https://tinyurl.com/44cw5nex)
 
 ### Módulo 3: Comunicação em Subestações
 
@@ -73,16 +87,16 @@ Material disponível para o módulo 1:
 ### Tópicos Complementares
 
 1. Segurança Cibernética.
-2. Gerenciamento de informação
-   2.1. Coleta automática de oscilografias.
-   2.2. Monitoramento de equipamentos e da rede de comunicação.
+2. Gerenciamento de informação 2.1. Coleta automática de oscilografias. 2.2.
+   Monitoramento de equipamentos e da rede de comunicação.
 3. Procedimentos de rede do ONS.
 4. Virtualização da proteção ou proteção centralizada.
 5. Redes de comunicação definidas por software.
 
 ## Avaliações
 
-As avaliações estão previstas para ocorrer conforme a data estabelecida no cronograma.
+As avaliações estão previstas para ocorrer conforme a data estabelecida no
+cronograma.
 
 - Data de realização da Avaliação Parcial 01: 30/10/25
 - Data de realização da Avaliação Parcial 02: 18/12/25
@@ -93,7 +107,8 @@ Conteúdo da **Avaliação Parcial 02**: Módulos 3 e 4.
 
 ## Seminários
 
-Artigos selecionados de trabalhos apresentados no XIV SIMPASE - Simpósio Brasileiro de Automação de Sistemas Elétricos.
+Artigos selecionados de trabalhos apresentados no XIV SIMPASE - Simpósio
+Brasileiro de Automação de Sistemas Elétricos.
 
 - **Seminário 1**: - Data de apresentação: 16/10/25 (Equipe 2)
 - **Seminário 2**: - Data de apresentação: 23/10/25 (Equipe 6)
@@ -105,7 +120,7 @@ Artigos selecionados de trabalhos apresentados no XIV SIMPASE - Simpósio Brasil
 ### Equipes
 
 | Nome                                   | Equipe |
-|----------------------------------------|--------|
+| -------------------------------------- | ------ |
 | ANA KEVIA DA SILVA MENDES              | 5      |
 | CARLOS HENRIQUE BRITO DOS SANTOS       | 1      |
 | EDUARDO ROSA CAVALCANTE                | 3      |
@@ -128,25 +143,35 @@ Artigos selecionados de trabalhos apresentados no XIV SIMPASE - Simpósio Brasil
 ### Temas dos Seminários
 
 - Seminário 1: Modernização da SE de 500 kV da Eletrobras Chesf Terezina II.
-- Seminário 2: Evolução dos protocolos de barramento de processo nas normas IEC 61850 e IEC 61869.
+- Seminário 2: Evolução dos protocolos de barramento de processo nas normas IEC
+  61850 e IEC 61869.
 - Seminário 3: Análise de viabilidade financeira de subestação digital.
-- Seminário 4: Proposta e análise de sistema de de supervisão, proteção e controle digital modular.
-- SEminário 5: Aplicação da tecnologia de gêmeos digitais em testes de transformadores de subestações.
-- Seminário 6: Proposta e desenvolvimento de TC óptico aplicado a subestações de potência.
+- Seminário 4: Proposta e análise de sistema de de supervisão, proteção e
+  controle digital modular.
+- SEminário 5: Aplicação da tecnologia de gêmeos digitais em testes de
+  transformadores de subestações.
+- Seminário 6: Proposta e desenvolvimento de TC óptico aplicado a subestações de
+  potência.
 
-Considerando o máximo de 20 vagas disponibilizadas para a disciplina, poderemos ter equipes de 3 ou 4 alunos.
+Considerando o máximo de 20 vagas disponibilizadas para a disciplina, poderemos
+ter equipes de 3 ou 4 alunos.
 
 ## Trabalhos Complementares
 
-- Trabalho complementar 01: Desenvolvimento de lista de pontos de supervisão de SE e de ligações DE-PARA entre painéis de proteção e controle e painéis de equipamentos externos da SE. [Link 1](https://drive.google.com/file/d/1vz_Wxa9NlESAhsAUbqxZUYwLNgKY0_kw/view?usp=sharing) [Link 2](https://drive.google.com/file/d/12pLav9f67vsfg_ZHTxRA4xN8AvIrPLaO/view?usp=sharing) [Link 3](https://drive.google.com/file/d/1Ic-YvYdoubhskbcE6NVwbOJnvsZTNEtM/view?usp=sharing)
+- Trabalho complementar 01: Desenvolvimento de lista de pontos de supervisão de
+  SE e de ligações DE-PARA entre painéis de proteção e controle e painéis de
+  equipamentos externos da SE.
+  [Link 1](https://drive.google.com/file/d/1vz_Wxa9NlESAhsAUbqxZUYwLNgKY0_kw/view?usp=sharing)
+  [Link 2](https://drive.google.com/file/d/12pLav9f67vsfg_ZHTxRA4xN8AvIrPLaO/view?usp=sharing)
+  [Link 3](https://drive.google.com/file/d/1Ic-YvYdoubhskbcE6NVwbOJnvsZTNEtM/view?usp=sharing)
 - Trabalho complementar 02:
 - Trabalho complementar 03:
 
 <!-- - Trabalho Complementar 1 (xx/xx/xx): Com base no diagrama unifilar disponibilizado [aqui](https://drive.google.com/file/d/1_dujEn5-1ty2NOexEotcr9kTOkS3UItn/view?usp=sharing), liste em uma planilha cada um dos equipamentos presentes na SE do diagrama. Descreva o equipamento com base nas informações do diagrama. Apresente os códigos operacionais de cada elemento e indique o que significa o código de cada equipamento. Se houver mais de um equipamento do mesmo tipo, indique a quantidade. Entrega: **xx/xx/xx** em arquivo .pdf pelo link de envio de trabalhos abaixo.
 - Trabalho Complementar 2 (xx/xx/xx): Elaboração de planilha de pontos analógicos e digitais e suas respectivas ligações externas, conforme procedimento descrito [neste arquivo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/AC2.pdf). Anexo: [anexo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/1-funcionais-eq-campo-69-13_8.pdf). Data da entrega: **xx/xx/xx** em arquivo .pdf pelo link de envio de trabalhos abaixo.;
 - Trabalho Complementar 3 (xx/xx/xx): Lista de exercícios sobre redes locais e camada de enlace e introdução ao uso do pacote Python de análise de redes Scapy. Entrega: **xx/xx/xx**. Arquivo disponível [neste link](https://drive.google.com/file/d/1qsO0F6IxDYElVru5qk1yEXNKBjcYJ1g7/view?usp=sharing)
-- Trabalho Complementar 4 (xx/xx/xx): Desenvolvimento de um simulador de comunicação utilizando os protocolos dnp3 e modbus associados ao sistema SCADA-LTS para representação da subestação de 69,0 kV da UFC. Entrega: **xx/xx/xx**. Arquivo contendo descrição detalhada do trabalho disponível neste [link](https://github.com/lucassm/superv-control-ufc/blob/master/AC4/main.pdf). 
-- 
+- Trabalho Complementar 4 (xx/xx/xx): Desenvolvimento de um simulador de comunicação utilizando os protocolos dnp3 e modbus associados ao sistema SCADA-LTS para representação da subestação de 69,0 kV da UFC. Entrega: **xx/xx/xx**. Arquivo contendo descrição detalhada do trabalho disponível neste [link](https://github.com/lucassm/superv-control-ufc/blob/master/AC4/main.pdf).
+-
 - [**Trabalho 1**: Integração de base de dados de subestação de 69,0/13,8 kV no SCADA-LTS via Modbus.](/teaching/SCSEP/Trabalho-01)
 - [**Trabalho 2**: Parametrização de Relé SEL/Schenneider.](/teaching/SCSEP/Trabalho-02)
 
@@ -155,7 +180,8 @@ Link para envio dos trabalhos: [Envie os trabalhos por aqui](https://forms.gle/2
 
 ## Estrutura da nota
 
-A nota da disciplina será composta pela média ponderada de avaliações escritas e trabalho final, da seguinte forma:
+A nota da disciplina será composta pela média ponderada de avaliações escritas e
+trabalho final, da seguinte forma:
 
 $$
   NF = 0,5 \cdot NAP + 0,4 \cdot NT + 0,1 \cdot NS
@@ -188,51 +214,53 @@ Serão utilizados os softwares durante a disciplina:
 
 ## Bibliografia Básica
 
-- Título: Power System SCADA and Smart Grids, 1a ed, Autor: Mini S. Thomas and John D. McDonald ., Editora: Editora CRC Pres, Ano: 2015.
+- Título: Power System SCADA and Smart Grids, 1a ed, Autor: Mini S. Thomas and
+  John D. McDonald ., Editora: Editora CRC Pres, Ano: 2015.
 
-Além do livro texto, serão disponibilizados **slides** e **outros recursos de texto** que serão disponibilizados no decorrer da disciplina.
+Além do livro texto, serão disponibilizados **slides** e **outros recursos de
+texto** que serão disponibilizados no decorrer da disciplina.
 
 ## Calendário de Planejamento da disciplina
 
-| #  | Data       | Descrição                                                                        |
-|----|------------|----------------------------------------------------------------------------------|
-| 1  | 09/09/2025 | Apresentação da Disciplina                                                       |
-| 2  | 11/09/2025 | Módulo 1                                                                         |
-| 3  | 16/09/2025 | Módulo 1                                                                         |
-| 4  | 18/09/2025 | Módulo 1                                                                         |
-| 5  | 23/09/2025 | Módulo 1                                                                         |
-| 6  | 25/09/2025 | Módulo 1                                                                         |
-| 7  | 30/09/2025 | Módulo 2                                                                         |
-| 8  | 02/10/2025 | Apresentação Siemens: Tecnologia de Gêmeo Digital  aplicada a sistemas elétricos |
-| 9  | 07/10/2025 | Módulo 2                                                                         |
-| 10 | 09/10/2025 | Módulo 2                                                                         |
-| 11 | 14/10/2025 | Módulo 2                                                                         |
-| 12 | 16/10/2025 | Módulo 2 - Seminário 1                                                           |
-| 13 | 21/10/2025 | Módulo 3                                                                         |
-| 14 | 23/10/2025 | Módulo 3 - Seminário 2                                                           |
-| 15 | 28/10/2025 | Módulo 3                                                                         |
-| 16 | 30/10/2025 | Avaliação Parcial 1                                                              |
-| 17 | 04/11/2025 | Encontros Universitários                                                         |
-| 18 | 06/11/2025 | Encontros Universitários                                                         |
-| 19 | 11/11/2025 | Apresentação Eldeman: projetos de automação e proteção de subestações            |
-| 20 | 13/11/2025 | Módulo 3 - Seminário 3                                                           |
-| 21 | 18/11/2025 | Módulo 3                                                                         |
-| 22 | 20/11/2025 | Módulo 4 - Seminário 4                                                           |
-| 23 | 25/11/2025 | Módulo 4                                                                         |
-| 24 | 27/11/2025 | Módulo 4 - Seminário 5                                                           |
-| 25 | 02/12/2025 | Módulo 4                                                                         |
-| 26 | 04/12/2025 | Módulo 4 - Seminário 6                                                           |
-| 27 | 09/12/2025 | Módulo 4                                                                         |
-| 28 | 11/12/2025 | Apresentação Eletrobras Chesf: Operação e manutenção de subestações e Lts.       |
-| 29 | 16/12/2025 | Módulo 5                                                                         |
-| 30 | 18/12/2025 | Avaliação Parcial 2                                                              |
-| 31 | 23/12/2025 | Recesso Natalino                                                                 |
-| 32 | 25/12/2025 | Recesso Natalino                                                                 |
-| 33 | 30/12/2025 | Recesso Natalino                                                                 |
-| 34 | 01/01/2026 | Recesso Natalino                                                                 |
-| 35 | 06/01/2026 | Módulo 5                                                                         |
-| 36 | 08/01/2026 | Módulo 5                                                                         |
-| 37 | 13/01/2026 | Desenvolvimento do trabalho final da disciplina                                  |
-| 38 | 15/01/2026 | Desenvolvimento do trabalho final da disciplina                                  |
-| 39 | 20/01/2026 | Entrega do trabalho final da disciplina                                          |
-| 40 | 22/01/2026 | Encerramento do Semestre                                                         |
+| #   | Data       | Descrição                                                                       |
+| --- | ---------- | ------------------------------------------------------------------------------- |
+| 1   | 09/09/2025 | Apresentação da Disciplina                                                      |
+| 2   | 11/09/2025 | Módulo 1                                                                        |
+| 3   | 16/09/2025 | Módulo 1                                                                        |
+| 4   | 18/09/2025 | Módulo 1                                                                        |
+| 5   | 23/09/2025 | Módulo 1                                                                        |
+| 6   | 25/09/2025 | Módulo 1                                                                        |
+| 7   | 30/09/2025 | Módulo 2                                                                        |
+| 8   | 02/10/2025 | Apresentação Siemens: Tecnologia de Gêmeo Digital aplicada a sistemas elétricos |
+| 9   | 07/10/2025 | Módulo 2                                                                        |
+| 10  | 09/10/2025 | Módulo 2                                                                        |
+| 11  | 14/10/2025 | Módulo 2                                                                        |
+| 12  | 16/10/2025 | Módulo 2 - Seminário 1                                                          |
+| 13  | 21/10/2025 | Módulo 3                                                                        |
+| 14  | 23/10/2025 | Módulo 3 - Seminário 2                                                          |
+| 15  | 28/10/2025 | Módulo 3                                                                        |
+| 16  | 30/10/2025 | Avaliação Parcial 1                                                             |
+| 17  | 04/11/2025 | Encontros Universitários                                                        |
+| 18  | 06/11/2025 | Encontros Universitários                                                        |
+| 19  | 11/11/2025 | Apresentação Eldeman: projetos de automação e proteção de subestações           |
+| 20  | 13/11/2025 | Módulo 3 - Seminário 3                                                          |
+| 21  | 18/11/2025 | Módulo 3                                                                        |
+| 22  | 20/11/2025 | Módulo 4 - Seminário 4                                                          |
+| 23  | 25/11/2025 | Módulo 4                                                                        |
+| 24  | 27/11/2025 | Módulo 4 - Seminário 5                                                          |
+| 25  | 02/12/2025 | Módulo 4                                                                        |
+| 26  | 04/12/2025 | Módulo 4 - Seminário 6                                                          |
+| 27  | 09/12/2025 | Módulo 4                                                                        |
+| 28  | 11/12/2025 | Apresentação Eletrobras Chesf: Operação e manutenção de subestações e Lts.      |
+| 29  | 16/12/2025 | Módulo 5                                                                        |
+| 30  | 18/12/2025 | Avaliação Parcial 2                                                             |
+| 31  | 23/12/2025 | Recesso Natalino                                                                |
+| 32  | 25/12/2025 | Recesso Natalino                                                                |
+| 33  | 30/12/2025 | Recesso Natalino                                                                |
+| 34  | 01/01/2026 | Recesso Natalino                                                                |
+| 35  | 06/01/2026 | Módulo 5                                                                        |
+| 36  | 08/01/2026 | Módulo 5                                                                        |
+| 37  | 13/01/2026 | Desenvolvimento do trabalho final da disciplina                                 |
+| 38  | 15/01/2026 | Desenvolvimento do trabalho final da disciplina                                 |
+| 39  | 20/01/2026 | Entrega do trabalho final da disciplina                                         |
+| 40  | 22/01/2026 | Encerramento do Semestre                                                        |

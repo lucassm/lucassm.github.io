@@ -104,8 +104,7 @@ realizadas com OpenDSS.
 Alguns dos recursos mais importantes utilizados nessa aula foram:
 
 - slides sobre conceitos básicos de OpenDSS, disponíveis nos
-  [link 1](https://tinyurl.com/6fxecn4x)
-  e
+  [link 1](https://tinyurl.com/6fxecn4x) e
   [link 2](https://tinyurl.com/4jfunh7z).
 - slides sobre modos de simulação no OpenDSS, disponíveis
   [aqui](https://tinyurl.com/4rzmnbxc).
