@@ -1,12 +1,12 @@
 ---
 title: Aulas de Prot. Cont. e Otim. em SmartGrids
 date: 25-10-08
-permalink:/posts/2025/10/pco-classes-2025
+permalink: /posts/2025/10/pco-classes-2025
 tags:
-    - opendss
-    - pós-graduação
-    - python
-    - simulação da rede elétrica
+  - opendss
+  - pós-graduação
+  - python
+  - simulação da rede elétrica
 ---
 
 Este arquivo tem como objetivo servir de roteiro de acompanhamento das
