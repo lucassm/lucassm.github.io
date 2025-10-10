@@ -336,7 +336,7 @@ New circuit.IEEE13Nodeckt
 
 Esse elemento já havia sido declarado acima, mas é interessante comentar sobre
 algumas de suas características. Talvez os parâmetros mais importantes desse
-elemento sejam os `MVAsc3=20000` e `MVASC1` que indicam respectivamente
+elemento sejam os `MVAsc3=20000` e `MVAsc1=21000` que indicam respectivamente
 _potência de curto-circuito monofásica_ e _potência de curto-circuito
 trifásica_.
 
@@ -344,14 +344,15 @@ Além dos valores de potência de curto-circuito trifásico e monofásico també
 possível entrar com outros pares de valores para determinar todos os parâmetros
 necessários na caracterização da fonte de tensão do circuito, são eles:
 
-- Potência de curto-circuito trifásico e monofásico.
-- Impedância de sequência positiva e zero.
-- Outros dois parâmetros desconhecidos.
+- Potências de curto-circuito trifásico e monofásico.
+- Correntes de curto-circuito trifásico e monofásico.
+- Impedâncias de sequência positiva e zero.
 
-Um elemento muito importante para ser representado é a linha de distribuição. De
-maneira geral, a linha de distribuição deve ser determinada por sua matriz de
-impedância de fase assim como por sua matriz de admitância shunt. Segue exemplo
-de declaração de uma linha de distribuição:
+Um elemento essencial na representação de sistemas de distribuição é a linha de
+distribuição. De maneira geral, a linha de distribuição deve ser determinada por
+sua _matriz de impedância de fase_ assim como por sua matriz de admitância
+shunt. Segue exemplo de declaração de uma linha de distribuição por meio dos
+parâmetros de impedância séria da matriz de impedâncias de fase:
 
 ```
 New linecode.mtx601 nphases=3 BaseFreq=60
@@ -363,25 +364,28 @@ New Line.650632 Phases=3 Bus1=RG60.1.2.3 Bus2=632.1.2.3
 ~ LineCode=mtx601 Length=2000 units=ft
 ```
 
-Nesse caso então temos dois elementos distintos que na verdade se juntam para
-compor um elemento físico único, ou seja, a linha de distribuição. Esses
-elementos são `LineCode` e `Line`.
+Nesse caso temos dois elementos distintos que se juntam para compor um elemento
+físico único, ou seja, a linha de distribuição. Esses elementos são `LineCode` e
+`Line`.
 
 Repare que no elemento `LineCode` são passados os parâmetros de resistência e de
 reatância indutiva, por meio de uma notação de matriz triangular superior, sendo
-o caracter `|` responsável por separar as linhas da matriz de impedâncias.
+o carácter `|` responsável por separar as linhas da matriz de impedâncias.
 
-Outro elemento físico presente no sistema de distribuição é o transformador.
+Outro elemento físico presente no sistema de distribuição é o _transformador_.
 Para a representação adequada dos elementos transformadores na rede elétrica,
-diversos aspectos devem ser levados em consideração, tais como: potência do
-transformador, nível de tensão dos enrolamentos primário e secundário, tipo de
-conexão dos enrolamentos do transformador, defasamento angular entre primário e
-secundário, perdas ativas e reativas no núcleo e no cobre do transformador,
-entre outros parâmetros.
+diversos aspectos devem ser levados em consideração, tais como:
+
+- potência do transformador.
+- nível de tensão dos enrolamentos primário e secundário.
+- tipo de conexão dos enrolamentos do transformador.
+- defasamento angular entre primário e secundário.
+- perdas ativas e reativas no núcleo e no cobre do transformador.
+- entre outros parâmetros.
 
 Abaixo segue um exemplo de declaração de um elemento transformador:
 
-```
+```txt
 
 ```
 
