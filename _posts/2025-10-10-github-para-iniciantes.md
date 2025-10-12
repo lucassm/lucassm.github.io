@@ -17,14 +17,21 @@ Aqui serão abordados aspectos gerais de utilização das duas ferramentas. Para
 uma visão mais aprofundada é recomendado que se busque a documentação oficial do
 Git, disponível na [web](https://git-scm.com/).
 
+Quanto ao GitHub apesar de ser um recurso mais simples e visual permitindo um
+fluxo de utilização simplificado, também pode ser utilizado com recursos
+avançados, principalmente com recursos que permitem a elaboração de fluxos
+automatizados, como no caso da funcionalidade `GitHub Actions`, mas que não
+iremos abordar aqui. A documentação completa do GitHub pode ser encontrada na
+web.
+
 Outra informação importante é que o que vai ser mencionado nesse artigo
 pressupõe a existência de um ambiente Linux já configurado. Utilizaremos como
 base uma distribuição baseada em Debian, o Ubuntu em sua versão 24.04, que é
 última versão de longo tempo de suporte até o presente momento.
 
 Após a instalação do sistema operacional, abra um terminal de comando e instale
-o `git` no sistema operacional, ante porém é importante realizar a atualização
-dos repositórios de software:
+o `Git` no sistema operacional, antes porém é importante realizar a atualização
+dos repositórios de software. Os comandos para realizar essas ações são:
 
 ```sh
 sudo apt update && sudo apt install git
@@ -39,10 +46,10 @@ página web do maior repositório de software da internet, o
 Para ter acesso às funcionalidades do GitHub é preciso criar uma conta na
 plataforma. Depois desse passo é possível criar um repositório vinculado à sua
 conta, um nome para o repositório será solicitado, assim como se o repositório
-deverá conter um arquivo de licença, um `.gitignore` e um arquivo README.md.
+deverá conter um arquivo de licença, um `.gitignore` e um arquivo `README.md`.
 Depois de configurados esses passos o repositório será criado e então será
-possível realizar um passo importante em nosso fluxo de trabalho que é clonar o
-repositório remoto para um destino local, no caso, nossa estação de trabalho.
+possível realizar um passo importante em nosso fluxo de trabalho que é _clonar o
+repositório remoto para um destino local_, no caso, nossa estação de trabalho.
 Isso pode ser feito por meio do seguinte comando no terminal de comandos do
 Linux:
 
@@ -50,12 +57,11 @@ Linux:
 git clone https://github.com/meu-nome-de-usuario/nome-do-meu-repositorio
 ```
 
-Isso irá realizar o download automático do repositório GitHub para uma pasta na
-estação de trabalho local, na mesma localização em que o terminal de comandos
+Esse comando realiza o download automático do repositório GitHub para uma pasta
+na estação de trabalho local, na mesma localização em que o terminal de comandos
 está referenciando.
 
-Ao entrar nessa pasta (seguindo a mesma referência do comando descrito acima, o
-comando para isso seria `cd nome-do-meu-repositorio`) será possível observar que
-além dos arquivos de README.md e de licença, haverá também uma pasta oculta,
-denominada de `.git`. É nesse arquivo que todas as informações do git estarão
-sendo armazenadas.
+Ao entrar nessa pasta (o comando para isso seria `cd nome-do-meu-repositorio`)
+será possível observar que além dos arquivos de README.md e de licença, haverá
+também uma pasta oculta, denominada de `.git`. É nesse arquivo que todas as
+informações do git estarão sendo armazenadas.
