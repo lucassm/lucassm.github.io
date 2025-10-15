@@ -338,7 +338,7 @@ parâmetros será descrito.
 
 O Sistema a ser descrito está mostrado na figura abaixo:
 
-![opendss example network](https://imgur.com/55P0jVQ)
+![opendss example network](https://i.imgur.com/55P0jVQ.png)
 
 O primeiro elemento a ser analisado é o elemento fonte de tensão:
 
@@ -362,7 +362,7 @@ irá se comportar mediante diferentes regimes de operação.
 Uma fonte de tensão trifásica em OpenDSS por padrão apresenta o seguinte modelo
 elétrico:
 
-![modelo elétrico de uma fonte de tensão trifásica em OpenDSS](https://imgur.com/rZJZwkn)
+![modelo elétrico de uma fonte de tensão trifásica em OpenDSS](https://i.imgur.com/rZJZwkn.png)
 
 Como é possível visualizar no modelo elétrico, o OpenDSS precisa calcular as
 impedâncias próprias e mútuas da fonte, para isso é preciso que uma das opções
@@ -373,7 +373,7 @@ de pares de parâmetros sejam informadas:
 - `Isc3` e `Isc1` Correntes de curto-circuito trifásico e monofásico.
 - `Z1` e `Z0` Impedâncias de sequência positiva e zero.
 
-![modelo matemático da fonte de tensão do OpenDSS](https://imgur.com/RY0elm0)
+![modelo matemático da fonte de tensão do OpenDSS](https://i.imgur.com/RY0elm0.png)
 
 O próximo elemento mostrado no diagrama da rede exemplo é um transformador
 trifásico. O código abaixo declara esse transformador:
@@ -406,16 +406,23 @@ são eles:
 O modelo elétrico desse elemento transformador pode ser visualizado na figura
 abaixo:
 
-![modelo elétrico de transformador trifásico no OpenDSS](https://imgur.com/1yOm0Hu)
+![modelo elétrico de transformador trifásico no OpenDSS](https://i.imgur.com/1yOm0Hu.png)
 
-A seguir, pode ser visualizado no diagrama dois seguimentos de linha distintos
-que estão representados em termos de script logo abaixo:
+Na rede exemplo que está sendo executada existem dois tipos de elementos linhas
+de distribuição. Na figura abaixo é possível visualizar a representação elétrica
+de uma linha de distribuição trifásica à quatro condutores, ou seja, com
+condutor neutro explícito:
+
+![diagrama elétrico de linha de distribuição 3p-1n](https://i.imgur.com/ktklInT.png)
+
+Logo abaixo estão representados em termos de script OpenDSS, os dois seguimentos
+de linha da rede exemplo:
 
 ```txt
 // Modelos de Linhas
 New Linecode.MeuArranjo4 nphases=4 basefreq=60 units=km
-~ rmatrix = [0.249 |0.059 0.249 |0.059 0.059 0.249 |0.059 0.059 0.059 0.427]       !ohm/km
-~ xmatrix = [0.878 |0.529 0.878 |0.451 0.484 0.878 |0.467 0.488 0.476 0.960]       !ohm/km
+~ rmatrix = [0.249 |0.059 0.249 |0.059 0.059 0.249 |0.059 0.059 0.059 0.427] !ohm/km
+~ xmatrix = [0.878 |0.529 0.878 |0.451 0.484 0.878 |0.467 0.488 0.476 0.960] !ohm/km
 ~ cmatrix = [9.353 |-3.028 9.858 |-1.160 -1.928 8.891 |-1.393 -1.772 -1.782 8.809] !nF/km
 ~ neutral=4 kron=No
 
@@ -441,6 +448,9 @@ nos parâmetros `rmatrix`, `xmatrix` e `cmatrix` excede em uma unidade os
 elementos declarados no linecode `MeuArranjo3`, que tem o o parâmetro
 `nphases=3`. O que essas diferenças representam?
 
+Por fim, os úlltimos elementos físicos são declrados, ou seja, as cargas
+conectadas nas barras do sistema:
+
 ```txt
 // Dados das Cargas
 // Model=1 -> Potencia Constante
@@ -448,10 +458,16 @@ New Load.CargaC phases=1 bus1=C.1.4 kv=7.9674 kw=500 pf=0.92 model=1
 New Load.CargaD phases=3 bus1=D conn=wye kv=13.8 kw=2000 pf=0.92 model=1
 ```
 
+Um elemento importante, principalmente no cálculo de perdas elétricas, é o
+elemento `EnergyMeter`. A declaração do EnergyMeter pode ser vista abaixo:
+
 ```txt
 // Medidor
 New EnergyMeter.MedidorSub element=Transformer.Trafo terminal=1
 ```
+
+Os elementos listados abaixo servem para resolver o fluxo de carga e mostrar os
+resultados obtidos:
 
 ```txt
 // Definindo Tensoes de base
