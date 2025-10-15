@@ -499,52 +499,77 @@ BusCoords Coordenadas.csv
 
 ```
 
-```txt
-New circuit.IEEE13Nodeckt
-~ basekv=115 pu=1.0001 phases=3 bus1=SourceBus
-~ Angle=30
-~ MVAsc3=20000 MVASC1=21000
-```
+Uma análise de fluxo de carga temporal poderá ser realizada utilizando os
+seguintes elementos:
 
-Um elemento essencial na representação de sistemas de distribuição é a linha de
-distribuição. De maneira geral, a linha de distribuição deve ser determinada por
-sua _matriz de impedância de fase_ assim como por sua matriz de admitância
-shunt. Segue exemplo de declaração de uma linha de distribuição por meio dos
-parâmetros de impedância séria da matriz de impedâncias de fase:
+- `LoadShape`
+- `Set Mode=Daily`
+- `Monitor`
 
-```
-New linecode.mtx601 nphases=3 BaseFreq=60
-~ rmatrix = (0.3465 | 0.1560 0.3375 | 0.1580 0.1535 0.3414 )
-~ xmatrix = (1.0179 | 0.5017 1.0478 | 0.4236 0.3849 1.0348 )
-~ units=mi
-
-New Line.650632 Phases=3 Bus1=RG60.1.2.3 Bus2=632.1.2.3
-~ LineCode=mtx601 Length=2000 units=ft
-```
-
-Nesse caso temos dois elementos distintos que se juntam para compor um elemento
-físico único, ou seja, a linha de distribuição. Esses elementos são `LineCode` e
-`Line`.
-
-Repare que no elemento `LineCode` são passados os parâmetros de resistência e de
-reatância indutiva, por meio de uma notação de matriz triangular superior, sendo
-o carácter `|` responsável por separar as linhas da matriz de impedâncias.
-
-Outro elemento físico presente no sistema de distribuição é o _transformador_.
-Para a representação adequada dos elementos transformadores na rede elétrica,
-diversos aspectos devem ser levados em consideração, tais como:
-
-- potência do transformador.
-- nível de tensão dos enrolamentos primário e secundário.
-- tipo de conexão dos enrolamentos do transformador.
-- defasamento angular entre primário e secundário.
-- perdas ativas e reativas no núcleo e no cobre do transformador.
-- entre outros parâmetros.
-
-Abaixo segue um exemplo de declaração de um elemento transformador:
+Abaixo segue o código que transforma a análise de fluxo de carga estático em
+fluxo de carga temporal:
 
 ```txt
+// Dados das Curvas de Carga
+New Loadshape.industrial npts=24 interval=1
+~ mult=(0.1 0.1 0.2 0.3 0.3 0.4 0.6 1.2 1.8 1.8 1.9 1.9 1.4 1.6 1.8 1.7 1.7 1.1 0.8 0.6 0.5 0.4 0.2 0.2)
+New Loadshape.residencial npts=24 interval=1
+~ mult=(0.6 0.5 0.4 0.4 0.5 0.8 1.0 0.8 0.8 0.9 1.0 1.0 1.1 0.9 0.9 0.9 1.0 1.2 1.5 1.5 1.7 1.5 1.2 0.8)
 
+// Dados das Cargas
+// Model=1 -> Potencia Constante
+New Load.CargaC phases=1 bus1=C.1.4 kv=7.9674 kw=500 pf=0.92 model=1 daily=residencial
+New Load.CargaD phases=3 bus1=D conn=wye kv=13.8 kw=2000 pf=0.92 model=1 daily=industrial
+
+// Medidor
+New EnergyMeter.MedidorSub element=Transformer.Trafo terminal=1
+
+// Monitores
+// Monitores na Sub (deve ser conectado em um elemento e nao em uma barra)
+New Monitor.PotenciaSub element=Transformer.Trafo terminal=1 mode=1 ppolar=no
+New Monitor.TensaoSub element=Transformer.Trafo terminal=1 mode=0
+
+// Monitores na CargaD
+New Monitor.PotenciaCargaD element=Load.CargaD terminal=1 mode=1 ppolar=no
+New Monitor.TensaoCargaD element=Load.CargaD terminal=1 mode=0
+
+// Definindo Tensoes de base
+Set voltagebases=[138 13.8]
+Calcvoltagebases
+
+// Time-Series Mode
+Set controlmode=Static
+Set mode=Daily
+Set stepsize=1h
+Set number=24
+Solve
+
+// Coordenadas
+BusCoords Coordenadas.csv
+
+// Resultados do Medidor
+// Show meters
+// Export meters
+
+// ==========================
+// Resultados dos Monitores
+// ==========================
+
+// Monitor de Potencia da Sub
+// Export monitors potenciasub
+// Plot monitor object= potenciasub channels=(1 3 5 )
+
+// // Monitor de Tensao da Sub
+// Export monitors tensaosub
+// Plot monitor object= tensaosub channels=(1 3 5 ) bases=[79674.3 79674.3 79674.3]
+
+// // Monitor de Potencia da CargaD
+// Export monitors potenciacargad
+// Plot monitor object= potenciacargad channels=(1 3 5 )
+
+// // Monitor de Tensao da CargaD
+// Export monitors tensaocargad
+// Plot monitor object= tensaocargad channels=(1 3 5 ) bases=[7967.4 7967.4 7967.4]
 ```
 
 ## A importância dos sistemas teste do IEEE no desenvolvimento do OpenDSS
