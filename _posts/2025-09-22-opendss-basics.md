@@ -10,10 +10,11 @@ tags:
 
 Este artigo irá abordar alguns aspectos básicos de openDSS para quem está
 começando a utilizar essa poderosa ferramenta. Por tratar-se de uma ferramenta
-com muitos recursos disponibilizados, só aqueles mais básicos serão abordados.
-Para um aprofundamento sobre cada um dos conceitos mencionados neste documento,
-sempre a [documentação oficial do OpenDSS](https://opendss.epri.com/) poderá ser
-consultada.
+com possibilidade de utilização em muitos tipos de cenários distintos e com
+muitos recursos disponibilizados, só aqueles mais básicos serão abordados neste
+artigo. Para um aprofundamento sobre cada um dos conceitos mencionados neste
+documento, recomenda-se a consulta à
+[documentação oficial do OpenDSS](https://opendss.epri.com/).
 
 ## o que é o openDSS
 
@@ -42,34 +43,37 @@ abaixo expressa bem essa ideia.
 
 Dessa forma, o OpenDSS pode ser pensado como tendo um componente básico que é
 seu motor de cálculos, escrito atualmente em C++ (e que por muito tempo foi
-escrito em Delphi), identificado na figura como _Main Simulation Engine_. Esse
-motor de cálculo pode então ser acionado de diferentes formas. A forma mais
+escrito em Delphi), identificado na figura como _Main Simulation Engine_.
+
+Esse motor de cálculo pode então ser acionado de diferentes formas. A forma mais
 fácil e direta de interagir com o motor de cálculo é por meio da interface
-gráfica disponibilizada pelo instalador padrão do OpenDSS, disponibilizado
+gráfica disponibilizada pelo instalador padrão do OpenDSS, acessível
 gratuitamente no repositório
 [source-forge](https://sourceforge.net/projects/electricdss/).
 
 Essa interface gráfica é bem simples e apresenta basicamente uma tela em branco
-em que o usuário pode digitar algum script e é aí, nesse primeiro contato, que
+em que o usuário pode digitar algum script. É aí, nesse primeiro contato, que
 fica claro para o usuário uma característica essencial do OpenDSS, que é a
 caracterização do modelo elétrico por meio de sua _linguagem de scripts_.
 
 Pode parecer estranho no primeiro momento abrir mão de um ambiente 100% gráfico
 para compor o modelo elétrico, mas quando se analisa redes elétricas de
 distribuição reais, em que é comum haver circuitos com milhares de barras, e
-milhares de trechos de linhas, então fica claro como é inapropriado o paradigma
-de arrastar e soltar para a composição de modelos elétricos de circuitos de
-distribuição reais.
+milhares de trechos de linhas, então fica claro como é _inapropriado_ o
+paradigma de arrastar e soltar para a composição de modelos elétricos de
+circuitos de distribuição reais.
 
 ![Interface gráfica do OpenDSS](https://opendss.epri.com/lib/NewItem13.png)
 
 Existem outras formas de controlar o motor de cálculo do OpenDSS. A mais
 poderosa delas, certamente é por meio de uma linguagem de programação, como por
 exemplo _Python_, o que dá muito mais versatilidade e flexibilidade nas
-análises, mas por enquanto vamos focar na linguagem de scripts do OpenDSS.
+análises. Mas por enquanto vamos focar na linguagem de scripts do OpenDSS.
 
-Essa linguagem de _scripts_ é realmente muito importante para um bom domínio da
-modelagem de sistemas de distribuição utilizando o OpenDSS. Vou comentar aqui
+## Scripts OpenDSS
+
+A linguagem de _scripts_ do OpenDSS é muito importante para um bom domínio da
+modelagem de sistemas de distribuição utilizando o OpenDSS. Iremos comentar aqui
 somente sobre os pontos mais importantes, mas eu aconselho que você aprofunde
 sobre esse tópico lendo a [documentação oficial](https://opendss.epri.com/) do
 OpenDSS sobre o assunto.
@@ -151,7 +155,7 @@ Alguns exemplos de comandos comuns são:
 - `Export`: Export power flow results to a text/csv file.
 - `Plot`: Plot power flow results.
 
-O primeiro elemento que iremos demonstrar como exemplo aqui será o elemento
+O primeiro elemento a ser demonstrado como exemplo aqui será o elemento
 `Circuit`, que é obrigatório em qualquer circuito declarado em OpenDSS:
 
 ```txt
@@ -170,7 +174,8 @@ tipo e o nome do novo elemento declarados, nesse caso são
 que a lista de parâmetros do comando anterior irá se estender por mais uma
 linha.
 
-> É importante mencionar aqui que o OpenDSS **não é case sensitive**.
+> É importante mencionar aqui que a linguagem de scripts do OpenDSS **não é case
+> sensitive**.
 
 Cada um dos elementos do OpenDSS são declarados seguindo essa mesma lógica. Por
 exemplo, observarmos o código de declaração do transformador do sistema teste
@@ -200,7 +205,9 @@ no OpenDSS, é natural que se faça a pergunta:
 
 > como os elementos OpenDSS são conectados uns com os outros?
 
-Isso é interessante porque as conexões estabelecidas pelo OpenDSS não são
+## Conectando elementos no OpenDSS
+
+Esse tópico é importante porque as conexões estabelecidas pelo OpenDSS não são
 conexões simples do tipo conectado ou não conectado, mas sim conexões que
 precisam definir se a conexão pretendida será do tipo monofásica, bifásica ou
 trifásica. Além disso, é preciso estabelecer ligações de um condutor neutro,
@@ -209,11 +216,11 @@ que estão sendo conectados, assim como saber a sequência correta de conexão
 desses condutores. Para cumprir esses requisitos o OpenDSS utiliza as seguintes
 definições terminológicas:
 
-- Nó: É uma posição de conexão elétrica fixa em um barramento.
-- Barramento: É uma coleção de nós.
-- Condutor: Representa um ponto de conexão elétrica em um elemento, com
+- _Nó_: É uma posição de conexão elétrica fixa em um barramento.
+- _Barramento_: É uma coleção de nós.
+- _Condutor_: Representa um ponto de conexão elétrica em um elemento, com
   potencial elétrico bem definido.
-- Terminal: É uma coleção de condutores.
+- _Terminal_: É uma coleção de condutores.
 
 Utilizando essas definições é possível representar _qualquer tipo de conexão
 elétrica entre elementos polifásicos_, considerando todas as características de
@@ -322,10 +329,159 @@ Outros elementos importantes são:
 - Monitor
 - Geração fotovoltaica
 
+## Montagem de sistema exemplo no OpenDSS
+
 A seguir será demonstrado como cada um dos elementos citados pode ser declarado
-e utilizado de acordo com a linguagem de scrips do OpenDSS.
+e utilizado de acordo com a linguagem de scrips do OpenDSS. Para facilitar essa
+abordagem será utilizado um sistema de exemplo, e cada um dos seus elementos e
+parâmetros será descrito.
+
+O Sistema a ser descrito está mostrado na figura abaixo:
+
+![opendss example network](https://imgur.com/55P0jVQ)
 
 O primeiro elemento a ser analisado é o elemento fonte de tensão:
+
+```txt
+New Circuit.Equivalente bus1=A pu=1.02 basekv=138
+~ Z0=[0.025862916, 0.077588748] Z1=[0.023094242, 0.092376969]
+```
+
+Essa linha de comando declara um elemento fonte de tensão com as seguintes
+características:
+
+- fonte de tensão trifásica.
+- tensão de base de 138kV
+- nível de tensão atual de 1,02 pu.
+- impedância equivalente de fonte em suas componentes de sequência positiva e
+  zero.
+
+Esse último parâmetros é um dos mais importantes e define como a fonte de tensão
+irá se comportar mediante diferentes regimes de operação.
+
+Uma fonte de tensão trifásica em OpenDSS por padrão apresenta o seguinte modelo
+elétrico:
+
+![modelo elétrico de uma fonte de tensão trifásica em OpenDSS](https://imgur.com/rZJZwkn)
+
+Como é possível visualizar no modelo elétrico, o OpenDSS precisa calcular as
+impedâncias próprias e mútuas da fonte, para isso é preciso que uma das opções
+de pares de parâmetros sejam informadas:
+
+- `MVAsc3` e `MVAsc1` que indicam respectivamente _potência de curto-circuito
+  monofásica_ e _potência de curto-circuito trifásica_.
+- `Isc3` e `Isc1` Correntes de curto-circuito trifásico e monofásico.
+- `Z1` e `Z0` Impedâncias de sequência positiva e zero.
+
+![modelo matemático da fonte de tensão do OpenDSS](https://imgur.com/RY0elm0)
+
+O próximo elemento mostrado no diagrama da rede exemplo é um transformador
+trifásico. O código abaixo declara esse transformador:
+
+```txt
+New Transformer.Trafo phases=3 windings=2 %loadloss=0.15 xhl=5
+~ %noloadloss=0.015 %imag=2
+~ wdg=1 bus=A kv=138 kva=3000 conn=delta
+~ wdg=2 bus=B kv=13.8 kva=3000 conn=wye
+~ sub=Yes subname=Subestacao
+```
+
+Trata-se de transformador trifásico, de dois enrolamentos, conectado em delta no
+primário e em estrela no secundário, com o centro estrela aterrado. A potência
+dos dois enrolamentos do transformador é de 3,0 MVA. As tensões estão
+especificadas por enrolamentos e são de 138 kV no primário e 13,8 kV no
+secundário. Além desse elementos são mais fáceis de serem identificados na
+declaração, existem ainda os parâmetros que modelam as perdas no transformador,
+são eles:
+
+- `%loadloss`: representa a resistência do ramo série do transformador em valor
+  percentual.
+- `xhl`: representa a reatância do ramo série do transformador em valor
+  percentual.
+- `%noloadloss`: representa a resistência do ramo de magnetização, em valor
+  percentual.
+- `%imag`: representa a reatância indutiva do ramo de magnetização, em valor
+  percentual.
+
+O modelo elétrico desse elemento transformador pode ser visualizado na figura
+abaixo:
+
+![modelo elétrico de transformador trifásico no OpenDSS](https://imgur.com/1yOm0Hu)
+
+A seguir, pode ser visualizado no diagrama dois seguimentos de linha distintos
+que estão representados em termos de script logo abaixo:
+
+```txt
+// Modelos de Linhas
+New Linecode.MeuArranjo4 nphases=4 basefreq=60 units=km
+~ rmatrix = [0.249 |0.059 0.249 |0.059 0.059 0.249 |0.059 0.059 0.059 0.427]       !ohm/km
+~ xmatrix = [0.878 |0.529 0.878 |0.451 0.484 0.878 |0.467 0.488 0.476 0.960]       !ohm/km
+~ cmatrix = [9.353 |-3.028 9.858 |-1.160 -1.928 8.891 |-1.393 -1.772 -1.782 8.809] !nF/km
+~ neutral=4 kron=No
+
+New Linecode.MeuArranjo3 nphases=3 basefreq=60 units=km
+~ rmatrix = [0.249 |0.059 0.249 |0.059 0.059 0.249]     !ohm/km
+~ xmatrix = [0.878 |0.488 0.878 |0.488 0.488 0.878]     !ohm/km
+~ cmatrix = [8.932 |-2.290 8.932 |-2.290 -2.290 8.932]  !nF/km
+
+// Dados dos Trechos
+New Line.LinhaBC bus1=B.1.2.3.0 bus2=C.1.2.3.4 length=0.8 units=km linecode=MeuArranjo4
+New Line.LinhaCD bus1=C.1.2.3 bus2=D.1.2.3 length=0.6 units=km linecode=MeuArranjo3
+```
+
+No script é possível identificar a presença de dois elementos distintos:
+
+- `Linecode`: Modelo de linha reutilizável
+- `Line`: Trecho de linha que utiliza como modelo elétrico um elemento declarado
+  pelo `Linecode`.
+
+Além disso há uma diferença notável entre os dois modelos de linhas. No linecode
+`MeuArranjo4` além do parâmetro `nphases=4` a quantidade de elementos declarados
+nos parâmetros `rmatrix`, `xmatrix` e `cmatrix` excede em uma unidade os
+elementos declarados no linecode `MeuArranjo3`, que tem o o parâmetro
+`nphases=3`. O que essas diferenças representam?
+
+```txt
+// Dados das Cargas
+// Model=1 -> Potencia Constante
+New Load.CargaC phases=1 bus1=C.1.4 kv=7.9674 kw=500 pf=0.92 model=1
+New Load.CargaD phases=3 bus1=D conn=wye kv=13.8 kw=2000 pf=0.92 model=1
+```
+
+```txt
+// Medidor
+New EnergyMeter.MedidorSub element=Transformer.Trafo terminal=1
+```
+
+```txt
+// Definindo Tensoes de base
+Set voltagebases=[138 7.9674 13.8]
+Calcvoltagebases
+
+// SnapShot Mode
+Set mode=SnapShot
+Solve
+```
+
+```txt
+// Coordenadas
+BusCoords Coordenadas.csv
+
+// Arquivos de Resultados
+// Show Voltage LN Nodes
+// Show Power Elements
+// Show Currents Elements
+// Show Losses
+```
+
+```txt
+// Perfil de Tensao
+// Plot Profile
+
+// Plot o Circuito
+// Plot circuit Power Max=2200 dots=y labels=y subs=y C1=Blue
+
+```
 
 ```txt
 New circuit.IEEE13Nodeckt
@@ -333,20 +489,6 @@ New circuit.IEEE13Nodeckt
 ~ Angle=30
 ~ MVAsc3=20000 MVASC1=21000
 ```
-
-Esse elemento já havia sido declarado acima, mas é interessante comentar sobre
-algumas de suas características. Talvez os parâmetros mais importantes desse
-elemento sejam os `MVAsc3=20000` e `MVAsc1=21000` que indicam respectivamente
-_potência de curto-circuito monofásica_ e _potência de curto-circuito
-trifásica_.
-
-Além dos valores de potência de curto-circuito trifásico e monofásico também é
-possível entrar com outros pares de valores para determinar todos os parâmetros
-necessários na caracterização da fonte de tensão do circuito, são eles:
-
-- Potências de curto-circuito trifásico e monofásico.
-- Correntes de curto-circuito trifásico e monofásico.
-- Impedâncias de sequência positiva e zero.
 
 Um elemento essencial na representação de sistemas de distribuição é a linha de
 distribuição. De maneira geral, a linha de distribuição deve ser determinada por
