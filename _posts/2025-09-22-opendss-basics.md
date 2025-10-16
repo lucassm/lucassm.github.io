@@ -448,7 +448,7 @@ nos parâmetros `rmatrix`, `xmatrix` e `cmatrix` excede em uma unidade os
 elementos declarados no linecode `MeuArranjo3`, que tem o o parâmetro
 `nphases=3`. O que essas diferenças representam?
 
-Por fim, os úlltimos elementos físicos são declrados, ou seja, as cargas
+Por fim, os últimos elementos físicos são declarados, ou seja, as cargas
 conectadas nas barras do sistema:
 
 ```txt
@@ -466,8 +466,14 @@ elemento `EnergyMeter`. A declaração do EnergyMeter pode ser vista abaixo:
 New EnergyMeter.MedidorSub element=Transformer.Trafo terminal=1
 ```
 
-Os elementos listados abaixo servem para resolver o fluxo de carga e mostrar os
-resultados obtidos:
+A importância do elemento `EnergyMeter` ficará mais visível quando o modo de
+simulação `Daily` for apresentado. Por enquanto, é possível pensar nesse
+elemento como o elemento que permite o cálculo das perdas elétricas no circuito.
+
+Por fim a declaração de elementos da rede é finalizada com alguns comandos de
+configuração das tensões de base, além do importante comando de `Solve`, que é
+quem executa o fluxo de carga. Comando `Set mode=snapshot` é desnecessário nesse
+caso pois esse já é o modo padrão do OpenDSS.
 
 ```txt
 // Definindo Tensoes de base
@@ -479,16 +485,25 @@ Set mode=SnapShot
 Solve
 ```
 
+Os comandos listados abaixo atribuem coordenadas para as barras do circuito,
+permitindo uma visualização georreferenciada do circuito em análise. Após esse
+comando, diversos comandos de exibição de resultados são listados, sendo
+possível, por meio desses comandos visualizar tensões, correntes, potências e
+perdas elétricas.
+
 ```txt
 // Coordenadas
 BusCoords Coordenadas.csv
 
 // Arquivos de Resultados
-// Show Voltage LN Nodes
-// Show Power Elements
-// Show Currents Elements
-// Show Losses
+Show Voltage LN Nodes
+Show Power Elements
+Show Currents Elements
+Show Losses
 ```
+
+A final, alguns resultados da simulação são exibidos em forma de gráficos
+utilizando o comando `Plot`.
 
 ```txt
 // Perfil de Tensao
@@ -499,28 +514,42 @@ BusCoords Coordenadas.csv
 
 ```
 
-Uma análise de fluxo de carga temporal poderá ser realizada utilizando os
-seguintes elementos:
+## Transformando uma análise estática em temporal
 
-- `LoadShape`
-- `Set Mode=Daily`
-- `Monitor`
+Para adaptar o circuito OpenDSS utilizado na análise de uma condição de
+carga/geração fixa, algumas poucas alterações e inclusões precisarão ser
+realizadas. É importante mencionar aqui que nada muda nos elementos físicos em
+si, com exceção do elemento carga que precisa sofrer uma pequena alteração.
 
-Abaixo segue o código que transforma a análise de fluxo de carga estático em
-fluxo de carga temporal:
+Para ser mais específico, uma análise de fluxo de carga temporal poderá ser
+realizada utilizando os seguintes elementos:
+
+- `LoadShape`: Declara uma curva de carga com valores relativos à potência da
+  carga referida.
+- `Set Mode=Daily`: Altera o modo de simulação para uma simulação temporal de
+  24h.
+- `Monitor`: Elemento que permite a visualização das grandezas elétricas após a
+  realização da simulação temporal.
+
+Abaixo estão listados alguns trechos de código necessários para transformar a
+análise de fluxo de carga estático em fluxo de carga temporal:
 
 ```txt
 // Dados das Curvas de Carga
 New Loadshape.industrial npts=24 interval=1
-~ mult=(0.1 0.1 0.2 0.3 0.3 0.4 0.6 1.2 1.8 1.8 1.9 1.9 1.4 1.6 1.8 1.7 1.7 1.1 0.8 0.6 0.5 0.4 0.2 0.2)
+~ mult=(0.1 0.1 0.2 0.3 0.3 0.4 0.6 1.2 1.8 1.8 1.9 1.9 1.4 1.6 1.8 1.7 1.7
+1.1 0.8 0.6 0.5 0.4 0.2 0.2)
 New Loadshape.residencial npts=24 interval=1
-~ mult=(0.6 0.5 0.4 0.4 0.5 0.8 1.0 0.8 0.8 0.9 1.0 1.0 1.1 0.9 0.9 0.9 1.0 1.2 1.5 1.5 1.7 1.5 1.2 0.8)
+~ mult=(0.6 0.5 0.4 0.4 0.5 0.8 1.0 0.8 0.8 0.9 1.0 1.0 1.1 0.9 0.9 0.9 1.0
+1.2 1.5 1.5 1.7 1.5 1.2 0.8)
 
 // Dados das Cargas
 // Model=1 -> Potencia Constante
 New Load.CargaC phases=1 bus1=C.1.4 kv=7.9674 kw=500 pf=0.92 model=1 daily=residencial
 New Load.CargaD phases=3 bus1=D conn=wye kv=13.8 kw=2000 pf=0.92 model=1 daily=industrial
+```
 
+```txt
 // Medidor
 New EnergyMeter.MedidorSub element=Transformer.Trafo terminal=1
 
@@ -532,11 +561,9 @@ New Monitor.TensaoSub element=Transformer.Trafo terminal=1 mode=0
 // Monitores na CargaD
 New Monitor.PotenciaCargaD element=Load.CargaD terminal=1 mode=1 ppolar=no
 New Monitor.TensaoCargaD element=Load.CargaD terminal=1 mode=0
+```
 
-// Definindo Tensoes de base
-Set voltagebases=[138 13.8]
-Calcvoltagebases
-
+```txt
 // Time-Series Mode
 Set controlmode=Static
 Set mode=Daily
@@ -544,13 +571,15 @@ Set stepsize=1h
 Set number=24
 Solve
 
-// Coordenadas
-BusCoords Coordenadas.csv
-
 // Resultados do Medidor
 // Show meters
 // Export meters
+```
 
+O trecho abaixo mostra os comandos necessários para a correta visualização das
+grandezas armazenadas pelos monitores ao longo da simulação temporal.
+
+```txt
 // ==========================
 // Resultados dos Monitores
 // ==========================
