@@ -138,7 +138,6 @@ Brasileiro de Automação de Sistemas Elétricos.
 | TIAGO MENDES GOMES                     | 3      |
 | VICENTE CARNEIRO JERONIMO              | 3      |
 | VICTOR GONZAGA AMORIM                  | 4      |
-| LUIZ FELIPE CARNEIRO                   | 6      |
 
 ### Temas dos Seminários
 
@@ -148,7 +147,7 @@ Brasileiro de Automação de Sistemas Elétricos.
 - Seminário 3: Análise de viabilidade financeira de subestação digital.
 - Seminário 4: Proposta e análise de sistema de de supervisão, proteção e
   controle digital modular.
-- SEminário 5: Aplicação da tecnologia de gêmeos digitais em testes de
+- Seminário 5: Aplicação da tecnologia de gêmeos digitais em testes de
   transformadores de subestações.
 - Seminário 6: Proposta e desenvolvimento de TC óptico aplicado a subestações de
   potência.
@@ -167,17 +166,6 @@ ter equipes de 3 ou 4 alunos.
   [Link 4](https://drive.google.com/file/d/1qYUepx3gnznVkzuXSlr0ua7JtwKu0EWb/view?usp=sharing)
 - Trabalho complementar 02:
 - Trabalho complementar 03:
-
-<!-- - Trabalho Complementar 1 (xx/xx/xx): Com base no diagrama unifilar disponibilizado [aqui](https://drive.google.com/file/d/1_dujEn5-1ty2NOexEotcr9kTOkS3UItn/view?usp=sharing), liste em uma planilha cada um dos equipamentos presentes na SE do diagrama. Descreva o equipamento com base nas informações do diagrama. Apresente os códigos operacionais de cada elemento e indique o que significa o código de cada equipamento. Se houver mais de um equipamento do mesmo tipo, indique a quantidade. Entrega: **xx/xx/xx** em arquivo .pdf pelo link de envio de trabalhos abaixo.
-- Trabalho Complementar 2 (xx/xx/xx): Elaboração de planilha de pontos analógicos e digitais e suas respectivas ligações externas, conforme procedimento descrito [neste arquivo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/AC2.pdf). Anexo: [anexo](https://github.com/lucassm/superv-control-ufc/blob/master/AC2/1-funcionais-eq-campo-69-13_8.pdf). Data da entrega: **xx/xx/xx** em arquivo .pdf pelo link de envio de trabalhos abaixo.;
-- Trabalho Complementar 3 (xx/xx/xx): Lista de exercícios sobre redes locais e camada de enlace e introdução ao uso do pacote Python de análise de redes Scapy. Entrega: **xx/xx/xx**. Arquivo disponível [neste link](https://drive.google.com/file/d/1qsO0F6IxDYElVru5qk1yEXNKBjcYJ1g7/view?usp=sharing)
-- Trabalho Complementar 4 (xx/xx/xx): Desenvolvimento de um simulador de comunicação utilizando os protocolos dnp3 e modbus associados ao sistema SCADA-LTS para representação da subestação de 69,0 kV da UFC. Entrega: **xx/xx/xx**. Arquivo contendo descrição detalhada do trabalho disponível neste [link](https://github.com/lucassm/superv-control-ufc/blob/master/AC4/main.pdf).
--
-- [**Trabalho 1**: Integração de base de dados de subestação de 69,0/13,8 kV no SCADA-LTS via Modbus.](/teaching/SCSEP/Trabalho-01)
-- [**Trabalho 2**: Parametrização de Relé SEL/Schenneider.](/teaching/SCSEP/Trabalho-02)
-
-Link para envio dos trabalhos: [Envie os trabalhos por aqui](https://forms.gle/2JLAv9788Bdf3QwGA)
--->
 
 ## Estrutura da nota
 
