@@ -17,7 +17,7 @@ Inteligentes (PCOSmartGrid)_.
 Segue uma descrição ordenada temporalmente com os assuntos abordados em cada um
 dos encontros, bem como os links para acesso aos materiais utilizados nas aulas:
 
-## Aula 1
+## Aula 1 - 17-09-2025
 
 Essa foi a primeira aula da disciplina. O primeiro procedimento realizado foi a
 apresentação do conteúdo da disciplina. Como essa é uma disciplina
@@ -55,7 +55,7 @@ sistemas de distribuição possam ser bem explorados.
 O sistema IEEE 13 barras pode ser encontrado descrito em detalhes
 [neste artigo](https://cmte.ieee.org/pes-testfeeders/resources/).
 
-## Aula 2
+## Aula 2 - 24-09-2025
 
 Nessa aula foi dado continuidade na descrição dos principais elementos do
 sistema de testes IEEE 13 barras. Após o sistema 13 barras ter sido apresentado,
@@ -69,7 +69,7 @@ Americano EPRI, e está disponível para
 Outro recurso importante para o aprendizado do OpenDSS é a sua
 [documentação oficial](https://opendss.epri.com/).
 
-## Aula 3
+## Aula 3 - 01-10-2025
 
 Nessa aula o modelo matemático de **linhas de distribuição trifásicas** foi
 apresentado. O material utilizado na exposição faz parte do material de aula do
@@ -82,7 +82,7 @@ no OpenDSS foi apresentada, e os elementos elétricos `transformador` e `linhas`
 foram exemplificados. O material utilizado nessa exposição está disponível
 [aqui](https://tinyurl.com/3ce5cze3).
 
-## Aula 4
+## Aula 4 - 08-10-2025
 
 Inicialmente o conceito de **redução de Kron** foi discutido, e pode ser
 aprofundado no material sobre modelagem de linhas de distribuição do professor
@@ -112,7 +112,7 @@ Alguns dos recursos mais importantes utilizados nessa aula foram:
 - documentação da biblioteca
   [opendssdirect.py](https://dss-extensions.org/OpenDSSDirect.py/).
 
-## Aula 5
+## Aula 5 - 15-10-2025
 
 Encontro realizado de forma remota para permitir o acesso de todos os alunos ao
 ambiente de programação Python disponibilizado pelo google colab.
@@ -127,12 +127,63 @@ Os temas abordados nesse encontro:
 - Modelagem de transformadores de distribuição, com conexão trifásica,
   `transformer`.
 - Modelagem de cargas elétricas, `load`.
+
+## Aula 6 - 22-10-2025
+
+Continuação da aula passada com execução de scripts OpenDSS utilizando
+`google colab`.
+
+Temas abordados nesse encontro:
+
 - Modo de execução `faltstudy`.
-- Modo de execução `daily`, `yearly`, `duty`.
+- Modo de execução `daily`.
 - Curvas de carga `loadshape`.
 - Elemento `meter`.
 - Elemento `monitor`.
 - Estudo de geração distribuída com utilização do elemento `pvsystem`.
-- Estudo de armazenamento de energia com elemento `storage`.
+
+Slides sobre o elemento `pvsystem` estão disponíveis
+[neste link](https://tinyurl.com/ypk2dnt9)
+
+## Aula 07 - 29-10-2025
+
+Aula remota com utilização do google colab.
+
+- Revisão dos tópicos abordados nas aulas anteriores.
+- Revisão detalhada sobre o elemento `pvsystem`
+- Apresentação do elemento `storage` e das suas principais características.
+- Explicação rápida sobre a utilização da API da biblioteca Python
+  `opendssdirect.py`.
+
+O material explicativo sobre o elemento `storage` está disponível
+[neste link](https://tinyurl.com/mwn28a4p)
+
+## Aula 08 - 05-11-2025
+
+Não houve encontro em decorrência dos encontros universitários 2025.
+
+Foi encaminhada uma atividade com prazo de entrega para 19-11-2025.
+
+A descrição da atividade está disponível
+[neste link](https://tinyurl.com/yc3vrpjr)
+
+## Aula 09 - 12-11-2025 (**Prevista**)
+
+Nesta aula espera-se abordar aspectos importantes a respeito da modelagem de
+Recursos Energéticos Distribuídos (_Distributed Energetic Resources_) utilizando
+o `OpenDSS` e os módulos `openDER` e `openDER interface` que são baseados nas
+diretrizes estabelecidas pela norma IEEE 1547.
+
 - Estudo de impacto de inserção de **Recursos Energéticos Distribuídos** com o
   módulo `OpenDER`.
+
+Com esta aula espera-se complementar a atividade computacional disponibilizada
+na aula 08.
+
+## Notebooks construídos nas aulas práticas
+
+- Notebook
+  [Utilizando o OpenDSS para realização de estudos elétricos](https://tinyurl.com/2h7u94c5)
+- Notebook OpenDER 1
+- Notebook OpenDER 2
+- Notebook OpenDER 3

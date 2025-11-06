@@ -1,19 +1,23 @@
 ---
-title: "Proteção, Controle e Otimização em Redes Elétricas Inteligentes"
+title: 'Proteção, Controle e Otimização em Redes Elétricas Inteligentes'
 collection: teaching
-type: "Graduate course"
+type: 'Graduate course'
 permalink: /teaching/PCOSmartGrid
-venue: "Federal University of Ceara, Department of Electrical Engineering"
+venue: 'Federal University of Ceara, Department of Electrical Engineering'
 date: 2025-09-15
-location: "Fortaleza, Brazil"
+location: 'Fortaleza, Brazil'
 ---
 
 ## Objetivos do Curso
 
-- Compreender os conceitos fundamentais das redes elétricas inteligentes (Smart Grids) e a necessidade de  modernização da infraestrutura de rede elétrica.
-- Analisar os desafios e soluções relacionados à integração de recursos energéticos distribuídos (REDs).
-- Estudar os princípios de proteção, automação e controle aplicados às redes elétricas inteligentes.
-- Explorar métodos e **algoritmos de otimização** inteligentes aplicados nas fases de planajamento, operação e gestão da rede elétrica.
+- Compreender os conceitos fundamentais das redes elétricas inteligentes (Smart
+  Grids) e a necessidade de modernização da infraestrutura de rede elétrica.
+- Analisar os desafios e soluções relacionados à integração de recursos
+  energéticos distribuídos (REDs).
+- Estudar os princípios de proteção, automação e controle aplicados às redes
+  elétricas inteligentes.
+- Explorar métodos e **algoritmos de otimização** inteligentes aplicados nas
+  fases de planajamento, operação e gestão da rede elétrica.
 
 ## Conteúdo do Curso (Módulos Prof. Lucas Silveira)
 
@@ -21,7 +25,8 @@ location: "Fortaleza, Brazil"
 
 - Visão geral dos **SDEE**.
 - Apresentação do **sistema IEEE 13 barras** e outros sistemas teste do IEEE.
-- Apresentação da ferramentas **OpenDSS** e sua integração com a **linguagem de programação Python**.
+- Apresentação da ferramentas **OpenDSS** e sua integração com a **linguagem de
+  programação Python**.
 - Fluxo de carga com OpenDSS.
 - Modelagem dos **principais componentes** dos SDEE com OpenDSS.
   - Fonte Principal.
@@ -67,13 +72,17 @@ location: "Fortaleza, Brazil"
 
 ## Trabalhos Computacionais
 
-- [Trabalho Computacional 1 - Análise de redes elétricas utilizando OpenDSS e Python](): Data prevista para entrega: 21//11/25.
-- [Trabalho Computacional 2 - Técnicas de otimização aplicadas às redes elétricas de distribuição](): Data prevista para entrega: 29/01/26.
+- [Trabalho Computacional 1 - Análise de redes elétricas utilizando OpenDSS e Python](https://tinyurl.com/yc3vrpjr):
+  Data prevista para entrega: 21//11/25.
+- [Trabalho Computacional 2 - Técnicas de otimização aplicadas às redes elétricas de distribuição]():
+  Data prevista para entrega: 29/01/26.
 
 ## Seminários
 
-- Tema 1: Controle Volt-Var e Volt-Watt em sistemas de distribuição Abordagem convencional.
-- Tema 2: Controle Volt-Var e Volt-Watt em sistemas de distribuição Abordagem deep-learnig.
+- Tema 1: Controle Volt-Var e Volt-Watt em sistemas de distribuição Abordagem
+  convencional.
+- Tema 2: Controle Volt-Var e Volt-Watt em sistemas de distribuição Abordagem
+  deep-learnig.
 - Tema 3: Aplicação de otimização convexa em Fluxo de Potência Ótimo.
 - Tema 4: Aplicação de deep-learnig em fluxo de potência ótimo.
 
@@ -113,3 +122,9 @@ location: "Fortaleza, Brazil"
 |     | 23/01/26 a 29/01/26 | Período das Avaliações Finais                  |
 |     |      29/01/26       | Entrega do Trabalho Computacional 2            |
 |     |      30/01/26       | Consolidação da síntese de notas e frequências |
+
+Uma descrição detalhada de todas as aulas da disciplina pode ser encontrada
+[neste post](/posts/2025/10/pco-classes-2025). Além da descrição das aulas no
+post também se encontram links que levam para todos os materiais utilizados,
+assim como para os `Google Colab Notebooks` utilizados durantes as aulas
+práticas.
