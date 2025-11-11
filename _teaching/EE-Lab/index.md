@@ -140,7 +140,6 @@ fácil acesso e utilização, chegamos a opção mais indicada:
 | 21/10/25            | 5ª prática – Circuitos Polifásicos                                    |
 | 28/10/25            | 1ª prova prática                                                      |
 | 04/11/25            | Encontros Universitários                                              |
-| 11/11/25            | 2a Chamada da AP 1                                                    |
 | 11/11/25            | 6a prática – Luminotécnica e automação residencial                    |
 | 18/11/25            | 7ª prática – Instalações Elétricas Residenciais                       |
 | 25/11/25            | 8ª prática – Projeto de Instalações Elétricas Residenciais – Parte I  |
