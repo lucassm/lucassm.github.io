@@ -105,6 +105,11 @@ Conteúdo da **Avaliação Parcial 01**: Módulos 1 e 2.
 
 Conteúdo da **Avaliação Parcial 02**: Módulos 3 e 4.
 
+## Lista de Exercícios
+
+- Lista de exercícios módulos 1 e 2:
+  [lista de exercícios](https://drive.google.com/file/d/1YQZpX5jam2p4vMb2AoZWUqLZCFj_55j6/view?usp=sharing)
+
 ## Seminários
 
 Artigos selecionados de trabalhos apresentados no XIV SIMPASE - Simpósio
