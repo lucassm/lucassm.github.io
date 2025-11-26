@@ -167,18 +167,82 @@ Foi encaminhada uma atividade com prazo de entrega para 19-11-2025.
 A descrição da atividade está disponível
 [neste link](https://tinyurl.com/yc3vrpjr)
 
-## Aula 09 - 12-11-2025 (**Prevista**)
+## Aula 09 - 12-11-2025
 
-Nesta aula espera-se abordar aspectos importantes a respeito da modelagem de
-Recursos Energéticos Distribuídos (_Distributed Energetic Resources_) utilizando
-o `OpenDSS` e os módulos `openDER` e `openDER interface` que são baseados nas
-diretrizes estabelecidas pela norma IEEE 1547.
+Nesta aula foi dado inicio à discussão a respeito da modelagem de recursos
+energéticos distribuídos (RED), ou no inglês _distributed energy resources_
+(DER). Como visto nas aulas anteriores, o OpenDSS possui alguns elementos
+padronizados que modelam alguns dos principais tipos de RED presentes nos
+sistemas de distribuição atuais, como por exemplo os elementos `pvsystem` e
+`storage`.
 
-- Estudo de impacto de inserção de **Recursos Energéticos Distribuídos** com o
-  módulo `OpenDER`.
+A questão é que os RED que já estão implementados no OpenDSS disponibilizam
+apenas recursos básicos de modelagem, limitando assim a realização de certos
+tipos de análises importantes de serem efetuadas no contexto de integração de
+REDs à rede elétrica.
 
-Com esta aula espera-se complementar a atividade computacional disponibilizada
-na aula 08.
+Dessa forma, foi apresentado o padrão IEEE 1547-2018, que tem como título: _IEEE
+Standard for Interconnection and Interoperability of Distributed Energy
+Resources with Associated Electric Power Systems Interfaces_
+
+Esse padrão disponibiliza diversas orientações e proposições de funcionalidades
+que têm como objetivo principal possibilitar a expansão dos RED por meio de
+funções avançadas de suporte à rede elétrica, tais como auxílio à rede principal
+no suprimento de suporte de potência ativa, reativa e ajuste de tensão, além de
+suportabilidade à condições adversas na rede, suporte na melhoria dos índices de
+qualidade de energia, função de ilhamento em determinadas porções da rede
+elétrica e também questões relacionadas à interoperabilidade e interface entre
+dispositivos RED.
+
+Tendo em vista o potencial de aplicação e a importância que esse padrão tem em
+um cenário de expansão de RED, o instituto americano EPRI, que também é o
+principal responsável pelo desenvolvimento do OpenDSS, lançou outra importante
+iniciativa, o `OpenDER`. Trata-se da implementação prática de todos os
+requisitos estabelecidos e descritos pela IEEE 1547. Essa implementação prática
+tem dois elementos principais:
+
+- A biblioteca Python `OpenDER` disponibilizada livremente por meio de um
+  [repositório público no `GitHub`](https://github.com/epri-dev/OpenDER)
+- Um documento pdf, batizado de `modelo de especificação` da IEEE 1548-2018,
+  também
+  [disponibilizado livremente pelo EPRI em formato pdf](https://www.epri.com/research/products/000000003002030962).
+
+Após a explicação dos principais conceitos relacionados ao padrão IEEE 1547
+2018, foram explorados os conceitos mais básicos da biblioteca Python `OpenDER`
+por meio de um notebook no google colab. O notebook pode ser acessado nos links
+abaixo.
+
+## Aula 10 - 19-11-25
+
+Nesta aula foram aprofundados os conceitos relacionados à norma IEEE 1547 2018,
+assim como a utilização da biblioteca Python `OpenDER`. O EPRI além de
+disponibilizar a OpenDER, também disponibiliza livremente uma outra biblioteca
+chamada `OpenDERinterface` que possibilita a integração das funcionalidades de
+modelagem da biblioteca OpenDER com o simulador da rede elétrica, o OpenDSS.
+
+A biblioteca `openDERinterface` utiliza como padrão a biblioteca
+`OpenDSSinterface` para prover a comunicação com o OpenDSS, no entanto essa
+biblioteca ainda possui algumas limitações em sua integração com o ambiente
+Linux, dessa forma, foi disponibilizada uma adaptação que ao invés de utilizar a
+OpenDSSinterface para a comunicação com o OpenDSS utiliza a biblioteca
+`OpenDSSDirect` que possui um suporte ao Linux mais consolidado. Para instalar
+essa adaptação nos notebooks do google colab basta digitar em uma célula de
+código o seguinte comando:
+
+```bash
+pip install opender-interface-direct
+```
+
+Dessa forma foi possível utilizar todas as funcionalidade disponibilizadas pela
+OpenDERinterface sem maiores problemas no ambiente do google colab. Os notebooks
+utilizados nessa aula estão disponíveis na lista de links a seguir.
+
+Todos os notebooks com exemplos das bibliotecas Python `OpenDER` e
+`OpenDERinterface` estão disponíveis por meio de notebooks do google co-lab
+nesse link:
+[notebooks com exemplos no google colab](https://drive.google.com/drive/folders/1xaI73wTas80vElbSRG5oGuMsSjnhgUwX?usp=sharing)
+
+## Aula 11 - 26-11-25
 
 ## Notebooks construídos nas aulas práticas
 
