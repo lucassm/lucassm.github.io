@@ -9,7 +9,47 @@ tags:
   - engenharia elétrica
 ---
 
-## Lista de trabalhos do I SPGEE
+## Lista de trabalhos aceitos no II SPGEE
+
+Uma lista de todos os trabalhos que serão apresentados no II SPGEE serão
+relacionados em breve nesse espaço.
+
+## Como participar do Evento?
+
+Nesta edição **só os matriculados na atividade de seminários do PPGEE poderão
+apresentar trabalhos**.
+
+No entanto convidamos a toda comunidade acadêmica à _participar_: comparecendo
+no local do evento e _interagindo_ com os expositores durante suas
+apresentações.
+
+## Quando? Onde? Como?
+
+**Sexta-feira, das 08:00 às 11:00, do dia 23 de janeiro de 2026**.
+
+Bloco 705, ao lado da secretaria do Departamento de Engenharia Elétrica no
+Campus do Pici da UFC.
+
+Para participar do evento basta ir ao local na data e horário agendados.
+
+## Formato do Evento
+
+Nessa edição o seminário terá o seguinte formato:
+
+1. Serão duas sessões de exibição de trabalhos, cada uma com algo em torno de 15
+   trabalhos sendo apresentados simultaneamente. Cada sessão terá duração de 1h.
+2. Entre as duas sessões teremos uma palestra técnica relacionada aos temas
+   abordados na pós-graduação em engenharia elétrica. Os trabalhos serão
+   expostos no formato de pôsteres fixados no local da apresentação do início ao
+   final da sessão.
+3. O evento terá duração total de três horas, entre 08:00 e 11:00. Sendo as duas
+   sessões e a palestra com 1h de duração cada.
+4. Qualquer participante do evento terá oportunidade de assistir uma explicação
+   sobre o assunto do pôster, realizada diretamente pelo autor do trabalho e
+   poderá levantar questionamentos sobre o que está sendo apresentado.
+5. Uma equipe de professores avaliadores irá avaliar individualmente cada um dos
+   trabalhos expostos, elevando assim o nível dos temas abordados e qualidade
+   dos trabalhos apresentados.
 
 ## Como surgiu o SPGEE?
 
@@ -44,42 +84,7 @@ engajar:
   suas visões sobre os diferentes assuntos abordados nos trabalhos que serão
   apresentados.
 
-Nessa edição o seminário terá o seguinte formato:
-
-1. Serão duas sessões de exibição de trabalhos, cada uma com algo em torno de 15
-   trabalhos sendo apresentados simultaneamente. Cada sessão terá duração de 1h.
-2. Entre as duas sessões teremos uma palestra técnica relacionada aos temas
-   abordados na pós-graduação em engenharia elétrica. Os trabalhos serão
-   expostos no formato de pôsteres fixados no local da apresentação do início ao
-   final da sessão.
-3. O evento terá duração total de três horas, entre 08:00 e 11:00. Sendo as duas
-   sessões e a palestra com 1h de duração cada.
-4. Qualquer participante do evento terá oportunidade de assistir uma explicação
-   sobre o assunto do pôster, realizada diretamente pelo autor do trabalho e
-   poderá levantar questionamentos sobre o que está sendo apresentado. 4. Uma
-   equipe de professores avaliadores irá avaliar individualmente cada um dos
-   trabalhos expostos, elevando assim o nível dos temas abordados e qualidade
-   dos trabalhos apresentados.
-
-## Como participar do Evento?
-
-Nesta edição **só os matriculados na atividade de seminários do PPGEE poderão
-apresentar trabalhos**.
-
-No entanto convidamos a toda comunidade acadêmica à _participar_: comparecendo
-no local do evento e _interagindo_ com os expositores durante suas
-apresentações.
-
-## Quando? Onde? Como?
-
-Sexta-feira, das 08:00 às 11:00, do dia 23 de janeiro de 2026.
-
-Bloco 705, ao lado da secretaria do Departamento de Engenharia Elétrica no
-Campus do Pici da UFC.
-
-Só chegar e participar.
-
-Contamos com a presença de todos.
+Contamos com a presença de tod@s!
 
 Mais informações entrar em contato com os professores responsáveis:
 
