@@ -11,8 +11,47 @@ tags:
 
 ## Lista de trabalhos aceitos no II SPGEE
 
-Uma lista de todos os trabalhos que serão apresentados no II SPGEE serão
-relacionados em breve nesse espaço.
+|  # |                  aluno                  |                                                                                    título                                                                                   | sessão |
+|:--:|:---------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------:|
+|  1 | AGATÂNGELO JOSÉ SILVA GOIS              | Sampled-Data H2 output feedback control applied to ATMD stabilization of FOWT systems                                                                                       |    1   |
+|  2 | AMANDA CARVALHO ALEXANDRE               | Aplicação da IEC 61850-7-420 no gerenciamento inteligente dos Recursos Energéticos Distribuı́dos de uma Microrrede                                                           |    1   |
+|  3 | ÂNGELO MARCÍLIO MARQUES DOS SANTOS      | Controle de Sistema de Geração de Energia Eólica com GIGE e SAEB                                                                                                            |    1   |
+|  4 | ANTONIO MARCOS FERNANDES FILHO          | Sistemas de Armazenamento de Hidrogênio: Mapeamento de seu Potencial como Mecanismo de Suporte à Rede Elétrica                                                              |    1   |
+|  5 | ANTONIO NEILTON DA SILVA                | Sistema de Monitoramento Fotovoltaico Baseado em Tecnologia IoT e Comunicação LoRa                                                                                          |    1   |
+|  6 | ARTHUR GUILHERME DA FROTA BRITO MACHADO | Arquitetura Cognitiva Multiagente para Automação de Processos Empresariais com Aprendizado Profundo                                                                         |    1   |
+|  7 | ARTHUR TOME LOPES                       | Controle RST aplicado a modelo térmico de caldeira de leito fluidizado                                                                                                      |    1   |
+|  8 | CAIO LUCAS NASCIMENTO SILVA             | Análise de estratégias de controle de recursos energéticos distribuı́dos utilizando co-simulação                                                                             |    1   |
+|  9 | CASSIO MACIEL AMANAJAS                  | Proposta de Aplicativo para Mercado de Energia P2P: Estudo de Caso em Fortaleza-CE                                                                                          |    1   |
+| 10 | CYRO MARLEUDO GONDIM SABOIA             | Um experimento de arquitetura multimodal hı́brida para o auxı́lio ao diagnóstico médico em laudos radiológicos.                                                               |    1   |
+| 11 | DAVI PINTO CABRAL AMORIM                | In-Depth Comparative Analysis of Transformer Losses in High-Frequency Isolated DC-DC Converters Using The Steinmetz, Generalized Steinmetz and Deep Neural Network Modeling |    1   |
+| 12 | DIEGO BRENO DE OLANDA ALVES             | Inversores Bidirecionais em Sistemas Hı́bridos para Geração Distribuı́da: Um Estudo Sobre Controle, Proteção e Mitigação de Harmônicas                                        |    1   |
+| 13 | EDUARDO BALBINO DE ANDRADE              | Controle Preditivo EPSAC aplicado ao Controle de Trajetória de um Veı́culo                                                                                                   |    1   |
+| 14 | FELIPE TELES DO NASCIMENTO              | Active structural control of floating offshore wind turbine based on PID controller and resonant filter                                                                     |    1   |
+| 15 | FRANCISCO HEDLER BARRETO DE LIMA MORAIS | Análise Comparativa de Conversores CC-CC Bidirecionais com Indutores Acoplados para Aplicações Veiculares                                                                   |    1   |
+| 16 | GABRIEL COSTA LEITE                     | Controle de Sistemas Não Lineares Baseado em Técnica de Decomposição de Modo Dinâmico Polinomial de Dados                                                                   |    1   |
+| 17 | GABRIEL VIDAL GASPAR                    | Diagnóstico Estratégico da Inovação em Células Tandem de Perovskita/Silı́cio                                                                                                 |    1   |
+| 18 | GABRYEL SOBREIRA GUEDES                 | Classificação de Depressão Baseada em EEG Utilizando Tensores e Redes Residuais                                                                                             |    1   |
+| 19 | GUILHERME LAWRENCE REBOUÇAS OLIVEIRA    | Sistema de Automação com ScadaBR: Uma Abordagem com Ferramentas Livres                                                                                                      |    1   |
+| 20 | GUILHERME PINHEIRO BARNABÉ              | Estratégia Não-Intrusiva de Resposta à Demanda para Mitigar os Impactos do Carregamento Residencial de Veı́culos Elétricos em Sistemas de Distribuição                       |    2   |
+| 21 | IAGO BELARMINO LUCENA                   | A Convolutional Network-based Applied Approach to Frontal Facial Recognition and Solutions for Occluded Images                                                              |    2   |
+| 22 | IÁGSON CARLOS LIMA SILVA                | APES-Soft: Uma Abordagem Eficiente para Classificação de Objetos 3D em Nuvens de Pontos                                                                                     |    2   |
+| 23 | ILDENOR DAVID SALES JÚNIOR              | Análise do Comportamento de Módulos Fotovoltaicos Submetidos a Ondulações de Corrente em Alta Frequência                                                                    |    2   |
+| 24 | ISABELA MACIEL TAVEIRA                  | Análise Regulatória e Econômica do Curtailment de Geração Eólica e Solar no Brasil                                                                                          |    2   |
+| 25 | JAIRON ISAIAS LEAL                      | Análise por multicritério para seleção de locais apropriados para a produção de hidrogênio no Ceará                                                                         |    2   |
+| 26 | JÉSSICA FEITOSA DE OLIVEIRA             | Análise de Estabilidade Utilizando Funções de Lyapunov Racionais em Sistemas de Potência                                                                                    |    2   |
+| 27 | JOAO DIEGO MOREIRA FEITOSA              | Modelagem Dinâmica Simplificada da Combustão em Caldeira de Leito Fluidizado Borbulhante                                                                                    |    2   |
+| 28 | JOÃO PEDRO MAGALHÃES DE LIMA            | Aquisição e Monitoramento de Dados para Usinas Fotovoltaicas Baseado em Tecnologias IoT de Baixo Custo                                                                      |    2   |
+| 29 | JOAO VICTOR TEIXEIRA ALVES              | Conversor CC-CC Isolado com Braços em Paralelo e PWM Intercalado para Eletrolisadores                                                                                       |    2   |
+| 30 | KEVIN DE PAULA AMORIM                   | Modelo de Otimização para Maximização de Receita em Sistemas Hı́bridos Renováveis: Uma Revisão                                                                               |    2   |
+| 31 | LUAN DE FREITAS HOLANDA                 | Redes Inteligentes em apoio à eficiência da distribuição de energia                                                                                                         |    2   |
+| 32 | LUIS FELIPE CARNEIRO DE SOUZA           | Redes Elétricas Brasileiras para Benchmark                                                                                                                                  |    2   |
+| 33 | MOZART DANIEL OLIVEIRA NOGUEIRA         | O Pacote bdgd2opendss: Democratizando o Acesso a Modelos de Redes de Distribuição Brasileiras em OpenDSS                                                                    |    2   |
+| 34 | NICOLAS ARAÚJO PRIMO                    | Uma abordagem de Estimativa de Gordura Corporal via Antropometria e Anamnese: um pipeline Health-of-Things explicável                                                       |    2   |
+| 35 | OTACILIO JOSE DE MACEDO NUNES           | IoT-based system for monitoring the energy injected and the credits generated by a photovoltaic system connected to the electrical grid                                     |    2   |
+| 36 | REBECCA ARAUJO BRAGA                    | ANÁLISE COMPARATIVA DE MÉTODOS DATA-DRIVEN                                                                                                                                  |    2   |
+| 37 | ROBÉRIO OLIVEIRA RODRIGUES              | Redução do volume magnético de conversores CC-CC trifásicos associados a um retificador hybridge por meio de integração magnética                                           |    2   |
+| 38 | TIAGO GARCIA GUIMARÃES LIMA             | Uso de Realidade Virtual para Treinamentos na Área da Construção Civil                                                                                                      |    2   |
+| 39 | VITÓRIA CAROLINE CARVALHO DO NASCIMENTO | Estudo Comparativo entre Sistemas de Controle com PLL Elementar e com QPLL Elementar                                                                                        |    2   |
 
 ## Como participar do Evento?
 
