@@ -37,7 +37,9 @@ tags:
 ### Palestra Técnica: De 09:00 as 10:00
 
 Título da Palestra: O conversor HCC: Hybrid Control Converter
+
 Palestrante: Prof. Dr. Francisco Kleber de Araújo Lima (Coordenador do PPGEE)
+
 Local: No local do evento.
 
 ### Sessão 2: De 10:00 às 11:00
