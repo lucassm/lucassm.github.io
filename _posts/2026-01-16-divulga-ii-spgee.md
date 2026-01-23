@@ -24,7 +24,7 @@ tags:
 |     20      |    Guilherme Pinheiro     |            Estratégia Não-Intrusiva de Resposta à Demanda para Mitigar os Impactos do Carregamento Residencial de Veı́culos Elétricos em Sistemas de Distribuição            |
 |     27      |    Joao Diego Moreira     |                                          Modelagem Dinâmica Simplificada da Combustão em Caldeira de Leito Fluidizado Borbulhante                                           |
 |     28      |   João Pedro Magalhães    |                                   Aquisição e Monitoramento de Dados para Usinas Fotovoltaicas Baseado em Tecnologias IoT de Baixo Custo                                    |
-|     39      |  Tiago Garcia Guimarães   |                                                   Uso de Realidade Virtual para Treinamentos na Área da Construção Civil                                                    |
+|     38      |  Tiago Garcia Guimarães   |                                                   Uso de Realidade Virtual para Treinamentos na Área da Construção Civil                                                    |
 |      4      | Antonio Marcos Fernandes  |                               Sistemas de Armazenamento de Hidrogênio: Mapeamento de seu Potencial como Mecanismo de Suporte à Rede Elétrica                                |
 |     16      |    Gabriel Costa Leite    |                                  Controle de Sistemas Não Lineares Baseado em Técnica de Decomposição de Modo Dinâmico Polinomial de Dados                                  |
 |     31      |  Luan de Freitas Holanda  |                                                     Redes Inteligentes em apoio à eficiência da distribuição de energia                                                     |
@@ -48,7 +48,7 @@ Local: No local do evento.
 | :------: | :------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |
 |    29    |    Joao Victor Teixeira    |                          Conversor CC-CC Isolado com Braços em Paralelo e PWM Intercalado para Eletrolisadores                          |
 |    30    |   Kevin de Paula Amorim    |                      Modelo de Otimização para Maximização de Receita em Sistemas Hı́bridos Renováveis: Uma Revisão                      |
-|    38    | Vitória Caroline Carvalho  |                          Estudo Comparativo entre Sistemas de Controle com PLL Elementar e com QPLL Elementar                           |
+|    39    | Vitória Caroline Carvalho  |                          Estudo Comparativo entre Sistemas de Controle com PLL Elementar e com QPLL Elementar                           |
 |    1     |   Agatangelo José Silva    |                          Sampled-Data H2 output feedback control applied to ATMD stabilization of FOWT systems                          |
 |    2     | Amanda Carvalho Alexandre  |            Aplicação da IEC 61850-7-420 no gerenciamento inteligente dos Recursos Energéticos Distribuı́dos de uma Microrrede            |
 |    13    |  Eduardo Balbino Andrade   |                                Controle Preditivo EPSAC aplicado ao Controle de Trajetória de um Veı́culo                                |
@@ -59,7 +59,7 @@ Local: No local do evento.
 |    36    |    Rebecca Araujo Braga    |                                               ANÁLISE COMPARATIVA DE MÉTODOS DATA-DRIVEN                                                |
 |    37    | Robério Oliveira Rodrigues |    Redução do volume magnético de conversores CC-CC trifásicos associados a um retificador hybridge por meio de integração magnética    |
 |    21    |   Iago Belarmino Lucena    |             A Convolutional Network-based Applied Approach to Frontal Facial Recognition and Solutions for Occluded Images              |
-|    22    |  Jágson Carlos Lima Silva  |                         APES-Soft: Uma Abordagem Eficiente para Classificação de Objetos 3D em Nuvens de Pontos                         |
+|    22    |  Iágson Carlos Lima Silva  |                         APES-Soft: Uma Abordagem Eficiente para Classificação de Objetos 3D em Nuvens de Pontos                         |
 |    26    |  Jessica Feitosa Oliveira  |                        Análise de Estabilidade Utilizando Funções de Lyapunov Racionais em Sistemas de Potência                         |
 |    24    |   Isabela Maciel Taveira   |                           Análise Regulatória e Econômica do Curtailment de Geração Eólica e Solar no Brasil                            |
 |    17    |    Gabriel Vidal Gaspar    |                               Diagnóstico Estratégico da Inovação em Células Tandem de Perovskita/Silı́cio                               |
