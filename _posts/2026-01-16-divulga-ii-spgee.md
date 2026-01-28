@@ -11,13 +11,17 @@ tags:
 
 ## Lista de trabalhos aceitos no II SPGEE
 
+Os trabalhos apresentados no II SPGEE estão disponibilizados em repositório web
+na plataforma `Zenodo` via DOI (Digital Object Identifier):
+
+[https://doi.org/10.5281/zenodo.18332708](https://doi.org/10.5281/zenodo.18332708)
+
 ### Sessão 1: De 08:00 às 09:00
 
 | ID Trabalho |           Autor           |                                                                             Título do Trabalho                                                                              |
 | :---------: | :-----------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |      8      |   Caio Lucas Nascimento   |                                       Análise de estratégias de controle de recursos energéticos distribuı́dos utilizando co-simulação                                       |
 |      9      |  Cassio Maciel Amanajas   |                                             Proposta de Aplicativo para Mercado de Energia P2P: Estudo de Caso em Fortaleza-CE                                              |
-|     10      |   Cyro Marleudo Gondim    |                                Um experimento de arquitetura multimodal hı́brida para o auxı́lio ao diagnóstico médico em laudos radiológicos.                                |
 |      5      | Antonio Neilton da Silva  |                                             Sistema de Monitoramento Fotovoltaico Baseado em Tecnologia IoT e Comunicação LoRa                                              |
 |     11      | Davi Pinto Cabral Amorim  | In-Depth Comparative Analysis of Transformer Losses in High-Frequency Isolated DC-DC Converters Using The Steinmetz, Generalized Steinmetz and Deep Neural Network Modeling |
 |      7      |     Arthur Tome Lopes     |                                                   Controle RST aplicado a modelo térmico de caldeira de leito fluidizado                                                    |
@@ -32,7 +36,6 @@ tags:
 |     23      |  Ildenor David Sales Jr   |                                  Análise do Comportamento de Módulos Fotovoltaicos Submetidos a Ondulações de Corrente em Alta Frequência                                   |
 |     14      |  Felipe Teles Nascimento  |                                   Active structural control of floating offshore wind turbine based on PID controller and resonant filter                                   |
 |      6      | Arthur Guilherme da Frota |                                     Arquitetura Cognitiva Multiagente para Automação de Processos Empresariais com Aprendizado Profundo                                     |
-|     15      | Francisco Hedler Barreto  |                                  Análise Comparativa de Conversores CC-CC Bidirecionais com Indutores Acoplados para Aplicações Veiculares                                  |
 
 ### Palestra Técnica: De 09:00 as 10:00
 
@@ -61,10 +64,8 @@ Local: No local do evento.
 |    21    |   Iago Belarmino Lucena    |             A Convolutional Network-based Applied Approach to Frontal Facial Recognition and Solutions for Occluded Images              |
 |    22    |  Iágson Carlos Lima Silva  |                         APES-Soft: Uma Abordagem Eficiente para Classificação de Objetos 3D em Nuvens de Pontos                         |
 |    26    |  Jessica Feitosa Oliveira  |                        Análise de Estabilidade Utilizando Funções de Lyapunov Racionais em Sistemas de Potência                         |
-|    24    |   Isabela Maciel Taveira   |                           Análise Regulatória e Econômica do Curtailment de Geração Eólica e Solar no Brasil                            |
 |    17    |    Gabriel Vidal Gaspar    |                               Diagnóstico Estratégico da Inovação em Células Tandem de Perovskita/Silı́cio                               |
 |    25    |     Jairon Isaias Leal     |                   Análise por multicritério para seleção de locais apropriados para a produção de hidrogênio no Ceará                   |
-|    18    |  Gabryel Sobreira Guedes   |                             Classificação de Depressão Baseada em EEG Utilizando Tensores e Redes Residuais                             |
 |    19    |     Guilherme Lawrence     |                                 Sistema de Automação com ScadaBR: Uma Abordagem com Ferramentas Livres                                  |
 |    12    |   Diego Breno de Olanda    |  Inversores Bidirecionais em Sistemas Hı́bridos para Geração Distribuı́da: Um Estudo Sobre Controle, Proteção e Mitigação de Harmônicas   |
 
