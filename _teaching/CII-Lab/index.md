@@ -1,11 +1,11 @@
 ---
-title: "Laboratório de Circuitos Elétricos em Corrente Alternada"
+title: 'Laboratório de Circuitos Elétricos em Corrente Alternada'
 collection: teaching
-type: "Undergraduate course"
+type: 'Undergraduate course'
 permalink: /teaching/CII-Lab
-venue: "Federal University of Ceara, Department of Electrical Engineering"
+venue: 'Federal University of Ceara, Department of Electrical Engineering'
 date: 2026-03-12
-location: "Fortaleza, Brazil"
+location: 'Fortaleza, Brazil'
 ---
 
 ## Objetivos
@@ -17,7 +17,7 @@ complementares à disciplina de **circuitos elétricos em corrente alternada**.
 
 Conteúdos e listagem das práticas a serem realizadas na disciplina:
 
-- [PRÁTICA 1 – INSTRUMENTOS ELÉTRICOS E PARÂMETROS DE MEDIÇÃO](https://drive.google.com/file/d/13GP_bPX5Iey2hZUgwXTVIqjIiBeqn6q8/view?usp=sharing)
+- [PRÁTICA 1 – INSTRUMENTOS ELÉTRICOS E PARÂMETROS DE MEDIÇÃO](https://drive.google.com/file/d/1BqsiOph2c2trZsupARea7Fu5G1b2eWdw/view?usp=sharing)
 - [PRÁTICA 2 – SINUSÓIDES: VALORES MÉDIO E EFICAZ]() Material Complementar:
   [pdf](https://drive.google.com/file/d/1qB7rxzvwnACqE5rjZKdOQh4ZFej_vjfk/view?usp=sharing)
   [geogebra](https://drive.google.com/file/d/1JkR5Hf5nfLu3aETYMq9znHDLERsJIJFZ/view?usp=sharing)
