@@ -1,11 +1,11 @@
 ---
-title: "Distribuição de Energia Elétrica"
+title: 'Distribuição de Energia Elétrica'
 collection: teaching
-type: "Undergraduate course"
+type: 'Undergraduate course'
 permalink: /teaching/DEE
-venue: "Federal University of Ceara, Department of Electrical Engineering"
+venue: 'Federal University of Ceara, Department of Electrical Engineering'
 date: 2026-03-02
-location: "Fortaleza, Brazil"
+location: 'Fortaleza, Brazil'
 ---
 
 # Distribuição de Energia Elétrica
@@ -97,7 +97,7 @@ Em que:
 Previsão para temas de trabalhos computacionais a serem desenvolvidos no
 decorrer da disciplina:
 
-- [**Trabalho 1**: Estimação de carga em alimentadores de distribuição]()
+- [**Trabalho 1**: Estimação de carga em alimentadores de distribuição](https://drive.google.com/file/d/1z9cE9di3KiwL6-DmpFnHcU__W-2AuBl7/view?usp=sharing)
 - [**Trabalho 2**: Análise de Sistemas Trifásicos Desequilibrados]()
 - [**Trabalho 3**: Modelagem de sistemas de distribuição com OpenDSS]()
 
