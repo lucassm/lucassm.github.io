@@ -9,7 +9,7 @@ tags:
   - openTES
 ---
 
-![pade-3-0-release](https://i.imgur.com/xjLIdw8.jpeg){width="80%"}
+<img src="https://i.imgur.com/xjLIdw8.jpeg" width="500" alt="pade-3-0-release">
 
 Depois de quase quatro anos sem novas versões do PADE, finalmente temos o
 lançamento da versão 3.0 do nosso framework. Para complementar esse marco
