@@ -9,7 +9,7 @@ tags:
   - openTES
 ---
 
-<p align="center">
+<p text-align="center">
 <img src="https://i.imgur.com/xjLIdw8.jpeg" width="500" alt="pade-3-0-release">
 </p>
 
