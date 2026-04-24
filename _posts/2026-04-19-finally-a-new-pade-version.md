@@ -13,6 +13,8 @@ tags:
 <img src="https://i.imgur.com/xjLIdw8.jpeg" alt="pade-3-0-release">
 </p>
 
+## Um pouco de história
+
 Depois de quase quatro anos sem novas versões do PADE, finalmente temos o
 lançamento da versão 3.0 do nosso framework. Para complementar esse marco
 importante para o PADE achei importante falar um pouco sobre a história desse
@@ -73,10 +75,10 @@ que o lançamento dos agentes passou a acontecer por meio do comando `pade` ao
 invés de simplesmente chamar o arquivo .py pelo comando `python`. Isso deu muito
 mais flexibilidade e possibilidades de execução aos agentes PADE.
 
-A integração com Mosaik também foi algo muito útil e inovador no ecossistema de
-SMA. O artigo original do PADE foi então publicado no ano de 2020 e minha tese
-de doutorado, com utilização massiva da integração do PADE com o ambiente de
-co-simulação coordenado pelo Mosaik, defendida em 2022.
+A integração com `Mosaik` também foi algo muito útil e inovador no ecossistema
+de SMA. O artigo original do PADE foi então publicado no ano de 2020 e minha
+tese de doutorado, com utilização massiva da integração do PADE com o ambiente
+de co-simulação coordenado pelo `Mosaik`, defendida em 2022.
 
 Desse ano em diante o desenvolvimento do framework de fato ficou reduzido a
 quase zero e algumas tentativas de retomada no desenvolvimento foram realizadas
@@ -84,14 +86,17 @@ sem sucesso, até que no ano de 2025 o Grupo de Redes Elétricas Inteligentes -
 GREI iniciou o projeto OpenTES e a necessidade de atualização do PADE foi
 encarada como uma das prioridades do projeto.
 
-Um dos bolsistas de IC foi designado para realizar essa tarefa de atualização e
-uma estratégia eficiente para atacar o que se fazia necessário foi desenvolvida
-por nós. O nome do bolsista que realizou essa atualização importante do PADE é
-Francisco Douglas e aqui estamos lançando o PADE 3.0
+Um dos bolsistas de iniciação científica foi designado para realizar essa tarefa
+de atualização e uma estratégia eficiente para atacar o que se fazia necessário
+foi desenvolvida por nós. O nome do bolsista que realizou essa atualização
+importante do PADE e a quem sou bastante grato é Douglas Barros. Bom trabalho,
+Douglas!
 
-Outro fato i que é importante ser mencionado nesse resumo da história do PADE é
-que diversos pesquisadores e desenvolvedores do mundo todo tomaram conhecimento
-do PADE e começaram a utilizá-lo eventualmente dando feedbaEck sobre algumas
+E aqui estamos lançando o PADE 3.0.
+
+Outro fato importante a ser mencionado nesse resumo da história do PADE é que
+diversos pesquisadores e desenvolvedores do mundo todo tomaram conhecimento do
+PADE e começaram a utilizá-lo eventualmente dando feedback sobre algumas
 funcionalidades, bugs e sugestões de melhoria.
 
 ## O que há de novo nessa atualização do PADE
@@ -124,6 +129,56 @@ simplificada.
 
 O processo de instalação do PADE via `uv` também simplifica bastante o processo
 de ter os agentes prontos para serem executados.
+
+Na verdade, é super simples para instalar e testar o PADE.
+
+Usando o pip basta criar o ambiente virtual:
+
+```sh
+python -m venv .venv
+source .venv/bin/activate
+```
+
+Uma vez ativado o ambiente virtual, basta instalar via pip:
+
+```sh
+pip install pade-agents
+```
+
+Pronto! Para testar execute:
+
+```sh
+pade version
+```
+
+Usando `uv` a instalação é ainda mais fácil. Primeiro crie uma pasta para seu
+projeto e entre nela:
+
+```sh
+mkdir myproject
+cd myproject
+```
+
+Então inicialize o projeto com o comando:
+
+```sh
+uv init
+```
+
+Feito! Agora é só instalar o PADE:
+
+```sh
+uv add pade-agents
+```
+
+Para testar a instalação:
+
+```sh
+uv run pade version
+```
+
+O código fonte do PADE pode ser encontrado no
+[repositório público do GitHub](https://github.com/grei-ufc/pade).
 
 ## Quais os planos para o futuro?
 
