@@ -97,9 +97,16 @@ Em que:
 Previsão para temas de trabalhos computacionais a serem desenvolvidos no
 decorrer da disciplina:
 
-- [**Trabalho 1**: Estimação de carga em alimentadores de distribuição](https://drive.google.com/file/d/1z9cE9di3KiwL6-DmpFnHcU__W-2AuBl7/view?usp=sharing)
-- [**Trabalho 2**: Análise de Sistemas Trifásicos Desequilibrados]()
-- [**Trabalho 3**: Modelagem de sistemas de distribuição com OpenDSS]()
+#### Trabalho 1: Estimação de carga em alimentadores de distribuição
+
+- [Texto do trabalho 1](https://drive.google.com/file/d/1z9cE9di3KiwL6-DmpFnHcU__W-2AuBl7/view?usp=sharing)
+- [Material complementar do trabalho 1](https://drive.google.com/file/d/1PlVrMhfVDrDChv914uWeOGJBGZWJ72IS/view?usp=drivesdk)
+- Data para entrega: 11/05/2026
+- Link para entrega: [Google Forms de entrega - TC1]()
+
+#### Trabalho 2: Análise de Sistemas Trifásicos Desequilibrados
+
+#### Trabalho 3: Modelagem de sistemas de distribuição com OpenDSS
 
 ### Lista de Exercícios
 
