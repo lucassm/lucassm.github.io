@@ -111,9 +111,9 @@ decorrer da disciplina:
 ### Lista de Exercícios
 
 - **Lista de Exercícios 1**:
-- **Lista de Exercícios 2: Admitância Shunt, Modelos de LD**: Questões 5.1, 5.6,
-  6.1, 6.2, 6.3, 6.4,6.5, 6.9.
-- **Lista de Exercícios 3: Regulação de Tensão, Transformadores e Fluxo de
+  [Questões Teóricas](https://drive.google.com/file/d/1riFtY5FiShzwByE7RD9VSq_7HUCKI4Ux/view?usp=drivesdk)
+  [Questões Práticas](https://drive.google.com/file/d/13HgIasM1Dpdc1y7ipx4rkdC5lRGwWC2A/view?usp=drivesdk)
+- **Lista de Exercícios 2: Regulação de Tensão, Transformadores e Fluxo de
   Carga**:
 
 ## Cronograma
