@@ -102,7 +102,7 @@ decorrer da disciplina:
 - [Texto do trabalho 1](https://drive.google.com/file/d/1z9cE9di3KiwL6-DmpFnHcU__W-2AuBl7/view?usp=sharing)
 - [Material complementar do trabalho 1](https://drive.google.com/file/d/1PlVrMhfVDrDChv914uWeOGJBGZWJ72IS/view?usp=drivesdk)
 - Data para entrega: 11/05/2026
-- Link para entrega: [Google Forms de entrega - TC1]()
+- Link para entrega: [Formulario de entrega - TC1](https://tally.so/r/yPj706)
 
 #### Trabalho 2: Análise de Sistemas Trifásicos Desequilibrados
 

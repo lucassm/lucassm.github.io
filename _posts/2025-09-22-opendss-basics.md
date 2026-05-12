@@ -534,6 +534,13 @@ realizada utilizando os seguintes elementos:
 Abaixo estão listados alguns trechos de código necessários para transformar a
 análise de fluxo de carga estático em fluxo de carga temporal:
 
+O primeiro trecho de código especifica os elementos `LoadShape` que definem as
+curvas de carga temporais e também associa os loadshapes a cada carga
+especificamente. Nesse caso os `loadshapes` contém 24 valores que irão
+multiplicar o valor de carga associado à cada elemento `Load`. Os `Loadshapes`
+podem ter tamanhos distintos, permitindo a representação de um fluxo de carga
+temporal com diferentes resoluções.
+
 ```txt
 // Dados das Curvas de Carga
 New Loadshape.industrial npts=24 interval=1
@@ -549,6 +556,16 @@ New Load.CargaC phases=1 bus1=C.1.4 kv=7.9674 kw=500 pf=0.92 model=1 daily=resid
 New Load.CargaD phases=3 bus1=D conn=wye kv=13.8 kw=2000 pf=0.92 model=1 daily=industrial
 ```
 
+No trecho de código abaixo são declarados os monitores que irão registrar as
+grandezas elétricas especificadas durante toda a simulação temporal. São
+configurados quatro monitores localizados em dois locais diferentes, sendo dois
+monitores conectados no terminal primário do transformador, e outros dois
+monitores conectados no elemento `CargaD`. Cada monitor registra tipos
+diferentes de grandezas elétricas. Por exemplo, o monitor `PotenciaSub` registra
+as grandezas de potência ativa e potência reativa. Já o monitor `TensaoSub`
+registra os valores de tensão e corrente elétricas em cada uma das fases do
+ponto de conexão.
+
 ```txt
 // Medidor
 New EnergyMeter.MedidorSub element=Transformer.Trafo terminal=1
@@ -562,6 +579,10 @@ New Monitor.TensaoSub element=Transformer.Trafo terminal=1 mode=0
 New Monitor.PotenciaCargaD element=Load.CargaD terminal=1 mode=1 ppolar=no
 New Monitor.TensaoCargaD element=Load.CargaD terminal=1 mode=0
 ```
+
+Por fim a simulação temporal é configurada e executada. Para isso o modo de
+simulação `Daily` é selecionado, e por fim o comando `Solve` que irá iniciar o
+processo de execução do fluxo de carga temporal.
 
 ```txt
 // Time-Series Mode
@@ -578,6 +599,11 @@ Solve
 
 O trecho abaixo mostra os comandos necessários para a correta visualização das
 grandezas armazenadas pelos monitores ao longo da simulação temporal.
+
+Nesse caso os valores armazenados pelos quatro monitores armazenados estão sendo
+ou salvos em um arquivo por meio do comando `Export monitors` ou plotados na
+tela por meio do comando `Plot monitor object *** channels=(* * *)`. Para cada
+tipo de monitor considerado, haverá valores específicos armazenados nos canais.
 
 ```txt
 // ==========================

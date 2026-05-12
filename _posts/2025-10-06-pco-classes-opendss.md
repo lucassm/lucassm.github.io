@@ -255,4 +255,60 @@ link:
 
 ## Aula 11 - 26-11-25
 
-Tema a ser abordado: Conceitos básicos de otimização.
+Tema abordado: Conceitos básicos de otimização.
+
+Nesta aula foram abordados conceitos básicos sobre o problema de otimização
+clássica, programação linear.
+
+O material utilizado para elaboração dessa aula está disponível nesse link.
+
+## Aula 12 - 03-12-25
+
+Foi dado continuidade à apresentação dos conceitos introdutórios sobre
+otimização com foco na técnica de otimização clássica via _programação linear_.
+
+Foram recordados os conceitos sobre a _forma padrão do problema de programação
+linear_ de _varáveis de folga_. O mesmo exemplo apresentado na aula anterior foi
+montado na forma padrão. Em seguida foi apresentado, utilizando o google colab,
+a biblioteca para representação de problemas de otimização em Python, `Pyomo`.
+
+Com o `Pyomo` é possível representar todos os elementos de um problema de
+otimização de maneira simples e objetiva, sejam problemas de otimização linear,
+inteira, mista, ou não linear. Após a representação do problema exemplo
+utilizando o `Pyomo` também foi apresentado como instalar e passar o problema do
+`Pyomo` para um `solver de otimização`. No caso da apresentação no google colab,
+por questões de simplicidade, foi utilizado o conhecido solver de otimização
+linear, `GLPK`.
+
+Por fim a aula foi concluída com a apresentação das equações do problema de
+fluxo de carga não linear de uma rede elétrica e sua simplificação por meio da
+elaboração do problema de fluxo de carga linearizado. Para ilustrar a ideia do
+fluxo de carga linearizado e do fluxo de potência ótimo linearizado foi
+utilizada uma rede de três barras, com duas gerações e uma carga que deveria ser
+atendida da forma mais eficaz possível, ou seja com o menor custo de geração.
+
+Todo o desenvolvimento realizado está disponível no google colab disponível no
+link abaixo:
+
+- Material sobre fluxo de potência linearizado.
+- Material sobre Pyomo.
+- Google colab com implementações em Pyomo e com resolução de fluxo de carga
+  ótimo linearizado. Disponível
+  [neste link](https://colab.research.google.com/drive/1mqpbqLiEus7qgpWq04AbEcNNSWCP7dR2?usp=sharing)
+
+## Trabalho final da disciplina
+
+Para finalizar o período de exposições teóricas os seguintes temas de trabalhos
+foram passados para os participantes da disciplina:
+
+1. Revisão sobre proteção adaptativa.
+2. Representação da rede elétrica e do controle Volt-Var com OpenDER.
+3. Otimização da rede elétrica com presença de DER.
+4. Controle Volt-Var em microrredes.
+
+### Equipes por temática
+
+- Tema 1: Pablo, Wiglla e Simão.
+- Tema 2: Caio, Levi e Luis.
+- Tema 3: Romulo, Arthur, Davi.
+- Tema 4: Amanda e Edenilson.
