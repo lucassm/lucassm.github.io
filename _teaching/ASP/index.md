@@ -100,7 +100,7 @@ carga (TC3).
 Serão realizados mais dois trabalhos computacionais complementares ao longo da
 disciplina:
 
-- [TC1: Cálculo de Linhas de Transmissão](https://drive.google.com/file/d/1OMJeR70MQOO3w8qY07AwxgsDw5ZgS7P-/view?usp=drivesdk)
+- [TC1: Cálculo de Linhas de Transmissão](https://drive.google.com/file/d/1OMJeR70MQOO3w8qY07AwxgsDw5ZgS7P-/view?usp=drivesdk) - [Link](https://tally.so/r/ODbV4A) para envio.
 - [TC2: cálculo de curto-circuito]()
 
 A nota final será composta da seguinte forma:
