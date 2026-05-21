@@ -26,7 +26,7 @@ Conteúdos e listagem das práticas a serem realizadas na disciplina:
 - [PRÁTICA 4 – IMPEDÂNCIA](https://drive.google.com/file/d/1I6STxAvvz52ZAnuJ0WCFAUw-dE7pUOkv/view?usp=sharing)
 - [PRÁTICA 5 – POTÊNCIA MONOFÁSICA NO DOMÍNIO DA FREQUÊNCIA](https://drive.google.com/file/d/1VZyUzgcyAAMpCOZcz9kOcX7zfqwmW9yn/view?usp=sharing)
 - [PRÁTICA 6 – COMPENSAÇÃO DE POTÊNCIA REATIVA](https://drive.google.com/file/d/1MibWQCjTr73OZ2Y4TsORUdlZXsjp3efc/view?usp=sharing)
-- [PRÁTICA 7 – RESSONÂNCIA ELÉTRICA](https://drive.google.com/file/d/1Vh3KpDfqPV-FHE0C9DPhxREAtXwBdkfW/view?usp=drivesdk)
+- [PRÁTICA 7 – RESSONÂNCIA ELÉTRICA](https://drive.google.com/file/d/1sVOP8Be7bSpk7nAlfVES8l7-HEwG-Cil/view?usp=drivesdk)
 - [PRÁTICA 8 – CIRCUITOS TRIFÁSICOS EQUILIBRADOS](https://drive.google.com/file/d/1pHXyRQRmPUMB-T7B80DYL4SaNx4E7EPC/view?usp=drivesdk)
 - [PRÁTICA 9 – MEDIÇÃO DE POTÊNCIA ATIVA PELO MÉTODO DE N-1 WATTÍMETROS]()
 - [PRÁTICA 10 – CIRCUITOS TRIFÁSICOS NÃO EQUILIBRADOS]()
