@@ -115,6 +115,8 @@ decorrer da disciplina:
   [Questões Práticas](https://drive.google.com/file/d/13HgIasM1Dpdc1y7ipx4rkdC5lRGwWC2A/view?usp=drivesdk)
 - **Lista de Exercícios 2: Regulação de Tensão, Transformadores e Fluxo de
   Carga**:
+  - [Questões sobre regulação de tensão](https://drive.google.com/file/d/1Xb3QMTTQvrcjnMG4GvxAFvmUfNKfnwDN/view?usp=drivesdk)
+  - [Questões sobre transformadores trifásicos](https://drive.google.com/file/d/1JgevFVPVjsLMYgFyh5RuLwEnwedyPjLm/view?usp=drivesdk)
 
 ## Cronograma
 
