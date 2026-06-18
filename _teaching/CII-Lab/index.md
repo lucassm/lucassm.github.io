@@ -44,7 +44,8 @@ Planilha com as notas dos relatórios de cada uma das práticas:
 ## Notas das Avaliações Parciais
 
 - Avaliação Parcial 1
-- Avaliação Parcial 2
+- Avaliação Parcial 2:
+  [Link para arquivo com descrição da AP2](https://drive.google.com/file/d/1kQaRE0G61G-ClbfRp6W4qzfKvWAu1td-/view?usp=drivesdk)
 
 ## Avaliações e estrutura da nota
 
