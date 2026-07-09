@@ -100,7 +100,8 @@ carga (TC3).
 Serão realizados mais dois trabalhos computacionais complementares ao longo da
 disciplina:
 
-- [TC1: Cálculo de Linhas de Transmissão](https://drive.google.com/file/d/1OMJeR70MQOO3w8qY07AwxgsDw5ZgS7P-/view?usp=drivesdk) - [Link](https://tally.so/r/ODbV4A) para envio.
+- [TC1: Cálculo de Linhas de Transmissão](https://drive.google.com/file/d/1OMJeR70MQOO3w8qY07AwxgsDw5ZgS7P-/view?usp=drivesdk) -
+  [Link](https://tally.so/r/ODbV4A) para envio.
 - [TC2: cálculo de curto-circuito]()
 
 A nota final será composta da seguinte forma:
@@ -202,3 +203,28 @@ ser disponibilizado via SIGAA.
 
 - [Power Systems Test Cases Archive](https://labs.ece.uw.edu/pstca/)
 - [Sistema de Geração Brasileiro](https://app.powerbi.com/view?r=eyJrIjoiNjc4OGYyYjQtYWM2ZC00YjllLWJlYmEtYzdkNTQ1MTc1NjM2IiwidCI6IjQwZDZmOWI4LWVjYTctNDZhMi05MmQ0LWVhNGU5YzAxNzBlMSIsImMiOjR9)
+
+## Notas
+
+| Matrícula | AP 1  | AP2  | TC 1 | TC 2  | Média | Resultado |
+| --------- | ----- | ---- | ---- | ----- | ----- | :-------: |
+| 511764    | 0,00  | 0,00 | 0,00 | 0,00  | 0,00  | REPROVADO |
+| 471831    | 0,00  | 0,00 | 0,00 | 0,00  | 0,00  | REPROVADO |
+| 470223    | 8,50  | 8,50 | 7,80 | 9,00  | 8,45  | APROVADO  |
+| 514735    | 3,75  | 1,50 | 8,90 | 7,00  | 5,29  |    AF     |
+| 509525    | 5,50  | 3,00 | 8,30 | 8,00  | 6,20  |    AF     |
+| 557189    | 1,50  | 6,30 | 8,70 | 8,00  | 6,13  |    AF     |
+| 557196    | 3,25  | 8,00 | 8,40 | 9,00  | 7,16  | APROVADO  |
+| 558269    | 1,50  | 0,00 | 8,50 | 8,00  | 4,50  |    AF     |
+| 552513    | 7,25  | 9,00 | 8,40 | 7,00  | 7,91  | APROVADO  |
+| 552222    | 6,25  | 7,50 | 8,80 | 10,00 | 8,14  | APROVADO  |
+| 554760    | 1,25  | 4,50 | 9,00 | 9,00  | 5,94  |    AF     |
+| 537707    | 2,75  | 1,00 | 7,00 | 7,00  | 4,44  |    AF     |
+| 496697    | 8,00  | 4,00 | 8,50 | 8,50  | 7,25  | APROVADO  |
+| 508634    | 0,00  | 3,50 | 0,00 | 0,00  | 0,88  | REPROVADO |
+| 547775    | 1,00  | 4,80 | 8,20 | 8,00  | 5,50  |    AF     |
+| 521341    | 1,00  | 0,00 | 8,70 | 0,00  | 2,43  | REPROVADO |
+| 555181    | 10,00 | 8,50 | 8,50 | 8,00  | 8,75  | APROVADO  |
+| 554961    | 6,25  | 6,50 | 9,20 | 8,50  | 7,61  | APROVADO  |
+| 557020    | 7,75  | 5,50 | 9,20 | 8,00  | 7,61  | APROVADO  |
+| 521342    | 1,25  | 0,00 | 8,30 | 0,00  | 2,39  | REPROVADO |
