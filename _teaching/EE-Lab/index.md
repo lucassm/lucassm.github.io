@@ -4,7 +4,7 @@ collection: teaching
 type: 'Undergraduate course'
 permalink: /teaching/EE-Lab
 venue: 'Federal University of Ceara, Department of Electrical Engineering'
-date: 2025-09-08
+date: 2026-08-17
 location: 'Fortaleza, Brazil'
 ---
 
@@ -12,7 +12,7 @@ location: 'Fortaleza, Brazil'
 
 Horário de realização das interações síncronas da disciplina:
 
-- Turma 01: Terça-feira de 14:00 as 16:00.
+- Terça-feira de 14:00 as 16:00.
 
 Local: Laboratório de Eletrotécnica - Bloco 706 - Departamento de Engenharia
 Elétrica - CT - Campus do Pici.
@@ -58,6 +58,7 @@ residenciais:
 - [**Prática 7**: Montagens básicas de instalações elétricas residenciais](https://drive.google.com/file/d/18OnZJ2Cf5nxZJXYzyDbTfEOTJi0SNwQ-/view?usp=sharing);
 - [**Prática 8a**: Projeto de instalações elétricas residenciais](https://drive.google.com/file/d/1eRNwSVDawOUI-lZFQIrsFG6NQuzSknu9/view?usp=sharing)
 - [**Prática 8b**: Projeto de instalações elétricas residenciais](https://drive.google.com/file/d/12QTLh222fw18NSbI6xIPO9oQbHX3fMS5/view?usp=sharing)
+- [Prática 9: Partida Direta de Motores de Indução Trifásicos]()
 
 ## Modelo de Relatório
 
@@ -130,26 +131,23 @@ fácil acesso e utilização, chegamos a opção mais indicada:
 
 ## Calendário de Planejamento
 
-| Data                | Descrição                                                             |
-| ------------------- | --------------------------------------------------------------------- |
-| 16/09/25            | Apresentação: Laboratório/Equipamentos/Componentes                    |
-| 23/09/25            | 1ª prática – Introdução ao Laboratório                                |
-| 30/09/25            | 2ª prática – Lei de Ohm e Lei de Kirchhoff                            |
-| 07/10/25            | 3ª prática – Circuitos com cargas R, L e C                            |
-| 14/10/25            | 4ª prática – Correção de fator de potência                            |
-| 21/10/25            | 5ª prática – Circuitos Polifásicos                                    |
-| 28/10/25            | 1ª prova prática                                                      |
-| 04/11/25            | Encontros Universitários                                              |
-| 11/11/25            | 6a prática – Luminotécnica e automação residencial                    |
-| 18/11/25            | 7ª prática – Instalações Elétricas Residenciais                       |
-| 25/11/25            | 8ª prática – Projeto de Instalações Elétricas Residenciais – Parte I  |
-| 02/12/25            | 8ª prática – Projeto de Instalações Elétricas Residenciais – Parte II |
-| 09/12/25            | 2ª prova prática                                                      |
-| 16/12/25            | 2a Chamada da AP 2                                                    |
-| 22/12/25 a 04/01/26 | Recesso Natalino                                                      |
-| 06/01/26            | Opcional: Partida Direta de motores de indução trifásicos             |
-| 13/01/26            | Divulgação dos resultados finais                                      |
-| 22/01/26            | Encerramento do semestre letivo                                       |
-| 23/01/26 a 29/01/26 | Período das Avaliações Finais                                         |
-| 30/01/26            | Consolidação da síntese de notas e frequências                        |
-
+| #   | Data     | Descrição                                                               |
+| --- | -------- | ----------------------------------------------------------------------- |
+| 1   | 18/08/26 | Aula de apresentação da disciplina – Prática 0                          |
+| 2   | 25/08/26 | Prática 1: Utilização do Laboratório                                    |
+| 3   | 01/09/26 | Prática 2: Lei de Ohm e Leis de Kirchoff                                |
+| 4   | 08/09/26 | Prática 3: Circuitos RLC                                                |
+| 5   | 15/09/26 | Prática 4: Correção de Fator de Potência                                |
+| 6   | 22/09/26 | Prática 5: Circuitos Trifásicos                                         |
+| 7   | 29/09/26 | Avaliação Parcial 1                                                     |
+| 8   | 06/10/26 | Reposição de Práticas                                                   |
+| 9   | 13/10/26 | Prática 06: Acionamentos de dispositivos de comando e iluminação        |
+| 10  | 20/10/26 | Prática 07: Montagens básicas de instalações elétricas                  |
+| 11  | 27/10/26 | Prática 08: Projetos de instalações elétricas prediais                  |
+| 12  | 03/11/26 | Encontros Universitários                                                |
+| 13  | 10/11/26 | Prática 08: Projetos de instalações elétricas prediais                  |
+| 14  | 17/11/26 | Prática 09: Partida direta de motores de indução trifásicos             |
+| 15  | 24/11/26 | Avaliação Parcial II                                                    |
+| 16  | 01/12/26 | Reposição de Práticas                                                   |
+| 17  | 08/12/26 | Avaliação Final                                                         |
+| 18  | 19/12/26 | Consolidação das sínteses de notas e frequências 2026.2 das disciplinas |
