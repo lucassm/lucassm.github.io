@@ -1,14 +1,12 @@
 ---
-title: "Supervisão, Controle e Automação de Sistemas Elétricos de Potência"
+title: 'Supervisão, Controle e Automação de Sistemas Elétricos de Potência'
 collection: teaching
-type: "Undergraduate course"
+type: 'Undergraduate course'
 permalink: /teaching/SCSEP
-venue: "Federal University of Ceara, Department of Electrical Engineering"
+venue: 'Federal University of Ceara, Department of Electrical Engineering'
 date: 2026-08-11
-location: "Fortaleza, Brazil"
+location: 'Fortaleza, Brazil'
 ---
-
-<!--toc:start-->
 
 - [Dias e Horários da Disciplina](#dias-e-horários-da-disciplina)
 - [Conteúdo Abordado](#conteúdo-abordado)
@@ -30,8 +28,6 @@ location: "Fortaleza, Brazil"
 - [Softwares](#softwares)
 - [Bibliografia Básica](#bibliografia-básica)
 - [Calendário de Planejamento da disciplina](#calendário-de-planejamento-da-disciplina)
-
-<!--toc:end-->
 
 Nome oficial da disciplina: TH0267 - SUPERVISÃO, CONTROLE E AUTOMAÇÃO DE
 SISTEMAS ELÉTRICOS DE POTENCIA.

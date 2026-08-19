@@ -8,6 +8,19 @@ date: 2026-08-17
 location: 'Fortaleza, Brazil'
 ---
 
+- [Horário](#horário)
+- [Telegram](#telegram)
+- [Formato](#formato)
+- [Objetivos](#objetivos)
+- [Conteúdo](#conteúdo)
+  - [Parte 1](#parte-1)
+  - [Parte 2](#parte-2)
+- [Modelo de Relatório](#modelo-de-relatório)
+- [Avaliações e estrutura da nota](#avaliações-e-estrutura-da-nota)
+- [Política de Plágio](#política-de-plágio)
+- [Bibliografia Básica](#bibliografia-básica)
+- [Calendário de Planejamento](#calendário-de-planejamento)
+
 ## Horário
 
 Horário de realização das interações síncronas da disciplina:
@@ -42,20 +55,20 @@ unifamiliar.
 
 Práticas relacionadas aos aspectos teóricos de eletrotécnica:
 
-- [**Prática 0**: Apresentação da disciplina](https://drive.google.com/file/d/1cbl8MZ9Qfwe-m21thFJ-F5H18ybm9Zdu/view?usp=sharing);
-- [**Prática 1**: Introdução à utilização do laboratório](https://drive.google.com/file/d/1iZRYOX5y_oWztmdXUEtmuhasR9uDsWQ2/view?usp=sharing);
-- [**Prática 2**: Leis de Ohm e Leis de Kirchoff](https://drive.google.com/file/d/13HtA0fAzXYsF2k4yE0dk8o6Dkys74lgO/view?usp=sharing);
-- [**Prática 3**: Circuitos com cargas RLC](https://drive.google.com/file/d/1HwrXYArcfYgwppU51k-Z4sckl9KYX3tE/view?usp=sharing);
-- [**Prática 4**: Correção de fator de potência](https://drive.google.com/file/d/1HiHLt7Le9kkQwxULmA6N-OfezYcq4qBz/view?usp=sharing);
-- [**Prática 5**: Circuitos trifásicos](https://drive.google.com/file/d/1Dn-2mGvoAPNVaECHNxP0KvMhgYjOASJS/view?usp=sharing);
+- [**Prática 0**: Apresentação da disciplina](https://drive.google.com/file/d/1cbl8MZ9Qfwe-m21thFJ-F5H18ybm9Zdu/view?usp=sharing)
+- [**Prática 1**: Introdução à utilização do laboratório](https://drive.google.com/file/d/1iZRYOX5y_oWztmdXUEtmuhasR9uDsWQ2/view?usp=sharing)
+- [**Prática 2**: Leis de Ohm e Leis de Kirchoff](https://drive.google.com/file/d/13HtA0fAzXYsF2k4yE0dk8o6Dkys74lgO/view?usp=sharing)
+- [**Prática 3**: Circuitos com cargas RLC](https://drive.google.com/file/d/1HwrXYArcfYgwppU51k-Z4sckl9KYX3tE/view?usp=sharing)
+- [**Prática 4**: Correção de fator de potência](https://drive.google.com/file/d/1HiHLt7Le9kkQwxULmA6N-OfezYcq4qBz/view?usp=sharing)
+- [**Prática 5**: Circuitos trifásicos](https://drive.google.com/file/d/1Dn-2mGvoAPNVaECHNxP0KvMhgYjOASJS/view?usp=sharing)
 
 ### Parte 2
 
 Práticas relacionadas aos aspectos práticos de projetos de instalações elétricas
 residenciais:
 
-- [**Prática 6**: Luminotécnica e acionamento de dispositivos de comando de iluminação](https://drive.google.com/file/d/1kXpO-Grxd9tc-R9fTOgpvllq_AQCSjj-/view?usp=sharing);
-- [**Prática 7**: Montagens básicas de instalações elétricas residenciais](https://drive.google.com/file/d/18OnZJ2Cf5nxZJXYzyDbTfEOTJi0SNwQ-/view?usp=sharing);
+- [**Prática 6**: Luminotécnica e acionamento de dispositivos de comando de iluminação](https://drive.google.com/file/d/1kXpO-Grxd9tc-R9fTOgpvllq_AQCSjj-/view?usp=sharing)
+- [**Prática 7**: Montagens básicas de instalações elétricas residenciais](https://drive.google.com/file/d/18OnZJ2Cf5nxZJXYzyDbTfEOTJi0SNwQ-/view?usp=sharing)
 - [**Prática 8a**: Projeto de instalações elétricas residenciais](https://drive.google.com/file/d/1eRNwSVDawOUI-lZFQIrsFG6NQuzSknu9/view?usp=sharing)
 - [**Prática 8b**: Projeto de instalações elétricas residenciais](https://drive.google.com/file/d/12QTLh222fw18NSbI6xIPO9oQbHX3fMS5/view?usp=sharing)
 - [Prática 9: Partida Direta de Motores de Indução Trifásicos]()
@@ -117,17 +130,6 @@ pontos da atividade em questão.
 ## Bibliografia Básica
 
 Roteiro das práticas já disponibilizado nos links descritos acima.
-
-## Softwares de apoio
-
-Poderão ser utilizados softwares de simulação caso o aluno queira reproduzir os
-resultados obtidos na bancada do laboratório e realizar comparações.
-
-Partindo da premissa que deveríamos usar de plataformas móveis e gratuitas, de
-fácil acesso e utilização, chegamos a opção mais indicada:
-
-- **Multisim Live**: Uma plataforma online para ser utilizada diretamente no
-  navegador da internet (PC, smartphone e tablets).
 
 ## Calendário de Planejamento
 

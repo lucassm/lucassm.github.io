@@ -8,123 +8,148 @@ date: 2025-09-15
 location: 'Fortaleza, Brazil'
 ---
 
+- [Objetivos do Curso](#objetivos-do-curso)
+- [Conteúdo do Curso (Módulos Prof. Lucas Silveira)](#conteúdo-do-curso-módulos-prof-lucas-silveira)
+  - [Módulo 1: Métodos de otimização aplicados à SDEE - 10 h (5 aulas)](#módulo-1-métodos-de-otimização-aplicados-à-sdee-10-h-5-aulas)
+  - [Módulo 2: Fluxo de potência ótimo e aplicações na rede de transmissão - 10 h (5 aulas)](#módulo-2-fluxo-de-potência-ótimo-e-aplicações-na-rede-de-transmissão-10-h-5-aulas)
+  - [Módulo 3: Fluxo de Potência Ótimo e aplicações na rede de distribuição - 10 h (5 aulas)](#módulo-3-fluxo-de-potência-ótimo-e-aplicações-na-rede-de-distribuição-10-h-5-aulas)
+- [Bibliografia](#bibliografia)
+- [Alunos Participantes da Disciplina](#alunos-participantes-da-disciplina)
+- [Trabalhos Computacionais](#trabalhos-computacionais)
+- [Seminários](#seminários)
+- [Links Importantes](#links-importantes)
+- [Calendário de Planejamento da disciplina](#calendário-de-planejamento-da-disciplina)
+
 ## Objetivos do Curso
 
-- Compreender os conceitos fundamentais das redes elétricas inteligentes (Smart
-  Grids) e a necessidade de modernização da infraestrutura de rede elétrica.
-- Analisar os desafios e soluções relacionados à integração de recursos
-  energéticos distribuídos (REDs).
-- Estudar os princípios de proteção, automação e controle aplicados às redes
-  elétricas inteligentes.
-- Explorar métodos e **algoritmos de otimização** inteligentes aplicados nas
-  fases de planajamento, operação e gestão da rede elétrica.
+Explorar métodos e **algoritmos de otimização** aplicados nas fases de
+planejamento, operação e gestão da rede elétrica com foco na utilização de
+ferramentas computacionais e matemáticas modernas e no contexto de redes
+elétricas inteligentes, ou seja, explorando esquemas inovadores de interação
+entre os diferentes agentes que cooperam ou competem para a realização de
+processos próprios dos sistemas elétricos. Além disso, o curso visa capacitar os
+alunos a:
+
+- Compreender os fundamentos de otimização e suas aplicações em problemas
+  relacionados à engenharia elétrica.
+- Compreender os fundamentos de modelagem matemática e computacional de sistemas
+  elétricos de transmissão.
+- Compreender os fundamentos de modelagem matemática e computacional de sistemas
+  elétricos de distribuição.
+
+Aplicar na resolução dos problemas propostos técnicas de machine learning,
+levando em consideração a estocasticidade desses sistemas, seja na aquisição de
+dados ou na intermitência das fontes geradoras da informação.
+
+Realizar análises analíticas que gerem conhecimento inovador nos mais variados
+tipos de problemas relacionados à engenharia elétrica e seus processos de
+otimização, controle e proteção, com foco em sistemas elétricos de potência.
 
 ## Conteúdo do Curso (Módulos Prof. Lucas Silveira)
 
-### Módulo 1: Modelagem de Sistemas de Distribuição de Energia Elétrica (SDEE) - 10 h
+### Módulo 1: Métodos de otimização aplicados à SDEE - 10 h (5 aulas)
 
-- Visão geral dos **SDEE**.
-- Apresentação do **sistema IEEE 13 barras** e outros sistemas teste do IEEE.
-- Apresentação da ferramentas **OpenDSS** e sua integração com a **linguagem de
-  programação Python**.
-- Fluxo de carga com OpenDSS.
-- Modelagem dos **principais componentes** dos SDEE com OpenDSS.
-  - Fonte Principal.
-  - Linhas de Distribuição.
-  - Transformadores e Reguladores de Tensão.
-  - Cargas.
-  - Sistemas Fotovoltáicos e Bancos de Baterias.
-
-### Módulo 2: Métodos de otimização aplicados à SDEE - 8 h
-
-- Conceitos de otimização aplicados à SDEE.
 - Algoritmos de otimização clássica:
+  - Programação Linear.
   - Programação Linear Inteira Mista.
-  - Programação Não Linear Convexa.
+  - Programação Não Linear e Convexa.
   - Programação estocástica.
 - Heurísticas e meta-heurísticas:
   - Algoritmos Genéticos e Evolutivos.
   - Otimização por Enxame de Partículas.
   - Redes Neurais Artificiais.
 
-### Módulo 3: Fluxo de potência ótimo e aplicação de métodos de inteligência computacional em SDEE - 10 h
+### Módulo 2: Fluxo de potência ótimo e aplicações na rede de transmissão - 10 h (5 aulas)
 
-- Fluxo de Potência Ótimo em SDEE.
-- Despacho econômico de sistemas elétricos.
-- Alocação eficiente de Recursos Energéticos Distribuídos (RED).
-- Gerenciamento de RED e Microrredes.
-- Recomposição e reconfiguração da rede elétrica.
-- Controle de tensão e de reativos (estratégias distribuídas e centralizadas).
-- Gerenciamento pelo lado da demanda e prestação de serviços ancilares.
-- Sistemas de Energia Transativos.
+- Fluxo de Potência.
+- Fluxo de Potência Ótimo.
+- Fluxo de Potência Ótimo Linearizado.
+- Aplicações:
+  - Economic Dispatch, Unit Commitment e Market Clearing.
+- Aplicando o `PowerModels.jl` para resolver problemas de otimização em sistemas
+  de transmissão.
+
+### Módulo 3: Fluxo de Potência Ótimo e aplicações na rede de distribuição - 10 h (5 aulas)
+
+- Aspectos gerais dos sistemas de distribuição.
+- Modelando sistemas de distribuição com OpenDSS.
+- Aplicando o `PowerModelsDistribution.jl` para resolver problemas de otimização
+  em sistemas de distribuição.
+- Aplicações:
+  - Alocação eficiente de Recursos Energéticos Distribuídos (RED).
+  - Gerenciamento de RED e Microrredes.
+  - Recomposição e reconfiguração da rede elétrica.
+  - Gerenciamento pelo lado da demanda e prestação de serviços ancilares.
+  - Sistemas de Energia Transativos.
+
+## Bibliografia
+
+No Módulo 1 será utilizado como referência:
+
+- Optimization in Engineering: Models and Algorithms. Ramteen Sioshansi and
+  Antonio J Conejo. Springer, 2017. Capítulos 2, 3, 4, 5.
+
+No Módulo 2 será utilizado como referência:
+
+- Power Systems Operations. Antonio J. Conejo and Luis Baringo. Springer, 2018.
+  Capítulos 4, 5, 6, 7.
+
+No Módulo 3 será utilizado como referência:
+
+- Distribution System Modeling and Analysis. William H. Kersting. CRC
+  Press, 2012. Capítulos 1, 2, 3, 4, 5.
+- Documentação do OpenDSS:
+  [https://opendss.epri.com/](https://opendss.epri.com/)
+- O artigo: "PowerModelsDistribution.jl: An Open-Source Framework for Exploring
+  Distribution Power Flow Formulations" de autoria de Lucas Silveira, et al.
+  publicado na revista IEEE Transactions on Power Systems, vol. 36, no. 5, pp.
+  4300-4311, Sept. 2021.
+- Documentação do PowerModelsDistribution.jl:
+  [lanl-ansi.github.io/PowerModelsDistribution.jl](https://lanl-ansi.github.io/PowerModelsDistribution.jl/stable/)
 
 ## Alunos Participantes da Disciplina
 
-| #   | Nome                                | Situação    |
-| --- | ----------------------------------- | ----------- |
-| 1   | AMANDA CARVALHO ALEXANDRE           | Matriculado |
-| 2   | ARTUR DE ALMEIDA EVANGELISTA        | Matriculado |
-| 3   | FRANCISCO DAVI DE CARVALHO REBOUÇAS | Matriculado |
-| 4   | LEVI DOS SANTOS NOGUEIRA            | Matriculado |
-| 5   | LUIS FELIPE CARNEIRO DE SOUZA       | Matriculado |
-| 6   | MOZART DANIEL OLIVEIRA NOGUEIRA     | Matriculado |
-| 7   | ROMULO CESAR CUNHA LIMA             | Matriculado |
+| #   | Nome | Situação |
+| --- | ---- | -------- |
 
 ## Trabalhos Computacionais
 
-- [Trabalho Computacional 1 - Análise de redes elétricas utilizando OpenDSS e Python](https://tinyurl.com/yc3vrpjr):
-  Data prevista para entrega: 21//11/25.
-- [Trabalho Computacional 2 - Técnicas de otimização aplicadas às redes elétricas de distribuição]():
-  Data prevista para entrega: 29/01/26.
+- Trabalho 1.
+- Trabalho 2.
 
 ## Seminários
 
-- Tema 1: Controle Volt-Var e Volt-Watt em sistemas de distribuição Abordagem
-  convencional.
-- Tema 2: Controle Volt-Var e Volt-Watt em sistemas de distribuição Abordagem
-  deep-learnig.
-- Tema 3: Aplicação de otimização convexa em Fluxo de Potência Ótimo.
-- Tema 4: Aplicação de deep-learnig em fluxo de potência ótimo.
+- Tema 1.
+- Tema 2.
 
 ## Links Importantes
 
+- [JuMP](https://jump.dev/JuMP.jl/stable/)
+- [PowerModels.jl](https://lanl-ansi.github.io/PowerModels.jl/stable/)
+- [PyOmo](https://pyomo.readthedocs.io/en/stable/)
 - [Documentação do OpenDSS](https://opendss.epri.com/)
-- [PyDSSInterface]()
-- [PyDSSDirect]()
-- [PyOmo]()
-- [JuMP]()
-- [PowerModels.jl]()
+- [PyDSSDirect](https://dssextension.readthedocs.io/en/latest/)
+- [PyDSSInterface](https://pydssdinterface.readthedocs.io/en/latest/)
 
 ## Calendário de Planejamento da disciplina
 
-| #   |        Data         | Descrição                                      |
-| --- | :-----------------: | ---------------------------------------------- |
-| 1   |      17/09/25       | Aula – Apresentação do Conteúdo – Módulo 1     |
-| 2   |      24/09/25       | Aula - Módulo 1 - Linhas e Fontes              |
-| 3   |      01/10/25       | Aula - Módulo 1 - Trafos e Reguladores         |
-| 4   |      08/10/25       | Aula - Módulo 1 - Cargas e REDs                |
-| 5   |      15/10/25       | Aula - Módulo 1 - Demonstração Prática         |
-| 6   |      22/10/25       | Aula – Módulo 2                                |
-| 7   |      29/10/25       | Aula – Módulo 2                                |
-|     |      05/11/25       | Encontros Universitários                       |
-| 8   |      12/11/25       | Aula – Módulo 2                                |
-| 9   |      19/11/25       | Aula Módulo 2                                  |
-|     |      21/11/25       | Entrega do Trabalho Computacional 1            |
-| 10  |      26/11/25       | Seminários                                     |
-| 11  |      03/12/25       | Aula – Módulo 3                                |
-| 12  |      10/12/25       | Aula – Módulo 3                                |
-| 13  |      17/12/25       | Aula – Módulo 3                                |
-|     | 22/12/25 a 04/01/26 | Recesso Natalino                               |
-| 14  |      07/01/26       | Aula – Módulo 3                                |
-| 15  |      14/01/26       | Aula – Módulo 3                                |
-| 16  |      21/01/26       | Seminários                                     |
-|     |      22/01/26       | Encerramento do semestre letivo                |
-|     | 23/01/26 a 29/01/26 | Período das Avaliações Finais                  |
-|     |      29/01/26       | Entrega do Trabalho Computacional 2            |
-|     |      30/01/26       | Consolidação da síntese de notas e frequências |
-
-Uma descrição detalhada de todas as aulas da disciplina pode ser encontrada
-[neste post](/posts/2025/10/pco-classes-2025). Além da descrição das aulas no
-post também se encontram links que levam para todos os materiais utilizados,
-assim como para os `Google Colab Notebooks` utilizados durantes as aulas
-práticas.
+| # id | Data       | Descrição do conteúdo                                         |
+| ---- | ---------- | ------------------------------------------------------------- |
+| 1    | 19/08/2026 | Módulo 1: Fundamentos de Programação Matemática               |
+| 2    | 26/08/2026 | Módulo 1: Programação Linear                                  |
+| 3    | 02/09/2026 | Módulo 1: Programação Linear                                  |
+| 4    | 09/09/2026 | Módulo 1: Programação Linear Inteira Mista                    |
+| 5    | 16/09/2026 | Módulo 1: Programação não Linear                              |
+| 6    | 23/09/2026 | Módulo 2: O problema de Fluxo de Carga                        |
+| 7    | 30/09/2026 | Módulo 2: O problema de Fluxo de Carga Ótimo                  |
+| 8    | 07/10/2026 | Módulo 2: Aplicações de FCO em Despacho Econômico             |
+| 9    | 14/10/2026 | Módulo 2: Aplicações de FCO em Unit Commitment                |
+| 10   | 21/10/2026 | Módulo 2: Aplicações de FCO em Mercado de Energia             |
+| 11   | 28/10/2026 | Módulo 2: Utilizando o PowerModels.jl                         |
+| 12   | 04/11/2026 | Módulo 3: Aspectos básicos de sistemas de distribuição        |
+| 13   | 11/11/2026 | Módulo 3: Modelando sistemas de distribuição com OpenDSS      |
+| 14   | 18/11/2026 | Módulo 3: Fluxo de Potência Ótimo em Sistemas de Distribuição |
+| 15   | 25/11/2026 | Módulo 3: Utilizando o PowerModelsDistribution.jl             |
+| 16   | 02/12/2026 | Módulo 3: Utilizando o PowerModelsDistribution.jl             |
+| 17   | 09/12/2026 | Módulo 3: Apresentação de resultados                          |
+| 18   | 16/12/2026 | Encerramento do semestre                                      |
