@@ -1,12 +1,14 @@
 ---
-title: 'Supervisão, Controle e Automação de Sistemas Elétricos de Potência'
+title: "Supervisão, Controle e Automação de Sistemas Elétricos de Potência"
 collection: teaching
-type: 'Undergraduate course'
+type: "Undergraduate course"
 permalink: /teaching/SCSEP
-venue: 'Federal University of Ceara, Department of Electrical Engineering'
+venue: "Federal University of Ceara, Department of Electrical Engineering"
 date: 2026-08-11
-location: 'Fortaleza, Brazil'
+location: "Fortaleza, Brazil"
 ---
+
+<!--toc:start-->
 
 - [Dias e Horários da Disciplina](#dias-e-horários-da-disciplina)
 - [Conteúdo Abordado](#conteúdo-abordado)
@@ -28,6 +30,8 @@ location: 'Fortaleza, Brazil'
 - [Softwares](#softwares)
 - [Bibliografia Básica](#bibliografia-básica)
 - [Calendário de Planejamento da disciplina](#calendário-de-planejamento-da-disciplina)
+
+<!--toc:end-->
 
 Nome oficial da disciplina: TH0267 - SUPERVISÃO, CONTROLE E AUTOMAÇÃO DE
 SISTEMAS ELÉTRICOS DE POTENCIA.
@@ -132,40 +136,36 @@ Conteúdo da **Avaliação Parcial 02**: Módulos 3 e 4.
 
 ## Seminários
 
-- **Seminário 1**: - Data de apresentação: (Equipe )
-- **Seminário 2**: - Data de apresentação: (Equipe )
-- **Seminário 3**: - Data de apresentação: (Equipe )
-- **Seminário 4**: - Data de apresentação: (Equipe )
-- **Seminário 5**: - Data de apresentação: (Equipe )
-- **Seminário 6**: - Data de apresentação: (Equipe )
+As datas de apresentação dos seminários estão previstas para ocorrer conforme a
+data estabelecida no cronograma.
 
 ### Equipes
 
-| Nome | Equipe |
-| ---- | ------ |
+A ser postado em breve.
 
 ### Temas dos Seminários
 
-- Seminário 1: Modernização de uma SE de 500 kV da Eletrobras.
-- Seminário 2: Evolução dos protocolos de barramento de processo nas normas IEC
-  61850 e IEC 61869.
-- Seminário 3: Análise de viabilidade financeira de uma subestação digital.
-- Seminário 4: Proposta e análise de sistema de de supervisão, proteção e
-  controle digital modular.
-- Seminário 5: Aplicação da tecnologia de gêmeos digitais em testes de
-  transformadores de subestações.
-- Seminário 6: Proposta e desenvolvimento de TC óptico aplicado a subestações de
-  potência.
+# Tema
+
+1. Metodologia para Modelagem de Subestações Digitais baseadas na Norma IEC
+   61850: Estudo de Caso da Subestação Digital Lorena
+2. Implementação de Sistema de Monitoramento de Mensagens Sampled Values em
+   Subestações Digitais com Base na Norma IEC 61850
+3. Impacto das métricas de comunicação na atuação da proteção diferencial de
+   linha baseada em IEC 61850
+4. Sistema de Monitoramento Integrado Baseado nos Novos Procedimentos de Rede do
+   Operador Nacional do Sistema (ONS) para Adequação a Subestações Digitais
+5. Desenvolvimento de Plataforma de Simulação de Sistema de Automação Baseado em
+   Tecnologias Livres
+6. Desenvolvimento de um Sistema Supervisório SCADA-LTS para Monitoramento e
+   Comando de IEDs em Usina Fotovoltaica com Acesso Remoto
 
 ## Trabalhos Complementares
 
 - Trabalho complementar 01: Desenvolvimento de lista de pontos de supervisão de
   SE e de ligações DE-PARA entre painéis de proteção e controle e painéis de
   equipamentos externos da SE.
-  [Link 1](https://drive.google.com/file/d/1vz_Wxa9NlESAhsAUbqxZUYwLNgKY0_kw/view?usp=sharing)
-  [Link 2](https://drive.google.com/file/d/12pLav9f67vsfg_ZHTxRA4xN8AvIrPLaO/view?usp=sharing)
-  [Link 3](https://drive.google.com/file/d/1Ic-YvYdoubhskbcE6NVwbOJnvsZTNEtM/view?usp=sharing)
-  [Link 4](https://drive.google.com/file/d/1qYUepx3gnznVkzuXSlr0ua7JtwKu0EWb/view?usp=sharing)
+  [Clique aqui para acessar o trabalho complementar 01](https://drive.google.com/drive/folders/1wLIEhjzLKXAUUFydwdEhR_Q0aeC_IVrp?usp=sharing).
 - Trabalho complementar 02: Desenvolvimento de um sistema SCADA e de um
   simulador de protocolo de comunicação Modbus e DNP3.
 
@@ -175,7 +175,7 @@ A nota da disciplina será composta pela média ponderada de avaliações escrit
 trabalho final, da seguinte forma:
 
 $$
-  NF = 0,7 \cdot NAP + 0,3 \cdot NT
+  NF = 0,7 \cdot NAP + 0,2 \cdot NT + 0,1 \cdot NS
 $$
 
 Em que:
@@ -183,6 +183,7 @@ Em que:
 - $NF$ é a nota final da disciplina.
 - $NAP$ é a média das notas das avaliações parciais.
 - $NT$ é a média das notas dos trabalhos de avaliação.
+- Nota da apresentação do seminário.
 
 ## Informações adicionais
 
@@ -230,8 +231,8 @@ texto** que serão disponibilizados no decorrer da disciplina.
 | 14    | 7        | 24/09/2026 | Módulo 3: Protocolo Modbus                                                         |
 | 15    | 8        | 29/09/2026 | Módulo 3: Protocolo Modbus                                                         |
 | 16    | 8        | 01/10/2026 | Avaliação Parcial 1                                                                |
-| 17    | 9        | 06/10/2026 | Módulo 3: Protocolo DNP3                                                           |
-| 18    | 9        | 08/10/2026 | Módulo 3: Protocolo DNP3                                                           |
+| 17    | 9        | 06/10/2026 | Módulo 3: Protocolo DNP3 – Aula Gravada                                            |
+| 18    | 9        | 08/10/2026 | Módulo 3: Protocolo DNP3 – Aula Gravada                                            |
 | 19    | 10       | 13/10/2026 | Módulo 3: Sistemas SCADA (SCADA LTS)                                               |
 | 20    | 10       | 15/10/2026 | Módulo 3: Sistemas SCADA (SCADA LTS)                                               |
 | 21    | 11       | 20/10/2026 | Módulo 4: Norma IEC 61850                                                          |
@@ -242,10 +243,10 @@ texto** que serão disponibilizados no decorrer da disciplina.
 | 26    | 13       | 05/11/2026 | Semana dos Encontros Universitários                                                |
 | 27    | 14       | 10/11/2026 | Módulo 4: Norma IEC 61850                                                          |
 | 28    | 14       | 12/11/2026 | Módulo 4: Norma IEC 61850                                                          |
-| 29    | 15       | 17/11/2026 | Módulo 5: Projetos de Automação de Subestações com IEC 61850                       |
-| 30    | 15       | 19/11/2026 | Módulo 5: Projetos de Automação de Subestações com IEC 61850                       |
-| 31    | 16       | 24/11/2026 | Avaliação Parcial 2                                                                |
-| 32    | 16       | 26/11/2026 | Módulo 5: Projetos de Automação de Subestações com IEC 61850                       |
+| 29    | 15       | 17/11/2026 | Seminários 1 e 2                                                                   |
+| 30    | 15       | 19/11/2026 | Seminários 3 e 4                                                                   |
+| 31    | 16       | 24/11/2026 | Seminários 5 e 6                                                                   |
+| 32    | 16       | 26/11/2026 | Avaliação Parcial 2                                                                |
 | 33    | 17       | 01/12/2026 | Módulo 5: Projetos de Automação de Subestações com IEC 61850                       |
 | 34    | 17       | 03/12/2026 | Módulo 5: Projetos de Automação de Subestações com IEC 61850                       |
 | 35    | 18       | 08/12/2026 | Módulo 5: Projetos de Automação de Subestações com IEC 61850                       |
