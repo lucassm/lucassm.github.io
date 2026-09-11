@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminários: Escrita Científica - Prof. Lucas Silveira</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            200: '#bae0fd',
+                            500: '#0072b2',
+                            600: '#005a91',
+                            700: '#004a77',
+                            800: '#003b60',
+                            900: '#002844',
+                            950: '#001a2e'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                        serif: ['"Times New Roman"', 'Times', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .slide {
+            display: none;
+            opacity: 0;
+            transform: scale(0.99) translateY(6px);
+            transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1), transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .slide.active {
+            display: flex;
+            opacity: 1;
+            transform: scale(1) translateY(0);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.05);
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(0, 74, 119, 0.25);
+            border-radius: 9999px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: rgba(0, 74, 119, 0.45);
+        }
+    </style>
+</head>
+<body class="h-full bg-slate-900 text-slate-800 font-sans antialiased overflow-hidden flex flex-col select-none">
+
+    <header class="h-14 bg-slate-950/85 backdrop-blur border-b border-slate-800 text-white px-4 md:px-6 flex items-center justify-between z-30 shrink-0">
+        <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-brand-700 to-sky-500 flex items-center justify-center font-bold text-white shadow-md">
+                <i class="fa-solid fa-pen-nib text-sm"></i>
+            </div>
+            <div>
+                <h1 class="text-xs md:text-sm font-semibold tracking-wide text-slate-200">Seminários: Escrita Científica</h1>
+                <p class="text-[10px] text-slate-400 font-medium">Prof. Lucas Silveira • UFC / GREI</p>
+            </div>
+        </div>
+
+        <!-- Middle Progress Bar Indicator -->
+        <div class="hidden sm:flex items-center gap-3">
+            <span class="text-xs font-semibold text-slate-400 font-mono" id="slide-number-display">01 / 27</span>
+            <div class="w-36 h-2 bg-slate-800 rounded-full overflow-hidden border border-slate-700/60">
+                <div id="progress-bar-fill" class="h-full bg-gradient-to-r from-sky-500 to-brand-500 transition-all duration-300 ease-out" style="width: 3.7%;"></div>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="flex items-center gap-2">
+            <button id="btn-grid" title="Visão Geral dos Slides (G)" class="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition text-xs flex items-center gap-1.5">
+                <i class="fa-solid fa-grip"></i>
+                <span class="hidden md:inline">Índice</span>
+            </button>
+            <button id="btn-fullscreen" title="Tela Cheia (F)" class="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition text-xs">
+                <i class="fa-solid fa-expand"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="flex-1 relative flex items-center justify-center p-2 sm:p-4 md:p-6 overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
+        <div id="slide-stage" class="relative w-full max-w-6xl aspect-[16/10] sm:aspect-[16/9] max-h-[86vh] bg-white rounded-2xl shadow-2xl overflow-hidden border border-slate-700/30 flex flex-col">
+
+            <!-- SLIDE 1: Capa -->
+            <section class="slide active w-full h-full flex-col justify-between p-8 md:p-14 bg-gradient-to-br from-slate-50 via-sky-50/40 to-blue-100/30 relative overflow-hidden" data-title="Capa">
+                <div class="absolute -right-20 -top-20 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
+                <div class="absolute -left-20 -bottom-20 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div class="flex items-center justify-between w-full border-b border-slate-200/80 pb-4">
+                    <div class="flex items-center gap-3">
+                        <div class="px-3 py-1 bg-brand-700 text-white text-xs font-bold uppercase tracking-wider rounded-md shadow-sm">
+                            UFC
+                        </div>
+                        <span class="text-xs font-semibold text-slate-600 tracking-wide uppercase">Universidade Federal do Ceará</span>
+                    </div>
+                    <div class="text-xs font-medium text-slate-600 bg-white/80 border border-slate-200 px-3 py-1 rounded-full flex items-center gap-1.5 shadow-sm">
+                        <i class="fa-solid fa-brain text-brand-600"></i>
+                        <span>GREI • Grupo de Redes Elétricas Inteligentes</span>
+                    </div>
+                </div>
+
+                <div class="my-auto text-left max-w-3xl">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-100/80 text-brand-800 text-xs font-bold uppercase tracking-wider mb-4">
+                        <i class="fa-solid fa-scroll"></i>
+                        Seminários de Pesquisa & Pós-Graduação
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl md:text-6xl font-display font-extrabold text-slate-900 tracking-tight leading-tight mb-4">
+                        Escrita <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-700 via-sky-600 to-blue-500">Científica</span>
+                    </h1>
+                    <p class="text-base sm:text-lg text-slate-600 font-normal max-w-xl">
+                        Fundamentos essenciais, estrutura padrão de trabalhos acadêmicos, matriz IDC, modelo IMRD e diretrizes práticas para redação técnica.
+                    </p>
+                </div>
+
+                <div class="pt-6 border-t border-slate-200/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-brand-700 text-white font-bold flex items-center justify-center text-lg shadow-md border-2 border-white">
+                            LS
+                        </div>
+                        <div>
+                            <div class="text-sm font-bold text-slate-900">Prof. Lucas Silveira</div>
+                            <div class="text-xs text-slate-500">Universidade Federal do Ceará</div>
+                        </div>
+                    </div>
+                    <div class="text-xs text-slate-400 font-medium">
+                        Tema 02 • Seminários
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 2: Transição - Visão Geral -->
+            <section class="slide w-full h-full flex-col justify-center items-center text-center p-8 md:p-14 bg-gradient-to-br from-brand-900 via-slate-900 to-brand-950 text-white relative overflow-hidden" data-title="Visão Geral (Abertura)">
+                <div class="w-20 h-20 rounded-2xl bg-gradient-to-tr from-sky-400 to-blue-600 flex items-center justify-center text-3xl shadow-2xl mb-6">
+                    <i class="fa-solid fa-compass"></i>
+                </div>
+                <div class="text-xs font-bold uppercase tracking-widest text-sky-400 mb-2">Parte 01</div>
+                <h2 class="text-4xl sm:text-5xl font-display font-extrabold tracking-tight max-w-2xl">
+                    Visão Geral
+                </h2>
+                <p class="text-slate-400 text-sm sm:text-base max-w-lg mt-4 font-light">
+                    Pilares essenciais da redação técnica, critérios avaliativos e classificação das publicações acadêmicas.
+                </p>
+                <div class="mt-8 text-[11px] text-slate-500 font-mono">
+                    SEMINÁRIOS • PROF. LUCAS SILVEIRA
+                </div>
+            </section>
+
+            <!-- SLIDE 3: Pilares da Escrita Científica -->
+            <section class="slide w-full h-full flex-col p-6 md:p-10 justify-between bg-white relative" data-title="Pilares da Escrita Científica">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Visão Geral</span>
+                    <span class="text-xs text-slate-400 font-medium">Princípios Fundamentais</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-blue-100 text-brand-700 flex items-center justify-center text-sm font-bold">
+                            <i class="fa-solid fa-columns"></i>
+                        </div>
+                        <h3 class="text-xl sm:text-2xl font-display font-bold text-slate-900">
+                            Pilares da escrita científica:
+                        </h3>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-brand-500 hover:shadow-md transition">
+                            <div class="flex items-center gap-2 text-brand-700 font-bold mb-1.5">
+                                <i class="fa-solid fa-bullseye text-sm"></i>
+                                <span>Objetividade</span>
+                            </div>
+                            <p class="text-slate-600">Imparcialidade e foco rigoroso nas evidências comprovadas.</p>
+                        </div>
+
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-brand-500 hover:shadow-md transition">
+                            <div class="flex items-center gap-2 text-brand-700 font-bold mb-1.5">
+                                <i class="fa-solid fa-feather-pointed text-sm"></i>
+                                <span>Clareza</span>
+                            </div>
+                            <p class="text-slate-600">Linguagem direta, transparente e compreensível ao leitor.</p>
+                        </div>
+
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-brand-500 hover:shadow-md transition">
+                            <div class="flex items-center gap-2 text-brand-700 font-bold mb-1.5">
+                                <i class="fa-solid fa-crosshairs text-sm"></i>
+                                <span>Precisão</span>
+                            </div>
+                            <p class="text-slate-600">Uso estrito e adequado de termos e jargões técnicos da área.</p>
+                        </div>
+
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-brand-500 hover:shadow-md transition">
+                            <div class="flex items-center gap-2 text-brand-700 font-bold mb-1.5">
+                                <i class="fa-solid fa-arrows-rotate text-sm"></i>
+                                <span>Reprodutibilidade</span>
+                            </div>
+                            <p class="text-slate-600">Detalhes suficientes para tornar o experimento replicável.</p>
+                        </div>
+
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-brand-500 hover:shadow-md transition">
+                            <div class="flex items-center gap-2 text-brand-700 font-bold mb-1.5">
+                                <i class="fa-solid fa-magnifying-glass text-sm"></i>
+                                <span>Rastreabilidade</span>
+                            </div>
+                            <p class="text-slate-600">Dados, códigos e passos passíveis de verificação e auditoria.</p>
+                        </div>
+
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-brand-500 hover:shadow-md transition">
+                            <div class="flex items-center gap-2 text-brand-700 font-bold mb-1.5">
+                                <i class="fa-solid fa-sitemap text-sm"></i>
+                                <span>Organização lógica</span>
+                            </div>
+                            <p class="text-slate-600">Estrutura de pensamento coerente, fluida e padronizada.</p>
+                        </div>
+
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-brand-500 hover:shadow-md transition">
+                            <div class="flex items-center gap-2 text-brand-700 font-bold mb-1.5">
+                                <i class="fa-solid fa-book-bookmark text-sm"></i>
+                                <span>Embasamento</span>
+                            </div>
+                            <p class="text-slate-600">Referências bibliográficas consistentes e literatura consolidada.</p>
+                        </div>
+
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-brand-500 hover:shadow-md transition">
+                            <div class="flex items-center gap-2 text-brand-700 font-bold mb-1.5">
+                                <i class="fa-solid fa-scale-balanced text-sm"></i>
+                                <span>Ética</span>
+                            </div>
+                            <p class="text-slate-600">Responsabilidade, integridade acadêmica, autoria e veracidade.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <span>Pilares Estruturais da Redação Científica</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 3</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 4: Critérios Básicos de Avaliação -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Critérios de Avaliação">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Visão Geral</span>
+                    <span class="text-xs text-slate-400 font-medium">Revisão e Arbitragem</span>
+                </div>
+
+                <div class="my-auto space-y-6">
+                    <div class="text-center max-w-xl mx-auto">
+                        <h3 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">
+                            Critérios Básico de Avaliação de Manuscritos
+                        </h3>
+                        <p class="text-xs text-slate-500 mt-2">Dois pilares indispensáveis analisados conjuntamente pelos pareceristas e bancas</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+                        <!-- Conteúdo -->
+                        <div class="p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-sky-100/60 border-2 border-brand-500 shadow-sm flex flex-col justify-between items-center text-center">
+                            <div class="w-16 h-16 rounded-2xl bg-brand-700 text-white flex items-center justify-center text-2xl shadow-md mb-4">
+                                <i class="fa-solid fa-lightbulb"></i>
+                            </div>
+                            <h4 class="text-2xl font-display font-bold text-slate-900 mb-2">Conteúdo</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed max-w-xs">
+                                Relevância científica, originalidade, rigor metodológico, consistência analítica dos resultados e profundidade nas discussões.
+                            </p>
+                            <span class="mt-4 px-3 py-1 bg-brand-700/10 text-brand-800 text-[11px] font-bold rounded-full">Essência e Rigor</span>
+                        </div>
+
+                        <!-- Formato -->
+                        <div class="p-6 rounded-2xl bg-gradient-to-br from-slate-50 to-slate-100 border-2 border-slate-300 shadow-sm flex flex-col justify-between items-center text-center">
+                            <div class="w-16 h-16 rounded-2xl bg-slate-800 text-white flex items-center justify-center text-2xl shadow-md mb-4">
+                                <i class="fa-solid fa-table-list"></i>
+                            </div>
+                            <h4 class="text-2xl font-display font-bold text-slate-900 mb-2">Formato</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed max-w-xs">
+                                Normalização técnica (ABNT/IEEE), qualidade da redação gramatical, clareza visual de gráficos e tabelas e padronização estrutural.
+                            </p>
+                            <span class="mt-4 px-3 py-1 bg-slate-200 text-slate-800 text-[11px] font-bold rounded-full">Norma e Apresentação</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Equilíbrio indispensável entre mérito técnico e apresentação</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 4</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 5: Publicações Monográficas e Periódicas -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Monográficas e Periódicas">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Visão Geral</span>
+                    <span class="text-xs text-slate-400 font-medium">Tipologias Editoriais</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <h3 class="text-2xl font-display font-bold text-slate-900">
+                        Publicações Monográficas e Periódicas
+                    </h3>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 text-xs">
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-brand-500 hover:shadow-md transition space-y-3">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center text-lg font-bold">
+                                    <i class="fa-solid fa-book"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-slate-900">Publicações Monográficas</h4>
+                                    <span class="text-[10px] text-slate-500 uppercase font-semibold">Volume Único Fechado</span>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 leading-relaxed">
+                                <strong>Obra fechada em volume único.</strong> As publicações acadêmicas em áreas da ciência, engenharia e tecnologia são geralmente de caráter monográfico.
+                            </p>
+                            <div class="p-3 bg-white rounded-xl border border-slate-200">
+                                <span class="font-bold text-brand-800 text-[11px]">Exemplos:</span>
+                                <p class="text-slate-600 mt-1">
+                                    Livros em volume único, monografias de trabalhos de conclusão de curso de graduação, dissertações de mestrado e teses de doutorado.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-brand-500 hover:shadow-md transition space-y-3">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-lg font-bold">
+                                    <i class="fa-solid fa-newspaper"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-sm font-bold text-slate-900">Publicações Periódicas</h4>
+                                    <span class="text-[10px] text-emerald-600 uppercase font-semibold">Série Aberta Contínua</span>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 leading-relaxed">
+                                <strong>Série aberta e passível de continuidade.</strong> Veículos regulares de divulgação de novos avanços, organizados por volumes, fascículos e edições contínuas.
+                            </p>
+                            <div class="p-3 bg-white rounded-xl border border-slate-200">
+                                <span class="font-bold text-emerald-800 text-[11px]">Exemplos:</span>
+                                <p class="text-slate-600 mt-1">
+                                    Jornais, revistas e periódicos científicos (<em>Journal</em>).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Classificação Bibliográfica de Trabalhos</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 5</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 6: Transição - Estrutura de Trabalhos Científicos -->
+            <section class="slide w-full h-full flex-col justify-center items-center text-center p-8 md:p-14 bg-gradient-to-br from-brand-900 via-slate-900 to-brand-950 text-white relative overflow-hidden" data-title="Seção: Estrutura">
+                <div class="w-20 h-20 rounded-2xl bg-gradient-to-tr from-sky-400 to-blue-600 flex items-center justify-center text-3xl shadow-2xl mb-6">
+                    <i class="fa-solid fa-layer-group"></i>
+                </div>
+                <div class="text-xs font-bold uppercase tracking-widest text-sky-400 mb-2">Parte 02</div>
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-display font-extrabold tracking-tight max-w-2xl">
+                    Estrutura de Trabalhos Científicos
+                </h2>
+                <p class="text-slate-400 text-sm sm:text-base max-w-lg mt-4 font-light">
+                    Modelos arquiteturais: a clássica Matriz IDC monográfica e o moderno modelo experimental IMRD.
+                </p>
+                <div class="mt-8 text-[11px] text-slate-500 font-mono">
+                    SEMINÁRIOS • PROF. LUCAS SILVEIRA
+                </div>
+            </section>
+
+            <!-- SLIDE 7: Matriz IDC (Conceitos) -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Matriz IDC - Conceitos">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Estrutura de Trabalhos Científicos</span>
+                    <span class="text-xs text-slate-400 font-medium">Arquitetura Clássica</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">
+                            Matriz IDC
+                        </h3>
+                        <span class="px-3 py-1 bg-blue-100 text-brand-800 text-xs font-bold rounded-full">Introdução • Desenvolvimento • Conclusão</span>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-center my-3">
+                        <div class="p-3.5 rounded-xl bg-brand-50 border border-brand-200">
+                            <div class="text-xs font-bold uppercase tracking-wider text-brand-700">I</div>
+                            <div class="text-sm font-bold text-slate-900">Introdução</div>
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-brand-50 border border-brand-200">
+                            <div class="text-xs font-bold uppercase tracking-wider text-brand-700">D</div>
+                            <div class="text-sm font-bold text-slate-900">Desenvolvimento</div>
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-brand-50 border border-brand-200">
+                            <div class="text-xs font-bold uppercase tracking-wider text-brand-700">C</div>
+                            <div class="text-sm font-bold text-slate-900">Conclusão</div>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700">
+                        <li class="flex items-start gap-2.5 p-2 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-check text-brand-600 mt-1"></i>
+                            <span>A Matriz IDC é o formato clássico de trabalhos acadêmicos (TCCs, Dissertações e Teses);</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-check text-brand-600 mt-1"></i>
+                            <span>Estrutura padrão com três elementos textuais: <strong>Introdução, Desenvolvimento e Conclusão</strong>;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-check text-brand-600 mt-1"></i>
+                            <span>Neste formato, o redator tem ampla liberdade para organizar e estruturar a apresentação de ideias (desenvolvimento) do trabalho;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-check text-brand-600 mt-1"></i>
+                            <span>Inclui elementos pré-textuais e pós-textuais obrigatórios e opcionais;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2 rounded-lg bg-blue-50/60 border border-blue-200 font-semibold text-brand-900">
+                            <i class="fa-solid fa-wand-magic-sparkles text-brand-700 mt-1"></i>
+                            <span>Matriz altamente flexível.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Flexibilidade na Estruturação Textual</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 7</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 8: Matriz IDC (Normas ABNT e Guia UFC) -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Matriz IDC - Normas">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Estrutura de Trabalhos Científicos</span>
+                    <span class="text-xs text-slate-400 font-medium">Normatização ABNT & UFC</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <h3 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">
+                        Matriz IDC
+                    </h3>
+
+                    <div class="space-y-3.5 text-xs sm:text-sm text-slate-700">
+                        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50 flex items-start gap-3">
+                            <i class="fa-solid fa-file-shield text-brand-600 text-lg mt-0.5 shrink-0"></i>
+                            <div>
+                                <span class="font-bold text-slate-900">Norma ABNT NBR 14724:2011</span>
+                                <p class="text-slate-600 mt-1">A estrutura de trabalhos acadêmicos no Brasil segue a matriz IDC, conforme a norma <strong>ABNT NBR 14724:2011 – Trabalhos acadêmicos – Apresentação</strong>;</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50 flex items-start gap-3">
+                            <i class="fa-solid fa-graduation-cap text-brand-600 text-lg mt-0.5 shrink-0"></i>
+                            <div>
+                                <span class="font-bold text-slate-900">Âmbito de Aplicação</span>
+                                <p class="text-slate-600 mt-1">Esta norma aplica-se às <strong>teses, dissertações, trabalhos de conclusão de curso de graduação (TCC), trabalhos de graduação interdisciplinar (TGI), trabalhos de conclusão de curso de especialização e/ou aperfeiçoamento</strong> e outros;</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-xl border-2 border-brand-500 bg-blue-50/50 flex items-start gap-3">
+                            <i class="fa-solid fa-book-open-reader text-brand-700 text-lg mt-0.5 shrink-0"></i>
+                            <div>
+                                <span class="font-bold text-brand-900">Apoio Institucional UFC</span>
+                                <p class="text-slate-700 mt-1">A UFC disponibiliza como documento de apoio à redação científica o <strong>Guia de normalização de trabalhos acadêmicos da Universidade Federal do Ceará</strong>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Sistema de Bibliotecas da UFC</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 8</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 9: Diagrama NBR 14724 (Parte Externa e Interna) -->
+            <section class="slide w-full h-full flex-col p-5 md:p-8 justify-between bg-slate-900 text-white relative overflow-hidden" data-title="Estrutura NBR 14724">
+                <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+                    <span class="text-xs font-bold uppercase tracking-wider text-sky-400">Estrutura de Trabalhos Científicos</span>
+                    <div class="flex items-center gap-4 text-xs">
+                        <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-[#f87171]"></span> <span class="text-slate-300">Obrigatório</span></div>
+                        <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-[#fed7aa]"></span> <span class="text-slate-300">Opcional</span></div>
+                    </div>
+                </div>
+
+                <div class="my-auto space-y-3">
+                    <!-- Top: Parte Externa -->
+                    <div class="p-3 bg-slate-800/80 rounded-xl border border-slate-700">
+                        <div class="text-[11px] font-bold text-sky-300 uppercase tracking-wider mb-2 text-center">PARTE EXTERNA</div>
+                        <div class="flex items-center justify-center gap-8 text-xs font-semibold">
+                            <div class="flex items-center gap-2">
+                                <span class="w-2.5 h-2.5 rounded-full bg-[#f87171]"></span>
+                                <span class="text-[#fca5a5]">Capa</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span class="w-2.5 h-2.5 rounded-full bg-[#fed7aa]"></span>
+                                <span class="text-[#ffedd5]">Lombada</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bottom: Parte Interna -->
+                    <div class="p-3.5 bg-slate-800/80 rounded-xl border border-slate-700">
+                        <div class="text-[11px] font-bold text-sky-300 uppercase tracking-wider mb-3 text-center">PARTE INTERNA</div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-12 gap-3 text-xs">
+                            <!-- Pré-textuais -->
+                            <div class="md:col-span-5 bg-slate-900/90 p-2.5 rounded-lg border border-slate-800">
+                                <div class="font-bold text-slate-200 border-b border-slate-800 pb-1 mb-2 text-[11px]">Pré-textuais</div>
+                                <div class="grid grid-cols-2 gap-x-2 gap-y-1 text-[10px]">
+                                    <div class="flex items-center gap-1.5 text-[#fca5a5] font-semibold"><span class="w-2 h-2 rounded-full bg-[#f87171] shrink-0"></span> Folha de rosto</div>
+                                    <div class="flex items-center gap-1.5 text-[#ffedd5]"><span class="w-2 h-2 rounded-full bg-[#fed7aa] shrink-0"></span> Errata</div>
+                                    <div class="flex items-center gap-1.5 text-[#fca5a5] font-semibold"><span class="w-2 h-2 rounded-full bg-[#f87171] shrink-0"></span> Folha de aprovação</div>
+                                    <div class="flex items-center gap-1.5 text-[#ffedd5]"><span class="w-2 h-2 rounded-full bg-[#fed7aa] shrink-0"></span> Dedicatória</div>
+                                    <div class="flex items-center gap-1.5 text-[#ffedd5]"><span class="w-2 h-2 rounded-full bg-[#fed7aa] shrink-0"></span> Agradecimento</div>
+                                    <div class="flex items-center gap-1.5 text-[#ffedd5]"><span class="w-2 h-2 rounded-full bg-[#fed7aa] shrink-0"></span> Epígrafe</div>
+                                    <div class="flex items-center gap-1.5 text-[#fca5a5] font-semibold col-span-2"><span class="w-2 h-2 rounded-full bg-[#f87171] shrink-0"></span> Resumo no idioma do texto</div>
+                                    <div class="flex items-center gap-1.5 text-[#fca5a5] font-semibold col-span-2"><span class="w-2 h-2 rounded-full bg-[#f87171] shrink-0"></span> Resumo em outro idioma</div>
+                                    <div class="flex items-center gap-1.5 text-[#ffedd5]"><span class="w-2 h-2 rounded-full bg-[#fed7aa] shrink-0"></span> Lista de ilustrações</div>
+                                    <div class="flex items-center gap-1.5 text-[#ffedd5]"><span class="w-2 h-2 rounded-full bg-[#fed7aa] shrink-0"></span> Lista de tabelas</div>
+                                    <div class="flex items-center gap-1.5 text-[#ffedd5] col-span-2"><span class="w-2 h-2 rounded-full bg-[#fed7aa] shrink-0"></span> Lista de abreviaturas e siglas</div>
+                                    <div class="flex items-center gap-1.5 text-[#ffedd5]"><span class="w-2 h-2 rounded-full bg-[#fed7aa] shrink-0"></span> Lista de símbolos</div>
+                                    <div class="flex items-center gap-1.5 text-[#fca5a5] font-semibold"><span class="w-2 h-2 rounded-full bg-[#f87171] shrink-0"></span> Sumário</div>
+                                </div>
+                            </div>
+
+                            <!-- Textuais -->
+                            <div class="md:col-span-4 bg-slate-900/90 p-2.5 rounded-lg border border-slate-800">
+                                <div class="font-bold text-slate-200 border-b border-slate-800 pb-1 mb-2 text-[11px]">Textuais</div>
+                                <div class="space-y-2 text-[11px]">
+                                    <div class="flex items-center gap-2 text-[#fca5a5] font-bold p-1.5 bg-red-950/30 rounded border border-red-900/30">
+                                        <span class="w-2 h-2 rounded-full bg-[#f87171] shrink-0"></span> Introdução
+                                    </div>
+                                    <div class="flex items-center gap-2 text-[#fca5a5] font-bold p-1.5 bg-red-950/30 rounded border border-red-900/30">
+                                        <span class="w-2 h-2 rounded-full bg-[#f87171] shrink-0"></span> Desenvolvimento
+                                    </div>
+                                    <div class="flex items-center gap-2 text-[#fca5a5] font-bold p-1.5 bg-red-950/30 rounded border border-red-900/30">
+                                        <span class="w-2 h-2 rounded-full bg-[#f87171] shrink-0"></span> Conclusão
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Pós-textuais -->
+                            <div class="md:col-span-3 bg-slate-900/90 p-2.5 rounded-lg border border-slate-800">
+                                <div class="font-bold text-slate-200 border-b border-slate-800 pb-1 mb-2 text-[11px]">Pós-textuais</div>
+                                <div class="space-y-1 text-[10px]">
+                                    <div class="flex items-center gap-1.5 text-[#fca5a5] font-semibold"><span class="w-2 h-2 rounded-full bg-[#f87171] shrink-0"></span> Referências</div>
+                                    <div class="flex items-center gap-1.5 text-[#ffedd5]"><span class="w-2 h-2 rounded-full bg-[#fed7aa] shrink-0"></span> Glossário</div>
+                                    <div class="flex items-center gap-1.5 text-[#ffedd5]"><span class="w-2 h-2 rounded-full bg-[#fed7aa] shrink-0"></span> Apêndice</div>
+                                    <div class="flex items-center gap-1.5 text-[#ffedd5]"><span class="w-2 h-2 rounded-full bg-[#fed7aa] shrink-0"></span> Anexo</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[10px] text-slate-400 flex items-center justify-between border-t border-slate-800 pt-2">
+                    <span class="truncate">Fonte: https://biblioteca.ufc.br/pt/servicos-e-produtos/normalizacao-de-trabalhos-academicos/</span>
+                    <span class="font-mono shrink-0 ml-2">Seminários - Prof. Lucas Silveira | 9</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 10: Modelo IMRD -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Modelo IMRD">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Estrutura de Trabalhos Científicos</span>
+                    <span class="text-xs text-slate-400 font-medium">Formato Experimental</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">
+                            Modelo IMRD
+                        </h3>
+                        <span class="px-3 py-1 bg-brand-100 text-brand-800 text-xs font-bold rounded-full">Introduction • Methods • Results • Discussion</span>
+                    </div>
+
+                    <div class="grid grid-cols-4 gap-2 text-center my-2">
+                        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                            <div class="text-xs font-bold text-brand-700">I</div>
+                            <div class="text-xs font-semibold text-slate-800">Introduction</div>
+                        </div>
+                        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                            <div class="text-xs font-bold text-brand-700">M</div>
+                            <div class="text-xs font-semibold text-slate-800">Materials & Methods</div>
+                        </div>
+                        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                            <div class="text-xs font-bold text-brand-700">R</div>
+                            <div class="text-xs font-semibold text-slate-800">Results</div>
+                        </div>
+                        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                            <div class="text-xs font-bold text-brand-700">D</div>
+                            <div class="text-xs font-semibold text-slate-800">Discussion</div>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700">
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-flask text-brand-600 mt-1"></i>
+                            <span>O Modelo IMRD é o formato mais comum de artigos de ciências experimentais;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-newspaper text-brand-600 mt-1"></i>
+                            <span>Veiculação de resultados por meio da publicação de artigos científicos;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-list-check text-brand-600 mt-1"></i>
+                            <span>Apresenta quatro elementos textuais: <strong>Introduction, Materials and Methods, Results and Discussion</strong>. A Variante desse modelo pode incluir a seção “<strong>Conclusions</strong>” (IMRDC);</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-amber-50 border border-amber-200 text-amber-900">
+                            <i class="fa-solid fa-triangle-exclamation text-amber-600 mt-1"></i>
+                            <span>Embora prático, o modelo é limitado em determinados aspectos, a exemplo da ausência de elementos que permitam discorrer sobre as adaptações necessárias para a condução da pesquisa.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Padrão Internacional em Periódicos</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 10</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 11: Estrutura Padrão de Artigos Científicos -->
+            <section class="slide w-full h-full flex-col p-6 md:p-10 justify-between bg-white relative" data-title="Estrutura de Artigos">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Estrutura de Trabalhos Científicos</span>
+                    <div class="flex items-center gap-3 text-xs">
+                        <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-blue-600"></span> Obrigatório</span>
+                        <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-slate-400"></span> Opcional</span>
+                    </div>
+                </div>
+
+                <div class="my-auto space-y-3">
+                    <h3 class="text-xl sm:text-2xl font-display font-bold text-slate-900">
+                        Estrutura Padrão de Artigos Científicos
+                    </h3>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-between">
+                            <div>
+                                <div class="font-bold text-slate-900 border-b pb-1.5 mb-2 flex items-center justify-between">
+                                    <span>Pré-textuais</span>
+                                    <span class="text-[10px] text-brand-700 uppercase font-semibold">Identificação</span>
+                                </div>
+                                <ul class="space-y-1.5 text-slate-700 text-[11px]">
+                                    <li class="flex items-center justify-between"><span>Título e subtítulo no idioma</span><span class="w-2 h-2 rounded-full bg-blue-600"></span></li>
+                                    <li class="flex items-center justify-between"><span>Título e subtítulo em outro idioma</span><span class="w-2 h-2 rounded-full bg-blue-600"></span></li>
+                                    <li class="flex items-center justify-between"><span>Relação de autores e correspondente</span><span class="w-2 h-2 rounded-full bg-blue-600"></span></li>
+                                    <li class="flex items-center justify-between"><span>Resumo no idioma do texto</span><span class="w-2 h-2 rounded-full bg-blue-600"></span></li>
+                                    <li class="flex items-center justify-between"><span>Resumo em outro idioma</span><span class="w-2 h-2 rounded-full bg-blue-600"></span></li>
+                                    <li class="flex items-center justify-between"><span>Datas de submissão e aprovação</span><span class="w-2 h-2 rounded-full bg-blue-600"></span></li>
+                                    <li class="flex items-center justify-between"><span>Identificação institucional</span><span class="w-2 h-2 rounded-full bg-blue-600"></span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="p-3.5 rounded-xl bg-blue-50/60 border-2 border-brand-500 flex flex-col justify-between">
+                            <div>
+                                <div class="font-bold text-brand-900 border-b border-blue-200 pb-1.5 mb-2 flex items-center justify-between">
+                                    <span>Textuais</span>
+                                    <span class="text-[10px] text-brand-700 uppercase font-semibold">Corpo Principal</span>
+                                </div>
+                                <ul class="space-y-2 text-slate-800 text-[11px] font-medium">
+                                    <li class="p-2 rounded bg-white border border-blue-200 flex items-center justify-between">
+                                        <span>1. Introdução</span><span class="w-2 h-2 rounded-full bg-blue-600"></span>
+                                    </li>
+                                    <li class="p-2 rounded bg-white border border-blue-200 flex items-center justify-between">
+                                        <span>2. Materiais e Métodos</span><span class="w-2 h-2 rounded-full bg-blue-600"></span>
+                                    </li>
+                                    <li class="p-2 rounded bg-white border border-blue-200 flex items-center justify-between">
+                                        <span>3. Resultados e Discussões</span><span class="w-2 h-2 rounded-full bg-blue-600"></span>
+                                    </li>
+                                    <li class="p-2 rounded bg-white border border-blue-200 flex items-center justify-between">
+                                        <span>4. Conclusões</span><span class="w-2 h-2 rounded-full bg-blue-600"></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex flex-col justify-between">
+                            <div>
+                                <div class="font-bold text-slate-900 border-b pb-1.5 mb-2 flex items-center justify-between">
+                                    <span>Pós-textuais</span>
+                                    <span class="text-[10px] text-slate-500 uppercase font-semibold">Apoio e Anexos</span>
+                                </div>
+                                <ul class="space-y-1.5 text-slate-700 text-[11px]">
+                                    <li class="flex items-center justify-between font-semibold text-slate-900"><span>Referências</span><span class="w-2 h-2 rounded-full bg-blue-600"></span></li>
+                                    <li class="flex items-center justify-between text-slate-500"><span>Glossário</span><span class="w-2 h-2 rounded-full bg-slate-400"></span></li>
+                                    <li class="flex items-center justify-between text-slate-500"><span>Apêndice</span><span class="w-2 h-2 rounded-full bg-slate-400"></span></li>
+                                    <li class="flex items-center justify-between text-slate-500"><span>Anexo</span><span class="w-2 h-2 rounded-full bg-slate-400"></span></li>
+                                    <li class="flex items-center justify-between text-slate-500"><span>Agradecimentos</span><span class="w-2 h-2 rounded-full bg-slate-400"></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[10px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <span>Fonte: Adaptado de: Guia de normalização de artigo em publicação periódica da UFC. Fortaleza. 2022.</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 11</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 12: Transição - Orientações para a Escrita Científica -->
+            <section class="slide w-full h-full flex-col justify-center items-center text-center p-8 md:p-14 bg-gradient-to-br from-brand-900 via-slate-900 to-brand-950 text-white relative overflow-hidden" data-title="Seção: Orientações">
+                <div class="w-20 h-20 rounded-2xl bg-gradient-to-tr from-sky-400 to-blue-600 flex items-center justify-center text-3xl shadow-2xl mb-6">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </div>
+                <div class="text-xs font-bold uppercase tracking-widest text-sky-400 mb-2">Parte 03</div>
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-display font-extrabold tracking-tight max-w-2xl">
+                    Orientações para a Escrita Científica
+                </h2>
+                <p class="text-slate-400 text-sm sm:text-base max-w-lg mt-4 font-light">
+                    Boas práticas, recomendações e análise detalhada seção por seção.
+                </p>
+                <div class="mt-8 text-[11px] text-slate-500 font-mono">
+                    SEMINÁRIOS • PROF. LUCAS SILVEIRA
+                </div>
+            </section>
+
+            <!-- SLIDE 13: Subseção - Seções Fundamentais -->
+            <section class="slide w-full h-full flex-col justify-center items-center text-center p-8 md:p-14 bg-gradient-to-br from-slate-900 via-brand-950 to-slate-950 text-white relative overflow-hidden" data-title="Seções Fundamentais">
+                <div class="w-16 h-16 rounded-2xl bg-white/10 border border-white/20 flex items-center justify-center text-2xl mb-5 text-sky-400 shadow-lg">
+                    <i class="fa-solid fa-list-check"></i>
+                </div>
+                <div class="text-xs font-bold uppercase tracking-widest text-sky-400 mb-2">Orientações Práticas</div>
+                <h2 class="text-3xl sm:text-4xl font-display font-bold max-w-xl">
+                    Seções Fundamentais
+                </h2>
+                <p class="text-slate-400 text-sm max-w-md mt-3 font-light">
+                    Título, Palavras-chave, Resumo, Introdução, Materiais e Métodos, Resultados e Discussões, Conclusões e Referências.
+                </p>
+                <div class="mt-8 text-[11px] text-slate-500 font-mono">
+                    Seminários - Prof. Lucas Silveira | 13
+                </div>
+            </section>
+
+            <!-- SLIDE 14: Título e Palavras-chave -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Título e Palavras-chave">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações para a Escrita Científica</span>
+                    <span class="text-xs text-slate-400 font-medium">Indexação & Descoberta</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h3 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">
+                        Título e Palavras-chave
+                    </h3>
+
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700">
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-bullseye text-brand-600 mt-1"></i>
+                            <span>Deve refletir o <strong>objetivo geral</strong> do trabalho;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-magnifying-glass text-brand-600 mt-1"></i>
+                            <span>Antes de escolher um título, pesquise as <strong>terminologias mais utilizadas nas principais bases bibliométricas</strong> sobre o tema. Certifique-se que os termos escolhidos tenham o significado almejado (precisão) no idioma do texto;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-compress text-brand-600 mt-1"></i>
+                            <span>Opte por títulos <strong>concisos e diretos</strong>;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-database text-brand-600 mt-1"></i>
+                            <span>Após definir o título, realize uma <strong>busca em repositórios consolidados</strong> para identificar similaridades potenciais com outros trabalhos;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-rose-50 border border-rose-200 text-rose-900">
+                            <i class="fa-solid fa-shield-halved text-rose-600 mt-1"></i>
+                            <span><strong>Evite estruturas idênticas</strong> às de trabalhos já publicados (ética científica).</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-blue-50 border border-blue-200 text-brand-900 font-medium">
+                            <i class="fa-solid fa-key text-brand-700 mt-1"></i>
+                            <span>No tocante às <strong>palavras-chaves</strong>, o uso de termos técnicos específicos contribui para o acesso e citação do trabalho em repositórios bibliométricos.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Visibilidade e Encontrabilidade do Artigo</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 14</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 15: Título e Palavras-chave (Exemplo EPSR) -->
+            <section class="slide w-full h-full flex-col p-6 md:p-10 justify-between bg-white relative" data-title="Exemplo: Título e Keywords">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações para a Escrita Científica</span>
+                    <span class="text-xs text-slate-400 font-medium">Estudo de Caso Prático</span>
+                </div>
+
+                <div class="my-auto space-y-3">
+                    <h3 class="text-xl sm:text-2xl font-display font-bold text-slate-900">
+                        Título e Palavras-chave: <span class="text-brand-600 font-medium text-lg">Exemplo</span>
+                    </h3>
+
+                    <div class="p-4 rounded-xl border border-slate-300 bg-slate-50/80 font-serif text-slate-900 shadow-sm space-y-3">
+                        <div class="flex items-center justify-between border-b border-slate-300 pb-2">
+                            <div class="text-xs uppercase tracking-widest text-slate-700 font-bold font-sans">Electric Power Systems Research • Elsevier</div>
+                            <div class="text-[11px] text-slate-500 font-sans">ScienceDirect</div>
+                        </div>
+
+                        <h4 class="text-lg md:text-xl font-bold leading-snug">
+                            Cross-attention-enabled long short-term memory for detection and classification of multiple power quality disturbance events
+                        </h4>
+
+                        <p class="text-xs italic text-slate-700 leading-normal font-sans">
+                            Lalit Agarwal, Neelu Nagpal, Anant Aggarwal, Atulit Gaur, Pierluigi Siano, Hassan Haes Alhelou
+                        </p>
+
+                        <div class="p-3 bg-white rounded-lg border border-slate-200 mt-2 font-sans">
+                            <div class="text-xs font-bold uppercase text-brand-800 tracking-wider mb-1.5 flex items-center gap-1.5">
+                                <i class="fa-solid fa-tags text-brand-600"></i> ARTICLE INFO • Keywords:
+                            </div>
+                            <div class="flex flex-wrap gap-1.5 text-xs">
+                                <span class="px-2 py-0.5 bg-slate-100 text-slate-800 rounded border border-slate-200 font-medium">Power quality disturbance</span>
+                                <span class="px-2 py-0.5 bg-slate-100 text-slate-800 rounded border border-slate-200 font-medium">Feature extraction</span>
+                                <span class="px-2 py-0.5 bg-slate-100 text-slate-800 rounded border border-slate-200 font-medium">Bidirectional long short-term memory</span>
+                                <span class="px-2 py-0.5 bg-slate-100 text-slate-800 rounded border border-slate-200 font-medium">Bi-LSTM with reLU</span>
+                                <span class="px-2 py-0.5 bg-slate-100 text-slate-800 rounded border border-slate-200 font-medium">Cross-attention mechanism</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <a href="https://doi.org/10.1016/j.epsr.2025.112249" target="_blank" class="text-brand-600 hover:underline">https://doi.org/10.1016/j.epsr.2025.112249</a>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 15</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 16: Resumo (Diretrizes) -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Resumo - Diretrizes">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações para a Escrita Científica</span>
+                    <span class="text-xs text-slate-400 font-medium">Síntese Estruturada</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h3 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">
+                        Resumo
+                    </h3>
+
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700">
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-blue-50/70 border border-blue-200 text-brand-950 font-medium">
+                            <i class="fa-solid fa-list-check text-brand-600 mt-1 shrink-0"></i>
+                            <span>O resumo deve conter uma <strong>síntese de todos os elementos textuais</strong> do trabalho, incluindo uma breve contextualização, justificativa, objetivos e principais resultados qualitativos e quantitativos;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-comment-dots text-brand-600 mt-1 shrink-0"></i>
+                            <span>Utilize <strong>linguagem clara, objetiva e afirmativa</strong>, optando por frases concisas e verbos em terceira pessoa;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-paragraph text-brand-600 mt-1 shrink-0"></i>
+                            <span>O texto deve ser <strong>redigido em parágrafo único</strong>, justificado, cujo número de palavras/caracteres é limitado de acordo com o veículo de divulgação;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-amber-50 border border-amber-200 text-amber-900">
+                            <i class="fa-solid fa-ban text-amber-600 mt-1 shrink-0"></i>
+                            <span><strong>Evite símbolos, abreviações, equações, diagramas, etc.</strong>;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-rose-50 border border-rose-200 text-rose-900">
+                            <i class="fa-solid fa-circle-exclamation text-rose-600 mt-1 shrink-0"></i>
+                            <span><strong>Evite comentários pessoais, críticas ou julgamentos de valor</strong>.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>A Vitrine de Leitura do Artigo</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 16</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 17: Resumo (Exemplo com Destaques) -->
+            <section class="slide w-full h-full flex-col p-6 md:p-8 justify-between bg-white relative" data-title="Exemplo: Resumo">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <div>
+                        <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações para a Escrita Científica</span>
+                        <h3 class="text-base sm:text-lg font-bold text-slate-900">Resumo: <span class="text-brand-600 font-medium">Exemplo Analítico</span></h3>
+                    </div>
+                    <div class="flex flex-wrap gap-1.5 text-[10px] font-bold">
+                        <span class="px-2 py-0.5 rounded bg-sky-100 text-sky-900 border border-sky-300">Contextualização</span>
+                        <span class="px-2 py-0.5 rounded bg-amber-100 text-amber-900 border border-amber-300">Justificativa</span>
+                        <span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-900 border border-emerald-300">Objetivos</span>
+                        <span class="px-2 py-0.5 rounded bg-orange-100 text-orange-900 border border-orange-300">Resultados</span>
+                    </div>
+                </div>
+
+                <div class="my-auto space-y-2">
+                    <div class="text-xs md:text-sm text-justify leading-relaxed p-4 bg-slate-50 rounded-xl border border-slate-200 max-h-[56vh] overflow-y-auto custom-scrollbar font-serif">
+                        <div class="font-sans font-bold uppercase tracking-widest text-[11px] text-slate-600 mb-2">ABSTRACT • ESTRUTURA QUADRIPARTITE</div>
+                        
+                        <p class="mb-2">
+                            <span class="bg-sky-200/80 text-slate-900 px-1 py-0.5 rounded font-sans text-xs">
+                                <strong>[Contextualização]</strong> A integração massiva de novas fontes de geração renovável e cargas inteligentes modernizou o sistema elétrico, mas também amplificou distúrbios na qualidade de energia (PQDs), tornando essencial a sua identificação ágil e precisa em redes inteligentes.
+                            </span>
+                        </p>
+                        
+                        <p class="mb-2">
+                            <span class="bg-amber-200/80 text-slate-900 px-1 py-0.5 rounded font-sans text-xs">
+                                <strong>[Justificativa]</strong> Métodos preexistentes apresentam dificuldades para capturar dependências espaço-temporais intrincadas e manter a eficiência computacional necessária, especialmente diante de eventos de falhas sobrepostas e sinais com ruído.
+                            </span>
+                        </p>
+                        
+                        <p class="mb-2">
+                            <span class="bg-emerald-200/80 text-slate-900 px-1 py-0.5 rounded font-sans text-xs">
+                                <strong>[Objetivos & Metodologia]</strong> Para sanar essa lacuna, propõe-se uma arquitetura de aprendizagem profunda híbrida combinando CNN pré-treinada para extração de atributos espaciais, Bi-LSTM para modelagem temporal e mecanismo Cross-Attention para priorização dos atributos mais discriminativos.
+                            </span>
+                        </p>
+                        
+                        <p>
+                            <span class="bg-orange-200/85 text-slate-900 px-1 py-0.5 rounded font-sans text-xs">
+                                <strong>[Resultados & Impacto]</strong> A avaliação experimental comprova taxa de acurácia superior a 99,6%, elevada robustez mesmo sob condições ruidosas (20 dB) e tempo de inferência inferior a 5 ms, viabilizando o monitoramento em tempo real nos sistemas elétricos contemporâneos.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <a href="https://doi.org/10.1016/j.epsr.2025.112249" target="_blank" class="text-brand-600 hover:underline truncate">https://doi.org/10.1016/j.epsr.2025.112249</a>
+                    <span class="font-mono shrink-0 ml-2">Seminários - Prof. Lucas Silveira | 17</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 18: Introdução (Diretrizes) -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Introdução - Diretrizes">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações para a Escrita Científica</span>
+                    <span class="text-xs text-slate-400 font-medium">Perguntas Fundamentais</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h3 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">
+                        Introdução
+                    </h3>
+
+                    <div class="p-3 bg-blue-50/70 border border-blue-200 rounded-xl text-brand-900 text-xs sm:text-sm font-semibold">
+                        A Introdução deve responder, de forma clara e concisa, as seguintes perguntas essenciais: 
+                        <span class="text-brand-700 font-bold underline decoration-brand-500">O quê?</span> 
+                        <span class="text-brand-700 font-bold underline decoration-brand-500">Por quê?</span> e 
+                        <span class="text-brand-700 font-bold underline decoration-brand-500">Para quê?</span>
+                    </div>
+
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700">
+                        <li class="flex items-start gap-2.5 p-2 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-compass text-brand-600 mt-1 shrink-0"></i>
+                            <span><strong>Contextualização (O quê?):</strong> apresentar o tema de forma ampla seguida da delimitação da área de estudo (motivação). Nesta etapa é conveniente realizar uma breve revisão literária sobre o assunto (estado da arte);</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-circle-question text-brand-600 mt-1 shrink-0"></i>
+                            <span><strong>Justificativa (Por quê?):</strong> identificar o problema (lacuna literária, desafio prático, etc.) e justificar a relevância do trabalho (fundamental);</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-bullseye text-brand-600 mt-1 shrink-0"></i>
+                            <span><strong>Objetivos e metodologia (Para quê?):</strong> explicar o objetivo do trabalho e as etapas concretas necessárias (objetivos específicos) para atingir as metas pretendidas;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2 rounded-lg bg-slate-50 border border-slate-100 text-slate-500">
+                            <i class="fa-solid fa-sitemap text-slate-400 mt-1 shrink-0"></i>
+                            <span><strong>Estrutura (opcional):</strong> informar a estrutura organizacional dos tópicos subsequentes do trabalho.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>O Tríptico Narrativo da Redação Científica</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 18</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 19: Introdução - Exemplo: Contextualização -->
+            <section class="slide w-full h-full flex-col p-6 md:p-10 justify-between bg-white relative" data-title="Introdução: Contextualização">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <div>
+                        <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações para a Escrita Científica</span>
+                        <h3 class="text-base sm:text-lg font-bold text-slate-900">Introdução: <span class="text-brand-600">Exemplo de Contextualização</span></h3>
+                    </div>
+                    <span class="px-2.5 py-1 bg-sky-100 text-sky-900 border border-sky-300 rounded text-xs font-bold">1. Introduction • O quê?</span>
+                </div>
+
+                <div class="my-auto space-y-3">
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 font-serif text-slate-800 space-y-2 text-xs md:text-sm leading-relaxed max-h-[58vh] overflow-y-auto custom-scrollbar">
+                        <div class="font-sans font-bold text-xs uppercase text-slate-600 border-b pb-1 mb-2">Panorama Temático e Estado da Arte</div>
+                        
+                        <p class="text-justify">
+                            Os sistemas de potência elétrica passam por transformações sem precedentes com o avanço da geração renovável intermitente e frotas de mobilidade elétrica. Tais tecnologias dependem de conversores baseados em semicondutores de potência que operam em diversos patamares de tensão e corrente, induzindo perturbações na qualidade da energia elétrica (PQDs).
+                        </p>
+                        
+                        <p class="text-justify bg-sky-50 p-2 rounded border-l-4 border-sky-500 font-sans text-xs">
+                            <i class="fa-solid fa-quote-left text-sky-400 mr-1"></i>
+                            <strong>Revisão da Literatura:</strong> Pesquisadores exploraram inicialmente abordagens baseadas em transformadas de Fourier (FT), Wavelets (WT) e transformadas de Hilbert-Huang (HHT). Contudo, essas formulações clássicas demandam engenharia manual de características e perdem eficácia diante de sinais com alto nível de ruído e perturbações combinadas.
+                        </p>
+                        
+                        <p class="text-justify">
+                            Diante dessa barreira, arquiteturas de aprendizado profundo (Deep Learning) emergiram como solução promissora para unificar a extração autônoma de atributos e a classificação robusta de perturbações operacionais complexas.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <a href="https://doi.org/10.1016/j.epsr.2025.112249" target="_blank" class="text-brand-600 hover:underline truncate">https://doi.org/10.1016/j.epsr.2025.112249</a>
+                    <span class="font-mono shrink-0 ml-2">Seminários - Prof. Lucas Silveira | 19</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 20: Introdução - Exemplo: Justificativa -->
+            <section class="slide w-full h-full flex-col p-6 md:p-10 justify-between bg-white relative" data-title="Introdução: Justificativa">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <div>
+                        <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações para a Escrita Científica</span>
+                        <h3 class="text-base sm:text-lg font-bold text-slate-900">Introdução: <span class="text-brand-600">Exemplo de Justificativa</span></h3>
+                    </div>
+                    <span class="px-2.5 py-1 bg-amber-100 text-amber-900 border border-amber-300 rounded text-xs font-bold">1. Introduction • Por quê?</span>
+                </div>
+
+                <div class="my-auto space-y-3">
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 font-serif text-slate-800 space-y-3 text-xs md:text-sm leading-relaxed max-h-[58vh] overflow-y-auto custom-scrollbar">
+                        <div class="font-sans font-bold text-xs uppercase text-slate-600 border-b pb-1">Identificação de Lacuna Literária & Desafio Prático</div>
+                        
+                        <p class="text-justify">
+                            Um quesito crucial na concepção de novos métodos de diagnóstico elétrico reside na sua viabilidade técnica para integração nos sistemas computacionais já instalados em subestações e centros de operação integrados (SCADA/EMS).
+                        </p>
+
+                        <!-- Highlighted Gap -->
+                        <div class="p-3.5 bg-emerald-100/70 border-l-4 border-emerald-600 rounded-r-lg font-sans text-xs sm:text-sm text-emerald-950 font-medium">
+                            <span class="font-bold uppercase tracking-wider block text-[10px] text-emerald-800 mb-1">Destaque Textual da Lacuna (Research Gap):</span>
+                            "However, a review of the literature reveals a significant disconnect between this practical integration pathway and the focus of most academic research..."
+                        </div>
+
+                        <p class="text-justify text-xs text-slate-600 font-sans">
+                            <strong>Análise Crítica:</strong> Enquanto a literatura foca primariamente na acurácia matemática abstrata, métricas práticas vitais — tais como tempo de inferência, custo computacional, demanda de memória e a capacidade de detectar perturbações combinadas — são frequentemente ignoradas. Torna-se, portanto, imperativo desenvolver um modelo avaliado sob os requisitos de implementação física e tempo real.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <a href="https://doi.org/10.1016/j.epsr.2025.112249" target="_blank" class="text-brand-600 hover:underline truncate">https://doi.org/10.1016/j.epsr.2025.112249</a>
+                    <span class="font-mono shrink-0 ml-2">Seminários - Prof. Lucas Silveira | 20</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 21: Introdução - Exemplo: Objetivos -->
+            <section class="slide w-full h-full flex-col p-6 md:p-10 justify-between bg-white relative" data-title="Introdução: Objetivos">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <div>
+                        <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações para a Escrita Científica</span>
+                        <h3 class="text-base sm:text-lg font-bold text-slate-900">Introdução: <span class="text-brand-600">Exemplo de Objetivos</span></h3>
+                    </div>
+                    <span class="px-2.5 py-1 bg-emerald-100 text-emerald-900 border border-emerald-300 rounded text-xs font-bold">1. Introduction • Para quê?</span>
+                </div>
+
+                <div class="my-auto space-y-3">
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 font-serif text-slate-800 space-y-3 text-xs md:text-sm leading-relaxed max-h-[58vh] overflow-y-auto custom-scrollbar">
+                        <div class="font-sans font-bold text-xs uppercase text-slate-600 border-b pb-1">Definição Clara das Metas e da Solução Proposta</div>
+
+                        <!-- Highlighted Objective Statement -->
+                        <div class="p-3.5 bg-emerald-100/70 border-l-4 border-emerald-600 rounded-r-lg font-sans text-xs sm:text-sm text-emerald-950 font-medium">
+                            <span class="font-bold uppercase tracking-wider block text-[10px] text-emerald-800 mb-1">Declaração dos Objetivos:</span>
+                            "In this study, an efficient and effective detection system is proposed for analyzing PQD voltage signals..."
+                        </div>
+
+                        <p class="text-justify font-sans text-xs text-slate-700">
+                            <strong>Detalhamento Metodológico da Proposta:</strong>
+                        </p>
+                        <ul class="space-y-1.5 font-sans text-xs text-slate-600 list-disc pl-5">
+                            <li>Geração de base de dados abrangente com perturbações de qualidade de energia individuais e combinadas;</li>
+                            <li>Extração de atributos espaciais por meio de redes convolucionais avançadas (CNN EfficientNet-B7 e ResNet-50);</li>
+                            <li>Modelagem de dependências temporais de longo prazo utilizando rede Bi-LSTM associada ao mecanismo de Cross-Attention (X-Attention);</li>
+                            <li>Eliminação da necessidade de engenharia manual prévia de atributos, mantendo alta eficiência computacional.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <a href="https://doi.org/10.1016/j.epsr.2025.112249" target="_blank" class="text-brand-600 hover:underline truncate">https://doi.org/10.1016/j.epsr.2025.112249</a>
+                    <span class="font-mono shrink-0 ml-2">Seminários - Prof. Lucas Silveira | 21</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 22: Materiais e Métodos -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Materiais e Métodos">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações para a Escrita Científica</span>
+                    <span class="text-xs text-slate-400 font-medium">Rigor & Reprodutibilidade</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h3 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">
+                        Materiais e Métodos
+                    </h3>
+
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700">
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-microchip text-brand-600 mt-1 shrink-0"></i>
+                            <span>Nesta etapa devem ser <strong>descritos os materiais utilizados e a metodologia empregada</strong> para a condução da pesquisa;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-toolbox text-brand-600 mt-1 shrink-0"></i>
+                            <span>Materiais como <strong>equipamentos, softwares e ferramentas devem ser claramente identificados</strong>, bem como as fontes de dados;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-blue-50/70 border border-blue-200 text-brand-950 font-medium">
+                            <i class="fa-solid fa-arrows-spin text-brand-600 mt-1 shrink-0"></i>
+                            <span>O descritivo das etapas realizadas deve ser fornecido com <strong>grau de detalhamento que permita a reprodutibilidade</strong> da pesquisa;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-lightbulb text-brand-600 mt-1 shrink-0"></i>
+                            <span>Também sugere-se <strong>apresentar as hipóteses</strong> para análise e resolução do problema proposto;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100 text-slate-600">
+                            <i class="fa-solid fa-folder-tree text-slate-400 mt-1 shrink-0"></i>
+                            <span>Esta etapa pode envolver mais de uma seção a depender da organização e da complexidade do trabalho.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Garantia de Validação por Pares e Transparência</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 22</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 23: Resultados e Discussões -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Resultados e Discussões">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações para a Escrita Científica</span>
+                    <span class="text-xs text-slate-400 font-medium">Evidências & Argumentação</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h3 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">
+                        Resultados e Discussões
+                    </h3>
+
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700">
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-chart-line text-brand-600 mt-1 shrink-0"></i>
+                            <span>Nesta seção os <strong>resultados devem ser apresentados de forma organizada</strong>, utilizando diferentes recursos como gráficos, figuras e tabelas;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-amber-50 border border-amber-200 text-amber-950 font-medium">
+                            <i class="fa-solid fa-triangle-exclamation text-amber-600 mt-1 shrink-0"></i>
+                            <span><strong>Todas as tabelas, gráficos e figuras devem ser citados no texto antes de sua apresentação</strong>. Todo e qualquer recurso utilizado <strong>não deve ser interpretado como autoexplicativo</strong>, ou seja, as interpretações devem ser claramente discutidas no texto;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-comments text-brand-600 mt-1 shrink-0"></i>
+                            <span>Os resultados da pesquisa devem ser apresentados e discutidos utilizando <strong>argumentos consistentes</strong>;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-arrow-right-to-bracket text-brand-600 mt-1 shrink-0"></i>
+                            <span>As discussões de resultados devem ser claramente apresentadas, mesmo que resumidas no tópico de conclusões.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Articulação entre Dados Obtidos e Fundamentação Teórica</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 23</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 24: Conclusões -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Conclusões">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações para a Escrita Científica</span>
+                    <span class="text-xs text-slate-400 font-medium">Síntese de Fechamento</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h3 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">
+                        Conclusões
+                    </h3>
+
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700">
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-clipboard-check text-brand-600 mt-1 shrink-0"></i>
+                            <span>Realiza-se uma <strong>síntese objetiva do que foi feito no trabalho</strong>;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-bullseye text-brand-600 mt-1 shrink-0"></i>
+                            <span>São levantadas considerações a respeito dos <strong>principais resultados evidenciados</strong>, destacando claramente se os <strong>objetivos foram atendidos ou não</strong>;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-scale-balanced text-brand-600 mt-1 shrink-0"></i>
+                            <span>A análise de resultados também deve destacar sua <strong>coerência de acordo com as hipóteses levantadas</strong> no início da pesquisa;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-blue-50/70 border border-blue-200 text-brand-950 font-medium">
+                            <i class="fa-solid fa-arrows-left-right text-brand-700 mt-1 shrink-0"></i>
+                            <span><strong>Delimitar o horizonte</strong> de prováveis aplicações práticas e <strong>limitações metodológicas</strong>;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100 text-slate-600">
+                            <i class="fa-solid fa-forward text-slate-400 mt-1 shrink-0"></i>
+                            <span><strong>Propor avanços futuros</strong> a serem desenvolvidos em trabalhos subsequentes (opcional).</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Validação das Hipóteses e Horizontes de Aplicação</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 24</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 25: Referências Bibliográficas -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Referências Bibliográficas">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações para a Escrita Científica</span>
+                    <span class="text-xs text-slate-400 font-medium">Embasamento & Rastreabilidade</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h3 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">
+                        Referências Bibliográficas
+                    </h3>
+
+                    <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700">
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-list-ol text-brand-600 mt-1 shrink-0"></i>
+                            <span>Nesta etapa são <strong>elencadas as bibliografias citadas</strong> ao longo de todo o trabalho;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-sliders text-brand-600 mt-1 shrink-0"></i>
+                            <span>Existem <strong>padronizações específicas</strong> para esta seção a depender do meio de veiculação (periódico, conferência, apresentação monográfica / ABNT / IEEE);</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-blue-50/70 border border-blue-200 text-brand-950 font-medium">
+                            <i class="fa-solid fa-fingerprint text-brand-700 mt-1 shrink-0"></i>
+                            <span><strong>Todas as referências devem ser rastreáveis</strong>, contendo as informações necessárias para a sua verificação (título, autor(es), veículo, local e ano de publicação, DOI, etc.);</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-shield-check text-brand-600 mt-1 shrink-0"></i>
+                            <span>Um trabalho bem fundamentado é produzido a partir de uma <strong>robusta revisão literária e fontes confiáveis</strong>;</span>
+                        </li>
+                        <li class="flex items-start gap-2.5 p-2.5 rounded-lg bg-slate-50 border border-slate-100">
+                            <i class="fa-solid fa-diagram-project text-brand-600 mt-1 shrink-0"></i>
+                            <span>Existem diferentes métodos de revisão literária, sendo um dos mais consolidados o método da <strong>Revisão Sistemática</strong>.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Auditabilidade Científica e Reconhecimento Acadêmico</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 25</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 26: Perguntas de Partida (Tabela Síntese) -->
+            <section class="slide w-full h-full flex-col p-6 md:p-8 justify-between bg-white relative" data-title="Perguntas de Partida">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações para a Escrita Científica</span>
+                    <span class="text-xs text-slate-400 font-medium">Matriz de Autoavaliação</span>
+                </div>
+
+                <div class="my-auto space-y-2">
+                    <h3 class="text-xl sm:text-2xl font-display font-bold text-slate-900">
+                        Perguntas de Partida
+                    </h3>
+                    <p class="text-xs text-slate-500">Guia de conferência e autoavaliação para cada seção do manuscrito acadêmico</p>
+
+                    <div class="border border-slate-200 rounded-xl overflow-hidden shadow-sm max-h-[55vh] overflow-y-auto custom-scrollbar">
+                        <table class="w-full text-xs text-left">
+                            <thead class="bg-slate-900 text-white font-bold sticky top-0">
+                                <tr>
+                                    <th class="p-2.5 w-1/4 border-r border-slate-800">Seção</th>
+                                    <th class="p-2.5">Perguntas de Partida</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 text-slate-700">
+                                <tr class="hover:bg-slate-50">
+                                    <td class="p-2.5 font-bold text-brand-900 bg-blue-50/50 align-top border-r border-slate-200">
+                                        Introdução
+                                    </td>
+                                    <td class="p-2.5 space-y-1">
+                                        <p><strong>Contextualização:</strong> Qual é o tema da pesquisa? Quais os principais trabalhos que tratam sobre o tema?</p>
+                                        <p><strong>Justificativa:</strong> Por que o assunto é relevante? Qual é o problema a ser resolvido? O que justifica a realização desta pesquisa (lacuna literária)?</p>
+                                        <p><strong>Objetivos:</strong> Quais os objetivos/metas do trabalho? Quais as etapas realizadas para atingir as metas pretendidas?</p>
+                                    </td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="p-2.5 font-bold text-slate-900 bg-slate-50 align-top border-r border-slate-200">
+                                        Materiais e Métodos
+                                    </td>
+                                    <td class="p-2.5">
+                                        Como foi realizado o estudo? Qual a metodologia de análise de consistência? Quais materiais/softwares foram utilizados? Quais as hipóteses para a resolução do problema?
+                                    </td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="p-2.5 font-bold text-slate-900 bg-slate-50 align-top border-r border-slate-200">
+                                        Resultados e Discussões
+                                    </td>
+                                    <td class="p-2.5">
+                                        Quais os principais resultados da pesquisa? Quais constatações podem ser feitas a partir dos resultados evidenciados? Os resultados são coerentes com as hipóteses? Os objetivos foram atendidos?
+                                    </td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="p-2.5 font-bold text-slate-900 bg-slate-50 align-top border-r border-slate-200">
+                                        Conclusões
+                                    </td>
+                                    <td class="p-2.5">
+                                        O que foi feito no trabalho? Quais as principais constatações finais? Quais as limitações e as próximas etapas a serem desenvolvidas?
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <span>Checklist de Redação do Manuscrito</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 26</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 27: Encerramento / Perguntas -->
+            <section class="slide w-full h-full flex-col justify-between p-8 md:p-14 bg-gradient-to-br from-slate-900 via-brand-950 to-slate-950 text-white relative overflow-hidden" data-title="Encerramento">
+                <div class="absolute right-0 bottom-0 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+                    <span class="text-xs font-bold uppercase tracking-widest text-sky-400">Encerramento</span>
+                    <span class="text-xs text-slate-400">UFC • Departamento de Engenharia Elétrica</span>
+                </div>
+
+                <div class="my-auto text-center max-w-xl mx-auto space-y-6">
+                    <div class="w-20 h-20 rounded-2xl bg-gradient-to-tr from-brand-500 to-sky-400 flex items-center justify-center text-3xl mx-auto shadow-xl">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+
+                    <h2 class="text-4xl sm:text-5xl font-display font-extrabold text-white tracking-tight">
+                        Obrigado!
+                    </h2>
+                    <p class="text-sky-300 text-lg sm:text-xl font-medium">
+                        Dúvidas & Discussões?
+                    </p>
+
+                    <div class="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur inline-block text-left w-full mt-2 shadow-lg">
+                        <div class="text-base font-bold text-white">Prof. Lucas Silveira</div>
+                        <div class="text-xs text-sky-300 font-medium">Universidade Federal do Ceará (UFC)</div>
+                        <div class="text-xs text-slate-400 mt-1">GREI • Grupo de Redes Elétricas Inteligentes</div>
+
+                        <div class="mt-4 pt-4 border-t border-white/10 flex flex-wrap items-center justify-between gap-3 text-xs text-slate-400">
+                            <span class="flex items-center gap-1.5 text-sky-300">
+                                <i class="fa-solid fa-chalkboard-user"></i> Seminários de Pós-Graduação
+                            </span>
+                            <div class="flex items-center gap-3">
+                                <span class="hover:text-white cursor-pointer"><i class="fa-brands fa-linkedin text-base"></i></span>
+                                <span class="hover:text-white cursor-pointer"><i class="fa-solid fa-graduation-cap text-base"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-t border-slate-800 pt-4 flex items-center justify-between text-xs text-slate-500">
+                    <span>Universidade Federal do Ceará</span>
+                    <span class="font-mono">Seminários - Prof. Lucas Silveira | 27</span>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="h-16 bg-slate-950 border-t border-slate-800 px-4 md:px-8 flex items-center justify-between text-white z-30 shrink-0">
+        <div class="flex items-center gap-2">
+            <button id="btn-prev" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-brand-700 text-slate-200 hover:text-white font-medium text-xs flex items-center gap-2 transition disabled:opacity-30 disabled:cursor-not-allowed">
+                <i class="fa-solid fa-chevron-left"></i>
+                <span class="hidden sm:inline">Anterior</span>
+            </button>
+            <button id="btn-next" class="px-5 py-2 rounded-xl bg-brand-700 hover:bg-brand-600 text-white font-semibold text-xs flex items-center gap-2 transition shadow-md shadow-brand-900/40 disabled:opacity-30 disabled:cursor-not-allowed">
+                <span>Próximo</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <div class="text-xs text-slate-400 hidden sm:flex items-center gap-4">
+            <span class="flex items-center gap-1"><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">←</kbd> <kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">→</kbd> Navegar</span>
+            <span class="flex items-center gap-1"><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">Espaço</kbd> Avançar</span>
+            <span class="flex items-center gap-1"><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">G</kbd> Índice</span>
+        </div>
+
+        <div class="text-xs font-mono text-slate-400">
+            Slide <span id="current-slide-num" class="text-white font-bold">1</span> de <span id="total-slides-num">27</span>
+        </div>
+    </footer>
+
+    <div id="grid-modal" class="fixed inset-0 bg-slate-950/90 backdrop-blur-md z-50 hidden flex-col p-4 md:p-8">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-4 mb-6">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-lg bg-brand-700 flex items-center justify-center text-white font-bold">
+                    <i class="fa-solid fa-table-cells-large"></i>
+                </div>
+                <div>
+                    <h2 class="text-base font-bold text-white">Índice Geral de Slides</h2>
+                    <p class="text-xs text-slate-400">Clique para navegar diretamente até o slide desejado</p>
+                </div>
+            </div>
+            <button id="btn-close-grid" class="p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-white transition">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+        </div>
+
+        <div id="grid-thumbnails-container" class="flex-1 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 overflow-y-auto custom-scrollbar p-1">
+            <!-- Dynamically populated via JavaScript -->
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slides = document.querySelectorAll('.slide');
+            const totalSlides = slides.length;
+            let currentSlideIndex = 0;
+
+            const currentSlideNumEl = document.getElementById('current-slide-num');
+            const totalSlidesNumEl = document.getElementById('total-slides-num');
+            const slideNumberDisplay = document.getElementById('slide-number-display');
+            const progressBarFill = document.getElementById('progress-bar-fill');
+            const btnPrev = document.getElementById('btn-prev');
+            const btnNext = document.getElementById('btn-next');
+            const btnGrid = document.getElementById('btn-grid');
+            const btnFullscreen = document.getElementById('btn-fullscreen');
+            const gridModal = document.getElementById('grid-modal');
+            const btnCloseGrid = document.getElementById('btn-close-grid');
+            const gridThumbnailsContainer = document.getElementById('grid-thumbnails-container');
+
+            totalSlidesNumEl.textContent = totalSlides;
+
+            // Generate thumbnails for Grid modal
+            slides.forEach((slide, index) => {
+                const title = slide.getAttribute('data-title') || `Slide ${index + 1}`;
+                const thumb = document.createElement('button');
+                thumb.className = `p-3 rounded-xl border text-left flex flex-col justify-between transition h-28 ${
+                    index === currentSlideIndex 
+                        ? 'border-brand-500 bg-brand-900/40 text-white ring-2 ring-brand-500/40' 
+                        : 'border-slate-800 bg-slate-900/80 hover:border-slate-600 text-slate-300'
+                }`;
+                thumb.innerHTML = `
+                    <div class="flex items-center justify-between w-full">
+                        <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-400 font-bold">${String(index + 1).padStart(2, '0')}</span>
+                        <i class="fa-solid fa-arrow-right text-[10px] opacity-40"></i>
+                    </div>
+                    <div class="text-xs font-semibold line-clamp-2 mt-2">${title}</div>
+                `;
+                thumb.addEventListener('click', () => {
+                    goToSlide(index);
+                    toggleGrid(false);
+                });
+                gridThumbnailsContainer.appendChild(thumb);
+            });
+
+            function updateThumbnailsActive() {
+                const thumbs = gridThumbnailsContainer.querySelectorAll('button');
+                thumbs.forEach((thumb, idx) => {
+                    if (idx === currentSlideIndex) {
+                        thumb.className = 'p-3 rounded-xl border border-brand-500 bg-brand-900/40 text-white flex flex-col justify-between transition h-28 ring-2 ring-brand-500/40';
+                    } else {
+                        thumb.className = 'p-3 rounded-xl border border-slate-800 bg-slate-900/80 hover:border-slate-600 text-slate-300 flex flex-col justify-between transition h-28';
+                    }
+                });
+            }
+
+            function updateUI() {
+                slides.forEach((s, idx) => {
+                    if (idx === currentSlideIndex) {
+                        s.classList.add('active');
+                    } else {
+                        s.classList.remove('active');
+                    }
+                });
+
+                const formattedCurrent = String(currentSlideIndex + 1).padStart(2, '0');
+                const formattedTotal = String(totalSlides).padStart(2, '0');
+                
+                currentSlideNumEl.textContent = currentSlideIndex + 1;
+                slideNumberDisplay.textContent = `${formattedCurrent} / ${formattedTotal}`;
+                
+                const pct = ((currentSlideIndex + 1) / totalSlides) * 100;
+                progressBarFill.style.width = `${pct}%`;
+
+                btnPrev.disabled = currentSlideIndex === 0;
+                btnNext.disabled = currentSlideIndex === totalSlides - 1;
+
+                updateThumbnailsActive();
+            }
+
+            function goToSlide(index) {
+                if (index >= 0 && index < totalSlides) {
+                    currentSlideIndex = index;
+                    updateUI();
+                }
+            }
+
+            function nextSlide() {
+                if (currentSlideIndex < totalSlides - 1) {
+                    goToSlide(currentSlideIndex + 1);
+                }
+            }
+
+            function prevSlide() {
+                if (currentSlideIndex > 0) {
+                    goToSlide(currentSlideIndex - 1);
+                }
+            }
+
+            function toggleGrid(show) {
+                if (show === undefined) {
+                    gridModal.classList.toggle('hidden');
+                    gridModal.classList.toggle('flex');
+                } else if (show) {
+                    gridModal.classList.remove('hidden');
+                    gridModal.classList.add('flex');
+                } else {
+                    gridModal.classList.add('hidden');
+                    gridModal.classList.remove('flex');
+                }
+            }
+
+            btnPrev.addEventListener('click', prevSlide);
+            btnNext.addEventListener('click', nextSlide);
+            btnGrid.addEventListener('click', () => toggleGrid());
+            btnCloseGrid.addEventListener('click', () => toggleGrid(false));
+
+            btnFullscreen.addEventListener('click', () => {
+                if (!document.fullscreenElement) {
+                    document.documentElement.requestFullscreen().catch(() => {});
+                } else {
+                    document.exitFullscreen().catch(() => {});
+                }
+            });
+
+            // Keyboard navigation
+            document.addEventListener('keydown', (e) => {
+                if (gridModal.classList.contains('flex')) {
+                    if (e.key === 'Escape' || e.key === 'g' || e.key === 'G') {
+                        toggleGrid(false);
+                    }
+                    return;
+                }
+
+                if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+                    e.preventDefault();
+                    nextSlide();
+                } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+                    e.preventDefault();
+                    prevSlide();
+                } else if (e.key === 'Home') {
+                    e.preventDefault();
+                    goToSlide(0);
+                } else if (e.key === 'End') {
+                    e.preventDefault();
+                    goToSlide(totalSlides - 1);
+                } else if (e.key === 'g' || e.key === 'G') {
+                    e.preventDefault();
+                    toggleGrid(true);
+                } else if (e.key === 'f' || e.key === 'F') {
+                    e.preventDefault();
+                    if (!document.fullscreenElement) {
+                        document.documentElement.requestFullscreen().catch(() => {});
+                    } else {
+                        document.exitFullscreen().catch(() => {});
+                    }
+                }
+            });
+
+            // Mobile Touch Swipe Handling
+            let touchStartX = 0;
+            let touchEndX = 0;
+            const stage = document.getElementById('slide-stage');
+
+            stage.addEventListener('touchstart', (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+            }, { passive: true });
+
+            stage.addEventListener('touchend', (e) => {
+                touchEndX = e.changedTouches[0].screenX;
+                if (Math.abs(touchStartX - touchEndX) > 45) {
+                    if (touchStartX - touchEndX > 0) nextSlide();
+                    else prevSlide();
+                }
+            }, { passive: true });
+
+            updateUI();
+        });
+    </script>
+</body>
+</html>

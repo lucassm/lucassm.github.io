@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminários: Publicações Científicas - UFC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            200: '#bae0fd',
+                            500: '#0072b2',
+                            600: '#005a91',
+                            700: '#004a77',
+                            800: '#003b60',
+                            900: '#002844',
+                        },
+                        accent: {
+                            amber: '#d97706',
+                            emerald: '#059669',
+                            rose: '#e11d48',
+                            cyan: '#0891b2'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .slide {
+            display: none;
+            opacity: 0;
+            transform: scale(0.985) translateY(8px);
+            transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .slide.active {
+            display: flex;
+            opacity: 1;
+            transform: scale(1) translateY(0);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.05);
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(0, 80, 136, 0.2);
+            border-radius: 9999px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: rgba(0, 80, 136, 0.4);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .glass-dark {
+            background: rgba(15, 23, 42, 0.9);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(51, 65, 85, 0.7);
+        }
+    </style>
+</head>
+<body class="h-full bg-slate-900 text-slate-800 font-sans antialiased overflow-hidden flex flex-col select-none">
+
+    <header class="h-14 bg-slate-950/80 backdrop-blur border-b border-slate-800 text-white px-4 md:px-6 flex items-center justify-between z-30 shrink-0">
+        <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-brand-700 to-sky-500 flex items-center justify-center font-bold text-white shadow-md">
+                <i class="fa-solid fa-graduation-cap text-sm"></i>
+            </div>
+            <div>
+                <h1 class="text-xs md:text-sm font-semibold tracking-wide text-slate-200">Seminários: Publicações Científicas</h1>
+                <p class="text-[10px] text-slate-400 font-medium">Prof. Lucas Silveira Melo • UFC / GREI</p>
+            </div>
+        </div>
+
+        <!-- Middle Progress Bar & Indicator -->
+        <div class="hidden sm:flex items-center gap-3">
+            <span class="text-xs font-semibold text-slate-400 font-mono" id="slide-number-display">01 / 24</span>
+            <div class="w-36 h-2 bg-slate-800 rounded-full overflow-hidden border border-slate-700/60">
+                <div id="progress-bar-fill" class="h-full bg-gradient-to-r from-sky-500 to-brand-500 transition-all duration-300 ease-out" style="width: 4.16%;"></div>
+            </div>
+        </div>
+
+        <!-- Controls / Actions -->
+        <div class="flex items-center gap-2">
+            <button id="btn-grid" title="Visão Geral dos Slides (G)" class="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition text-xs flex items-center gap-1.5">
+                <i class="fa-solid fa-grip"></i>
+                <span class="hidden md:inline">Índice</span>
+            </button>
+            <button id="btn-fullscreen" title="Tela Cheia (F)" class="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition text-xs">
+                <i class="fa-solid fa-expand"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="flex-1 relative flex items-center justify-center p-2 sm:p-4 md:p-6 overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
+        
+        <!-- Slide Viewport (16:9 ratio wrapper) -->
+        <div id="slide-stage" class="relative w-full max-w-6xl aspect-[16/10] sm:aspect-[16/9] max-h-[86vh] bg-white rounded-2xl shadow-2xl overflow-hidden border border-slate-700/30 flex flex-col">
+
+            <!-- SLIDE 1: Capa -->
+            <section class="slide active w-full h-full flex-col justify-between p-8 md:p-14 bg-gradient-to-br from-slate-50 via-sky-50/40 to-blue-100/30 relative overflow-hidden" data-title="Capa">
+                <div class="absolute -right-20 -top-20 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
+                <div class="absolute -left-20 -bottom-20 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+                <!-- Top Institution Tag -->
+                <div class="flex items-center justify-between w-full border-b border-slate-200/80 pb-4">
+                    <div class="flex items-center gap-3">
+                        <div class="px-3 py-1 bg-brand-700 text-white text-xs font-bold uppercase tracking-wider rounded-md shadow-sm">
+                            UFC
+                        </div>
+                        <span class="text-xs font-semibold text-slate-600 tracking-wide uppercase">Departamento de Engenharia Elétrica</span>
+                    </div>
+                    <div class="text-xs font-medium text-slate-500 bg-white/80 border border-slate-200 px-3 py-1 rounded-full">
+                        <i class="fa-solid fa-bolt text-amber-500 mr-1"></i> GREI - Grupo de Redes Elétricas Inteligentes
+                    </div>
+                </div>
+
+                <!-- Center Content -->
+                <div class="my-auto text-left max-w-3xl">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-100/80 text-brand-800 text-xs font-bold uppercase tracking-wider mb-4">
+                        <i class="fa-solid fa-book-bookmark"></i>
+                        Seminários de Pós-Graduação & Pesquisa
+                    </div>
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-extrabold text-slate-900 tracking-tight leading-tight mb-4">
+                        Publicações <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-700 via-sky-600 to-blue-500">Científicas</span>
+                    </h1>
+                    <p class="text-base sm:text-lg md:text-xl text-slate-600 font-normal">
+                        Fundamentos, processo editorial de <span class="font-semibold text-slate-800">Peer Review</span>, indexadores internacionais e novas diretrizes <span class="font-semibold text-slate-800">Qualis CAPES</span>.
+                    </p>
+                </div>
+
+                <!-- Footer / Author -->
+                <div class="pt-6 border-t border-slate-200/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-brand-700 text-white font-bold flex items-center justify-center text-lg shadow-md border-2 border-white">
+                            LM
+                        </div>
+                        <div>
+                            <div class="text-sm font-bold text-slate-900">Prof. Lucas Silveira Melo</div>
+                            <div class="text-xs text-slate-500">Universidade Federal do Ceará</div>
+                        </div>
+                    </div>
+                    <div class="text-xs text-slate-400 font-medium">
+                        Tema 01 • Metodologia & Produção Científica
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 2: Visão Geral - 80% Pós-Graduação -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Visão Geral: Pós-Graduação">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Visão Geral • Cenário Nacional</span>
+                    <span class="text-xs text-slate-400 font-medium">Sociedade Brasileira para o Progresso da Ciência</span>
+                </div>
+
+                <div class="my-auto grid md:grid-cols-12 gap-8 items-center">
+                    <div class="md:col-span-7 space-y-4">
+                        <div class="inline-flex items-center gap-2 text-xs font-bold text-blue-700 bg-blue-50 px-3 py-1 rounded-full">
+                            <i class="fa-solid fa-newspaper"></i> Notícia Oficial SBPC
+                        </div>
+                        <h2 class="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-slate-900 leading-snug">
+                            "80% da pesquisa no Brasil está ligada a programas de pós-graduação"
+                        </h2>
+                        <p class="text-sm md:text-base text-slate-600 leading-relaxed">
+                            A produção do conhecimento científico no país é intrinsicamente acoplada à formação de mestres e doutores dentro das instituições universitárias públicas.
+                        </p>
+                    </div>
+                    <div class="md:col-span-5 flex flex-col items-center justify-center p-6 bg-gradient-to-br from-blue-50 to-sky-100/50 rounded-2xl border border-blue-200/60 shadow-inner text-center">
+                        <div class="text-6xl sm:text-7xl font-display font-black text-brand-700">80%</div>
+                        <div class="text-sm font-bold text-slate-700 mt-2">Vínculo com PPGs</div>
+                        <div class="text-xs text-slate-500 mt-1 max-w-[200px]">Programas de Pós-Graduação geram a quase totalidade dos avanços acadêmicos.</div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Fonte: SBPC (Sociedade Brasileira para o Progresso da Ciência)</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 3: Pesquisa nas Universidades Públicas -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Pesquisa e Universidades Públicas">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Pesquisa e Ciência no Brasil</span>
+                    <span class="text-xs text-slate-400 font-medium">Panorama das Instituições Públicas</span>
+                </div>
+
+                <div class="my-auto space-y-6">
+                    <div class="bg-gradient-to-r from-brand-700 to-sky-700 text-white p-6 rounded-2xl shadow-lg flex items-center gap-5">
+                        <div class="w-16 h-16 rounded-xl bg-white/10 flex items-center justify-center shrink-0 text-3xl">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </div>
+                        <div>
+                            <div class="text-xs font-bold uppercase tracking-widest text-sky-200">Dado Fundamental</div>
+                            <h3 class="text-lg sm:text-xl md:text-2xl font-bold">Mais de 90% da pesquisa brasileira é realizada nas Universidades Públicas</h3>
+                            <p class="text-xs sm:text-sm text-sky-100 mt-1">A quase totalidade das publicações de alto impacto está vinculada a programas federais e estaduais de pós-graduação.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:shadow-md transition">
+                            <div class="flex items-center justify-between text-xs font-semibold text-slate-500 mb-2">
+                                <span>ADURN Sindicato</span>
+                                <i class="fa-solid fa-arrow-trend-up text-brand-600"></i>
+                            </div>
+                            <div class="text-sm font-bold text-slate-800">"Universidades públicas produzem 99% da ciência do Brasil"</div>
+                            <div class="text-[11px] text-slate-400 mt-2">Dados sistematizados do CGEE e Clarivate</div>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:shadow-md transition">
+                            <div class="flex items-center justify-between text-xs font-semibold text-slate-500 mb-2">
+                                <span>Folha de S.Paulo</span>
+                                <i class="fa-solid fa-newspaper text-rose-600"></i>
+                            </div>
+                            <div class="text-sm font-bold text-slate-800">"Universidades públicas produzem mais de 90% da pesquisa do país"</div>
+                            <div class="text-[11px] text-slate-400 mt-2">Métricas de impacto e produtividade</div>
+                        </div>
+
+                        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:shadow-md transition">
+                            <div class="flex items-center justify-between text-xs font-semibold text-slate-500 mb-2">
+                                <span>UNIFESP</span>
+                                <i class="fa-solid fa-award text-emerald-600"></i>
+                            </div>
+                            <div class="text-sm font-bold text-slate-800">"Universidades públicas realizam mais de 95% da ciência no Brasil"</div>
+                            <div class="text-[11px] text-slate-400 mt-2">Relatórios nacionais de pesquisa</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Fontes: ADURN, Folha de S.Paulo, UNIFESP</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 4: Produção Científica Mundial (WoS 2024) -->
+            <section class="slide w-full h-full flex-col p-6 md:p-10 justify-between bg-white relative" data-title="Produção Mundial (WoS 2024)">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <div>
+                        <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Pesquisa e Ciência no Brasil</span>
+                        <h2 class="text-base sm:text-lg font-bold text-slate-900">Produção Científica Mundial em 2024 (Web of Science)</h2>
+                    </div>
+                    <div class="flex items-center gap-2 bg-amber-50 border border-amber-200 px-3 py-1 rounded-full text-xs font-bold text-amber-800">
+                        <i class="fa-solid fa-trophy text-amber-500"></i>
+                        Brasil: 13º no ranking global (66.915 artigos)
+                    </div>
+                </div>
+
+                <!-- Interactive / Visual Chart Area -->
+                <div class="my-auto w-full h-56 sm:h-64 relative">
+                    <canvas id="chart-world-production"></canvas>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <span>Fonte: Informe OCTI 2025 (CGEE / MCTI - Governo Federal)</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 5: Principais Áreas de Pesquisa Nacional (2025) -->
+            <section class="slide w-full h-full flex-col p-6 md:p-10 justify-between bg-white relative" data-title="Áreas de Pesquisa Nacionais">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <div>
+                        <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Pesquisa e Ciência no Brasil</span>
+                        <h2 class="text-base sm:text-lg font-bold text-slate-900">Principais Áreas de Pesquisa dos Artigos Nacionais em 2025 (WoS)</h2>
+                    </div>
+                    <div class="bg-blue-50 text-brand-700 font-bold px-3 py-1 rounded-full text-xs border border-blue-200">
+                        <i class="fa-solid fa-cogs mr-1"></i> Engenharia em 1º Lugar
+                    </div>
+                </div>
+
+                <div class="my-auto grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+                    <!-- Top 5 -->
+                    <div class="space-y-2">
+                        <div class="flex items-center justify-between p-2.5 rounded-lg bg-amber-500/15 border border-amber-300">
+                            <span class="font-bold text-amber-900 flex items-center gap-2"><span class="w-5 h-5 rounded-full bg-amber-600 text-white flex items-center justify-center text-[10px]">1º</span> Engenharia</span>
+                            <span class="font-mono font-bold text-amber-950 bg-amber-100 px-2 py-0.5 rounded">5.332</span>
+                        </div>
+                        <div class="flex items-center justify-between p-2 rounded-lg bg-slate-50 border border-slate-200">
+                            <span class="font-semibold text-slate-800 flex items-center gap-2"><span class="w-5 h-5 rounded-full bg-slate-700 text-white flex items-center justify-center text-[10px]">2º</span> Química</span>
+                            <span class="font-mono font-bold text-slate-700">4.672</span>
+                        </div>
+                        <div class="flex items-center justify-between p-2 rounded-lg bg-slate-50 border border-slate-200">
+                            <span class="font-semibold text-slate-800 flex items-center gap-2"><span class="w-5 h-5 rounded-full bg-slate-700 text-white flex items-center justify-center text-[10px]">3º</span> Ciências Ambientais & Ecologia</span>
+                            <span class="font-mono font-bold text-slate-700">4.148</span>
+                        </div>
+                        <div class="flex items-center justify-between p-2 rounded-lg bg-slate-50 border border-slate-200">
+                            <span class="font-semibold text-slate-800 flex items-center gap-2"><span class="w-5 h-5 rounded-full bg-slate-700 text-white flex items-center justify-center text-[10px]">4º</span> Agricultura</span>
+                            <span class="font-mono font-bold text-slate-700">3.960</span>
+                        </div>
+                        <div class="flex items-center justify-between p-2 rounded-lg bg-slate-50 border border-slate-200">
+                            <span class="font-semibold text-slate-800 flex items-center gap-2"><span class="w-5 h-5 rounded-full bg-slate-700 text-white flex items-center justify-center text-[10px]">5º</span> Outros Tópicos de C&T</span>
+                            <span class="font-mono font-bold text-slate-700">3.630</span>
+                        </div>
+                    </div>
+
+                    <!-- 6 to 10 -->
+                    <div class="space-y-2">
+                        <div class="flex items-center justify-between p-2 rounded-lg bg-slate-50 border border-slate-200">
+                            <span class="font-semibold text-slate-800 flex items-center gap-2"><span class="w-5 h-5 rounded-full bg-slate-700 text-white flex items-center justify-center text-[10px]">6º</span> Física</span>
+                            <span class="font-mono font-bold text-slate-700">3.573</span>
+                        </div>
+                        <div class="flex items-center justify-between p-2 rounded-lg bg-slate-50 border border-slate-200">
+                            <span class="font-semibold text-slate-800 flex items-center gap-2"><span class="w-5 h-5 rounded-full bg-slate-700 text-white flex items-center justify-center text-[10px]">7º</span> Ciências dos Materiais</span>
+                            <span class="font-mono font-bold text-slate-700">3.117</span>
+                        </div>
+                        <div class="flex items-center justify-between p-2 rounded-lg bg-slate-50 border border-slate-200">
+                            <span class="font-semibold text-slate-800 flex items-center gap-2"><span class="w-5 h-5 rounded-full bg-slate-700 text-white flex items-center justify-center text-[10px]">8º</span> Saúde Pública & Ocupacional</span>
+                            <span class="font-mono font-bold text-slate-700">2.163</span>
+                        </div>
+                        <div class="flex items-center justify-between p-2 rounded-lg bg-slate-50 border border-slate-200">
+                            <span class="font-semibold text-slate-800 flex items-center gap-2"><span class="w-5 h-5 rounded-full bg-slate-700 text-white flex items-center justify-center text-[10px]">9º</span> Ciências das Plantas</span>
+                            <span class="font-mono font-bold text-slate-700">2.100</span>
+                        </div>
+                        <div class="flex items-center justify-between p-2 rounded-lg bg-slate-50 border border-slate-200">
+                            <span class="font-semibold text-slate-800 flex items-center gap-2"><span class="w-5 h-5 rounded-full bg-slate-700 text-white flex items-center justify-center text-[10px]">10º</span> Bioquímica & Biologia Molecular</span>
+                            <span class="font-mono font-bold text-slate-700">2.042</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <span>Fonte: Informe OCTI 2025 (CGEE / MCTI)</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 6: Depositantes de Patentes (INPI 2023) -->
+            <section class="slide w-full h-full flex-col p-6 md:p-10 justify-between bg-white relative" data-title="Depositantes de Patentes (INPI)">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <div>
+                        <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Inovação Tecnológica</span>
+                        <h2 class="text-base sm:text-lg font-bold text-slate-900">Maiores Depositantes de Patentes de Invenção no Brasil (INPI 2023)</h2>
+                    </div>
+                    <span class="text-xs bg-slate-100 text-slate-600 px-2.5 py-1 rounded font-medium">INPI Brasil</span>
+                </div>
+
+                <div class="my-auto grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+                    <!-- Empresas -->
+                    <div class="border border-slate-200 rounded-xl overflow-hidden shadow-sm">
+                        <div class="bg-slate-800 text-white px-3 py-2 font-bold flex justify-between">
+                            <span>Empresas & Centros Privados</span>
+                            <span>Depósitos</span>
+                        </div>
+                        <div class="divide-y divide-slate-100 max-h-48 overflow-y-auto custom-scrollbar">
+                            <div class="flex justify-between p-2 bg-blue-50/50 font-bold text-slate-800"><span>1º PETROBRAS</span><span class="font-mono text-brand-700">125</span></div>
+                            <div class="flex justify-between p-2"><span>2º FIAT</span><span class="font-mono text-slate-600">58</span></div>
+                            <div class="flex justify-between p-2"><span>3º INST. HERCÍLIO RANDON</span><span class="font-mono text-slate-600">43</span></div>
+                            <div class="flex justify-between p-2"><span>4º CNH INDUSTRIAL</span><span class="font-mono text-slate-600">40</span></div>
+                            <div class="flex justify-between p-2"><span>5º BOSCH</span><span class="font-mono text-slate-600">38</span></div>
+                            <div class="flex justify-between p-2"><span>6º VALE / WEG</span><span class="font-mono text-slate-600">23</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Universidades -->
+                    <div class="border border-sky-200 rounded-xl overflow-hidden shadow-sm">
+                        <div class="bg-brand-700 text-white px-3 py-2 font-bold flex justify-between">
+                            <span>Universidades Públicas</span>
+                            <span>Depósitos</span>
+                        </div>
+                        <div class="divide-y divide-slate-100 max-h-48 overflow-y-auto custom-scrollbar">
+                            <div class="flex justify-between p-2 bg-sky-50/70 font-bold text-brand-900"><span>1º UFCG (Campina Grande)</span><span class="font-mono text-brand-700">101</span></div>
+                            <div class="flex justify-between p-2"><span>2º UFMG</span><span class="font-mono text-slate-600">48</span></div>
+                            <div class="flex justify-between p-2"><span>3º UNICAMP</span><span class="font-mono text-slate-600">40</span></div>
+                            <div class="flex justify-between p-2"><span>4º UFS (Sergipe)</span><span class="font-mono text-slate-600">37</span></div>
+                            <div class="flex justify-between p-2"><span>5º UFSC (Santa Catarina)</span><span class="font-mono text-slate-600">36</span></div>
+                            <div class="flex justify-between p-2 bg-amber-50 font-bold text-amber-900"><span>10º UFC (Univ. Federal do Ceará)</span><span class="font-mono text-amber-700">31</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <span>Fonte: INPI (Ranking de Depositantes Residentes 2023)</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 7: Transição de Seção -->
+            <section class="slide w-full h-full flex-col justify-center items-center text-center p-8 md:p-14 bg-gradient-to-br from-brand-900 via-slate-900 to-brand-950 text-white relative overflow-hidden" data-title="Seção: Publicações">
+                <div class="w-20 h-20 rounded-2xl bg-gradient-to-tr from-sky-400 to-blue-600 flex items-center justify-center text-3xl shadow-2xl mb-6">
+                    <i class="fa-solid fa-scroll"></i>
+                </div>
+                <div class="text-xs font-bold uppercase tracking-widest text-sky-400 mb-2">Parte 02</div>
+                <h2 class="text-4xl sm:text-5xl font-display font-extrabold tracking-tight max-w-2xl">
+                    Publicações Científicas & Processo Editorial
+                </h2>
+                <p class="text-slate-400 text-sm sm:text-base max-w-lg mt-4 font-light">
+                    O papel da divulgação científica, arquitetura da revisão por pares e os veículos de comunicação técnica.
+                </p>
+            </section>
+
+            <!-- SLIDE 8: O que é Publicação Científica -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Conceito de Publicação">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Publicações Científicas</span>
+                    <span class="text-xs text-slate-400 font-medium">Fundamentos</span>
+                </div>
+
+                <div class="my-auto space-y-6">
+                    <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+                        <h3 class="text-lg sm:text-xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                            <i class="fa-solid fa-bullhorn text-brand-600"></i> O que é uma Publicação Científica?
+                        </h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Consiste em <strong>tornar públicos</strong> os resultados, metodologias e descobertas de uma pesquisa rigorosa através de veículos formais especializados (revistas, periódicos e congressos técnico-científicos).
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4 class="text-xs font-bold uppercase text-slate-400 tracking-wider mb-3">Exemplos que utilizam o sistema Peer Review:</h4>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+                            <div class="p-3.5 bg-blue-50/70 border border-blue-100 rounded-xl text-center">
+                                <i class="fa-solid fa-graduation-cap text-brand-600 text-lg mb-1"></i>
+                                <div class="text-xs font-bold text-slate-800">Dissertações</div>
+                                <div class="text-[10px] text-slate-500">Mestrado</div>
+                            </div>
+                            <div class="p-3.5 bg-blue-50/70 border border-blue-100 rounded-xl text-center">
+                                <i class="fa-solid fa-book text-brand-600 text-lg mb-1"></i>
+                                <div class="text-xs font-bold text-slate-800">Teses</div>
+                                <div class="text-[10px] text-slate-500">Doutorado</div>
+                            </div>
+                            <div class="p-3.5 bg-emerald-50/70 border border-emerald-100 rounded-xl text-center">
+                                <i class="fa-solid fa-newspaper text-emerald-600 text-lg mb-1"></i>
+                                <div class="text-xs font-bold text-slate-800">Periódicos</div>
+                                <div class="text-[10px] text-slate-500">Revistas Científicas</div>
+                            </div>
+                            <div class="p-3.5 bg-amber-50/70 border border-amber-100 rounded-xl text-center">
+                                <i class="fa-solid fa-users text-amber-600 text-lg mb-1"></i>
+                                <div class="text-xs font-bold text-slate-800">Congressos</div>
+                                <div class="text-[10px] text-slate-500">Conferências</div>
+                            </div>
+                            <div class="p-3.5 bg-purple-50/70 border border-purple-100 rounded-xl text-center">
+                                <i class="fa-solid fa-bookmark text-purple-600 text-lg mb-1"></i>
+                                <div class="text-xs font-bold text-slate-800">Capítulos</div>
+                                <div class="text-[10px] text-slate-500">Livros Científicos</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Fundamento: Revisão por Pares (Peer Review)</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 9: Revisão por Pares - Definição -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="O que é Peer Review">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Revisão por Pares</span>
+                    <span class="text-xs text-slate-400 font-medium">Critério Qualitativo</span>
+                </div>
+
+                <div class="my-auto grid md:grid-cols-12 gap-6 items-center">
+                    <div class="md:col-span-7 space-y-4">
+                        <h3 class="text-xl sm:text-2xl font-display font-bold text-slate-900">
+                            Avaliação Qualitativa por Especialistas Independentes
+                        </h3>
+                        <ul class="space-y-3 text-xs sm:text-sm text-slate-600 font-medium">
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-check text-emerald-500 mt-1"></i>
+                                <span>Manuscrito avaliado por pesquisadores experientes da mesma especialidade (<strong>peers / referees</strong>).</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-magnifying-glass text-brand-500 mt-1"></i>
+                                <span>Verificação rigorosa de: <strong>qualidade técnica, originalidade, relevância, ética, fundamentação teórica e clareza</strong>.</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-gavel text-amber-500 mt-1"></i>
+                                <span>Emissão de parecer fundamentado recomendando: <strong>Aceite, Revisões (menores/maiores) ou Rejeição</strong>.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="md:col-span-5 flex flex-col items-center justify-center p-6 bg-gradient-to-br from-blue-900 to-slate-900 text-white rounded-2xl shadow-xl text-center">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-lg bg-sky-500/20 text-sky-400 flex items-center justify-center font-bold">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div class="font-bold text-sm">Garantia de Integridade</div>
+                        </div>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            O sistema de peer review atua como o filtro primário contra dados fraudulentos, metodologias falhas e conclusões precipitadas na ciência.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Processo de Arbitragem Científica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 10: 3 Tipos Principais de Revisão por Pares -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Tipos de Peer Review">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Revisão por Pares</span>
+                    <span class="text-xs text-slate-400 font-medium">Modelos de Avaliação</span>
+                </div>
+
+                <div class="my-auto space-y-6">
+                    <div class="text-center max-w-xl mx-auto">
+                        <h3 class="text-2xl font-display font-bold text-slate-900">Existem três principais tipos de avaliação por pares:</h3>
+                        <p class="text-xs text-slate-500 mt-1">Cada modelo oferece níveis distintos de anonimato e transparência editorial.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-brand-500 hover:shadow-lg transition flex flex-col justify-between text-center">
+                            <div>
+                                <div class="w-12 h-12 rounded-xl bg-blue-100 text-brand-700 flex items-center justify-center text-xl mx-auto mb-3">
+                                    <i class="fa-solid fa-eye-slash"></i>
+                                </div>
+                                <h4 class="font-bold text-slate-900 text-sm">Single-Blind</h4>
+                                <p class="text-xs font-medium text-slate-500 mt-1">Avaliação Cega Simples</p>
+                                <p class="text-xs text-slate-600 mt-3">Os pareceristas sabem quem são os autores, mas os autores não sabem quem são os pareceristas.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-brand-50/50 border-2 border-brand-500 hover:shadow-lg transition flex flex-col justify-between text-center relative">
+                            <span class="absolute -top-2.5 right-4 bg-brand-700 text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">Mais Comum</span>
+                            <div>
+                                <div class="w-12 h-12 rounded-xl bg-brand-700 text-white flex items-center justify-center text-xl mx-auto mb-3">
+                                    <i class="fa-solid fa-mask"></i>
+                                </div>
+                                <h4 class="font-bold text-slate-900 text-sm">Double-Blind</h4>
+                                <p class="text-xs font-medium text-brand-700 mt-1">Avaliação Duplo-Cego</p>
+                                <p class="text-xs text-slate-600 mt-3">Identidades ocultadas mutuamente: nem autores nem pareceristas conhecem os nomes.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-emerald-500 hover:shadow-lg transition flex flex-col justify-between text-center">
+                            <div>
+                                <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-xl mx-auto mb-3">
+                                    <i class="fa-solid fa-comments"></i>
+                                </div>
+                                <h4 class="font-bold text-slate-900 text-sm">Open Peer Review</h4>
+                                <p class="text-xs font-medium text-emerald-700 mt-1">Avaliação Aberta</p>
+                                <p class="text-xs text-slate-600 mt-3">Identidades e relatórios de avaliação são públicos e transparentes para a comunidade.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Transparência vs. Imparcialidade</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 11: Single-Blind Review -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Single-Blind Review">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Revisão por Pares</span>
+                    <span class="text-xs text-slate-400 font-medium">Modalidade 01</span>
+                </div>
+
+                <div class="my-auto grid md:grid-cols-12 gap-8 items-center">
+                    <div class="md:col-span-7 space-y-4">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 text-slate-700 text-xs font-bold">
+                            <i class="fa-solid fa-user-secret"></i> Single Anonymized Peer Review
+                        </div>
+                        <h3 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">
+                            Avaliação Cega Simples (Single-Blind)
+                        </h3>
+                        <div class="space-y-2.5 text-xs sm:text-sm text-slate-600">
+                            <div class="p-3 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-900 font-medium">
+                                <i class="fa-solid fa-check-circle mr-2 text-emerald-600"></i> A identidade do autor <strong>é conhecida</strong> pelos pareceristas.
+                            </div>
+                            <div class="p-3 rounded-lg bg-rose-50 border border-rose-200 text-rose-900 font-medium">
+                                <i class="fa-solid fa-times-circle mr-2 text-rose-600"></i> A identidade dos revisores <strong>é ocultada</strong> dos autores e do público.
+                            </div>
+                            <p class="text-slate-500 pt-2 text-xs">
+                                <i class="fa-solid fa-circle-info mr-1 text-slate-400"></i> É atualmente o método menos utilizado em periódicos de alto impacto devido ao potencial de viés institucional.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-5 flex flex-col items-center justify-center p-6 bg-slate-50 rounded-2xl border border-slate-200 text-center">
+                        <div class="flex items-center justify-center gap-4 text-3xl text-slate-700 mb-4">
+                            <div class="p-3 bg-white rounded-xl shadow-sm border"><i class="fa-solid fa-user text-brand-600"></i><div class="text-[10px] font-bold mt-1 text-slate-500">Autor Visível</div></div>
+                            <i class="fa-solid fa-arrow-right text-slate-400 text-sm"></i>
+                            <div class="p-3 bg-slate-800 text-white rounded-xl shadow-sm"><i class="fa-solid fa-user-ninja"></i><div class="text-[10px] font-bold mt-1 text-slate-300">Revisor Anônimo</div></div>
+                        </div>
+                        <span class="text-xs text-slate-500">Assimetria de anonimato entre as partes.</span>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Fonte: The Conversation</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 12: Double-Blind Review -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Double-Blind Review">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Revisão por Pares</span>
+                    <span class="text-xs text-slate-400 font-medium">Modalidade 02 • Padrão Ouro</span>
+                </div>
+
+                <div class="my-auto grid md:grid-cols-12 gap-8 items-center">
+                    <div class="md:col-span-7 space-y-4">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-brand-800 text-xs font-bold">
+                            <i class="fa-solid fa-shield"></i> Double Anonymized Peer Review
+                        </div>
+                        <h3 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">
+                            Avaliação Duplo-Cego (Double-Blind)
+                        </h3>
+                        <div class="space-y-2.5 text-xs sm:text-sm text-slate-600">
+                            <div class="p-3 rounded-lg bg-blue-50 border border-blue-200 text-brand-900 font-medium">
+                                <i class="fa-solid fa-mask mr-2 text-brand-700"></i> A identidade dos autores <strong>é omitida</strong> do manuscrito.
+                            </div>
+                            <div class="p-3 rounded-lg bg-blue-50 border border-blue-200 text-brand-900 font-medium">
+                                <i class="fa-solid fa-user-slash mr-2 text-brand-700"></i> A identidade dos pareceristas <strong>é omitida</strong> de todos.
+                            </div>
+                            <p class="text-slate-600 pt-2 text-xs font-semibold text-emerald-700">
+                                <i class="fa-solid fa-star mr-1"></i> Predominantemente adotada pelos principais periódicos e conferências de tecnologia.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-5 flex flex-col items-center justify-center p-6 bg-gradient-to-br from-blue-900 to-slate-900 text-white rounded-2xl shadow-xl text-center">
+                        <div class="flex items-center justify-center gap-4 text-3xl mb-4">
+                            <div class="p-3 bg-white/10 rounded-xl border border-white/20"><i class="fa-solid fa-user-secret text-sky-400"></i><div class="text-[10px] font-bold mt-1 text-slate-300">Autor Anônimo</div></div>
+                            <i class="fa-solid fa-arrows-split-up-and-left text-sky-400 text-sm"></i>
+                            <div class="p-3 bg-white/10 rounded-xl border border-white/20"><i class="fa-solid fa-user-secret text-sky-400"></i><div class="text-[10px] font-bold mt-1 text-slate-300">Revisor Anônimo</div></div>
+                        </div>
+                        <span class="text-xs text-sky-200">Mitigação de preconceitos e foco exclusivo na qualidade científica.</span>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Fonte: Cosmos Magazine / IEEE / Elsevier</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 13: Open Peer Review -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Open Peer Review">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Revisão por Pares</span>
+                    <span class="text-xs text-slate-400 font-medium">Modalidade 03 • Ciência Aberta</span>
+                </div>
+
+                <div class="my-auto grid md:grid-cols-12 gap-8 items-center">
+                    <div class="md:col-span-7 space-y-4">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold">
+                            <i class="fa-solid fa-door-open"></i> Open Science Paradigm
+                        </div>
+                        <h3 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">
+                            Avaliação por Pares Aberta (Open Peer Review)
+                        </h3>
+                        <ul class="space-y-3 text-xs sm:text-sm text-slate-600">
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-check text-emerald-600 mt-1"></i>
+                                <span><strong>Revela as identidades</strong> de autores, pareceristas e editores.</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-comment-dots text-brand-600 mt-1"></i>
+                                <span>Permite o <strong>acesso público às avaliações</strong> e comentários técnicos após a publicação.</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-globe text-sky-600 mt-1"></i>
+                                <span>Fortemente associada aos movimentos globais de <strong>Ciência Aberta (Open Science)</strong> e repositórios preprint.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="md:col-span-5 bg-gradient-to-br from-emerald-50 to-teal-100/60 p-6 rounded-2xl border border-emerald-200 text-center">
+                        <i class="fa-solid fa-network-wired text-4xl text-emerald-700 mb-3"></i>
+                        <h4 class="font-bold text-slate-900 text-sm">Transparência Integral</h4>
+                        <p class="text-xs text-slate-600 mt-2">Incentiva pareceres mais construtivos, reconhece publicamente o trabalho do revisor e previne arbitrariedades.</p>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Fonte: Elsevier Connect</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 14: Congressos Nacionais -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Congressos Nacionais">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Congressos & Eventos Científicos</span>
+                    <span class="text-xs text-slate-400 font-medium">Engenharia Elétrica & Automação</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h3 class="text-xl sm:text-2xl font-display font-bold text-slate-900">
+                        Exemplos de Congressos Nacionais (Brasil)
+                    </h3>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-xs">
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-white hover:border-brand-500 transition">
+                            <span class="font-mono font-bold text-brand-700 text-sm">SBSE</span>
+                            <div class="font-semibold text-slate-800 mt-1">Simpósio Brasileiro de Sistemas Elétricos</div>
+                        </div>
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-white hover:border-brand-500 transition">
+                            <span class="font-mono font-bold text-brand-700 text-sm">SENDI</span>
+                            <div class="font-semibold text-slate-800 mt-1">Seminário Nacional de Distribuição de Energia Elétrica</div>
+                        </div>
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-white hover:border-brand-500 transition">
+                            <span class="font-mono font-bold text-brand-700 text-sm">COBEP</span>
+                            <div class="font-semibold text-slate-800 mt-1">Congresso Brasileiro de Eletrônica de Potência</div>
+                        </div>
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-white hover:border-brand-500 transition">
+                            <span class="font-mono font-bold text-brand-700 text-sm">CBA</span>
+                            <div class="font-semibold text-slate-800 mt-1">Congresso Brasileiro de Automática</div>
+                        </div>
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-white hover:border-brand-500 transition">
+                            <span class="font-mono font-bold text-brand-700 text-sm">CBQEE</span>
+                            <div class="font-semibold text-slate-800 mt-1">Conferência Brasileira Sobre Qualidade da Energia Elétrica</div>
+                        </div>
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-white hover:border-brand-500 transition">
+                            <span class="font-mono font-bold text-brand-700 text-sm">SNPTEE</span>
+                            <div class="font-semibold text-slate-800 mt-1">Seminário Nacional de Produção e Transmissão de Energia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Networking e validação prévia de pesquisas</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 15: Congressos Internacionais -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Congressos Internacionais">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Congressos & Eventos Científicos</span>
+                    <span class="text-xs text-slate-400 font-medium">Comunidade Internacional (IEEE / CIGRE)</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h3 class="text-xl sm:text-2xl font-display font-bold text-slate-900">
+                        Exemplos de Congressos Internacionais de Alto Impacto
+                    </h3>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-xs">
+                        <div class="p-3.5 rounded-xl border border-blue-200 bg-blue-50/40">
+                            <span class="font-mono font-bold text-brand-700 text-sm">INDUSCON</span>
+                            <div class="text-slate-700 mt-1 font-medium">IEEE/IAS Conf. on Industry Applications</div>
+                        </div>
+                        <div class="p-3.5 rounded-xl border border-blue-200 bg-blue-50/40">
+                            <span class="font-mono font-bold text-brand-700 text-sm">ICHQP</span>
+                            <div class="text-slate-700 mt-1 font-medium">IEEE Conf. on Harmonics and Quality of Power</div>
+                        </div>
+                        <div class="p-3.5 rounded-xl border border-blue-200 bg-blue-50/40">
+                            <span class="font-mono font-bold text-brand-700 text-sm">APEC</span>
+                            <div class="text-slate-700 mt-1 font-medium">Applied Power Electronics Conference</div>
+                        </div>
+                        <div class="p-3.5 rounded-xl border border-blue-200 bg-blue-50/40">
+                            <span class="font-mono font-bold text-brand-700 text-sm">SPEC / ECCE</span>
+                            <div class="text-slate-700 mt-1 font-medium">IEEE Energy Conversion Congress & Expo</div>
+                        </div>
+                        <div class="p-3.5 rounded-xl border border-blue-200 bg-blue-50/40">
+                            <span class="font-mono font-bold text-brand-700 text-sm">ERIAC</span>
+                            <div class="text-slate-700 mt-1 font-medium">Encontro Regional Ibero-americano do CIGRE</div>
+                        </div>
+                        <div class="p-3.5 rounded-xl border border-blue-200 bg-blue-50/40">
+                            <span class="font-mono font-bold text-brand-700 text-sm">PSCC</span>
+                            <div class="text-slate-700 mt-1 font-medium">Power Systems Computation Conference</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Indexação nos anais do IEEE Xplore / Scopus</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 16: Etapas de Publicação em Congressos -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Etapas em Congressos">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Fluxo Editorial</span>
+                    <span class="text-xs text-slate-400 font-medium">Congressos Científicos</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h3 class="text-xl sm:text-2xl font-display font-bold text-slate-900">
+                        Etapas para Publicação de Trabalhos em Congressos
+                    </h3>
+
+                    <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 gap-2 text-center text-xs">
+                        <div class="p-3 bg-slate-50 border rounded-xl flex flex-col items-center">
+                            <div class="w-7 h-7 rounded-full bg-slate-800 text-white flex items-center justify-center font-bold text-xs mb-2">1</div>
+                            <span class="font-bold text-slate-800">Call for Papers</span>
+                            <span class="text-[10px] text-slate-500 mt-1">Chamada pública de trabalhos</span>
+                        </div>
+                        <div class="p-3 bg-slate-50 border rounded-xl flex flex-col items-center">
+                            <div class="w-7 h-7 rounded-full bg-slate-800 text-white flex items-center justify-center font-bold text-xs mb-2">2</div>
+                            <span class="font-bold text-slate-800">Submissão</span>
+                            <span class="text-[10px] text-slate-500 mt-1">Deadline rígido de envio</span>
+                        </div>
+                        <div class="p-3 bg-blue-50 border border-blue-200 rounded-xl flex flex-col items-center">
+                            <div class="w-7 h-7 rounded-full bg-brand-700 text-white flex items-center justify-center font-bold text-xs mb-2">3</div>
+                            <span class="font-bold text-brand-900">Peer Review</span>
+                            <span class="text-[10px] text-slate-500 mt-1">Avaliação por comitê técnico</span>
+                        </div>
+                        <div class="p-3 bg-slate-50 border rounded-xl flex flex-col items-center">
+                            <div class="w-7 h-7 rounded-full bg-slate-800 text-white flex items-center justify-center font-bold text-xs mb-2">4</div>
+                            <span class="font-bold text-slate-800">Decisão</span>
+                            <span class="text-[10px] text-slate-500 mt-1">Parecer favorável / desfavorável</span>
+                        </div>
+                        <div class="p-3 bg-slate-50 border rounded-xl flex flex-col items-center">
+                            <div class="w-7 h-7 rounded-full bg-slate-800 text-white flex items-center justify-center font-bold text-xs mb-2">5</div>
+                            <span class="font-bold text-slate-800">Camera-Ready</span>
+                            <span class="text-[10px] text-slate-500 mt-1">Envio da versão final revisada</span>
+                        </div>
+                        <div class="p-3 bg-amber-50 border border-amber-200 rounded-xl flex flex-col items-center">
+                            <div class="w-7 h-7 rounded-full bg-amber-600 text-white flex items-center justify-center font-bold text-xs mb-2">6</div>
+                            <span class="font-bold text-amber-900">Apresentação</span>
+                            <span class="text-[10px] text-slate-500 mt-1">Oral, Pôster ou Pitch presencial</span>
+                        </div>
+                        <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-xl flex flex-col items-center">
+                            <div class="w-7 h-7 rounded-full bg-emerald-600 text-white flex items-center justify-center font-bold text-xs mb-2">7</div>
+                            <span class="font-bold text-emerald-900">Publicação</span>
+                            <span class="text-[10px] text-slate-500 mt-1">Anais e indexadores oficiais</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Ciclo dinâmico de apresentação e discussão</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 17: Etapas em Periódicos (Workflow Wiley) -->
+            <section class="slide w-full h-full flex-col p-6 md:p-10 justify-between bg-white relative" data-title="Etapas em Periódicos">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Fluxo Editorial</span>
+                    <span class="text-xs text-slate-400 font-medium">Periódicos Científicos (Journals)</span>
+                </div>
+
+                <div class="my-auto space-y-3">
+                    <h3 class="text-lg sm:text-xl font-display font-bold text-slate-900">
+                        O Ciclo Editorial de Artigos em Revistas Científicas
+                    </h3>
+
+                    <div class="p-4 bg-slate-800 text-white rounded-2xl shadow-xl space-y-4">
+                        <div class="flex flex-wrap items-center justify-center gap-2 text-xs text-center font-semibold">
+                            <div class="p-2.5 bg-slate-800 rounded-lg border border-slate-700">1. Submissão do Autor</div>
+                            <i class="fa-solid fa-chevron-right text-slate-500 text-xs"></i>
+                            <div class="p-2.5 bg-blue-900 rounded-lg border border-blue-700">2. Triagem pelo Editor Chefe</div>
+                            <i class="fa-solid fa-chevron-right text-slate-500 text-xs"></i>
+                            <div class="p-2.5 bg-purple-900 rounded-lg border border-purple-700">3. Revisão por Pares (Referees)</div>
+                            <i class="fa-solid fa-chevron-right text-slate-500 text-xs"></i>
+                            <div class="p-2.5 bg-amber-900 rounded-lg border border-amber-700">4. Avaliação das Revisões</div>
+                            <i class="fa-solid fa-chevron-right text-slate-500 text-xs"></i>
+                            <div class="p-2.5 bg-emerald-900 rounded-lg border border-emerald-700">5. Aceite / Produção / DOI</div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-[11px] pt-2 border-t border-slate-800">
+                            <div class="p-2 rounded bg-rose-950/60 border border-rose-900/80 text-rose-300">
+                                <strong>Desk Reject:</strong> Rejeição imediata pelo editor sem envio aos revisores (fora do escopo ou baixa qualidade).
+                            </div>
+                            <div class="p-2 rounded bg-amber-950/60 border border-amber-900/80 text-amber-300">
+                                <strong>Revisions:</strong> Minor / Major Revisions exigem carta de resposta ponto a ponto aos revisores.
+                            </div>
+                            <div class="p-2 rounded bg-emerald-950/60 border border-emerald-900/80 text-emerald-300">
+                                <strong>Publication:</strong> Prova gráfica, atribuição de DOI e publicação Early Access.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <span>Fonte: Wiley Author Services Peer Review Process</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 18: Comparativo Congresso vs Periódico -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Congresso vs Periódico">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Comparativo Técnico</span>
+                    <span class="text-xs text-slate-400 font-medium">Words Doctorate Analysis</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h3 class="text-xl sm:text-2xl font-display font-bold text-slate-900 text-center">
+                        Artigo de Congresso (Conference) vs Artigo de Periódico (Journal)
+                    </h3>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs">
+                        <div class="p-5 rounded-2xl bg-amber-50/50 border border-amber-200 flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center gap-2 font-bold text-sm text-amber-900 mb-3">
+                                    <i class="fa-solid fa-microphone-lines text-amber-600"></i> Artigo de Congresso (Conference Paper)
+                                </div>
+                                <ul class="space-y-2 text-slate-700 text-sm">
+                                    <li>• Resultados preliminares e ideias inovadoras em andamento.</li>
+                                    <li>• Feedback direto e presencial com pesquisadores da área.</li>
+                                    <li>• Texto mais conciso com limite rígido de páginas (ex: 4-6 págs).</li>
+                                    <li>• Prazo de publicação rápido e data fixa atrelada ao evento.</li>
+                                </ul>
+                            </div>
+                            <div class="mt-4 p-2.5 bg-amber-100 rounded-lg text-amber-900 font-semibold text-[11px]">
+                                Foco: Discussão oral e maturação de trabalhos.
+                            </div>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-blue-50/50 border border-blue-200 flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center gap-2 font-bold text-sm text-brand-900 mb-3">
+                                    <i class="fa-solid fa-book-journal-whills text-brand-700"></i> Artigo de Periódico (Journal Paper)
+                                </div>
+                                <ul class="space-y-2 text-slate-700 text-sm">
+                                    <li>• Pesquisa completa, aprofundada e consolidada.</li>
+                                    <li>• Múltiplas rodadas rigorosas de revisão por escrito (debates).</li>
+                                    <li>• Maior densidade metodológica e validação experimental extensa.</li>
+                                    <li>• Elevado peso para métricas de impacto (Qualis, JCR, CiteScore).</li>
+                                </ul>
+                            </div>
+                            <div class="mt-4 p-2.5 bg-blue-100 rounded-lg text-brand-900 font-semibold text-[11px]">
+                                Foco: Registro duradouro e referência bibliográfica primária.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Equilíbrio ideal na formação do pós-graduando</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 19: Indexadores de Periódicos -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Indexadores Científicos">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Métricas e Indexação</span>
+                    <span class="text-xs text-slate-400 font-medium">Bases Bibliométricas</span>
+                </div>
+
+                <div class="my-auto space-y-6">
+                    <div class="space-y-2">
+                        <h3 class="text-2xl font-display font-bold text-slate-900">
+                            Indexadores de Periódicos Científicos
+                        </h3>
+                        <p class="text-xl text-slate-600 leading-relaxed">
+                            Quando publicados, os artigos são catalogados em bases de dados bibliométricas globais. Essa indexação confere <strong>visibilidade, auditabilidade de citações</strong> e reconhecimento acadêmico internacional ao autor e à instituição.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+                        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50">
+                            <div class="font-bold text-slate-900 text-sm mb-1">Scopus (Elsevier)</div>
+                            <p class="text-slate-600">Maior base de dados com resumos e citações da literatura revisada por pares.</p>
+                        </div>
+                        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50">
+                            <div class="font-bold text-slate-900 text-sm mb-1">Web of Science (Clarivate)</div>
+                            <p class="text-slate-600">Plataforma global histórica com dados do JCR (Journal Citation Reports) e Fator de Impacto.</p>
+                        </div>
+                        <div class="p-4 rounded-xl border border-slate-200 bg-slate-50">
+                            <div class="font-bold text-slate-900 text-sm mb-1">Periódicos CAPES / SciELO</div>
+                            <p class="text-slate-600">Maior acervo digital científico brasileiro com acesso institucional autenticado (CAFe).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Consulta no Currículo Lattes: Citações ISI, SciELO e SCOPUS</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 20: Detalhe das Bases (Scopus, WoS, CAPES) -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Scopus, WoS & CAPES">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Métricas e Indexação</span>
+                    <span class="text-xs text-slate-400 font-medium">Grandes Plataformas</span>
+                </div>
+
+                <div class="my-auto grid grid-cols-1 md:grid-cols-3 gap-5 text-xs">
+                    <div class="p-5 rounded-2xl bg-orange-50/50 border border-orange-200 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-lg bg-orange-500 text-white flex items-center justify-center font-bold text-base mb-3">
+                                Sc
+                            </div>
+                            <h4 class="text-sm font-bold text-slate-900">Scopus</h4>
+                            <p class="text-slate-600 mt-2 leading-relaxed">
+                                Oferece métricas analíticas como <strong>CiteScore, SJR (Scimago) e SNIP</strong>. Cobre artigos, patentes, conferências e relatórios em escala mundial.
+                            </p>
+                        </div>
+                        <div class="mt-4 text-[10px] text-orange-800 font-semibold uppercase tracking-wider">Métrica: CiteScore</div>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-blue-50/50 border border-blue-200 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-lg bg-brand-700 text-white flex items-center justify-center font-bold text-base mb-3">
+                                WoS
+                            </div>
+                            <h4 class="text-sm font-bold text-slate-900">Web of Science</h4>
+                            <p class="text-slate-600 mt-2 leading-relaxed">
+                                Base do <strong>Journal Citation Reports (JCR)</strong>. Mantém os mais rigorosos critérios para cálculo do clássico <strong>Journal Impact Factor (JIF)</strong>.
+                            </p>
+                        </div>
+                        <div class="mt-4 text-[10px] text-brand-800 font-semibold uppercase tracking-wider">Métrica: Impact Factor (JIF)</div>
+                    </div>
+
+                    <div class="p-5 rounded-2xl bg-emerald-50/50 border border-emerald-200 flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-lg bg-emerald-600 text-white flex items-center justify-center font-bold text-base mb-3">
+                                CAFe
+                            </div>
+                            <h4 class="text-sm font-bold text-slate-900">Portal de Periódicos CAPES</h4>
+                            <p class="text-slate-600 mt-2 leading-relaxed">
+                                Acesso gratuito integral a milhares de periódicos internacionais para alunos da UFC através do <strong>login institucional via Comunidade Acadêmica Federada</strong>.
+                            </p>
+                        </div>
+                        <div class="mt-4 text-[10px] text-emerald-800 font-semibold uppercase tracking-wider">Acesso Institucional UFC</div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Recursos fundamentais para a revisão bibliográfica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 21: Impact Factor vs CiteScore -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Impact Factor vs CiteScore">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Métricas de Avaliação</span>
+                    <span class="text-xs text-slate-400 font-medium">Comparativo Bibliométrico</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h3 class="text-xl sm:text-2xl font-display font-bold text-slate-900">
+                        Impact Factor vs CiteScore
+                    </h3>
+                    <p class="text-xl text-slate-600">Ambas avaliam a relevância de um periódico dividindo o número total de citações recebidas pelo número de artigos publicáveis no período.</p>
+
+                    <div class="overflow-hidden border border-slate-200 rounded-xl">
+                        <table class="w-full text-xs text-left">
+                            <thead class="bg-slate-900 text-white">
+                                <tr>
+                                    <th class="p-3">Característica</th>
+                                    <th class="p-3 bg-brand-700">Journal Impact Factor (JIF)</th>
+                                    <th class="p-3 bg-orange-600">CiteScore</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 text-slate-700">
+                                <tr>
+                                    <td class="p-3 font-bold bg-slate-50">Base de Dados</td>
+                                    <td class="p-3">Web of Science (Clarivate)</td>
+                                    <td class="p-3">Scopus (Elsevier)</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-bold bg-slate-50">Janela Temporal</td>
+                                    <td class="p-3"><strong>2 anos</strong> consecutivos de citações</td>
+                                    <td class="p-3"><strong>3 a 4 anos</strong> consecutivos</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-3 font-bold bg-slate-50">Tipos de Documento</td>
+                                    <td class="p-3">Apenas itens citáveis (artigos e revisões)</td>
+                                    <td class="p-3">Todos os tipos (artigos, cartas, conferências)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Métricas de Periódicos (Não devem ser confundidas com o H-Index do autor)</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 22: Qualis Periódicos (CAPES) -->
+            <section class="slide w-full h-full flex-col p-6 md:p-10 justify-between bg-white relative" data-title="Qualis Periódicos CAPES">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Qualis Periódicos (CAPES)</span>
+                    <span class="text-xs text-slate-400 font-medium">Avaliação Quadrienal dos PPGs</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs">
+                        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 text-center">
+                            <div class="text-brand-700 font-bold text-base mb-1">1</div>
+                            <div class="font-bold text-slate-800">1 Classificação</div>
+                            <div class="text-[10px] text-slate-500">Unificada por periódico</div>
+                        </div>
+                        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 text-center">
+                            <div class="text-brand-700 font-bold text-base mb-1">2</div>
+                            <div class="font-bold text-slate-800">Área-Mãe</div>
+                            <div class="text-[10px] text-slate-500">Área com maior nº de publicações</div>
+                        </div>
+                        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 text-center">
+                            <div class="text-brand-700 font-bold text-base mb-1">3</div>
+                            <div class="font-bold text-slate-800">Referência</div>
+                            <div class="text-[10px] text-slate-500">Modelo matemático objetivo</div>
+                        </div>
+                        <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 text-center">
+                            <div class="text-brand-700 font-bold text-base mb-1">4</div>
+                            <div class="font-bold text-slate-800">Indicadores</div>
+                            <div class="text-[10px] text-slate-500">CiteScore / JIF / H5</div>
+                        </div>
+                    </div>
+
+                    <!-- Estratos Qualis Bar -->
+                    <div class="p-4 rounded-xl bg-slate-900 text-white space-y-2">
+                        <div class="text-xs font-bold tracking-wider text-slate-300 uppercase">Estratos do Qualis Periódicos</div>
+                        <div class="grid grid-cols-10 gap-1 text-center text-xs font-bold">
+                            <div class="p-2 rounded bg-sky-700 text-white">A1</div>
+                            <div class="p-2 rounded bg-sky-600 text-white">A2</div>
+                            <div class="p-2 rounded bg-sky-500 text-white">A3</div>
+                            <div class="p-2 rounded bg-sky-400 text-slate-900">A4</div>
+                            <div class="p-2 rounded bg-teal-600 text-white">B1</div>
+                            <div class="p-2 rounded bg-teal-500 text-white">B2</div>
+                            <div class="p-2 rounded bg-teal-400 text-slate-900">B3</div>
+                            <div class="p-2 rounded bg-teal-300 text-slate-900">B4</div>
+                            <div class="p-2 rounded bg-amber-600 text-white">C</div>
+                            <div class="p-2 rounded bg-slate-700 text-slate-300">NP</div>
+                        </div>
+                        <div class="flex justify-between text-[10px] text-slate-400 px-1 pt-1">
+                            <span class="text-sky-300 font-semibold">Alto Impacto (A1 - A4)</span>
+                            <span class="text-teal-300 font-semibold">Médio Impacto (B1 - B4)</span>
+                            <span class="text-amber-300 font-semibold">Baixo (C) / Não Periódico (NP)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <span>Fonte: Documento Técnico Qualis Periódicos (CAPES)</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 23: Novo Qualis Periódicos (2025-2028) -->
+            <section class="slide w-full h-full flex-col p-6 md:p-10 justify-between bg-white relative" data-title="Novo Qualis (2025-2028)">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Diretrizes Futuras</span>
+                    <span class="text-xs bg-amber-100 text-amber-900 px-2 py-0.5 rounded font-semibold">Ofício Circular nº 46/2024-DAV/CAPES</span>
+                </div>
+
+                <div class="my-auto space-y-3">
+                    <div>
+                        <h3 class="text-lg sm:text-xl font-display font-bold text-slate-900">
+                            Novo Qualis Periódicos (2025–2028)
+                        </h3>
+                        <p class="text-xs text-slate-600">
+                            O Plano Nacional de Pós-Graduação estabelece a transição para uma avaliação <strong>focada no próprio artigo</strong> e não apenas no veículo de publicação.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50">
+                            <div class="w-6 h-6 rounded-full bg-slate-800 text-white flex items-center justify-center font-bold text-[10px] mb-2">I</div>
+                            <h4 class="font-bold text-slate-900 mb-1">Classificação Indireta</h4>
+                            <p class="text-slate-600 text-[11px]">Pelos indicadores tradicionais do veículo de publicação (modelo histórico).</p>
+                        </div>
+
+                        <div class="p-3.5 rounded-xl border-2 border-brand-500 bg-blue-50/40">
+                            <div class="w-6 h-6 rounded-full bg-brand-700 text-white flex items-center justify-center font-bold text-[10px] mb-2">II</div>
+                            <h4 class="font-bold text-brand-900 mb-1">Classificação Direta</h4>
+                            <p class="text-slate-700 text-[11px]">Indicadores do <strong>próprio artigo</strong>: índice de citações diretas, altimetria e relevância técnica comprovada.</p>
+                        </div>
+
+                        <div class="p-3.5 rounded-xl border border-slate-200 bg-slate-50">
+                            <div class="w-6 h-6 rounded-full bg-slate-800 text-white flex items-center justify-center font-bold text-[10px] mb-2">III</div>
+                            <h4 class="font-bold text-slate-900 mb-1">Análise Qualitativa</h4>
+                            <p class="text-slate-600 text-[11px]">Avaliação por comitês baseada em pertinência temática e impacto socioeconômico/regional.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <span>Fonte: Conselho Técnico-Científico da Educação Superior (CTC-ES / CAPES)</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 24: Dúvidas & Contato -->
+            <section class="slide w-full h-full flex-col justify-between p-8 md:p-14 bg-gradient-to-br from-slate-900 via-brand-950 to-slate-950 text-white relative overflow-hidden" data-title="Dúvidas & Contato">
+                <div class="absolute right-0 bottom-0 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+                    <span class="text-xs font-bold uppercase tracking-widest text-sky-400">Encerramento</span>
+                    <span class="text-xs text-slate-400">UFC • Departamento de Engenharia Elétrica</span>
+                </div>
+
+                <div class="my-auto text-center max-w-xl mx-auto space-y-6">
+                    <h2 class="text-4xl sm:text-5xl font-display font-extrabold text-white">
+                        Dúvidas & Discussão
+                    </h2>
+                    <p class="text-slate-300 text-sm font-light">
+                        Obrigado pela atenção e participação em nosso seminário!
+                    </p>
+
+                    <div class="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur inline-block text-left w-full">
+                        <div class="text-base font-bold text-white">Prof. Dr. Lucas Silveira Melo</div>
+                        <div class="text-xs text-sky-300 font-medium">Departamento de Engenharia Elétrica (DEE)</div>
+                        <div class="text-xs text-slate-400 mt-1">Grupo de Redes Elétricas Inteligentes (GREI-UFC)</div>
+                        
+                        <div class="mt-4 pt-4 border-t border-white/10 flex flex-wrap items-center justify-between gap-3 text-xs">
+                            <a href="mailto:lucas.melo@dee.ufc.br" class="text-sky-300 hover:text-white flex items-center gap-1.5 transition">
+                                <i class="fa-solid fa-envelope"></i> lucas.melo@dee.ufc.br
+                            </a>
+                            <div class="flex items-center gap-3 text-slate-400">
+                                <span class="hover:text-white cursor-pointer"><i class="fa-brands fa-linkedin text-base"></i></span>
+                                <span class="hover:text-white cursor-pointer"><i class="fa-brands fa-lattes text-base"></i></span>
+                                <span class="hover:text-white cursor-pointer"><i class="fa-solid fa-graduation-cap text-base"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-t border-slate-800 pt-4 flex items-center justify-between text-xs text-slate-500">
+                    <span>Universidade Federal do Ceará</span>
+                    <span class="font-mono">FIM DA APRESENTAÇÃO</span>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer class="h-16 bg-slate-950 border-t border-slate-800 px-4 md:px-8 flex items-center justify-between text-white z-30 shrink-0">
+        <div class="flex items-center gap-2">
+            <button id="btn-prev" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-brand-700 text-slate-200 hover:text-white font-medium text-xs flex items-center gap-2 transition disabled:opacity-30 disabled:cursor-not-allowed">
+                <i class="fa-solid fa-chevron-left"></i>
+                <span class="hidden sm:inline">Anterior</span>
+            </button>
+            <button id="btn-next" class="px-5 py-2 rounded-xl bg-brand-700 hover:bg-brand-600 text-white font-semibold text-xs flex items-center gap-2 transition shadow-md shadow-brand-900/40 disabled:opacity-30 disabled:cursor-not-allowed">
+                <span>Próximo</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <div class="text-xs text-slate-400 hidden sm:flex items-center gap-4">
+            <span class="flex items-center gap-1"><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">←</kbd> <kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">→</kbd> Navegar</span>
+            <span class="flex items-center gap-1"><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">Espaço</kbd> Avançar</span>
+            <span class="flex items-center gap-1"><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">G</kbd> Índice</span>
+        </div>
+
+        <div class="text-xs font-mono text-slate-400">
+            Slide <span id="current-slide-num" class="text-white font-bold">1</span> de <span id="total-slides-num">24</span>
+        </div>
+    </footer>
+
+    <div id="grid-modal" class="fixed inset-0 bg-slate-950/90 backdrop-blur-md z-50 hidden flex-col p-4 md:p-8">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-4 mb-6">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-lg bg-brand-700 flex items-center justify-center text-white font-bold">
+                    <i class="fa-solid fa-table-cells-large"></i>
+                </div>
+                <div>
+                    <h2 class="text-base font-bold text-white">Índice Geral de Slides</h2>
+                    <p class="text-xs text-slate-400">Selecione um slide para navegar diretamente</p>
+                </div>
+            </div>
+            <button id="btn-close-grid" class="p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-white transition">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+        </div>
+
+        <div id="grid-thumbnails-container" class="flex-1 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 overflow-y-auto custom-scrollbar p-1">
+            <!-- Dynamically populated -->
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slides = document.querySelectorAll('.slide');
+            const totalSlides = slides.length;
+            let currentSlideIndex = 0;
+
+            const currentSlideNumEl = document.getElementById('current-slide-num');
+            const totalSlidesNumEl = document.getElementById('total-slides-num');
+            const slideNumberDisplay = document.getElementById('slide-number-display');
+            const progressBarFill = document.getElementById('progress-bar-fill');
+            const btnPrev = document.getElementById('btn-prev');
+            const btnNext = document.getElementById('btn-next');
+            const btnGrid = document.getElementById('btn-grid');
+            const btnFullscreen = document.getElementById('btn-fullscreen');
+            const gridModal = document.getElementById('grid-modal');
+            const btnCloseGrid = document.getElementById('btn-close-grid');
+            const gridThumbnailsContainer = document.getElementById('grid-thumbnails-container');
+
+            totalSlidesNumEl.textContent = totalSlides;
+
+            // Generate thumbnails for Grid view
+            slides.forEach((slide, index) => {
+                const title = slide.getAttribute('data-title') || `Slide ${index + 1}`;
+                const thumb = document.createElement('button');
+                thumb.className = `p-3 rounded-xl border text-left flex flex-col justify-between transition h-28 ${
+                    index === currentSlideIndex 
+                        ? 'border-brand-500 bg-brand-900/30 text-white' 
+                        : 'border-slate-800 bg-slate-900/80 hover:border-slate-600 text-slate-300'
+                }`;
+                thumb.innerHTML = `
+                    <div class="flex items-center justify-between w-full">
+                        <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-400 font-bold">${String(index + 1).padStart(2, '0')}</span>
+                        <i class="fa-solid fa-arrow-right text-[10px] opacity-40"></i>
+                    </div>
+                    <div class="text-xs font-semibold line-clamp-2 mt-2">${title}</div>
+                `;
+                thumb.addEventListener('click', () => {
+                    goToSlide(index);
+                    toggleGrid(false);
+                });
+                gridThumbnailsContainer.appendChild(thumb);
+            });
+
+            function updateThumbnailsActive() {
+                const thumbs = gridThumbnailsContainer.querySelectorAll('button');
+                thumbs.forEach((thumb, idx) => {
+                    if (idx === currentSlideIndex) {
+                        thumb.className = 'p-3 rounded-xl border border-brand-500 bg-brand-900/40 text-white flex flex-col justify-between transition h-28 ring-2 ring-brand-500/40';
+                    } else {
+                        thumb.className = 'p-3 rounded-xl border border-slate-800 bg-slate-900/80 hover:border-slate-600 text-slate-300 flex flex-col justify-between transition h-28';
+                    }
+                });
+            }
+
+            function updateUI() {
+                slides.forEach((s, idx) => {
+                    if (idx === currentSlideIndex) {
+                        s.classList.add('active');
+                    } else {
+                        s.classList.remove('active');
+                    }
+                });
+
+                const formattedCurrent = String(currentSlideIndex + 1).padStart(2, '0');
+                const formattedTotal = String(totalSlides).padStart(2, '0');
+                
+                currentSlideNumEl.textContent = currentSlideIndex + 1;
+                slideNumberDisplay.textContent = `${formattedCurrent} / ${formattedTotal}`;
+                
+                const pct = ((currentSlideIndex + 1) / totalSlides) * 100;
+                progressBarFill.style.width = `${pct}%`;
+
+                btnPrev.disabled = currentSlideIndex === 0;
+                btnNext.disabled = currentSlideIndex === totalSlides - 1;
+
+                updateThumbnailsActive();
+            }
+
+            function goToSlide(index) {
+                if (index >= 0 && index < totalSlides) {
+                    currentSlideIndex = index;
+                    updateUI();
+                }
+            }
+
+            function nextSlide() {
+                if (currentSlideIndex < totalSlides - 1) {
+                    goToSlide(currentSlideIndex + 1);
+                }
+            }
+
+            function prevSlide() {
+                if (currentSlideIndex > 0) {
+                    goToSlide(currentSlideIndex - 1);
+                }
+            }
+
+            function toggleGrid(show) {
+                if (show === undefined) {
+                    gridModal.classList.toggle('hidden');
+                    gridModal.classList.toggle('flex');
+                } else if (show) {
+                    gridModal.classList.remove('hidden');
+                    gridModal.classList.add('flex');
+                } else {
+                    gridModal.classList.add('hidden');
+                    gridModal.classList.remove('flex');
+                }
+            }
+
+            btnPrev.addEventListener('click', prevSlide);
+            btnNext.addEventListener('click', nextSlide);
+            btnGrid.addEventListener('click', () => toggleGrid());
+            btnCloseGrid.addEventListener('click', () => toggleGrid(false));
+
+            btnFullscreen.addEventListener('click', () => {
+                if (!document.fullscreenElement) {
+                    document.documentElement.requestFullscreen().catch(() => {});
+                } else {
+                    document.exitFullscreen().catch(() => {});
+                }
+            });
+
+            // Keyboard navigation
+            document.addEventListener('keydown', (e) => {
+                if (gridModal.classList.contains('flex')) {
+                    if (e.key === 'Escape' || e.key === 'g' || e.key === 'G') {
+                        toggleGrid(false);
+                    }
+                    return;
+                }
+
+                if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+                    e.preventDefault();
+                    nextSlide();
+                } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+                    e.preventDefault();
+                    prevSlide();
+                } else if (e.key === 'Home') {
+                    e.preventDefault();
+                    goToSlide(0);
+                } else if (e.key === 'End') {
+                    e.preventDefault();
+                    goToSlide(totalSlides - 1);
+                } else if (e.key === 'g' || e.key === 'G') {
+                    e.preventDefault();
+                    toggleGrid(true);
+                } else if (e.key === 'f' || e.key === 'F') {
+                    e.preventDefault();
+                    if (!document.fullscreenElement) {
+                        document.documentElement.requestFullscreen().catch(() => {});
+                    } else {
+                        document.exitFullscreen().catch(() => {});
+                    }
+                }
+            });
+
+            // Mobile Swipe Detection
+            let touchStartX = 0;
+            let touchEndX = 0;
+            const stage = document.getElementById('slide-stage');
+
+            stage.addEventListener('touchstart', (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+            }, { passive: true });
+
+            stage.addEventListener('touchend', (e) => {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+            }, { passive: true });
+
+            function handleSwipe() {
+                const diff = touchStartX - touchEndX;
+                if (Math.abs(diff) > 45) {
+                    if (diff > 0) nextSlide();
+                    else prevSlide();
+                }
+            }
+
+            // Initialize Chart.js for Slide 4 (World Scientific Production)
+            const ctxWorld = document.getElementById('chart-world-production');
+            if (ctxWorld) {
+                new Chart(ctxWorld, {
+                    type: 'bar',
+                    data: {
+                        labels: [
+                            'China', 'EUA', 'Índia', 'Inglaterra', 'Alemanha', 
+                            'Itália', 'Japão', 'Espanha', 'Canadá', 'França', 
+                            'Austrália', 'Coreia do Sul', 'Brasil (13º)', 'Turquia', 'Arábia Saudita'
+                        ],
+                        datasets: [{
+                            label: 'Artigos Produzidos em 2024 (WoS)',
+                            data: [840645, 462599, 163259, 138379, 132880, 98527, 97405, 88545, 87278, 83059, 82010, 80562, 66915, 62618, 56921],
+                            backgroundColor: (context) => {
+                                const index = context.dataIndex;
+                                return index === 12 ? '#d97706' : '#005088';
+                            },
+                            borderRadius: 6,
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { display: false },
+                            tooltip: {
+                                callbacks: {
+                                    label: (item) => `${item.raw.toLocaleString('pt-BR')} artigos indexados`
+                                }
+                            }
+                        },
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                ticks: {
+                                    font: { size: 10 },
+                                    callback: (val) => (val / 1000) + 'k'
+                                },
+                                grid: { color: 'rgba(0,0,0,0.05)' }
+                            },
+                            x: {
+                                ticks: {
+                                    font: { size: 9 },
+                                    maxRotation: 45,
+                                    minRotation: 30
+                                },
+                                grid: { display: false }
+                            }
+                        }
+                    }
+                });
+            }
+
+            updateUI();
+        });
+    </script>
+</body>
+</html>
