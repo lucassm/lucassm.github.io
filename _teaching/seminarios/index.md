@@ -8,8 +8,8 @@ date: 2026-09-11
 location: 'Fortaleza, Brazil'
 ---
 
-**Prof. Lucas Silveira Melo**
-E-mail: *lucassmelo at dee dot ufc dot br* | Web: *lucassm dot pro*
+**Prof. Lucas Silveira Melo** E-mail: _lucassmelo at dee dot ufc dot br_ | Web:
+_lucassm dot pro_
 
 Departamento de Engenharia Elétrica (DEE / UFC)  
 Grupo de Redes Elétricas Inteligentes (GREI / UFC)  
@@ -21,7 +21,8 @@ Programa de Pós-Graduação em Engenharia Elétrica (PPGEE / UFC)
 
 ### 🎯 Objetivo Geral
 
-Orientar os alunos na **redação** e **apresentação** de trabalhos técnicos científicos (artigos, dissertações e teses).
+Orientar os alunos na **redação** e **apresentação** de trabalhos técnicos
+científicos (artigos, dissertações e teses).
 
 ### 📌 Objetivos Específicos
 
@@ -40,12 +41,14 @@ Orientar os alunos na **redação** e **apresentação** de trabalhos técnicos 
 
 A atividade será conduzida na **modalidade híbrida**, combinando:
 
-- **Encontros Presenciais:** Aulas teóricas, discussões conceituais e orientações.
-- **Atividades Remotas:** Exercícios práticos, elaboração de resumos e autoestudo.
+- **Encontros Presenciais:** Aulas teóricas, discussões conceituais e
+  orientações.
+- **Atividades Remotas:** Exercícios práticos, elaboração de resumos e
+  autoestudo.
 
 ### 📚 Ementa Resumida
 
-- Publicações científicas e processo de revisão por pares (*peer review*);
+- Publicações científicas e processo de revisão por pares (_peer review_);
 - Estruturação, clareza e critérios normativos na escrita acadêmica;
 - Técnicas de comunicação e apresentação oral;
 - Preparação e editoração de documentos com LaTeX;
@@ -117,47 +120,49 @@ Aluno Aprovado sem necessidade de avaliação final
 
 ### 🎤 Avaliação de Seminário (AS) — 70%
 
-- **AS1:** Elaboração de *Short-paper* em LaTeX
+- **AS1:** Elaboração de _Short-paper_ em LaTeX
 - **AS2:** Apresentação em formato de Pôster no evento
 
 **⚠️ Aviso Importante!**
 
-Participação obrigatória no **III SPGEE-UFC** (Seminário de Pós-Graduação em Engenharia Elétrica).
+Participação obrigatória no **III SPGEE-UFC** (Seminário de Pós-Graduação em
+Engenharia Elétrica).
 
 **Outras informações importantes!**
 
-- *Telegram* será utilizado como canal de comunicação direta.
-- *Google classroom* será utilizado como plataforma de entrega de atividades.
+- _Telegram_ será utilizado como canal de comunicação direta.
+- _Google classroom_ será utilizado como plataforma de entrega de atividades.
 
 ---
 
 ## Cronograma de Aulas & Atividades
 
-| # ID  | Data     | Descrição da Atividade                            | Modalidade  |  
-| :---: | :---:    | :---                                              | :---:       |  
-| 1     | 21/08/26 | Apresentação do conteúdo, metodologia e critérios | Presencial  |  
-| 2     | 28/08/26 | Publicações Científicas                           | Presencial  |  
-| 3     | 04/09/26 | **AT1:** Atividade 1 — Publicações Científicas    | Remoto      |  
-| 4     | 11/09/26 | Escrita Científica                                | Presencial  |  
-| 5     | 25/09/26 | **AT2:** Atividade 2 — Ética Científica           | Remoto      |  
-| 6     | 02/10/26 | Revisão Sistemática                               | Presencial  |  
-| 7     | 09/10/26 | **AT3:** Atividade 3 — Revisão Sistemática        | Remoto      |  
-| 8     | 16/10/26 | *Recesso Acadêmico — Dia do Professor*            | Recesso     |  
-| 9     | 23/10/26 | Conceitos básicos de produção acadêmica com LaTeX | Presencial  |  
-| 10    | 30/10/26 | Ferramentas Facilitadoras e Bibliometria          | Presencial  |  
-| 11    | 06/11/26 | **AT4:** Atividade 4 — Ferramentas Facilitadoras  | Remoto      |  
-| 12    | 13/11/26 | Apresentação de Trabalhos Científicos             | Presencial  |  
-| 13    | 20/11/26 | **AS1:** Entrega do Short-paper em LaTeX          | Remoto      |  
-| 14    | 27/11/26 | Preparação para o III SPGEE                       | Remoto      |  
-| 15    | 04/12/26 | Entrega Final e Ajustes do III SPGEE              | Remoto      |  
-| 16    | 11/12/26 | **AS2: Apresentação III SPGEE-UFC (Pôster)**      | Presencial  |  
-| 17    | 19/12/26 | Consolidação de notas e frequências 2026.2        | Prazo Final |  
-
----
+| # id | Data     | Descrição da Atividade                                          | Presencial/Remoto |
+| ---- | -------- | --------------------------------------------------------------- | ----------------- |
+| 1    | 21/08/26 | Apresentação do conteúdo, metodologia e critérios de avaliação  | Presencial        |
+| 2    | 28/08/26 | Publicações Científicas                                         | Presencial        |
+| 3    | 04/09/26 | ATIVIDADE 1 (AT1): PUBLICAÇÕES CIENTÍFICAS                      | Remoto            |
+| 4    | 11/09/26 | Escrita Científica                                              | Presencial        |
+| 5    | 18/09/26 | ATIVIDADE 2 (AT2): ÉTICA CIENTÍFICA                             | Remoto            |
+| 6    | 25/09/26 | Revisão Sistemática                                             | Presencial        |
+| 7    | 02/10/26 | ATIVIDADE 3 (AT3): REVISÃO SISTEMÁTICA                          | Remoto            |
+| 8    | 09/10/26 | Não haverá atividades                                           | -                 |
+| 9    | 16/10/26 | Recesso Acadêmico – Dia do Professor                            | -                 |
+| 10   | 23/10/26 | Conceitos básicos de produção de trabalhos acadêmicos com Latex | Presencial        |
+| 11   | 30/10/26 | Ferramentas Facilitadoras                                       | Presencial        |
+| 12   | 06/11/26 | ATIVIDADE 4 (AT4): FERRAMENTAS FACILITADORAS                    | Remoto            |
+| 13   | 13/11/26 | Apresentação de Trabalhos Científicos                           | Presencial        |
+| 14   | 20/11/26 | AS1 (SHORT PAPER LATEX)                                         | Remoto            |
+| 15   | 27/11/26 | Entrega AP1/Preparação para o III SPGEE                         | Remoto            |
+| 16   | 11/12/26 | AS2 (Apresentação III SPGEE-UFC/POSTER)                         | Presencial        |
 
 ## Bibliografia de Referência
 
-- **UNIVERSIDADE FEDERAL DO CEARÁ.** *Guia de normalização de trabalhos acadêmicos da Universidade Federal do Ceará*. Fortaleza: UFC, 2022.
-- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS.** *NBR 14724: Informação e documentação — Trabalhos acadêmicos*. Rio de Janeiro: ABNT, 2011.
-- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS.** *NBR 10520: Informação e documentação — Citações em documentos*. Rio de Janeiro: ABNT, 2002.
-- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS.** *NBR 6023: Informação e documentação — Referências*. Rio de Janeiro: ABNT, 2018.
+- **UNIVERSIDADE FEDERAL DO CEARÁ.** _Guia de normalização de trabalhos
+  acadêmicos da Universidade Federal do Ceará_. Fortaleza: UFC, 2022.
+- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS.** _NBR 14724: Informação e
+  documentação — Trabalhos acadêmicos_. Rio de Janeiro: ABNT, 2011.
+- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS.** _NBR 10520: Informação e
+  documentação — Citações em documentos_. Rio de Janeiro: ABNT, 2002.
+- **ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS.** _NBR 6023: Informação e
+  documentação — Referências_. Rio de Janeiro: ABNT, 2018.
