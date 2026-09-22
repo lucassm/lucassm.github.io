@@ -1,11 +1,11 @@
 ---
-title: "Supervisão, Controle e Automação de Sistemas Elétricos de Potência"
+title: 'Supervisão, Controle e Automação de Sistemas Elétricos de Potência'
 collection: teaching
-type: "Undergraduate course"
+type: 'Undergraduate course'
 permalink: /teaching/SCSEP
-venue: "Federal University of Ceara, Department of Electrical Engineering"
+venue: 'Federal University of Ceara, Department of Electrical Engineering'
 date: 2026-08-11
-location: "Fortaleza, Brazil"
+location: 'Fortaleza, Brazil'
 ---
 
 <!--toc:start-->
@@ -131,7 +131,8 @@ Conteúdo da **Avaliação Parcial 02**: Módulos 3 e 4.
 
 ## Lista de Exercícios
 
-- Lista de exercícios módulos 1 e 2:
+- Lista de exercícios módulos 1 e 2 -
+  [Link](https://drive.google.com/file/d/1ub9wYIF4i14WWKSwqFQD5bytMx44oBgn/view?usp=drivesdk):
 - Lista de exercícios módulos 3 e 4:
 
 ## Seminários
