@@ -67,11 +67,11 @@ Práticas relacionadas aos aspectos teóricos de eletrotécnica:
 Práticas relacionadas aos aspectos práticos de projetos de instalações elétricas
 residenciais:
 
-- [**Prática 6**: Luminotécnica e acionamento de dispositivos de comando de iluminação](https://drive.google.com/file/d/1kXpO-Grxd9tc-R9fTOgpvllq_AQCSjj-/view?usp=sharing)
-- [**Prática 7**: Montagens básicas de instalações elétricas residenciais](https://drive.google.com/file/d/18OnZJ2Cf5nxZJXYzyDbTfEOTJi0SNwQ-/view?usp=sharing)
+- [**Prática 6**: Montagens básicas de instalações elétricas residenciais](https://drive.google.com/file/d/10W6yaRZevfINfjHImQtqt5Y7eVy9AnPB/view?usp=sharing)
+- [**Prática 7**: Luminotécnica e acionamento de dispositivos de comando de iluminação](https://drive.google.com/file/d/1kXpO-Grxd9tc-R9fTOgpvllq_AQCSjj-/view?usp=sharing)
 - [**Prática 8a**: Projeto de instalações elétricas residenciais](https://drive.google.com/file/d/1eRNwSVDawOUI-lZFQIrsFG6NQuzSknu9/view?usp=sharing)
 - [**Prática 8b**: Projeto de instalações elétricas residenciais](https://drive.google.com/file/d/12QTLh222fw18NSbI6xIPO9oQbHX3fMS5/view?usp=sharing)
-- [Prática 9: Partida Direta de Motores de Indução Trifásicos]()
+- [Prática 9: Partida Direta de Motores de Indução Trifásicos](<>)
 
 ## Modelo de Relatório
 
