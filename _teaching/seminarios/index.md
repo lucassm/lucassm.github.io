@@ -151,17 +151,17 @@ Engenharia Elétrica).
 | 3    | 04/09/26 | ATIVIDADE 1 (AT1): PUBLICAÇÕES CIENTÍFICAS                      | Remoto            |
 | 4    | 11/09/26 | Escrita Científica                                              | Presencial        |
 | 5    | 18/09/26 | ATIVIDADE 2 (AT2): ÉTICA CIENTÍFICA                             | Remoto            |
-| 6    | 25/09/26 | Revisão Sistemática                                             | Presencial        |
-| 7    | 02/10/26 | ATIVIDADE 3 (AT3): REVISÃO SISTEMÁTICA                          | Remoto            |
-| 8    | 09/10/26 | Não haverá atividades                                           | -                 |
-| 9    | 16/10/26 | Recesso Acadêmico – Dia do Professor                            | -                 |
-| 10   | 23/10/26 | Conceitos básicos de produção de trabalhos acadêmicos com Latex | Presencial        |
-| 11   | 30/10/26 | Ferramentas Facilitadoras                                       | Presencial        |
-| 12   | 06/11/26 | ATIVIDADE 4 (AT4): FERRAMENTAS FACILITADORAS                    | Remoto            |
-| 13   | 13/11/26 | Apresentação de Trabalhos Científicos                           | Presencial        |
-| 14   | 20/11/26 | AS1 (SHORT PAPER LATEX)                                         | Remoto            |
-| 15   | 27/11/26 | Entrega AP1/Preparação para o III SPGEE                         | Remoto            |
-| 16   | 11/12/26 | AS2 (Apresentação III SPGEE-UFC/POSTER)                         | Presencial        |
+| 6    | 25/09/26 | Conceitos básicos de produção de trabalhos acadêmicos com Latex | Presencial        |
+| 7    | 09/10/26 | Não haverá atividades                                           | -                 |
+| 8    | 16/10/26 | Recesso Acadêmico – Dia do Professor                            | -                 |
+| 9    | 23/10/26 | Revisão Sistemática                                             | Remoto            |
+| 10   | 30/10/26 | ATIVIDADE 3 (AT3): REVISÃO SISTEMÁTICA                          | -                 |
+| 11   | 06/11/26 | Ferramentas Facilitadoras                                       | Presencial        |
+| 12   | 13/11/26 | Apresentação de Trabalhos Científicos                           | Presencial        |
+| 13   | 20/11/26 | AS1 (SHORT PAPER LATEX)                                         | Remoto            |
+| 14   | 27/11/26 | Entrega AP1/Preparação para o II SPGEE                          | Remoto            |
+| 15   | 04/12/26 | AS2 (Apresentação III SPGEE-UFC/POSTER)                         | Presencial        |
+| 16   | 19/12/26 | Consolidação de notas e frequências 2026.2 (Prazo Final)        |                   |
 
 ## Bibliografia de Referência
 
