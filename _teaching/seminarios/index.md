@@ -73,11 +73,22 @@ A atividade será conduzida na **modalidade híbrida**, combinando:
 
 ### Tema 3
 
-Ética Científica e Boas Práticas
+Editoração e Tipografia com LaTeX:
+
+- Atividade prática sobre conceitos básicos de utilização do Latex, incluindo
+  formatação de texto, figuras, tabelas e referências bibliográficas:
+  [Link para o material](<>)
 
 ### Tema 4
 
-Revisão Sistemática da Literatura
+Revisão Sistemática da Literatura:
+
+- Aula Gravada com o aluno de doutorado Joaquim Moura
+  [Link para o video](https://youtu.be/nZ6wx_QpYdI)
+- Material utilizado durante a aula:
+  [Link para o material](https://drive.google.com/file/d/1tnG75ybGrYUbljYwogXvBWTdoOzci9nF/view?usp=drivesdk)
+- Exemplo de protocolo de revisão sistemática:
+  [Link para o protocolo](https://drive.google.com/file/d/1BTZXKMVi5MHw55g_ByvYjeit6CTTTzT1/view?usp=drivesdk)
 
 ### Tema 5
 
@@ -86,10 +97,6 @@ Ferramentas de Apoio & Bibliometria
 ### Tema 6
 
 Apresentação Oral de Trabalhos
-
-### Tema 7
-
-Editoração e Tipografia com LaTeX
 
 ---
 
