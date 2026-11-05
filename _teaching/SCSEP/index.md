@@ -8,8 +8,6 @@ date: 2026-08-11
 location: 'Fortaleza, Brazil'
 ---
 
-<!--toc:start-->
-
 - [Dias e Horários da Disciplina](#dias-e-horários-da-disciplina)
 - [Conteúdo Abordado](#conteúdo-abordado)
 - [Detalhamento do Conteúdo](#detalhamento-do-conteúdo)
@@ -30,8 +28,6 @@ location: 'Fortaleza, Brazil'
 - [Softwares](#softwares)
 - [Bibliografia Básica](#bibliografia-básica)
 - [Calendário de Planejamento da disciplina](#calendário-de-planejamento-da-disciplina)
-
-<!--toc:end-->
 
 Nome oficial da disciplina: TH0267 - SUPERVISÃO, CONTROLE E AUTOMAÇÃO DE
 SISTEMAS ELÉTRICOS DE POTENCIA.
