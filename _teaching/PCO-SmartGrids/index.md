@@ -122,6 +122,16 @@ No Módulo 3 será utilizado como referência:
 - Tema 1.
 - Tema 2.
 
+## Aulas Gravadas
+
+- Otimização com Julia/JuMP 2026 - [Aula 01](https://youtu.be/vAXaaeBHYNk)
+- Otimização com Julia/JuMP 2026 - [Aula 02](https://youtu.be/Lgx2TWViq0U)
+- Otimização com Julia/JuMP 2026 - [Aula 03](https://youtu.be/_TIBzhQqJZE)
+- Otimização com Julia/JuMP 2026 - [Aula 04](https://youtu.be/-5-3fWoDlR0)
+
+Notebooks do Google Colab utilizados nas aulas:
+[link para pasta do google drive](https://drive.google.com/drive/folders/1KFG54-W1XYqa_3bJIhMli9AyBq1OdxaN?usp=sharing)
+
 ## Links Importantes
 
 - [JuMP](https://jump.dev/JuMP.jl/stable/)
