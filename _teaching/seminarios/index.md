@@ -144,24 +144,24 @@ Engenharia Elétrica).
 
 ## Cronograma de Aulas & Atividades
 
-| # id | Data     | Descrição da Atividade                                          | Presencial/Remoto |
-| ---- | -------- | --------------------------------------------------------------- | ----------------- |
-| 1    | 21/08/26 | Apresentação do conteúdo, metodologia e critérios de avaliação  | Presencial        |
-| 2    | 28/08/26 | Publicações Científicas                                         | Presencial        |
-| 3    | 04/09/26 | ATIVIDADE 1 (AT1): PUBLICAÇÕES CIENTÍFICAS                      | Remoto            |
-| 4    | 11/09/26 | Escrita Científica                                              | Presencial        |
-| 5    | 18/09/26 | ATIVIDADE 2 (AT2): ÉTICA CIENTÍFICA                             | Remoto            |
-| 6    | 25/09/26 | Conceitos básicos de produção de trabalhos acadêmicos com Latex | Presencial        |
-| 7    | 09/10/26 | Não haverá atividades                                           | -                 |
-| 8    | 16/10/26 | Recesso Acadêmico – Dia do Professor                            | -                 |
-| 9    | 23/10/26 | Revisão Sistemática                                             | Remoto            |
-| 10   | 30/10/26 | ATIVIDADE 3 (AT3): REVISÃO SISTEMÁTICA                          | -                 |
-| 11   | 06/11/26 | Ferramentas Facilitadoras                                       | Presencial        |
-| 12   | 13/11/26 | Apresentação de Trabalhos Científicos                           | Presencial        |
-| 13   | 20/11/26 | AS1 (SHORT PAPER LATEX)                                         | Remoto            |
-| 14   | 27/11/26 | Entrega AP1/Preparação para o II SPGEE                          | Remoto            |
-| 15   | 04/12/26 | AS2 (Apresentação III SPGEE-UFC/POSTER)                         | Presencial        |
-| 16   | 19/12/26 | Consolidação de notas e frequências 2026.2 (Prazo Final)        |                   |
+| # id | Data     | Descrição da Atividade                                            | Presencial/Remoto |
+| ---- | -------- | ----------------------------------------------------------------- | ----------------- |
+| 1    | 21/08/26 | Apresentação do conteúdo, metodologia e critérios de avaliação    | Presencial        |
+| 2    | 28/08/26 | Publicações Científicas                                           | Presencial        |
+| 3    | 04/09/26 | ATIVIDADE 1 (AT1): PUBLICAÇÕES CIENTÍFICAS                        | Remoto            |
+| 4    | 11/09/26 | Escrita Científica                                                | Presencial        |
+| 5    | 18/09/26 | ATIVIDADE 2 (AT2): ÉTICA CIENTÍFICA                               | Remoto            |
+| 6    | 25/09/26 | Conceitos básicos de produção de trabalhos acadêmicos com Latex   | Presencial        |
+| 7    | 09/10/26 | Não haverá atividades                                             | -                 |
+| 8    | 16/10/26 | Recesso Acadêmico – Dia do Professor                              | -                 |
+| 9    | 23/10/26 | Revisão Sistemática                                               | Remoto            |
+| 10   | 30/10/26 | ATIVIDADE 3 (AT3): REVISÃO SISTEMÁTICA                            | -                 |
+| 11   | 06/11/26 | CANCELADA                                                         | Presencial        |
+| 12   | 13/11/26 | Ferramentas Facilitadoras e Apresentação de Trabalhos Científicos | Presencial        |
+| 13   | 20/11/26 | AS1 (SHORT PAPER LATEX)                                           | Remoto            |
+| 14   | 27/11/26 | Entrega AP1/Preparação para o II SPGEE                            | Remoto            |
+| 15   | 04/12/26 | AS2 (Apresentação III SPGEE-UFC/POSTER)                           | Presencial        |
+| 16   | 19/12/26 | Consolidação de notas e frequências 2026.2 (Prazo Final)          |                   |
 
 ## Bibliografia de Referência
 
