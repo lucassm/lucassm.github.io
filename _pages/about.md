@@ -1,45 +1,62 @@
 ---
 permalink: /
-title: "Professor Lucas Melo, Dr."
-excerpt: "About me"
+title: 'Professor Lucas Melo, Dr.'
+excerpt: 'About me'
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
 ## About me
 
-Assistant Professor at the [Department of Electrical Engineering](http://www.dee.ufc.br) of [Federal University of Ceara (UFC)](http://www.ufc.br), Brazil. Colaborator of [UFC Smart Grid Group - GREI](https://grei-ufc.github.io/).
+Assistant Professor at the
+[Department of Electrical Engineering](http://www.dee.ufc.br) of
+[Federal University of Ceara (UFC)](http://www.ufc.br), Brazil. Colaborator of
+[UFC Smart Grid Group - GREI](https://grei-ufc.github.io/).
 
-Degree in electrical engineering from UFC campus Sobral-CE and master's and doctorate from UFC campus Fortaleza-CE, with a sandwich internship at UFSC in Florianópolis-SC.
+Degree in electrical engineering from UFC campus Sobral-CE and master's and
+doctorate from UFC campus Fortaleza-CE, with a sandwich internship at UFSC in
+Florianópolis-SC.
 
 Research topics interests:
 
-- Modeling and Simulation of Distributed Energetic Resourses (DER) Integration and Coordination in Electric Power Systems;
-- Application of Optimization Techniques, Multiagent Systems and Co-simulation in Protection, Automation and Control of Electric Power Systems;
+- Modeling and Simulation of Distributed Energetic Resourses (DER) Integration
+  and Coordination in Electric Power Systems;
+- Application of Optimization Techniques, Multiagent Systems and Co-simulation
+  in Protection, Automation and Control of Electric Power Systems;
 - Transactive Energy Systems Development.
 
 ## News
 
 - 08/2025: New work presented in SIMPASE in Foz do Iguaçu city, state of Paraná.
-- 07/2025: New work presented in SBSE in São João Del Rey city, state of Belo Horizonte by graduate student *Mozart Daniel*. Congratulations Mozart!
-- 11/2024: Many works presented in [Local University Meetings 2024](/posts/2024/11/eu-2024/). Congratulations students!
-- 10/2024: First Master degree supervision concluded with sucess. Congratulations João Paulo!
-- 10/2024: 2024.2 semester start. Excited to teach Supervision and Control of Electrical Power Systems!  
-- 10/2024: Three works presented in CBA 2024 in Rio de Janeiro, Brazil. More info about our works presented in the event [here](/posts/2024/11/cba-2024).
-- 08/3034: A new phase of Co-simulation and Demand Response undergraduate projects. Start of the cycle 2024/2025.
-- 07/2023: Our paper intitled [Co-simulation platform for the assessment of transactive energy systems](https://doi.org/10.1016/j.epsr.2023.109693) has been accepted in Electric Power Systems Research Journal. Congratulations to all researchers involved!
+- 07/2025: New work presented in SBSE in São João Del Rey city, state of Belo
+  Horizonte by graduate student _Mozart Daniel_. Congratulations Mozart!
+- 11/2024: Many works presented in
+  [Local University Meetings 2024](/posts/2024/11/eu-2024/). Congratulations
+  students!
+- 10/2024: First Master degree supervision concluded with sucess.
+  Congratulations João Paulo!
+- 10/2024: 2024.2 semester start. Excited to teach Supervision and Control of
+  Electrical Power Systems!
+- 10/2024: Three works presented in CBA 2024 in Rio de Janeiro, Brazil. More
+  info about our works presented in the event [here](/posts/2024/11/cba-2024).
+- 08/3034: A new phase of Co-simulation and Demand Response undergraduate
+  projects. Start of the cycle 2024/2025.
+- 07/2023: Our paper intitled
+  [Co-simulation platform for the assessment of transactive energy systems](https://doi.org/10.1016/j.epsr.2023.109693)
+  has been accepted in Electric Power Systems Research Journal. Congratulations
+  to all researchers involved!
 
 ## Teaching
 
-Currently offering (2025.2):
+Currently offering (2026.2):
 
 - [Supervision and Control of Power Ssystems](/teaching/SCSEP)
 - [Eletrotecnic for Engineering (Laboratory)](/teaching/EE-Lab);
 - [DC Circuits (Laboratory)](/teaching/CI-Lab);
 
-Offered last semester (2025.1):
+Offered last semester (2026.1):
 
 - [Power System Analysis](/teaching/ASP);
 - [Electrical Distribution System Analysis](/teaching/DEE);
@@ -55,38 +72,31 @@ Previously offered in other semesters:
 Students currently under supervision:
 
 - Levi Nogueira (PhD - Co-supervision)
-- Luiz Freire (MSc);
 - Mozart Daniel (MSc);
-- Alysson Ponciano (MSc - Co-supervision);
-- João Pedro (Under-graduation project);
-- Raphael Silva (Under-graduation project);
-- Edinardo Vascondelos (Under-graduation project);
-- Larissa Vitória (Under-graduation project);
 
-For a more detailed description about the research themes, please visit [projects](/projects/) and [publications](/publications/).
+For a more detailed description about the research themes, please visit
+[projects](/projects/) and [publications](/publications/).
 
 ## Doctoral and Master Degree Documents
 
-[Doctoral Degree Thesis](https://repositorio.ufc.br/handle/riufc/66268) **Multidomain computer simulation model for the analysis of smart electrical grids with application in energy economic transactions**.
+[Doctoral Degree Thesis](https://repositorio.ufc.br/handle/riufc/66268)
+**Multidomain computer simulation model for the analysis of smart electrical
+grids with application in energy economic transactions**.
 
-[Master Degree Dissertation](http://www.repositorio.ufc.br/handle/riufc/13773): **Development of a platform for implementing multi-agents systems for application to automatic restoration of electric power distribution systems**.
+[Master Degree Dissertation](http://www.repositorio.ufc.br/handle/riufc/13773):
+**Development of a platform for implementing multi-agents systems for
+application to automatic restoration of electric power distribution systems**.
 
 ## Contact
 
->**Email**: lucassmelo **at** *dee* **dot** *ufc* **dot** *br*  
-**Mailing Address**:  
-Department of Electrical Engineering  
-Federal University of Ceará  
-Campus do Pici - Centro de Tecnologia  
-Fortaleza, Ceará, Brazil  
+> **Email**: lucassmelo **at** _dee_ **dot** _ufc_ **dot** _br_  
+> **Mailing Address**:  
+> Department of Electrical Engineering  
+> Federal University of Ceará  
+> Campus do Pici - Centro de Tecnologia  
+> Fortaleza, Ceará, Brazil
 
 ## Book an appointment
-
-<!-- Google Calendar Appointment Scheduling begin -->
-<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3MTUIRTx54yNLzWEHbpJ9Kzn-jglcRgprm6qUmlN_HPBJOuud2u2X2bIt-PFaNR8mrMqmK_TaD?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
-<!-- end Google Calendar Appointment Scheduling -->
-
-<!-- <iframe src="https://calendar.google.com/calendar/embed?src=lucassmelo%40dee.ufc.br&ctz=America%2FFortaleza" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
 
 ## Links
 

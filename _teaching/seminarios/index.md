@@ -77,7 +77,7 @@ Editoração e Tipografia com LaTeX:
 
 - Atividade prática sobre conceitos básicos de utilização do Latex, incluindo
   formatação de texto, figuras, tabelas e referências bibliográficas:
-  [Link para o material](<>)
+  [Link para o material](https://github.com/jdleesmiller/latex-course)
 
 ### Tema 4
 
