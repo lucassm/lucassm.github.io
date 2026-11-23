@@ -94,9 +94,31 @@ Revisão Sistemática da Literatura:
 
 Ferramentas de Apoio & Bibliometria
 
+- [Apresentação utilizada durante a aula](/files/seminarios/3-ferramentas-facilitadoras.html)
+- Listagem de algumas ferramentas de apoio mencionadas na apresentação:
+
+  - [Google Scholar](https://scholar.google.com.br/)
+  - [Scopus](https://www.scopus.com/)
+  - [Web of Science](https://www.webofscience.com/)
+  - [Mendeley](https://www.mendeley.com/)
+  - [Zotero](https://www.zotero.org/)
+  - [markdown](https://www.markdownguide.org/)
+  - [Typst](https://typst.app/)
+  - [Quarkdown](https://quarkdown.com/)
+  - [Quarto](https://quarto.org/)
+  - [Zenodo](https://zenodo.org/)
+  - [Arxiv](https://arxiv.org/)
+  - [Crossref](https://www.crossref.org/)
+  - [Github](https://github.com)
+  - [Jupyter Notebook](https://jupyter.org/)
+  - [Pluto](https://plutojl.org/)
+  - [Google Colab](https://colab.research.google.com/)
+
 ### Tema 6
 
-Apresentação Oral de Trabalhos
+Apresentação Oral de Trabalhos de Acadêmicos
+
+- [Apresentação utilizada durante a aula](/files/seminarios/4-apresentacao-de-trabalhos-academicos.html)
 
 ---
 

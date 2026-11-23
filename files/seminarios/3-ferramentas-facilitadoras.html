@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminários: Fluxo de Trabalho Científico Moderno - UFC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            200: '#bae0fd',
+                            500: '#0072b2',
+                            600: '#005a91',
+                            700: '#004a77',
+                            800: '#003b60',
+                            900: '#002844',
+                        },
+                        accent: {
+                            amber: '#d97706',
+                            emerald: '#059669',
+                            rose: '#e11d48',
+                            cyan: '#0891b2'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .slide {
+            display: none;
+            opacity: 0;
+            transform: scale(0.985) translateY(8px);
+            transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .slide.active {
+            display: flex;
+            opacity: 1;
+            transform: scale(1) translateY(0);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.05);
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(0, 80, 136, 0.2);
+            border-radius: 9999px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: rgba(0, 80, 136, 0.4);
+        }
+    </style>
+</head>
+<body class="h-full bg-slate-900 text-slate-800 font-sans antialiased overflow-hidden flex flex-col select-none">
+
+    <!-- Top Header / Moldura Superior -->
+    <header class="h-14 bg-slate-950/90 backdrop-blur border-b border-slate-800 text-white px-4 md:px-6 flex items-center justify-between z-30 shrink-0">
+        <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-brand-700 to-sky-500 flex items-center justify-center font-bold text-white shadow-md">
+                <i class="fa-solid fa-person-chalkboard text-sm"></i>
+            </div>
+            <div>
+                <h1 class="text-xs md:text-sm font-semibold tracking-wide text-slate-200">Fluxo de Trabalho Científico Moderno</h1>
+                <p class="text-[10px] text-slate-400 font-medium">Prof. Lucas Silveira Melo • UFC / GREI</p>
+            </div>
+        </div>
+
+        <!-- Barra de Progresso e Contador -->
+        <div class="hidden sm:flex items-center gap-3">
+            <span class="text-xs font-semibold text-slate-400 font-mono" id="slide-number-display">01 / 12</span>
+            <div class="w-36 h-2 bg-slate-800 rounded-full overflow-hidden border border-slate-700/60">
+                <div id="progress-bar-fill" class="h-full bg-gradient-to-r from-sky-500 to-brand-500 transition-all duration-300 ease-out" style="width: 8.33%;"></div>
+            </div>
+        </div>
+
+        <!-- Controles: Índice e Tela Cheia -->
+        <div class="flex items-center gap-2">
+            <button id="btn-grid" title="Visão Geral dos Slides (G)" class="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition text-xs flex items-center gap-1.5">
+                <i class="fa-solid fa-grip"></i>
+                <span class="hidden md:inline">Índice</span>
+            </button>
+            <button id="btn-fullscreen" title="Tela Cheia (F)" class="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition text-xs">
+                <i class="fa-solid fa-expand"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Palco Principal dos Slides -->
+    <main class="flex-1 relative flex items-center justify-center p-2 sm:p-4 md:p-6 overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
+        
+        <div id="slide-stage" class="relative w-full max-w-6xl aspect-[16/10] sm:aspect-[16/9] max-h-[86vh] bg-white rounded-2xl shadow-2xl overflow-hidden border border-slate-700/30 flex flex-col">
+
+            <!-- SLIDE 1: Capa -->
+            <section class="slide active w-full h-full flex-col justify-between p-8 md:p-14 bg-gradient-to-br from-slate-50 via-sky-50/40 to-blue-100/30 relative overflow-hidden" data-title="Capa">
+                <div class="absolute -right-20 -top-20 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
+                <div class="absolute -left-20 -bottom-20 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div class="flex items-center justify-between w-full border-b border-slate-200/80 pb-4">
+                    <div class="flex items-center gap-3">
+                        <div class="px-3 py-1 bg-brand-700 text-white text-xs font-bold uppercase tracking-wider rounded-md shadow-sm">
+                            UFC
+                        </div>
+                        <span class="text-xs font-semibold text-slate-600 tracking-wide uppercase">Programa de Pós-Graduação em Engenharia Elétrica</span>
+                    </div>
+                    <div class="text-xs font-medium text-slate-500 bg-white/80 border border-slate-200 px-3 py-1 rounded-full">
+                        <i class="fa-solid fa-bolt text-amber-500 mr-1"></i> GREI - Grupo de Redes Elétricas Inteligentes
+                    </div>
+                </div>
+
+                <div class="my-auto text-left max-w-3xl">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-100/80 text-brand-800 text-xs font-bold uppercase tracking-wider mb-4">
+                        <i class="fa-solid fa-book-bookmark"></i>
+                        Métodos & Ferramentas de Pesquisa
+                    </div>
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-extrabold text-slate-900 tracking-tight leading-none mb-4">
+                        Fluxo de Trabalho<br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-700 via-sky-600 to-blue-500">Científico Moderno</span>
+                    </h1>
+                    <p class="text-base sm:text-lg md:text-xl text-slate-600 font-normal">
+                        Da busca bibliográfica à reprodutibilidade, escrita colaborativa e versionamento — estratégias práticas para o pesquisador.
+                    </p>
+                </div>
+
+                <div class="pt-6 border-t border-slate-200/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-brand-700 text-white font-bold flex items-center justify-center text-lg shadow-md border-2 border-white">
+                            LM
+                        </div>
+                        <div>
+                            <div class="text-sm font-bold text-slate-900">Prof. Lucas Silveira Melo</div>
+                            <div class="text-xs text-slate-500">Universidade Federal do Ceará • PPGEE / DEE</div>
+                        </div>
+                    </div>
+                    <div class="text-xs text-slate-400 font-medium">
+                        Duração Estimada: 120 min • Aula Teórico-Prática
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 2: Cronograma e Roteiro -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Roteiro & Planejamento">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">00–120 min</span>
+                    <span class="text-xs text-slate-400 font-medium">Cronograma da Aula</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <div>
+                        <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">O Ciclo Contínuo da Pesquisa</h2>
+                        <p class="text-sm text-slate-500 mt-1">Como os 6 blocos desta aula de 120 minutos se conectam para formar um pipeline reprodutível.</p>
+                    </div>
+
+                    <div class="grid grid-cols-2 md:grid-cols-6 gap-3">
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/60 hover:border-brand-500 transition">
+                            <span class="text-[10px] font-bold text-amber-600">00–15 min</span>
+                            <div class="text-xs font-bold text-brand-800 mt-1">1. Busca Bibliográfica</div>
+                            <p class="text-[10px] text-slate-500 mt-1">Estado da arte e métricas de impacto.</p>
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/60 hover:border-brand-500 transition">
+                            <span class="text-[10px] font-bold text-amber-600">15–35 min</span>
+                            <div class="text-xs font-bold text-brand-800 mt-1">2. Gestão & Preprints</div>
+                            <p class="text-[10px] text-slate-500 mt-1">Metadados, PDFs e exportação .bib.</p>
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/60 hover:border-brand-500 transition">
+                            <span class="text-[10px] font-bold text-amber-600">35–65 min</span>
+                            <div class="text-xs font-bold text-brand-800 mt-1">3. Escrita Científica</div>
+                            <p class="text-[10px] text-slate-500 mt-1">Overleaf, Typst, Quarto e Quarkdown.</p>
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/60 hover:border-brand-500 transition">
+                            <span class="text-[10px] font-bold text-amber-600">65–95 min</span>
+                            <div class="text-xs font-bold text-brand-800 mt-1">4. Reprodutibilidade</div>
+                            <p class="text-[10px] text-slate-500 mt-1">Jupyter, Pluto.jl, Colab e Docker.</p>
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/60 hover:border-brand-500 transition">
+                            <span class="text-[10px] font-bold text-amber-600">95–110 min</span>
+                            <div class="text-xs font-bold text-brand-800 mt-1">5. Versionamento</div>
+                            <p class="text-[10px] text-slate-500 mt-1">Git, GitHub e DOIs no Zenodo.</p>
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200/60 hover:border-brand-500 transition">
+                            <span class="text-[10px] font-bold text-emerald-600">110–120 min</span>
+                            <div class="text-xs font-bold text-brand-800 mt-1">6. Demo Integrada</div>
+                            <p class="text-[10px] text-slate-500 mt-1">Conexão do pipeline ao vivo.</p>
+                        </div>
+                    </div>
+
+                    <!-- Diagrama Visual de Fluxo -->
+                    <div class="relative py-2 hidden md:block">
+                        <div class="absolute inset-0 flex items-center" aria-hidden="true">
+                            <div class="w-full border-t-2 border-dashed border-slate-200"></div>
+                        </div>
+                        <div class="relative flex justify-between">
+                            <div class="bg-white px-2 text-slate-600 font-medium text-xs flex items-center gap-1.5"><i class="fa-solid fa-magnifying-glass text-brand-500"></i> Buscar</div>
+                            <div class="bg-white px-2 text-slate-600 font-medium text-xs flex items-center gap-1.5"><i class="fa-solid fa-folder-open text-brand-500"></i> Organizar</div>
+                            <div class="bg-white px-2 text-slate-600 font-medium text-xs flex items-center gap-1.5"><i class="fa-solid fa-pen-nib text-brand-500"></i> Redigir</div>
+                            <div class="bg-white px-2 text-slate-600 font-medium text-xs flex items-center gap-1.5"><i class="fa-solid fa-code text-brand-500"></i> Computar</div>
+                            <div class="bg-white px-2 text-slate-600 font-medium text-xs flex items-center gap-1.5"><i class="fa-solid fa-code-branch text-brand-500"></i> Preservar</div>
+                            <div class="bg-white px-2 text-slate-600 font-medium text-xs flex items-center gap-1.5"><i class="fa-solid fa-play text-emerald-500"></i> Executar</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">ROTEIRO • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 3: 1. Busca Bibliográfica (COM ILUSTRAÇÃO 1) -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="1. Busca Bibliográfica">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">00–15 min • Eixo 1</span>
+                    <span class="text-xs text-slate-400 font-medium">Levantamento do Estado da Arte</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900 flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center text-lg"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        Busca de Produção Bibliográfica
+                    </h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                        <div class="space-y-3 text-xs sm:text-sm">
+                            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                                <div class="font-bold text-slate-900 flex items-center gap-2 mb-1">
+                                    <span class="w-5 h-5 rounded-md bg-brand-600 text-white flex items-center justify-center text-[10px]">1</span>
+                                    Métricas Bibliométricas
+                                </div>
+                                <p class="text-slate-600 leading-relaxed text-xs"><strong class="text-brand-800">Publish or Perish:</strong> Software desktop gratuito que consulta bases (Google Scholar, OpenAlex, Crossref, Scopus) e calcula índice <em>h</em>, índice <em>g</em> e citações/ano.</p>
+                            </div>
+                            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                                <div class="font-bold text-slate-900 flex items-center gap-2 mb-1">
+                                    <span class="w-5 h-5 rounded-md bg-brand-600 text-white flex items-center justify-center text-[10px]">2</span>
+                                    Descoberta Visual por Grafos
+                                </div>
+                                <p class="text-slate-600 leading-relaxed text-xs"><strong class="text-brand-800">Connected Papers & ResearchRabbit:</strong> Geram grafos de citações a partir de artigos-semente para mapear trabalhos seminais (<em>prior</em>) e recentes (<em>derivative</em>).</p>
+                            </div>
+                            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                                <div class="font-bold text-slate-900 flex items-center gap-2 mb-1">
+                                    <span class="w-5 h-5 rounded-md bg-brand-600 text-white flex items-center justify-center text-[10px]">3</span>
+                                    Catálogos Abertos & Institucionais
+                                </div>
+                                <p class="text-slate-600 leading-relaxed text-xs"><strong class="text-brand-800">OpenAlex / Semantic Scholar</strong> (APIs abertas) + <strong class="text-brand-800">Portal CAPES</strong> (acesso CAFe às bases IEEE Xplore, Scopus e Web of Science).</p>
+                            </div>
+                        </div>
+
+                        <!-- Ilustração Vetorial 1 -->
+                        <div class="h-64 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-center items-center relative overflow-hidden p-2">
+                            <img src="01_busca_bibliografica.jpeg" alt="Rede de literatura científica e grafos de citações" class="w-full h-full object-contain">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">BUSCA • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 4: 2. Gestão de Referências e Preprints -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="2. Gestão & Preprints">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">15–35 min • Eixo 2</span>
+                    <span class="text-xs text-slate-400 font-medium">Metadados, Notas & Preprints</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900 flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center text-lg"><i class="fa-solid fa-box-archive"></i></span>
+                        Gestão de Referências e Preprints
+                    </h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-xs sm:text-sm">
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+                            <div class="w-9 h-9 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-graduation-cap text-base"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-900 mb-1.5">Zotero</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed">Código aberto e gratuito; captura metadados com 1 clique, organiza PDFs anotados e exporta arquivos <strong class="text-brand-800">.bib</strong> contínuos via Better BibTeX.</p>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+                            <div class="w-9 h-9 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-book text-base"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-900 mb-1.5">Mendeley</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed">Gerenciador mantido pela Elsevier (2 GB gratuitos em nuvem), útil para sincronizar PDFs entre dispositivos e inserir citações no Word.</p>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+                            <div class="w-9 h-9 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-server text-base"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-900 mb-1.5">arXiv (Preprints)</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed">Repositório aberto moderado para disseminação rápida em engenharia, computação e física, registrando prioridade antes do periódico.</p>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+                            <div class="w-9 h-9 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-diagram-project text-base"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-900 mb-1.5">Obsidian + Zotero</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed">Editor de notas Markdown locais com links bidirecionais e grafo de conhecimento para conectar fichamentos de artigos entre si.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">GESTÃO • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 5: 3. Escrita Científica Moderna (COM ILUSTRAÇÃO 2) -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="3. Escrita Científica">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">35–65 min • Eixo 3</span>
+                    <span class="text-xs text-slate-400 font-medium">Tipografia e Documentos Computacionais</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900 flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center text-lg"><i class="fa-solid fa-pen-nib"></i></span>
+                        Escrita Científica Moderna
+                    </h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                        <div class="space-y-3 text-xs sm:text-sm">
+                            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                                <div class="font-bold text-slate-900 flex items-center gap-2 mb-1">
+                                    <span class="w-5 h-5 rounded-md bg-brand-600 text-white flex items-center justify-center text-[10px]">1</span>
+                                    LaTeX Colaborativo na Nuvem
+                                </div>
+                                <p class="text-slate-600 leading-relaxed text-xs"><strong class="text-brand-800">Overleaf:</strong> Dispensa instalação local, oferece templates oficiais (IEEE, Elsevier, ABNT), edição simultânea e histórico de versões.</p>
+                            </div>
+                            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                                <div class="font-bold text-slate-900 flex items-center gap-2 mb-1">
+                                    <span class="w-5 h-5 rounded-md bg-brand-600 text-white flex items-center justify-center text-[10px]">2</span>
+                                    Alternativa Moderna e Instantânea
+                                </div>
+                                <p class="text-slate-600 leading-relaxed text-xs"><strong class="text-brand-800">Typst:</strong> Sistema open-source (Apache-2.0) projetado para suceder o LaTeX, com sintaxe enxuta, scripting integrado e compilação instantânea.</p>
+                            </div>
+                            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                                <div class="font-bold text-slate-900 flex items-center gap-2 mb-1">
+                                    <span class="w-5 h-5 rounded-md bg-brand-600 text-white flex items-center justify-center text-[10px]">3</span>
+                                    Markdown Científico Executável
+                                </div>
+                                <p class="text-slate-600 leading-relaxed text-xs"><strong class="text-brand-800">Quarto & Quarkdown:</strong> Unem texto, equações e código (Python, Julia, R) em fonte única para gerar PDF, HTML, apresentações e livros.</p>
+                            </div>
+                        </div>
+
+                        <!-- Ilustração Vetorial 2 -->
+                        <div class="h-64 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-center items-center relative overflow-hidden p-2">
+                            <img src="02_escrita_cientifica.jpeg" alt="Composição tipográfica científica, equações e blocos de código" class="w-full h-full object-contain">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">ESCRITA • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 6: 3. Conversão e Revisão -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Conversão & Revisão">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">35–65 min • Eixo 3 (Complemento)</span>
+                    <span class="text-xs text-slate-400 font-medium">Interoperabilidade e Polimento Textual</span>
+                </div>
+
+                <div class="my-auto space-y-6">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900 flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center text-lg"><i class="fa-solid fa-shuffle"></i></span>
+                        Interoperabilidade e Revisão Gramatical
+                    </h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            <div class="text-brand-700 text-xl mb-3"><i class="fa-solid fa-terminal"></i></div>
+                            <h3 class="font-bold text-slate-900 text-base mb-2">Pandoc: Conversor Universal</h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                Utilitário de linha de comando que converte documentos entre <strong class="text-brand-800">Markdown, LaTeX, Word (.docx), HTML e CSL-JSON</strong>, facilitando a troca de revisões com orientadores sem retrabalho de formatação.
+                            </p>
+                        </div>
+
+                        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 border-l-4 border-l-emerald-600">
+                            <div class="text-emerald-700 text-xl mb-3"><i class="fa-solid fa-spell-check"></i></div>
+                            <h3 class="font-bold text-slate-900 text-base mb-2">LanguageTool: Revisão Acadêmica</h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                Revisor gramatical e estilístico multilíngue (com suporte a português e inglês acadêmico) integrado a navegadores e editores para polir clareza e coesão antes da submissão.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">REVISÃO • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 7: 4. Reprodutibilidade Computacional (COM ILUSTRAÇÃO 3) -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="4. Reprodutibilidade">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">65–95 min • Eixo 4</span>
+                    <span class="text-xs text-slate-400 font-medium">Notebooks, Reatividade e Contêineres</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900 flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center text-lg"><i class="fa-solid fa-flask-vial"></i></span>
+                        Reprodutibilidade Computacional
+                    </h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                        <div class="space-y-3 text-xs sm:text-sm">
+                            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                                <div class="font-bold text-slate-900 flex items-center gap-2 mb-1">
+                                    <span class="w-5 h-5 rounded-md bg-brand-600 text-white flex items-center justify-center text-[10px]">1</span>
+                                    Notebooks Locais e na Nuvem
+                                </div>
+                                <p class="text-slate-600 leading-relaxed text-xs"><strong class="text-brand-800">Jupyter Notebook & Google Colab:</strong> Unem código (Python, Julia, R), equações LaTeX, texto narrativo e gráficos dinâmicos, com acesso gratuito a GPUs/TPUs no Colab.</p>
+                            </div>
+                            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                                <div class="font-bold text-slate-900 flex items-center gap-2 mb-1">
+                                    <span class="w-5 h-5 rounded-md bg-brand-600 text-white flex items-center justify-center text-[10px]">2</span>
+                                    Execução Reativa Determinística
+                                </div>
+                                <p class="text-slate-600 leading-relaxed text-xs"><strong class="text-brand-800">Pluto.jl:</strong> Ambiente reativo para Julia em que alterar uma célula recalcula automaticamente as dependentes, eliminando estados ocultos e gerando arquivos <code class="text-brand-700 font-mono">.jl</code> limpos.</p>
+                            </div>
+                            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                                <div class="font-bold text-slate-900 flex items-center gap-2 mb-1">
+                                    <span class="w-5 h-5 rounded-md bg-brand-600 text-white flex items-center justify-center text-[10px]">3</span>
+                                    Empacotamento e Execução Remota
+                                </div>
+                                <p class="text-slate-600 leading-relaxed text-xs"><strong class="text-brand-800">Docker & MyBinder:</strong> O Docker isola bibliotecas e versões exatas de sistema; o Binder transforma repositórios Git públicos em ambientes executáveis no navegador.</p>
+                            </div>
+                        </div>
+
+                        <!-- Ilustração Vetorial 3 -->
+                        <div class="h-64 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-center items-center relative overflow-hidden p-2">
+                            <img src="03_reprodutibilidade.jpeg" alt="Contêineres computacionais, servidores em nuvem e gráficos validados" class="w-full h-full object-contain">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">REPRODUTIBILIDADE • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 8: 5. Versionamento e Arquivamento (COM ILUSTRAÇÃO 4) -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="5. Versionamento">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">95–110 min • Eixo 5</span>
+                    <span class="text-xs text-slate-400 font-medium">Rastreabilidade & DOI Citável</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900 flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center text-lg"><i class="fa-solid fa-code-branch"></i></span>
+                        Versionamento e Arquivamento Científico
+                    </h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                        <div class="space-y-3 text-xs sm:text-sm">
+                            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                                <div class="font-bold text-slate-900 flex items-center gap-2 mb-1">
+                                    <span class="w-5 h-5 rounded-md bg-brand-600 text-white flex items-center justify-center text-[10px]">1</span>
+                                    Git (Local) vs. GitHub (Remoto)
+                                </div>
+                                <p class="text-slate-600 leading-relaxed text-xs"><strong class="text-brand-800">Git</strong> registra o histórico local de alterações em código e manuscritos; <strong class="text-brand-800">GitHub</strong> hospeda repositórios, pull requests, issues, CI/CD e GitHub Pages.</p>
+                            </div>
+                            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                                <div class="font-bold text-slate-900 flex items-center gap-2 mb-1">
+                                    <span class="w-5 h-5 rounded-md bg-brand-600 text-white flex items-center justify-center text-[10px]">2</span>
+                                    Documentação e Metadados de Citação
+                                </div>
+                                <p class="text-slate-600 leading-relaxed text-xs">Boas práticas incluem manter um <code class="text-brand-700 font-mono">README.md</code> reproduzível e um arquivo <code class="text-brand-700 font-mono">CITATION.cff</code> para citação padronizada do software.</p>
+                            </div>
+                            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
+                                <div class="font-bold text-slate-900 flex items-center gap-2 mb-1">
+                                    <span class="w-5 h-5 rounded-md bg-brand-600 text-white flex items-center justify-center text-[10px]">3</span>
+                                    DOI Permanente via Zenodo
+                                </div>
+                                <p class="text-slate-600 leading-relaxed text-xs"><strong class="text-brand-800">Zenodo (CERN / OpenAIRE):</strong> Arquiva datasets, códigos e pôsteres, integrando-se às releases do GitHub para gerar automaticamente um <strong class="text-brand-800">DOI citável</strong>.</p>
+                            </div>
+                        </div>
+
+                        <!-- Ilustração Vetorial 4 -->
+                        <div class="h-64 rounded-2xl bg-white border border-slate-200 shadow-sm flex flex-col justify-center items-center relative overflow-hidden p-2">
+                            <img src="04_versionamento_zenodo.jpeg" alt="Ramificações Git conectadas a um cofre de arquivamento digital permanente" class="w-full h-full object-contain">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">PRESERVAÇÃO • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 9: 6. Fechamento e Demo Integrada -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="6. Demo Integrada">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">110–120 min • Eixo 6</span>
+                    <span class="text-xs text-slate-400 font-medium">Consolidação do Pipeline</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <div class="text-left">
+                        <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-blue-100 text-brand-700 text-xs font-bold uppercase mb-2">
+                            <i class="fa-solid fa-play"></i> Ao Vivo e Integrado
+                        </span>
+                        <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">Fechamento e Demonstração Integrada</h2>
+                        <p class="text-sm text-slate-500 mt-1">Conectando todas as etapas ao vivo em um fluxo único de ponta a ponta.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div class="p-5 rounded-2xl bg-gradient-to-br from-blue-50 to-sky-50/30 border border-blue-200">
+                            <h3 class="font-bold text-brand-800 text-sm flex items-center gap-2 mb-3">
+                                <i class="fa-solid fa-code-merge"></i> 1. Conduza por um Fio Condutor Único
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-3">
+                                Atravesse a aula inteira com um mini-tema de pesquisa real ou fictício:
+                            </p>
+                            <ul class="space-y-2 text-xs text-slate-700">
+                                <li class="flex items-start gap-2"><i class="fa-solid fa-check text-emerald-600 mt-0.5"></i> Busca no OpenAlex / Publish or Perish e captura no <strong>Zotero</strong></li>
+                                <li class="flex items-start gap-2"><i class="fa-solid fa-check text-emerald-600 mt-0.5"></i> Citação via <code class="font-mono text-brand-700">.bib</code> em documento no <strong>Quarto / Overleaf</strong></li>
+                                <li class="flex items-start gap-2"><i class="fa-solid fa-check text-emerald-600 mt-0.5"></i> Resultado gerado em notebook e versionado no <strong>GitHub + Zenodo</strong></li>
+                            </ul>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-gradient-to-br from-amber-50 to-amber-50/30 border border-amber-200">
+                            <h3 class="font-bold text-amber-800 text-sm flex items-center gap-2 mb-3">
+                                <i class="fa-solid fa-bullseye"></i> 2. Foco Didático e Comparativo
+                            </h3>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-3">
+                                Evite demonstrar todas as ferramentas com a mesma profundidade:
+                            </p>
+                            <ul class="space-y-2 text-xs text-slate-700">
+                                <li class="flex items-start gap-2"><i class="fa-solid fa-star text-amber-600 mt-0.5"></i> Faça demos práticas curtas do núcleo essencial (Zotero, Quarto/Overleaf, Notebook, GitHub)</li>
+                                <li class="flex items-start gap-2"><i class="fa-solid fa-layer-group text-amber-600 mt-0.5"></i> Apresente Typst, Quarkdown, Pluto.jl e Docker como alternativas comparativas</li>
+                                <li class="flex items-start gap-2"><i class="fa-solid fa-link text-amber-600 mt-0.5"></i> Disponibilize links de referência para aprofundamento posterior</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">PIPELINE • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 10: Gestão de Tempo -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Gestão de Tempo">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Boas Práticas de Apresentação</span>
+                    <span class="text-xs text-slate-400 font-medium">Dimensionamento de Slides</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900 flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center text-lg"><i class="fa-solid fa-gauge-high"></i></span>
+                        Gestão do Tempo e Elaboração de Conteúdo
+                    </h2>
+
+                    <div class="space-y-3 text-xs sm:text-sm">
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            No geral, <strong class="text-brand-800">considere uma média de 1 slide por minuto</strong>, empregando-se o critério de <strong class="text-amber-700">±10% de acordo com seu ritmo de fala</strong>.
+                        </div>
+                    </div>
+
+                    <div class="overflow-hidden border border-slate-200 rounded-xl shadow-sm max-w-3xl mx-auto">
+                        <table class="w-full text-xs sm:text-sm text-left">
+                            <thead class="bg-slate-900 text-white">
+                                <tr>
+                                    <th class="p-3">Tempo Disponível</th>
+                                    <th class="p-3 bg-brand-700">Nº de Slides</th>
+                                    <th class="p-3">Tempo Disponível</th>
+                                    <th class="p-3 bg-brand-700">Nº de Slides</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 text-slate-700">
+                                <tr>
+                                    <td class="p-2.5 font-bold bg-slate-50">10 min</td>
+                                    <td class="p-2.5 font-mono font-bold text-brand-700">9 a 11 slides</td>
+                                    <td class="p-2.5 font-bold bg-slate-50">30 min</td>
+                                    <td class="p-2.5 font-mono font-bold text-brand-700">27 a 33 slides</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2.5 font-bold bg-slate-50">15 min</td>
+                                    <td class="p-2.5 font-mono font-bold text-brand-700">14 a 16 slides</td>
+                                    <td class="p-2.5 font-bold bg-slate-50">40 min</td>
+                                    <td class="p-2.5 font-mono font-bold text-brand-700">36 a 44 slides</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2.5 font-bold bg-slate-50">20 min</td>
+                                    <td class="p-2.5 font-mono font-bold text-brand-700">18 a 22 slides</td>
+                                    <td class="p-2.5 font-bold bg-slate-50">50 min</td>
+                                    <td class="p-2.5 font-mono font-bold text-brand-700">45 a 55 slides</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">TEMPO • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 11: Recursos Técnicos Recomendados -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Material & Backups">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Boas Práticas de Execução</span>
+                    <span class="text-xs text-slate-400 font-medium">Recomendações Logísticas</span>
+                </div>
+
+                <div class="my-auto space-y-6">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">Prevenção e Logística para Demonstrações ao Vivo</h2>
+
+                    <div class="bg-gradient-to-r from-brand-700 to-sky-700 text-white p-5 rounded-2xl shadow-md">
+                        <p class="text-sm sm:text-base text-sky-50 leading-relaxed">
+                            A preparação prévia dos repositórios, ambientes locais e cópias de segurança evita falhas de rede durante demonstrações práticas em sala.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-brand-500 transition">
+                            <div class="text-brand-700 text-xl mb-2"><i class="fa-solid fa-circle-check"></i></div>
+                            <h3 class="font-bold text-slate-900 text-sm mb-1">Backups Múltiplos</h3>
+                            <p class="text-xs text-slate-600">Salve os slides em formatos redundantes (HTML, PDF) e tenha o repositório clonado localmente caso falte internet.</p>
+                        </div>
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-brand-500 transition">
+                            <div class="text-brand-700 text-xl mb-2"><i class="fa-solid fa-laptop-code"></i></div>
+                            <h3 class="font-bold text-slate-900 text-sm mb-1">Ambientes Pré-Aquecidos</h3>
+                            <p class="text-xs text-slate-600">Deixe Zotero, Overleaf/Quarto, notebook e terminal abertos nas abas certas antes do início da aula.</p>
+                        </div>
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-brand-500 transition">
+                            <div class="text-brand-700 text-xl mb-2"><i class="fa-solid fa-clock"></i></div>
+                            <h3 class="font-bold text-slate-900 text-sm mb-1">Ensaio de Fluência</h3>
+                            <p class="text-xs text-slate-600">Cronometre os blocos de 15–30 minutos para garantir tempo suficiente para a demo integrada final.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">LOGÍSTICA • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 12: Dúvidas & Obrigado -->
+            <section class="slide w-full h-full flex-col justify-between p-8 md:p-14 bg-gradient-to-br from-slate-900 via-brand-950 to-slate-950 text-white relative overflow-hidden" data-title="Dúvidas & Obrigado">
+                <div class="absolute right-0 bottom-0 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+                    <span class="text-xs font-bold uppercase tracking-widest text-sky-400">Encerramento</span>
+                    <span class="text-xs text-slate-400">UFC • Departamento de Engenharia Elétrica</span>
+                </div>
+
+                <div class="my-auto text-center max-w-xl mx-auto space-y-6">
+                    <h2 class="text-4xl sm:text-5xl font-display font-extrabold text-white leading-none">
+                        Dúvidas?
+                    </h2>
+                    <p class="text-sky-400 text-xl sm:text-2xl font-display font-bold">
+                        Obrigado pela atenção!
+                    </p>
+
+                    <div class="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur inline-block text-left w-full">
+                        <div class="text-base font-bold text-white">Prof. Lucas Silveira Melo</div>
+                        <div class="text-xs text-sky-300 font-medium">Departamento de Engenharia Elétrica (DEE)</div>
+                        <div class="text-xs text-slate-400 mt-1">Grupo de Redes Elétricas Inteligentes (GREI-UFC)</div>
+                        
+                        <div class="mt-4 pt-4 border-t border-white/10 flex flex-wrap items-center justify-between gap-3 text-xs">
+                            <a href="mailto:lucas.melo@dee.ufc.br" class="text-sky-300 hover:text-white flex items-center gap-1.5 transition">
+                                <i class="fa-solid fa-envelope"></i> lucas.melo@dee.ufc.br
+                            </a>
+                            <div class="flex items-center gap-3 text-slate-400">
+                                <span><i class="fa-brands fa-linkedin text-base"></i></span>
+                                <span><i class="fa-solid fa-graduation-cap text-base"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-t border-slate-800 pt-4 flex items-center justify-between text-xs text-slate-500">
+                    <span>Universidade Federal do Ceará</span>
+                    <span class="font-mono">FIM DA APRESENTAÇÃO</span>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Moldura Inferior: Passador e Contador -->
+    <footer class="h-16 bg-slate-950 border-t border-slate-800 px-4 md:px-8 flex items-center justify-between text-white z-30 shrink-0">
+        <div class="flex items-center gap-2">
+            <button id="btn-prev" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-brand-700 text-slate-200 hover:text-white font-medium text-xs flex items-center gap-2 transition disabled:opacity-30 disabled:cursor-not-allowed">
+                <i class="fa-solid fa-chevron-left"></i>
+                <span class="hidden sm:inline">Anterior</span>
+            </button>
+            <button id="btn-next" class="px-5 py-2 rounded-xl bg-brand-700 hover:bg-brand-600 text-white font-semibold text-xs flex items-center gap-2 transition shadow-md shadow-brand-900/40 disabled:opacity-30 disabled:cursor-not-allowed">
+                <span>Próximo</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <div class="text-xs text-slate-400 hidden lg:flex items-center gap-4">
+            <span class="flex items-center gap-1"><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">←</kbd> <kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">→</kbd> Navegar</span>
+            <span class="flex items-center gap-1"><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">Espaço</kbd> Avançar</span>
+            <span class="flex items-center gap-1"><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">G</kbd> Índice</span>
+        </div>
+
+        <div class="text-xs font-mono text-slate-400">
+            Slide <span id="current-slide-num" class="text-white font-bold">1</span> de <span id="total-slides-num">12</span>
+        </div>
+    </footer>
+
+    <!-- Modal Visualizador de Índice -->
+    <div id="grid-modal" class="fixed inset-0 bg-slate-950/90 backdrop-blur-md z-50 hidden flex-col p-4 md:p-8">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-4 mb-6 font-sans">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-lg bg-brand-700 flex items-center justify-center text-white font-bold">
+                    <i class="fa-solid fa-table-cells-large"></i>
+                </div>
+                <div>
+                    <h2 class="text-base font-bold text-white">Índice Geral de Slides</h2>
+                    <p class="text-xs text-slate-400">Selecione um slide para navegar diretamente</p>
+                </div>
+            </div>
+            <button id="btn-close-grid" class="p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-white transition">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+        </div>
+
+        <div id="grid-thumbnails-container" class="flex-1 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 overflow-y-auto custom-scrollbar p-1">
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slides = document.querySelectorAll('.slide');
+            const totalSlides = slides.length;
+            let currentSlideIndex = 0;
+
+            const currentSlideNumEl = document.getElementById('current-slide-num');
+            const totalSlidesNumEl = document.getElementById('total-slides-num');
+            const slideNumberDisplay = document.getElementById('slide-number-display');
+            const progressBarFill = document.getElementById('progress-bar-fill');
+            const btnPrev = document.getElementById('btn-prev');
+            const btnNext = document.getElementById('btn-next');
+            const btnGrid = document.getElementById('btn-grid');
+            const btnFullscreen = document.getElementById('btn-fullscreen');
+            const gridModal = document.getElementById('grid-modal');
+            const btnCloseGrid = document.getElementById('btn-close-grid');
+            const gridThumbnailsContainer = document.getElementById('grid-thumbnails-container');
+
+            totalSlidesNumEl.textContent = totalSlides;
+
+            slides.forEach((slide, index) => {
+                const title = slide.getAttribute('data-title') || `Slide ${index + 1}`;
+                const thumb = document.createElement('button');
+                thumb.className = `p-3 rounded-xl border text-left flex flex-col justify-between transition h-28 ${
+                    index === currentSlideIndex 
+                        ? 'border-brand-500 bg-brand-900/30 text-white' 
+                        : 'border-slate-800 bg-slate-900/80 hover:border-slate-600 text-slate-300'
+                }`;
+                thumb.innerHTML = `
+                    <div class="flex items-center justify-between w-full">
+                        <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-400 font-bold">${String(index + 1).padStart(2, '0')}</span>
+                        <i class="fa-solid fa-arrow-right text-[10px] opacity-40"></i>
+                    </div>
+                    <div class="text-xs font-semibold line-clamp-2 mt-2">${title}</div>
+                `;
+                thumb.addEventListener('click', () => {
+                    goToSlide(index);
+                    toggleGrid(false);
+                });
+                gridThumbnailsContainer.appendChild(thumb);
+            });
+
+            function updateThumbnailsActive() {
+                const thumbs = gridThumbnailsContainer.querySelectorAll('button');
+                thumbs.forEach((thumb, idx) => {
+                    if (idx === currentSlideIndex) {
+                        thumb.className = 'p-3 rounded-xl border border-brand-500 bg-brand-900/40 text-white flex flex-col justify-between transition h-28 ring-2 ring-brand-500/40';
+                    } else {
+                        thumb.className = 'p-3 rounded-xl border border-slate-800 bg-slate-900/80 hover:border-slate-600 text-slate-300 flex flex-col justify-between transition h-28';
+                    }
+                });
+            }
+
+            function updateUI() {
+                slides.forEach((s, idx) => {
+                    if (idx === currentSlideIndex) {
+                        s.classList.add('active');
+                    } else {
+                        s.classList.remove('active');
+                    }
+                });
+
+                const formattedCurrent = String(currentSlideIndex + 1).padStart(2, '0');
+                const formattedTotal = String(totalSlides).padStart(2, '0');
+                
+                currentSlideNumEl.textContent = currentSlideIndex + 1;
+                slideNumberDisplay.textContent = `${formattedCurrent} / ${formattedTotal}`;
+                
+                const pct = ((currentSlideIndex + 1) / totalSlides) * 100;
+                progressBarFill.style.width = `${pct}%`;
+
+                btnPrev.disabled = currentSlideIndex === 0;
+                btnNext.disabled = currentSlideIndex === totalSlides - 1;
+
+                updateThumbnailsActive();
+            }
+
+            function goToSlide(index) {
+                if (index >= 0 && index < totalSlides) {
+                    currentSlideIndex = index;
+                    updateUI();
+                }
+            }
+
+            function nextSlide() {
+                if (currentSlideIndex < totalSlides - 1) {
+                    goToSlide(currentSlideIndex + 1);
+                }
+            }
+
+            function prevSlide() {
+                if (currentSlideIndex > 0) {
+                    goToSlide(currentSlideIndex - 1);
+                }
+            }
+
+            function toggleGrid(show) {
+                if (show === undefined) {
+                    gridModal.classList.toggle('hidden');
+                    gridModal.classList.toggle('flex');
+                } else if (show) {
+                    gridModal.classList.remove('hidden');
+                    gridModal.classList.add('flex');
+                } else {
+                    gridModal.classList.add('hidden');
+                    gridModal.classList.remove('flex');
+                }
+            }
+
+            btnPrev.addEventListener('click', prevSlide);
+            btnNext.addEventListener('click', nextSlide);
+            btnGrid.addEventListener('click', () => toggleGrid());
+            btnCloseGrid.addEventListener('click', () => toggleGrid(false));
+
+            btnFullscreen.addEventListener('click', () => {
+                if (!document.fullscreenElement) {
+                    document.documentElement.requestFullscreen().catch(() => {});
+                } else {
+                    document.exitFullscreen().catch(() => {});
+                }
+            });
+
+            document.addEventListener('keydown', (e) => {
+                if (gridModal.classList.contains('flex')) {
+                    if (e.key === 'Escape' || e.key === 'g' || e.key === 'G') {
+                        toggleGrid(false);
+                    }
+                    return;
+                }
+
+                if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+                    e.preventDefault();
+                    nextSlide();
+                } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+                    e.preventDefault();
+                    prevSlide();
+                } else if (e.key === 'Home') {
+                    e.preventDefault();
+                    goToSlide(0);
+                } else if (e.key === 'End') {
+                    e.preventDefault();
+                    goToSlide(totalSlides - 1);
+                } else if (e.key === 'g' || e.key === 'G') {
+                    e.preventDefault();
+                    toggleGrid(true);
+                } else if (e.key === 'f' || e.key === 'F') {
+                    e.preventDefault();
+                    if (!document.fullscreenElement) {
+                        document.documentElement.requestFullscreen().catch(() => {});
+                    } else {
+                        document.exitFullscreen().catch(() => {});
+                    }
+                }
+            });
+
+            let touchStartX = 0;
+            let touchEndX = 0;
+            const stage = document.getElementById('slide-stage');
+
+            stage.addEventListener('touchstart', (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+            }, { passive: true });
+
+            stage.addEventListener('touchend', (e) => {
+                touchEndX = e.changedTouches[0].screenX;
+                const diff = touchStartX - touchEndX;
+                if (Math.abs(diff) > 45) {
+                    if (diff > 0) nextSlide();
+                    else prevSlide();
+                }
+            }, { passive: true });
+
+            updateUI();
+        });
+    </script>
+</body>
+</html>

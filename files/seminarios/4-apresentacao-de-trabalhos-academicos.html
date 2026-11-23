@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminários: Apresentação de Trabalhos Científicos - UFC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            200: '#bae0fd',
+                            500: '#0072b2',
+                            600: '#005a91',
+                            700: '#004a77',
+                            800: '#003b60',
+                            900: '#002844',
+                        },
+                        accent: {
+                            amber: '#d97706',
+                            emerald: '#059669',
+                            rose: '#e11d48',
+                            cyan: '#0891b2'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .slide {
+            display: none;
+            opacity: 0;
+            transform: scale(0.985) translateY(8px);
+            transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .slide.active {
+            display: flex;
+            opacity: 1;
+            transform: scale(1) translateY(0);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.05);
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(0, 80, 136, 0.2);
+            border-radius: 9999px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: rgba(0, 80, 136, 0.4);
+        }
+    </style>
+</head>
+<body class="h-full bg-slate-900 text-slate-800 font-sans antialiased overflow-hidden flex flex-col select-none">
+
+    <!-- Top Header -->
+    <header class="h-14 bg-slate-950/80 backdrop-blur border-b border-slate-800 text-white px-4 md:px-6 flex items-center justify-between z-30 shrink-0">
+        <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-brand-700 to-sky-500 flex items-center justify-center font-bold text-white shadow-md">
+                <i class="fa-solid fa-person-chalkboard text-sm"></i>
+            </div>
+            <div>
+                <h1 class="text-xs md:text-sm font-semibold tracking-wide text-slate-200">Apresentação de Trabalhos Científicos</h1>
+                <p class="text-[10px] text-slate-400 font-medium">Prof. Lucas Silveira Melo • UFC / GREI</p>
+            </div>
+        </div>
+
+        <!-- Middle Progress Bar & Indicator -->
+        <div class="hidden sm:flex items-center gap-3">
+            <span class="text-xs font-semibold text-slate-400 font-mono" id="slide-number-display">01 / 26</span>
+            <div class="w-36 h-2 bg-slate-800 rounded-full overflow-hidden border border-slate-700/60">
+                <div id="progress-bar-fill" class="h-full bg-gradient-to-r from-sky-500 to-brand-500 transition-all duration-300 ease-out" style="width: 3.84%;"></div>
+            </div>
+        </div>
+
+        <!-- Controls / Actions -->
+        <div class="flex items-center gap-2">
+            <button id="btn-grid" title="Visão Geral dos Slides (G)" class="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition text-xs flex items-center gap-1.5">
+                <i class="fa-solid fa-grip"></i>
+                <span class="hidden md:inline">Índice</span>
+            </button>
+            <button id="btn-fullscreen" title="Tela Cheia (F)" class="p-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition text-xs">
+                <i class="fa-solid fa-expand"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Stage -->
+    <main class="flex-1 relative flex items-center justify-center p-2 sm:p-4 md:p-6 overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
+        
+        <div id="slide-stage" class="relative w-full max-w-6xl aspect-[16/10] sm:aspect-[16/9] max-h-[86vh] bg-white rounded-2xl shadow-2xl overflow-hidden border border-slate-700/30 flex flex-col">
+
+            <!-- SLIDE 1: Capa -->
+            <section class="slide active w-full h-full flex-col justify-between p-8 md:p-14 bg-gradient-to-br from-slate-50 via-sky-50/40 to-blue-100/30 relative overflow-hidden" data-title="Capa">
+                <div class="absolute -right-20 -top-20 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
+                <div class="absolute -left-20 -bottom-20 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div class="flex items-center justify-between w-full border-b border-slate-200/80 pb-4">
+                    <div class="flex items-center gap-3">
+                        <div class="px-3 py-1 bg-brand-700 text-white text-xs font-bold uppercase tracking-wider rounded-md shadow-sm">
+                            UFC
+                        </div>
+                        <span class="text-xs font-semibold text-slate-600 tracking-wide uppercase">Departamento de Engenharia Elétrica</span>
+                    </div>
+                    <div class="text-xs font-medium text-slate-500 bg-white/80 border border-slate-200 px-3 py-1 rounded-full">
+                        <i class="fa-solid fa-bolt text-amber-500 mr-1"></i> GREI - Grupo de Redes Elétricas Inteligentes
+                    </div>
+                </div>
+
+                <div class="my-auto text-left max-w-3xl">
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-100/80 text-brand-800 text-xs font-bold uppercase tracking-wider mb-4">
+                        <i class="fa-solid fa-book-bookmark"></i>
+                        Seminários de Pós-Graduação & Pesquisa
+                    </div>
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-extrabold text-slate-900 tracking-tight leading-tight mb-4">
+                        Apresentação de <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-700 via-sky-600 to-blue-500">Trabalhos Científicos</span>
+                    </h1>
+                    <p class="text-base sm:text-lg md:text-xl text-slate-600 font-normal">
+                        Modalidades acadêmicas, estruturação visual, comunicação técnica na <span class="font-semibold text-slate-800">área de exatas</span> e gestão estratégica do tempo.
+                    </p>
+                </div>
+
+                <div class="pt-6 border-t border-slate-200/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-brand-700 text-white font-bold flex items-center justify-center text-lg shadow-md border-2 border-white">
+                            LM
+                        </div>
+                        <div>
+                            <div class="text-sm font-bold text-slate-900">Prof. Lucas Silveira Melo</div>
+                            <div class="text-xs text-slate-500">Universidade Federal do Ceará • Dezembro de 2025</div>
+                        </div>
+                    </div>
+                    <div class="text-xs text-slate-400 font-medium">
+                        Metodologia & Comunicação Científica
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 2: Agenda -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Agenda">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Visão Geral</span>
+                    <span class="text-xs text-slate-400 font-medium">Roteiro do Seminário</span>
+                </div>
+
+                <div class="my-auto space-y-6">
+                    <div>
+                        <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">Agenda da Apresentação</h2>
+                        <p class="text-sm text-slate-500 mt-1">Tópicos estruturados para planejar e executar exposições técnicas de alto nível.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+                        <div class="p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-sky-50/40 border border-blue-200/80 shadow-sm">
+                            <div class="text-3xl font-display font-extrabold text-brand-700 mb-3">01</div>
+                            <h3 class="text-base font-bold text-slate-900 mb-2">Tipos de Apresentações</h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">Diferenças de formato, duração e rigor científico entre bancas acadêmicas, eventos técnicos e exposições.</p>
+                        </div>
+
+                        <div class="p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-sky-50/40 border border-blue-200/80 shadow-sm">
+                            <div class="text-3xl font-display font-extrabold text-brand-700 mb-3">02</div>
+                            <h3 class="text-base font-bold text-slate-900 mb-2">Orientações Gerais</h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">Planejamento, design de slides eficazes, postura pessoal, ensaio cronometrado e gestão do tempo.</p>
+                        </div>
+
+                        <div class="p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-sky-50/40 border border-blue-200/80 shadow-sm">
+                            <div class="text-3xl font-display font-extrabold text-brand-700 mb-3">03</div>
+                            <h3 class="text-base font-bold text-slate-900 mb-2">Exatas & Exemplos</h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">Boas práticas para equações, gráficos, validação experimental e estruturação por tempo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 3: Trabalhos Acadêmicos -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Trabalhos Acadêmicos">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Modalidade 01 • Bancas Avaliadoras</span>
+                    <span class="text-xs text-slate-400 font-medium">Tipos de Apresentações</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900 flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center text-lg"><i class="fa-solid fa-graduation-cap"></i></span>
+                        Trabalhos Acadêmicos
+                    </h2>
+
+                    <div class="space-y-2.5 text-xs sm:text-sm">
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            <strong class="text-brand-800">Objetivo:</strong> Discorrer sobre conhecimentos agregados de uma determinada área ao longo de uma trajetória acadêmica.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            <strong class="text-brand-800">Requisitos:</strong> Manuscrito formal e processo de revisão por pares.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            <strong class="text-brand-800">Tipos:</strong> Trabalhos de Conclusão de Curso (TCC) de Graduação, Dissertações de Mestrado e Teses de Doutorado.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-blue-50/70 border border-blue-200 border-l-4 border-l-amber-500">
+                            <strong class="text-brand-900">Tempo de apresentação:</strong> Entre <span class="font-bold text-amber-700">20 min a 50 min</span>.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-emerald-600">
+                            <strong class="text-brand-800">Rigor científico:</strong> Avaliação no formato <em>Open Peer Review</em> por meio da formação de banca avaliadora composta por especialistas na área.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 4: Trabalhos em Eventos Técnico-Científicos -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Eventos Técnico-Científicos">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Modalidade 02 • Conferências & Simpósios</span>
+                    <span class="text-xs text-slate-400 font-medium">Tipos de Apresentações</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900 flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center text-lg"><i class="fa-solid fa-users-rectangle"></i></span>
+                        Trabalhos em Eventos Técnico-Científicos
+                    </h2>
+
+                    <div class="space-y-2.5 text-xs sm:text-sm">
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            <strong class="text-brand-800">Objetivo:</strong> Promover discussões, debates e deliberações sobre temas de caráter científico e tecnológico.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            <strong class="text-brand-800">Requisitos:</strong> Submissão de manuscrito e aprovação via revisão por pares (<em>Peer Review</em>).
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            <strong class="text-brand-800">Tipos:</strong> Congressos, Conferências, Simpósios e Workshops (ex: SBSE, CBA, IEEE PES).
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-blue-50/70 border border-blue-200 border-l-4 border-l-amber-500">
+                            <strong class="text-brand-900">Tempo de apresentação:</strong> Curto e objetivo, entre <span class="font-bold text-amber-700">10 min a 20 min</span>.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-emerald-600">
+                            <strong class="text-brand-800">Rigor científico:</strong> Avaliação rigorosa sobre o manuscrito; a apresentação do trabalho geralmente é requisito obrigatório para publicação nos anais.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 5: Debates e Exposições Científicas -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Debates e Exposições">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Modalidade 03 • Divulgação & Seminários</span>
+                    <span class="text-xs text-slate-400 font-medium">Tipos de Apresentações</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900 flex items-center gap-3">
+                        <span class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center text-lg"><i class="fa-solid fa-bullhorn"></i></span>
+                        Debates e Exposições Científicas
+                    </h2>
+
+                    <div class="space-y-2.5 text-xs sm:text-sm">
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            <strong class="text-brand-800">Objetivo:</strong> Expor uma ideia, revisão bibliográfica ou assunto de interesse sobre determinada área do conhecimento.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            <strong class="text-brand-800">Requisitos:</strong> Domínio e aprofundamento sobre o assunto abordado.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            <strong class="text-brand-800">Tipos:</strong> Painel de Debates, Palestra, Seminário de Pesquisa e ações de Divulgação Científica.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-blue-50/70 border border-blue-200 border-l-4 border-l-amber-500">
+                            <strong class="text-brand-900">Tempo de apresentação:</strong> Geralmente longo e flexível conforme a programação.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-slate-400">
+                            <strong class="text-brand-800">Rigor científico:</strong> Não se aplica avaliação formal por pareceristas cegos, embora exija embasamento técnico sólido.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 6: Orientações Gerais - Introdução -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Orientações Gerais">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Boas Práticas</span>
+                    <span class="text-xs text-slate-400 font-medium">Estratégias de Comunicação</span>
+                </div>
+
+                <div class="my-auto space-y-6">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">Orientações para Apresentação de Trabalhos</h2>
+
+                    <div class="bg-gradient-to-r from-brand-700 to-sky-700 text-white p-6 rounded-2xl shadow-lg flex items-center gap-5">
+                        <div class="w-14 h-14 rounded-xl bg-white/15 flex items-center justify-center shrink-0 text-2xl">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                        <p class="text-sm sm:text-base leading-relaxed text-sky-50">
+                            Para realizar uma boa apresentação de trabalho acadêmico, é importante seguir estratégias que ajudam a transmitir sua mensagem de forma <strong class="text-white underline decoration-sky-300">clara</strong>, <strong class="text-white underline decoration-sky-300">objetiva</strong> e <strong class="text-white underline decoration-sky-300">cativante</strong>.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200">
+                            <h3 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-2">
+                                <i class="fa-solid fa-layer-group text-brand-600"></i> Estrutura & Design
+                            </h3>
+                            <p class="text-xs sm:text-sm text-slate-600">Planejamento lógico da narrativa, slides visualmente limpos, hierarquia tipográfica e apoio gráfico.</p>
+                        </div>
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200">
+                            <h3 class="text-base font-bold text-slate-900 mb-2 flex items-center gap-2">
+                                <i class="fa-solid fa-microphone text-brand-600"></i> Oratória & Execução
+                            </h3>
+                            <p class="text-xs sm:text-sm text-slate-600">Ensaio cronometrado, postura segura, interação com a banca e gestão rigorosa do tempo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 7: 1. Planejamento e Preparação -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="1. Planejamento">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações Gerais • Etapa 01</span>
+                    <span class="text-xs text-slate-400 font-medium">Preparação</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        1. Planejamento e Preparação
+                    </h2>
+
+                    <div class="space-y-3.5 text-xs sm:text-base">
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Conheça bem o conteúdo:</strong> Certifique-se de dominar o tema do trabalho. Isso aumenta a sua confiança e permite lidar melhor com perguntas da audiência.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Defina os objetivos:</strong> Saiba exatamente o que deseja que a plateia aprenda ou retenha ao final da apresentação.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Organize o conteúdo:</strong> Estruture a apresentação com introdução, desenvolvimento e conclusão, incluindo pontos-chave que guiem a audiência.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 8: 2. Criação de Slides Eficazes -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="2. Slides Eficazes">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações Gerais • Etapa 02</span>
+                    <span class="text-xs text-slate-400 font-medium">Identidade Visual</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        2. Criação de Slides Eficazes
+                    </h2>
+
+                    <div class="space-y-3 text-xs sm:text-sm">
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Evite excesso de texto:</strong> Utilize palavras-chave, frases curtas ou tópicos. Expanda o conteúdo oralmente.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Use elementos visuais:</strong> Gráficos, imagens e infográficos ajudam a ilustrar ideias e tornam a apresentação mais interessante.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Escolha fontes e cores apropriadas:</strong> Utilize uma fonte legível (tamanho mínimo <strong>18 pt</strong>) e cores com bom contraste.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Seja consistente no design:</strong> Mantenha um padrão nos estilos de slide para não distrair o público.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 9: 3. Treinamento e Ensaio -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="3. Treinamento e Ensaio">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações Gerais • Etapa 03</span>
+                    <span class="text-xs text-slate-400 font-medium">Prática</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        3. Treinamento e Ensaio
+                    </h2>
+
+                    <div class="space-y-3.5 text-xs sm:text-base">
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Pratique várias vezes:</strong> Ensaiar ajuda a ajustar o tempo e identificar trechos que precisam de mais clareza.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Cronometre sua apresentação:</strong> Respeite o tempo estipulado para evitar correria ou prolongamento desnecessário.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Grave-se ou peça feedback:</strong> Revise gravações de ensaios ou peça a amigos/colegas para sugerirem melhorias.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 10: 4. Apresentação Pessoal -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="4. Apresentação Pessoal">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações Gerais • Etapa 04</span>
+                    <span class="text-xs text-slate-400 font-medium">Postura e Oratória</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        4. Apresentação Pessoal
+                    </h2>
+
+                    <div class="space-y-3 text-xs sm:text-sm">
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Mantenha uma postura confiante:</strong> Fique ereto, evite cruzar os braços e olhe para a audiência.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Faça contato visual:</strong> Transmita segurança e engaje a audiência.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Module a voz:</strong> Varie o tom e o ritmo para evitar monotonia.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Use gestos moderados:</strong> Utilize as mãos para enfatizar pontos importantes, mas sem exageros.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 11: 5. Interação com o Público -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="5. Interação com o Público">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações Gerais • Etapa 05</span>
+                    <span class="text-xs text-slate-400 font-medium">Engajamento e Arguição</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        5. Interação com o Público
+                    </h2>
+
+                    <div class="space-y-3.5 text-xs sm:text-base">
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Contextualize no início:</strong> Explique rapidamente o tema e sua relevância para captar a atenção da audiência.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Convide à reflexão:</strong> Faça perguntas retóricas ou exemplos práticos para engajar os ouvintes.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Esteja preparado para perguntas:</strong> Escute com atenção e responda com clareza. Caso não saiba a resposta, seja honesto e prometa investigar.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 12: 6. Recursos Técnicos -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="6. Recursos Técnicos">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações Gerais • Etapa 06</span>
+                    <span class="text-xs text-slate-400 font-medium">Prevenção de Falhas</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        6. Recursos Técnicos
+                    </h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            <div class="w-10 h-10 rounded-lg bg-brand-100 text-brand-700 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-display"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-900 text-base mb-2">Teste os equipamentos</h3>
+                            <p class="text-xs sm:text-sm text-slate-600">Verifique projetores, adaptadores, passadores de slides, microfones e outros dispositivos antes de começar.</p>
+                        </div>
+
+                        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 border-l-4 border-l-emerald-600">
+                            <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-cloud-arrow-up"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-900 text-base mb-2">Tenha backups</h3>
+                            <p class="text-xs sm:text-sm text-slate-600">Leve a apresentação em mais de um formato (PDF e editável) no pen drive, e-mail e na nuvem.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 13: 7. Gestão do Tempo -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="7. Gestão do Tempo">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações Gerais • Etapa 07</span>
+                    <span class="text-xs text-slate-400 font-medium">Objetividade</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        7. Gestão do Tempo
+                    </h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 border-l-4 border-l-amber-500">
+                            <div class="w-10 h-10 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-bullseye"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-900 text-base mb-2">Seja objetivo</h3>
+                            <p class="text-xs sm:text-sm text-slate-600">Não se prolongue desnecessariamente em tópicos secundários ou revisões periféricas.</p>
+                        </div>
+
+                        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            <div class="w-10 h-10 rounded-lg bg-brand-100 text-brand-700 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-stopwatch"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-900 text-base mb-2">Divida o tempo adequadamente</h3>
+                            <p class="text-xs sm:text-sm text-slate-600">Reserve blocos equilibrados de tempo para introdução, desenvolvimento, conclusão e perguntas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 14: 8. Conclusão -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="8. Conclusão">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Orientações Gerais • Etapa 08</span>
+                    <span class="text-xs text-slate-400 font-medium">Fechamento</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        8. Conclusão
+                    </h2>
+
+                    <div class="space-y-3.5 text-xs sm:text-base">
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Resuma os pontos principais:</strong> Finalize reforçando as ideias e contribuições mais importantes do trabalho.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Deixe uma mensagem final:</strong> Algo que motive, sintetize o impacto ou provoque reflexão na audiência.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-emerald-600">
+                            <strong class="text-brand-800">Agradeça à audiência:</strong> Demonstre cordialidade e gratidão pela atenção recebida.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 15: Recomendações Específicas para Área de Exatas -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Área de Exatas">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-amber-700 bg-amber-50 border border-amber-200 px-2.5 py-0.5 rounded-full tracking-wider">Engenharia & Ciências Exatas</span>
+                    <span class="text-xs text-slate-400 font-medium">Rigor Técnico</span>
+                </div>
+
+                <div class="my-auto space-y-6">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">Recomendações Específicas para Área de Exatas</h2>
+
+                    <div class="bg-gradient-to-r from-brand-700 to-sky-700 text-white p-5 rounded-2xl shadow-md">
+                        <p class="text-sm sm:text-base text-sky-50 leading-relaxed">
+                            Para a área de exatas, onde o conteúdo frequentemente envolve <strong class="text-white">dados técnicos</strong>, <strong class="text-white">cálculos</strong>, <strong class="text-white">gráficos</strong> e <strong class="text-white">equações</strong>, há recomendações adicionais que tornam a apresentação mais clara e compreensível.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200">
+                            <div class="text-brand-700 text-xl mb-2"><i class="fa-solid fa-square-root-variable"></i></div>
+                            <h3 class="font-bold text-slate-900 text-sm mb-1">Equações</h3>
+                            <p class="text-xs text-slate-600">Foco nas formulações centrais e definição clara de cada variável.</p>
+                        </div>
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200">
+                            <div class="text-brand-700 text-xl mb-2"><i class="fa-solid fa-chart-line"></i></div>
+                            <h3 class="font-bold text-slate-900 text-sm mb-1">Dados & Gráficos</h3>
+                            <p class="text-xs text-slate-600">Eixos rotulados, unidades explícitas e destaque nos resultados.</p>
+                        </div>
+                        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200">
+                            <div class="text-brand-700 text-xl mb-2"><i class="fa-solid fa-flask-vial"></i></div>
+                            <h3 class="font-bold text-slate-900 text-sm mb-1">Validação</h3>
+                            <p class="text-xs text-slate-600">Transparência metodológica, incertezas e margem de erro.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 16: Exatas 1. Clareza na Apresentação de Dados -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Exatas 1: Clareza de Dados">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Área de Exatas • Item 01</span>
+                    <span class="text-xs text-slate-400 font-medium">Comunicação de Resultados</span>
+                </div>
+
+                <div class="my-auto space-y-4">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        1. Clareza na Apresentação de Dados
+                    </h2>
+
+                    <div class="space-y-2.5 text-xs sm:text-sm">
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Simplifique conceitos complexos:</strong> Explique ideias técnicas ou equações de maneira acessível, evitando jargões excessivos.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Organize os dados:</strong> Apresente gráficos, tabelas e equações de maneira limpa e legível. Evite sobrecarregar os slides com muitos elementos.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Destaque informações importantes:</strong> Use cores ou negrito para chamar atenção para números, resultados ou equações-chave.
+                        </div>
+                        <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Explique o contexto dos gráficos e tabelas:</strong> Indique o que está sendo medido, unidades de medida, e o significado dos resultados apresentados.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 17: Exatas 2. Equações e Formulações -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Exatas 2: Equações">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Área de Exatas • Item 02</span>
+                    <span class="text-xs text-slate-400 font-medium">Modelagem Matemática</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        2. Equações e Formulações Matemáticas
+                    </h2>
+
+                    <div class="space-y-3.5 text-xs sm:text-base">
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Apresente somente o necessário:</strong> Mostre as equações essenciais para o entendimento do tema, evitando longas derivações.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Explique cada termo:</strong> Quando apresentar uma fórmula, identifique e explique brevemente o significado de cada variável.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Use animações moderadas:</strong> Revele partes da fórmula ou etapas do cálculo progressivamente para facilitar o acompanhamento.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 18: Exatas 3. Visualização de Resultados -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Exatas 3: Visualização">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Área de Exatas • Item 03</span>
+                    <span class="text-xs text-slate-400 font-medium">Gráficos e Figuras</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        3. Visualização de Resultados
+                    </h2>
+
+                    <div class="space-y-3.5 text-xs sm:text-base">
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Utilize gráficos adequados:</strong> Escolha o tipo de gráfico mais apropriado (barras, linhas, dispersão, etc.) para ilustrar os dados de forma clara.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Adicione legendas e rótulos:</strong> Certifique-se de que todos os gráficos possuem legendas e que os eixos estão identificados com unidades.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Integre softwares de visualização:</strong> Utilize ferramentas como MATLAB, Python ou Excel para criar gráficos de alta qualidade.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 19: Exatas 4. Resolução de Problemas -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Exatas 4: Resolução">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Área de Exatas • Item 04</span>
+                    <span class="text-xs text-slate-400 font-medium">Raciocínio Lógico</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        4. Resolução de Problemas
+                    </h2>
+
+                    <div class="space-y-3.5 text-xs sm:text-base">
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Mostre o raciocínio passo a passo:</strong> Se a apresentação incluir a resolução de problemas, divida os passos em partes pequenas e explique cada um.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Use exemplos práticos:</strong> Relacione os problemas apresentados a situações reais ou aplicações práticas para aumentar o engajamento do público.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Antecipe dúvidas:</strong> Prepare-se para esclarecer questões comuns relacionadas à interpretação de fórmulas ou resultados.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 20: Exatas 5. Detalhamento Técnico -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Exatas 5: Detalhamento">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Área de Exatas • Item 05</span>
+                    <span class="text-xs text-slate-400 font-medium">Profundidade e Apoio</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        5. Detalhamento Técnico
+                    </h2>
+
+                    <div class="space-y-3.5 text-xs sm:text-base">
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Adapte o nível de detalhamento à audiência:</strong> Considere o conhecimento prévio dos ouvintes e ajuste a profundidade técnica do conteúdo.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Ofereça referências:</strong> Se o tempo for curto, mencione onde detalhes mais complexos podem ser encontrados (<em>papers</em>, manuais, etc.).
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-500">
+                            <strong class="text-brand-800">Prepare um material de apoio:</strong> Inclua as derivações completas ou dados técnicos adicionais em anexos ou slides extras após o encerramento.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 21: Exatas 6. Validação de Resultados -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Exatas 6: Validação">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Área de Exatas • Item 06</span>
+                    <span class="text-xs text-slate-400 font-medium">Rigor Experimental</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        6. Validação de Resultados
+                    </h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            <div class="w-10 h-10 rounded-lg bg-brand-100 text-brand-700 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-check-double"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-900 text-base mb-2">Explique a metodologia</h3>
+                            <p class="text-xs sm:text-sm text-slate-600">Mostre como os dados foram obtidos e valide os resultados com referências ou estudos complementares da literatura.</p>
+                        </div>
+
+                        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 border-l-4 border-l-amber-500">
+                            <div class="w-10 h-10 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-ruler-combined"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-900 text-base mb-2">Comente sobre a margem de erro</h3>
+                            <p class="text-xs sm:text-sm text-slate-600">Em experimentos ou simulações, mencione as limitações, desvios padrão e incertezas dos dados obtidos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 22: Exatas 7. Conclusões Específicas -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Exatas 7: Conclusões">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Área de Exatas • Item 07</span>
+                    <span class="text-xs text-slate-400 font-medium">Impacto e Continuidade</span>
+                </div>
+
+                <div class="my-auto space-y-5">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-brand-800 border-b-2 border-blue-100 pb-3">
+                        7. Conclusões Específicas
+                    </h2>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 border-l-4 border-l-emerald-600">
+                            <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-industry"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-900 text-base mb-2">Relacione com aplicações práticas</h3>
+                            <p class="text-xs sm:text-sm text-slate-600">Mostre como os resultados podem ser aplicados em problemas do mundo real ou em avanços tecnológicos na área.</p>
+                        </div>
+
+                        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            <div class="w-10 h-10 rounded-lg bg-brand-100 text-brand-700 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-forward-step"></i>
+                            </div>
+                            <h3 class="font-bold text-slate-900 text-base mb-2">Sugira trabalhos futuros</h3>
+                            <p class="text-xs sm:text-sm text-slate-600">Aponte possibilidades de aprofundamento, melhorias metodológicas ou novos desafios a serem investigados.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 23: Gestão do Tempo - Regra Geral -->
+            <section class="slide w-full h-full flex-col p-8 md:p-12 justify-between bg-white relative" data-title="Regra de Gestão do Tempo">
+                <div class="flex items-center justify-between border-b pb-3">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Planejamento de Duração</span>
+                    <span class="text-xs text-slate-400 font-medium">Dimensionamento</span>
+                </div>
+
+                <div class="my-auto space-y-6">
+                    <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900">Gestão Estratégica do Tempo</h2>
+
+                    <div class="space-y-3 text-xs sm:text-base">
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            É conveniente <strong class="text-brand-800">conhecer seu perfil como apresentador</strong> a fim de determinar o volume adequado de material a ser elaborado.
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 border-l-4 border-l-brand-600">
+                            No geral, <strong class="text-brand-800">considere uma média de 1 slide por minuto</strong>, empregando-se o critério de <strong class="text-amber-700">±10% de acordo com seu ritmo de fala</strong>.
+                        </div>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-sky-100/60 border border-blue-200 text-center">
+                        <div class="text-xs font-bold uppercase tracking-wider text-brand-700 mb-1">Regra Prática de Dimensionamento</div>
+                        <div class="text-xl sm:text-2xl font-display font-extrabold text-slate-900">
+                            Nº de Slides ≈ Tempo Disponível (min) ± 10%
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-3">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 24: Tabela de Dimensionamento por Tempo -->
+            <section class="slide w-full h-full flex-col p-6 md:p-10 justify-between bg-white relative" data-title="Tabela: Tempo vs Slides">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <span class="text-xs font-bold uppercase text-brand-700 tracking-wider">Guia de Estruturação</span>
+                    <span class="text-xs text-slate-400 font-medium">Dimensionamento por Tempo</span>
+                </div>
+
+                <div class="my-auto space-y-3">
+                    <h2 class="text-xl sm:text-2xl font-display font-bold text-slate-900">Dimensionamento por Tempo Disponível</h2>
+
+                    <div class="overflow-hidden border border-slate-200 rounded-xl shadow-sm">
+                        <table class="w-full text-xs sm:text-sm text-left">
+                            <thead class="bg-slate-900 text-white">
+                                <tr>
+                                    <th class="p-3">Tempo Disponível</th>
+                                    <th class="p-3 bg-brand-700">Nº de Slides</th>
+                                    <th class="p-3">Estrutura Básica Acumulada</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200 text-slate-700">
+                                <tr>
+                                    <td class="p-2.5 font-bold bg-slate-50">10 min</td>
+                                    <td class="p-2.5 font-mono font-bold text-brand-700">9 a 11 slides</td>
+                                    <td class="p-2.5">Capa com título, autor, filiação, local, data</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2.5 font-bold bg-slate-50">15 min</td>
+                                    <td class="p-2.5 font-mono font-bold text-brand-700">14 a 16 slides</td>
+                                    <td class="p-2.5">Contextualização e justificativa</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2.5 font-bold bg-slate-50">20 min</td>
+                                    <td class="p-2.5 font-mono font-bold text-brand-700">18 a 22 slides</td>
+                                    <td class="p-2.5">Objetivos</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2.5 font-bold bg-slate-50">30 min</td>
+                                    <td class="p-2.5 font-mono font-bold text-brand-700">27 a 33 slides</td>
+                                    <td class="p-2.5">Materiais e Métodos</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2.5 font-bold bg-slate-50">40 min</td>
+                                    <td class="p-2.5 font-mono font-bold text-brand-700">36 a 44 slides</td>
+                                    <td class="p-2.5">Resultados e Discussões</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2.5 font-bold bg-slate-50">50 min</td>
+                                    <td class="p-2.5 font-mono font-bold text-brand-700">45 a 55 slides</td>
+                                    <td class="p-2.5">Conclusões</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="text-[11px] text-slate-400 flex items-center justify-between border-t pt-2">
+                    <span>Universidade Federal do Ceará • Departamento de Engenharia Elétrica</span>
+                    <span class="font-mono">SEMINÁRIOS • PROF. LUCAS SILVEIRA MELO</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 25: Transição - Exemplos -->
+            <section class="slide w-full h-full flex-col justify-center items-center text-center p-8 md:p-14 bg-gradient-to-br from-brand-900 via-slate-900 to-brand-950 text-white relative overflow-hidden" data-title="Seção: Exemplos">
+                <div class="w-20 h-20 rounded-2xl bg-gradient-to-tr from-sky-400 to-blue-600 flex items-center justify-center text-3xl shadow-2xl mb-6">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <div class="text-xs font-bold uppercase tracking-widest text-sky-400 mb-2">Aplicação Prática</div>
+                <h2 class="text-4xl sm:text-5xl font-display font-extrabold tracking-tight max-w-2xl">
+                    Exemplos
+                </h2>
+                <p class="text-slate-300 text-sm sm:text-base max-w-lg mt-4 font-light">
+                    Análise de boas e más práticas visuais em apresentações acadêmicas e científicas.
+                </p>
+            </section>
+
+            <!-- SLIDE 26: Dúvidas & Obrigado -->
+            <section class="slide w-full h-full flex-col justify-between p-8 md:p-14 bg-gradient-to-br from-slate-900 via-brand-950 to-slate-950 text-white relative overflow-hidden" data-title="Dúvidas & Obrigado">
+                <div class="absolute right-0 bottom-0 w-96 h-96 bg-brand-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+                    <span class="text-xs font-bold uppercase tracking-widest text-sky-400">Encerramento</span>
+                    <span class="text-xs text-slate-400">UFC • Departamento de Engenharia Elétrica</span>
+                </div>
+
+                <div class="my-auto text-center max-w-xl mx-auto space-y-6">
+                    <h2 class="text-4xl sm:text-5xl font-display font-extrabold text-white">
+                        Dúvidas?
+                    </h2>
+                    <p class="text-sky-400 text-xl sm:text-2xl font-display font-bold">
+                        Obrigado pela atenção!
+                    </p>
+
+                    <div class="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur inline-block text-left w-full">
+                        <div class="text-base font-bold text-white">Prof. Dr. Lucas Silveira Melo</div>
+                        <div class="text-xs text-sky-300 font-medium">Departamento de Engenharia Elétrica (DEE)</div>
+                        <div class="text-xs text-slate-400 mt-1">Grupo de Redes Elétricas Inteligentes (GREI-UFC)</div>
+                        
+                        <div class="mt-4 pt-4 border-t border-white/10 flex flex-wrap items-center justify-between gap-3 text-xs">
+                            <a href="mailto:lucas.melo@dee.ufc.br" class="text-sky-300 hover:text-white flex items-center gap-1.5 transition">
+                                <i class="fa-solid fa-envelope"></i> lucas.melo@dee.ufc.br
+                            </a>
+                            <div class="flex items-center gap-3 text-slate-400">
+                                <span><i class="fa-brands fa-linkedin text-base"></i></span>
+                                <span><i class="fa-solid fa-graduation-cap text-base"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-t border-slate-800 pt-4 flex items-center justify-between text-xs text-slate-500">
+                    <span>Universidade Federal do Ceará</span>
+                    <span class="font-mono">FIM DA APRESENTAÇÃO</span>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Bottom Navigation Footer -->
+    <footer class="h-16 bg-slate-950 border-t border-slate-800 px-4 md:px-8 flex items-center justify-between text-white z-30 shrink-0">
+        <div class="flex items-center gap-2">
+            <button id="btn-prev" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-brand-700 text-slate-200 hover:text-white font-medium text-xs flex items-center gap-2 transition disabled:opacity-30 disabled:cursor-not-allowed">
+                <i class="fa-solid fa-chevron-left"></i>
+                <span class="hidden sm:inline">Anterior</span>
+            </button>
+            <button id="btn-next" class="px-5 py-2 rounded-xl bg-brand-700 hover:bg-brand-600 text-white font-semibold text-xs flex items-center gap-2 transition shadow-md shadow-brand-900/40 disabled:opacity-30 disabled:cursor-not-allowed">
+                <span>Próximo</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <div class="text-xs text-slate-400 hidden sm:flex items-center gap-4">
+            <span class="flex items-center gap-1"><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">←</kbd> <kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">→</kbd> Navegar</span>
+            <span class="flex items-center gap-1"><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">Espaço</kbd> Avançar</span>
+            <span class="flex items-center gap-1"><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-[10px]">G</kbd> Índice</span>
+        </div>
+
+        <div class="text-xs font-mono text-slate-400">
+            Slide <span id="current-slide-num" class="text-white font-bold">1</span> de <span id="total-slides-num">26</span>
+        </div>
+    </footer>
+
+    <!-- Grid Modal -->
+    <div id="grid-modal" class="fixed inset-0 bg-slate-950/90 backdrop-blur-md z-50 hidden flex-col p-4 md:p-8">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-4 mb-6">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-lg bg-brand-700 flex items-center justify-center text-white font-bold">
+                    <i class="fa-solid fa-table-cells-large"></i>
+                </div>
+                <div>
+                    <h2 class="text-base font-bold text-white">Índice Geral de Slides</h2>
+                    <p class="text-xs text-slate-400">Selecione um slide para navegar diretamente</p>
+                </div>
+            </div>
+            <button id="btn-close-grid" class="p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-white transition">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+        </div>
+
+        <div id="grid-thumbnails-container" class="flex-1 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 overflow-y-auto custom-scrollbar p-1">
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slides = document.querySelectorAll('.slide');
+            const totalSlides = slides.length;
+            let currentSlideIndex = 0;
+
+            const currentSlideNumEl = document.getElementById('current-slide-num');
+            const totalSlidesNumEl = document.getElementById('total-slides-num');
+            const slideNumberDisplay = document.getElementById('slide-number-display');
+            const progressBarFill = document.getElementById('progress-bar-fill');
+            const btnPrev = document.getElementById('btn-prev');
+            const btnNext = document.getElementById('btn-next');
+            const btnGrid = document.getElementById('btn-grid');
+            const btnFullscreen = document.getElementById('btn-fullscreen');
+            const gridModal = document.getElementById('grid-modal');
+            const btnCloseGrid = document.getElementById('btn-close-grid');
+            const gridThumbnailsContainer = document.getElementById('grid-thumbnails-container');
+
+            totalSlidesNumEl.textContent = totalSlides;
+
+            slides.forEach((slide, index) => {
+                const title = slide.getAttribute('data-title') || `Slide ${index + 1}`;
+                const thumb = document.createElement('button');
+                thumb.className = `p-3 rounded-xl border text-left flex flex-col justify-between transition h-28 ${
+                    index === currentSlideIndex 
+                        ? 'border-brand-500 bg-brand-900/30 text-white' 
+                        : 'border-slate-800 bg-slate-900/80 hover:border-slate-600 text-slate-300'
+                }`;
+                thumb.innerHTML = `
+                    <div class="flex items-center justify-between w-full">
+                        <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-400 font-bold">${String(index + 1).padStart(2, '0')}</span>
+                        <i class="fa-solid fa-arrow-right text-[10px] opacity-40"></i>
+                    </div>
+                    <div class="text-xs font-semibold line-clamp-2 mt-2">${title}</div>
+                `;
+                thumb.addEventListener('click', () => {
+                    goToSlide(index);
+                    toggleGrid(false);
+                });
+                gridThumbnailsContainer.appendChild(thumb);
+            });
+
+            function updateThumbnailsActive() {
+                const thumbs = gridThumbnailsContainer.querySelectorAll('button');
+                thumbs.forEach((thumb, idx) => {
+                    if (idx === currentSlideIndex) {
+                        thumb.className = 'p-3 rounded-xl border border-brand-500 bg-brand-900/40 text-white flex flex-col justify-between transition h-28 ring-2 ring-brand-500/40';
+                    } else {
+                        thumb.className = 'p-3 rounded-xl border border-slate-800 bg-slate-900/80 hover:border-slate-600 text-slate-300 flex flex-col justify-between transition h-28';
+                    }
+                });
+            }
+
+            function updateUI() {
+                slides.forEach((s, idx) => {
+                    if (idx === currentSlideIndex) {
+                        s.classList.add('active');
+                    } else {
+                        s.classList.remove('active');
+                    }
+                });
+
+                const formattedCurrent = String(currentSlideIndex + 1).padStart(2, '0');
+                const formattedTotal = String(totalSlides).padStart(2, '0');
+                
+                currentSlideNumEl.textContent = currentSlideIndex + 1;
+                slideNumberDisplay.textContent = `${formattedCurrent} / ${formattedTotal}`;
+                
+                const pct = ((currentSlideIndex + 1) / totalSlides) * 100;
+                progressBarFill.style.width = `${pct}%`;
+
+                btnPrev.disabled = currentSlideIndex === 0;
+                btnNext.disabled = currentSlideIndex === totalSlides - 1;
+
+                updateThumbnailsActive();
+            }
+
+            function goToSlide(index) {
+                if (index >= 0 && index < totalSlides) {
+                    currentSlideIndex = index;
+                    updateUI();
+                }
+            }
+
+            function nextSlide() {
+                if (currentSlideIndex < totalSlides - 1) {
+                    goToSlide(currentSlideIndex + 1);
+                }
+            }
+
+            function prevSlide() {
+                if (currentSlideIndex > 0) {
+                    goToSlide(currentSlideIndex - 1);
+                }
+            }
+
+            function toggleGrid(show) {
+                if (show === undefined) {
+                    gridModal.classList.toggle('hidden');
+                    gridModal.classList.toggle('flex');
+                } else if (show) {
+                    gridModal.classList.remove('hidden');
+                    gridModal.classList.add('flex');
+                } else {
+                    gridModal.classList.add('hidden');
+                    gridModal.classList.remove('flex');
+                }
+            }
+
+            btnPrev.addEventListener('click', prevSlide);
+            btnNext.addEventListener('click', nextSlide);
+            btnGrid.addEventListener('click', () => toggleGrid());
+            btnCloseGrid.addEventListener('click', () => toggleGrid(false));
+
+            btnFullscreen.addEventListener('click', () => {
+                if (!document.fullscreenElement) {
+                    document.documentElement.requestFullscreen().catch(() => {});
+                } else {
+                    document.exitFullscreen().catch(() => {});
+                }
+            });
+
+            document.addEventListener('keydown', (e) => {
+                if (gridModal.classList.contains('flex')) {
+                    if (e.key === 'Escape' || e.key === 'g' || e.key === 'G') {
+                        toggleGrid(false);
+                    }
+                    return;
+                }
+
+                if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+                    e.preventDefault();
+                    nextSlide();
+                } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+                    e.preventDefault();
+                    prevSlide();
+                } else if (e.key === 'Home') {
+                    e.preventDefault();
+                    goToSlide(0);
+                } else if (e.key === 'End') {
+                    e.preventDefault();
+                    goToSlide(totalSlides - 1);
+                } else if (e.key === 'g' || e.key === 'G') {
+                    e.preventDefault();
+                    toggleGrid(true);
+                } else if (e.key === 'f' || e.key === 'F') {
+                    e.preventDefault();
+                    if (!document.fullscreenElement) {
+                        document.documentElement.requestFullscreen().catch(() => {});
+                    } else {
+                        document.exitFullscreen().catch(() => {});
+                    }
+                }
+            });
+
+            let touchStartX = 0;
+            let touchEndX = 0;
+            const stage = document.getElementById('slide-stage');
+
+            stage.addEventListener('touchstart', (e) => {
+                touchStartX = e.changedTouches[0].screenX;
+            }, { passive: true });
+
+            stage.addEventListener('touchend', (e) => {
+                touchEndX = e.changedTouches[0].screenX;
+                const diff = touchStartX - touchEndX;
+                if (Math.abs(diff) > 45) {
+                    if (diff > 0) nextSlide();
+                    else prevSlide();
+                }
+            }, { passive: true });
+
+            updateUI();
+        });
+    </script>
+</body>
+</html>
